@@ -9,6 +9,7 @@ import { getSearchProductHref, getSearchPrice, compareSearchPrices, type SearchP
 import { useCompare } from '@/context/CompareContext';
 import { Search, ChevronRight, Scale, Check, Sparkles, Award, ArrowUpDown, RefreshCw } from 'lucide-react';
 import { LazyAIAssistantModal } from '@/components/ai/LazyAIAssistantModal';
+import { trackFunnelEvent } from '@/lib/analytics/funnel';
 
 function SearchContent() {
   const { t } = useI18n();
@@ -51,7 +52,15 @@ function SearchContent() {
           if (!res.ok) throw new Error(res.status === 400 ? 'Arama en fazla 200 karakter olabilir.' : 'Arama şu anda tamamlanamadı. Lütfen tekrar deneyin.');
           const data = await res.json();
           if (!Array.isArray(data)) throw new Error('Arama yanıtı okunamadı. Lütfen tekrar deneyin.');
-          if (active) setResults(data);
+          if (active) {
+            setResults(data);
+            trackFunnelEvent({
+              type: 'search_performed',
+              queryLength: trimmed.length,
+              resultCount: data.length,
+              category: selectedCategory !== 'all' ? selectedCategory : undefined,
+            });
+          }
         })
         .catch(error => { if (active && error.name !== 'AbortError') setSearchError(error.message); })
         .finally(() => { clearTimeout(timeout); if (active) setLoading(false); });

@@ -3,6 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { Product, PriceAlert } from '@/lib/types';
 import { ALERTS_KEY, COMPARE_KEY, LEGACY_COMPARE_KEY, readCompareIds, readPriceTargets, changeCompareIds, changePriceTargets, mergeHydratedProducts, isStoredProduct } from '@/lib/localPreferences';
+import { trackFunnelEvent } from '@/lib/analytics/funnel';
 
 interface CompareContextType {
   compareList: Product[];
@@ -77,8 +78,20 @@ export function CompareProvider({ children }: { children: React.ReactNode }) {
       setCompareList(compareRef.current);setStorageError('');return true;
     } catch {setStorageError('Karşılaştırma kaydedilemedi. Yerel depolama erişimini kontrol edin.');return false;}
   };
-  const addToCompare=(product:Product)=>isStoredProduct(product)?changeSelection(ids=>ids.includes(product.id)?ids:[...ids,product.id],product):false;
-  const removeFromCompare=(id:string)=>changeSelection(ids=>ids.filter(item=>item!==id));
+  const addToCompare = (product: Product) => {
+    if (!isStoredProduct(product)) return false;
+    const ok = changeSelection(ids => ids.includes(product.id) ? ids : [...ids, product.id], product);
+    if (ok) {
+      trackFunnelEvent({
+        type: 'comparison_started',
+        productCount: idsRef.current.length,
+        productIds: [...idsRef.current],
+        source: 'compare_bar',
+      });
+    }
+    return ok;
+  };
+  const removeFromCompare = (id: string) => changeSelection(ids => ids.filter(item => item !== id));
   const clearCompare=()=>changeSelection(()=>[]);
   const isInCompare=(id:string)=>compareList.some(p=>p.id===id);
 

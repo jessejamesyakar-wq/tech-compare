@@ -4,13 +4,15 @@ import React, { useId } from 'react';
 import { ExternalLink, X } from 'lucide-react';
 import { useModalFocus } from '@/components/ui/useModalFocus';
 import { getPriceFreshness, isSearchUrl } from '@/lib/priceFreshness';
+import { trackFunnelEvent } from '@/lib/analytics/funnel';
 
 interface OutboundPriceModalProps {
   isOpen: boolean; onClose: () => void; productName: string; storeName: string;
   price: number | null; targetUrl: string; lastCheckedAt?: string;
+  productId?: string;
 }
 
-export function OutboundPriceModal({ isOpen,onClose,productName,storeName,price,targetUrl,lastCheckedAt }: OutboundPriceModalProps) {
+export function OutboundPriceModal({ isOpen,onClose,productName,storeName,price,targetUrl,lastCheckedAt,productId }: OutboundPriceModalProps) {
   const ref=useModalFocus(isOpen,onClose), titleId=useId();
   if(!isOpen)return null;
   let safeUrl: string | null = null;
@@ -33,7 +35,27 @@ export function OutboundPriceModal({ isOpen,onClose,productName,storeName,price,
           <p className="text-xs text-slate-600">{freshness.label}</p>
           <p className="text-xs text-slate-500">Bu pencere yeni bir fiyat veya stok kontrolü yapmaz.</p>
         </div>}
-        {safeUrl ? <a href={safeUrl} target="_blank" rel="noopener noreferrer" onClick={onClose} className="min-h-11 w-full bg-slate-900 hover:bg-emerald-700 text-white text-sm font-bold px-4 py-3 rounded-xl flex items-center justify-center gap-2"><span>{storeName} sitesini aç</span><ExternalLink className="w-4 h-4 shrink-0" /></a> : <p role="alert" className="text-sm text-rose-700">Mağaza bağlantısı geçersiz.</p>}
+        {safeUrl ? (
+          <a
+            href={safeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => {
+              trackFunnelEvent({
+                type: 'retailer_outbound_click',
+                storeId: storeName.toLowerCase(),
+                productId: productId || productName,
+                hasVerifiedPrice: showPrice,
+                price: showPrice ? price : null,
+              });
+              onClose();
+            }}
+            className="min-h-11 w-full bg-slate-900 hover:bg-emerald-700 text-white text-sm font-bold px-4 py-3 rounded-xl flex items-center justify-center gap-2"
+          >
+            <span>{storeName} sitesini aç</span>
+            <ExternalLink className="w-4 h-4 shrink-0" />
+          </a>
+        ) : <p role="alert" className="text-sm text-rose-700">Mağaza bağlantısı geçersiz.</p>}
         <p className="text-xs text-slate-500">Satın almadan önce satıcı sayfasındaki güncel fiyat ve koşulları kontrol edin.</p>
       </div>
     </div>

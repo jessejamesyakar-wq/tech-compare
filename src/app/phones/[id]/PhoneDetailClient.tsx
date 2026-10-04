@@ -64,6 +64,8 @@ import {
   Award
 } from 'lucide-react';
 
+import { trackFunnelEvent } from '@/lib/analytics/funnel';
+
 export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smartphone | null }) {
   const { t } = useI18n();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
@@ -71,6 +73,17 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
   const [phone] = useState<Smartphone | null>(initialPhone);
   const [alertModalOpen, setAlertModalOpen] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (initialPhone) {
+      trackFunnelEvent({
+        type: 'product_view',
+        productId: initialPhone.id,
+        category: initialPhone.category || 'phones',
+        hasPrice: typeof (initialPhone as any).price === 'number' && (initialPhone as any).price > 0,
+      });
+    }
+  }, [initialPhone]);
 
   // Read route search params
   const colorParam = searchParams.get('color');

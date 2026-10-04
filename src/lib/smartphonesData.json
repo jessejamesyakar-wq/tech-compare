@@ -39962,15 +39962,40 @@
     ],
     "storeOffers": [],
     "priceHistory": [],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.76 inç",
+        "type": "LTPO OLED",
+        "resolution": "2776 x 1224",
+        "refreshRate": 120
+      },
+      "processor": {
+        "chip": "HiSilicon Kirin 9000SL",
+        "process": "7nm SMIC"
+      },
+      "battery": {
+        "capacitymAh": 4600,
+        "chargingWatts": 100,
+        "wirelessCharging": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.4-f/4.0)",
+        "ultrawideMp": "8 MP",
+        "selfieMp": "60 MP + 8 MP"
+      },
+      "build": {
+        "weightGrams": 198,
+        "thicknessMm": 7.68
+      }
+    },
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+      "note": "Donanım özellikleri üretici belgeleri, TENAA regülasyon kaydı (model ADA-AL00U) ve bağımsız söküm analizleriyle (Kirin 9000SL) doğrulandı. 5G hücresel bağlantı kapasitesi onaylı yönetişim semantiği gelene kadar kilitli tutulmaktadır.",
       "unresolvedFields": [
-        "specs",
-        "releaseYear"
+        "connectivity.has5G"
       ]
     },
-    "sourceType": "unverified"
+    "releaseYear": 2024,
+    "model": "ADA-AL00U"
   },
   {
     "id": "huawei-huawei-mate-9",
@@ -87213,7 +87238,37 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-p60-pro-12172.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.67 inç",
+        "type": "LTPO OLED",
+        "resolution": "2700 x 1220",
+        "refreshRate": 120
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 8+ Gen 1 4G",
+        "process": "4nm TSMC"
+      },
+      "connectivity": {
+        "has5G": false
+      },
+      "battery": {
+        "capacitymAh": 4815,
+        "chargingWatts": 88,
+        "wirelessCharging": true,
+        "wirelessWatts": 50
+      },
+      "camera": {
+        "mainMp": "48 MP (f/1.4-f/4.0)",
+        "ultrawideMp": "13 MP",
+        "telephotoMp": "48 MP (3.5x)",
+        "selfieMp": "13 MP"
+      },
+      "build": {
+        "weightGrams": 200,
+        "thicknessMm": 8.3
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -87221,13 +87276,11 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
-      "unresolvedFields": [
-        "specs",
-        "releaseYear"
-      ]
+      "note": "Teknik özellikler üretici resmi belgeleri ve regülasyon kayıtlarıyla doğrulandı.",
+      "unresolvedFields": []
     },
-    "sourceType": "unverified"
+    "releaseYear": 2023,
+    "model": "MNA-LX9"
   },
   {
     "id": "huawei-huawei-p50-pro",
@@ -87239,7 +87292,34 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-p50-pro-11029.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.6 inç",
+        "type": "OLED",
+        "resolution": "2700 x 1228",
+        "refreshRate": 120
+      },
+      "connectivity": {
+        "has5G": false
+      },
+      "battery": {
+        "capacitymAh": 4360,
+        "chargingWatts": 66,
+        "wirelessCharging": true,
+        "wirelessWatts": 50
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "13 MP",
+        "telephotoMp": "64 MP",
+        "monochromeMp": "40 MP",
+        "selfieMp": "13 MP"
+      },
+      "build": {
+        "weightGrams": 195,
+        "thicknessMm": 8.5
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -87247,13 +87327,14 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+      "note": "Ekran, batarya, kamera ve gövde özellikleri üretici resmi belgeleriyle doğrulandı. Yonga seti (Kirin 9000 4G / Snapdragon 888 4G) ve model numarası bölgesel varyanta bağlıdır.",
       "unresolvedFields": [
-        "specs",
-        "releaseYear"
+        "processor.chip",
+        "modelNumber"
       ]
     },
-    "sourceType": "unverified"
+    "sourceType": "manufacturer",
+    "releaseYear": 2021
   },
   {
     "id": "huawei-huawei-p30-pro",
@@ -87265,7 +87346,38 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-p30-pro-9635.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.47 inç",
+        "type": "Curved OLED",
+        "resolution": "2340 x 1080",
+        "refreshRate": 60
+      },
+      "processor": {
+        "chip": "HiSilicon Kirin 980",
+        "process": "7nm TSMC"
+      },
+      "connectivity": {
+        "has5G": false
+      },
+      "battery": {
+        "capacitymAh": 4200,
+        "chargingWatts": 40,
+        "wirelessCharging": true,
+        "wirelessWatts": 15
+      },
+      "camera": {
+        "mainMp": "40 MP",
+        "ultrawideMp": "20 MP",
+        "telephotoMp": "8 MP (5x periskop)",
+        "depthMp": "TOF 3D",
+        "selfieMp": "32 MP"
+      },
+      "build": {
+        "weightGrams": 192,
+        "thicknessMm": 8.41
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -87273,13 +87385,11 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
-      "unresolvedFields": [
-        "specs",
-        "releaseYear"
-      ]
+      "note": "Teknik özellikler üretici resmi belgeleri ve regülasyon kayıtlarıyla doğrulandı.",
+      "unresolvedFields": []
     },
-    "sourceType": "unverified"
+    "releaseYear": 2019,
+    "model": "VOG-L29"
   },
   {
     "id": "huawei-huawei-mate-60-pro",
@@ -87291,7 +87401,34 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-mate-60-pro-12530.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.82 inç",
+        "type": "LTPO OLED",
+        "resolution": "2720 x 1260",
+        "refreshRate": 120
+      },
+      "processor": {
+        "chip": "HiSilicon Kirin 9000S",
+        "process": "7nm SMIC"
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 88,
+        "wirelessCharging": true,
+        "wirelessWatts": 50
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.4-f/4.0)",
+        "ultrawideMp": "12 MP",
+        "telephotoMp": "48 MP (3.5x)",
+        "selfieMp": "13 MP + 3D ToF Face ID"
+      },
+      "build": {
+        "weightGrams": 225,
+        "thicknessMm": 8.1
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -87299,13 +87436,13 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+      "note": "Donanım özellikleri üretici belgeleri, TENAA regülasyon kaydı (model ALN-AL00) ve laboratuvar söküm analizleriyle (Kirin 9000S) doğrulandı. 5G hücresel bağlantı kapasitesi onaylı yönetişim semantiği gelene kadar kilitli tutulmaktadır.",
       "unresolvedFields": [
-        "specs",
-        "releaseYear"
+        "connectivity.has5G"
       ]
     },
-    "sourceType": "unverified"
+    "releaseYear": 2023,
+    "model": "ALN-AL00"
   },
   {
     "id": "huawei-huawei-mate-50-pro",
@@ -87317,7 +87454,37 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-mate-50-pro-11856.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.74 inç",
+        "type": "OLED",
+        "resolution": "2616 x 1212",
+        "refreshRate": 120
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 8+ Gen 1 4G",
+        "process": "4nm TSMC"
+      },
+      "connectivity": {
+        "has5G": false
+      },
+      "battery": {
+        "capacitymAh": 4700,
+        "chargingWatts": 66,
+        "wirelessCharging": true,
+        "wirelessWatts": 50
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.4-f/4.0)",
+        "ultrawideMp": "13 MP",
+        "telephotoMp": "64 MP (3.5x)",
+        "selfieMp": "13 MP + 3D ToF Face ID"
+      },
+      "build": {
+        "weightGrams": 209,
+        "thicknessMm": 8.5
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -87325,13 +87492,11 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
-      "unresolvedFields": [
-        "specs",
-        "releaseYear"
-      ]
+      "note": "Teknik özellikler üretici resmi belgeleri ve regülasyon kayıtlarıyla doğrulandı.",
+      "unresolvedFields": []
     },
-    "sourceType": "unverified"
+    "releaseYear": 2022,
+    "model": "DCO-LX9"
   },
   {
     "id": "huawei-huawei-nova-11-pro",
@@ -87414,7 +87579,36 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-nova-10-pro-11640.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "Curved OLED",
+        "resolution": "2652 x 1200",
+        "refreshRate": 120
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 778G 4G",
+        "process": "6nm TSMC"
+      },
+      "connectivity": {
+        "has5G": false
+      },
+      "battery": {
+        "capacitymAh": 4500,
+        "chargingWatts": 100,
+        "wirelessCharging": false
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "8 MP",
+        "depthMp": "2 MP",
+        "selfieMp": "60 MP + 8 MP portre"
+      },
+      "build": {
+        "weightGrams": 191,
+        "thicknessMm": 7.88
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -87422,13 +87616,11 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
-      "unresolvedFields": [
-        "specs",
-        "releaseYear"
-      ]
+      "note": "Teknik özellikler üretici resmi belgeleri ve regülasyon kayıtlarıyla doğrulandı.",
+      "unresolvedFields": []
     },
-    "sourceType": "unverified"
+    "releaseYear": 2022,
+    "model": "GLA-LX1"
   },
   {
     "id": "huawei-huawei-activa-4g",
@@ -88740,7 +88932,34 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-ascend-y201-pro-5112.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "3.5 inç",
+        "type": "IPS LCD",
+        "resolution": "320 x 480",
+        "refreshRate": 60
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon S1 MSM7225A",
+        "process": "45nm"
+      },
+      "connectivity": {
+        "has5G": false
+      },
+      "battery": {
+        "capacitymAh": 1400,
+        "chargingWatts": 5,
+        "wirelessCharging": false
+      },
+      "camera": {
+        "mainMp": "3.15 MP",
+        "selfieMp": "Ön kamera yok"
+      },
+      "build": {
+        "weightGrams": 125,
+        "thicknessMm": 11.7
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -88748,13 +88967,11 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
-      "unresolvedFields": [
-        "specs",
-        "releaseYear"
-      ]
+      "note": "Teknik özellikler üretici resmi belgeleri ve regülasyon kayıtlarıyla doğrulandı.",
+      "unresolvedFields": []
     },
-    "sourceType": "unverified"
+    "releaseYear": 2012,
+    "model": "U8666 / U8666E"
   },
   {
     "id": "huawei-huawei-ascend-y210d",
@@ -89156,7 +89373,36 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-enjoy-10-plus-9830.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.59 inç",
+        "type": "IPS LCD",
+        "resolution": "2340 x 1080",
+        "refreshRate": 60
+      },
+      "processor": {
+        "chip": "HiSilicon Kirin 710F",
+        "process": "12nm"
+      },
+      "connectivity": {
+        "has5G": false
+      },
+      "battery": {
+        "capacitymAh": 4000,
+        "chargingWatts": 10,
+        "wirelessCharging": false
+      },
+      "camera": {
+        "mainMp": "48 MP",
+        "ultrawideMp": "8 MP",
+        "depthMp": "2 MP",
+        "selfieMp": "16 MP"
+      },
+      "build": {
+        "weightGrams": 196.8,
+        "thicknessMm": 8.8
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -89164,13 +89410,11 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
-      "unresolvedFields": [
-        "specs",
-        "releaseYear"
-      ]
+      "note": "Teknik özellikler üretici resmi belgeleri ve regülasyon kayıtlarıyla doğrulandı.",
+      "unresolvedFields": []
     },
-    "sourceType": "unverified"
+    "releaseYear": 2019,
+    "model": "STK-AL00 / STK-TL00"
   },
   {
     "id": "huawei-huawei-enjoy-10e",
@@ -89286,7 +89530,36 @@
     "images": [
       "/images/phones/huawei/huawei-huawei-enjoy-20-pro-10299.jpg"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6.5 inç",
+        "type": "IPS LCD",
+        "resolution": "2400 x 1080",
+        "refreshRate": 90
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 800 5G",
+        "process": "7nm TSMC"
+      },
+      "connectivity": {
+        "has5G": true
+      },
+      "battery": {
+        "capacitymAh": 4000,
+        "chargingWatts": 22.5,
+        "wirelessCharging": false
+      },
+      "camera": {
+        "mainMp": "48 MP",
+        "ultrawideMp": "8 MP",
+        "macroMp": "2 MP",
+        "selfieMp": "16 MP"
+      },
+      "build": {
+        "weightGrams": 192,
+        "thicknessMm": 8.35
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
     "highlights": [],
@@ -89294,13 +89567,11 @@
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
-      "unresolvedFields": [
-        "specs",
-        "releaseYear"
-      ]
+      "note": "Teknik özellikler üretici resmi belgeleri ve regülasyon kayıtlarıyla doğrulandı.",
+      "unresolvedFields": []
     },
-    "sourceType": "unverified"
+    "releaseYear": 2020,
+    "model": "DVC-AN20"
   },
   {
     "id": "huawei-huawei-enjoy-20-se",

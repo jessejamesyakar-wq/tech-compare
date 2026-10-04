@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 import {
   TrendingDown,
@@ -10,12 +10,23 @@ import {
 import { AIAssistantModal } from '@/components/ai/AIAssistantModal';
 import { Homepage2026Showcase } from './Homepage2026Showcase';
 import { Showcase2026Data } from '@/lib/showcase2026';
+import { trackFunnelEvent } from '@/lib/analytics/funnel';
 
 interface ChoiceAAntiGravityLandingProps {
   showcase2026?: Showcase2026Data;
 }
 
 export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLandingProps = {}) {
+  useEffect(() => {
+    trackFunnelEvent({
+      type: 'landing_view',
+      path: '/',
+      referrerSource: typeof document !== 'undefined' && document.referrer
+        ? (document.referrer.includes(window.location.hostname) ? 'internal' : 'external')
+        : 'direct',
+    });
+  }, []);
+
   return (
     <div className="relative bg-transparent text-slate-900 font-sans selection:bg-emerald-600 selection:text-white">
       {/* Background Soft Atmospheric Ambient Glow (Sitenin gri tonuyla kesintisiz bütünleşen ferah mavi aura) */}
