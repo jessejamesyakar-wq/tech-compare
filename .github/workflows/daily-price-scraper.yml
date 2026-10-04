@@ -1,34 +1,30 @@
-name: Daily 2026 Price Scraper
-
+name: '[RETIRED] Daily 2026 Price Scraper'
+# ====================================================================
+# ACELEETME.TECH — RETIRED WORKFLOW NOTICE (DAY 1 PRODUCTION CLEANUP)
+#
+# RETIRED AT: 2026-10-04T12:45:00+03:00
+# REASON:
+# 1. Calls retired legacy scraper (scripts/scrape2026Prices.js) which
+#    historically generated synthetic/fabricated prices on fetch failures.
+# 2. Unapproved direct-web scraping is permanently forbidden.
+# 3. Superceded by approved retailer-channel architecture (Phase H-D / J).
+#
+# SAFETY INVARIANT:
+# - Scheduled cron is permanently disabled.
+# - Manual workflow_dispatch exits immediately with failure message.
+# ====================================================================
 on:
-  schedule:
-    # Run once daily at 03:00 UTC (06:00 TRT)
-    - cron: '0 3 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+  # schedule:
+  #   - cron: '0 3 * * *' # PERMANENTLY DISABLED
+  workflow_dispatch: # Manual inspection only — fails closed
 
 jobs:
   scrape-prices:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run 2026 Live Price Scraper
-        run: npm run scrape:2026
-
-      - name: Commit and push updated price data
+      - name: Retired Scraper Gate
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add src/lib/smartphonesData.json src/data/scraping_report_2026.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(cron): daily live price scrape for 2026 models [skip ci]" && git push)
+          echo "ERROR: Daily 2026 Price Scraper is permanently retired."
+          echo "Unapproved scraping and synthetic fallback pricing are strictly forbidden on AceleEtme.tech."
+          echo "Refer to reports/production/DAY_1_WORKFLOW_CLASSIFICATION.md"
+          exit 1
