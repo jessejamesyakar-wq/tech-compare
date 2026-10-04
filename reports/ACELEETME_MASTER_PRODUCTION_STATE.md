@@ -1,10 +1,10 @@
 # ACELEETME.TECH — MASTER PRODUCTION STATE & ARCHITECTURAL REGISTRY
-**Document Version:** 1.8.0  
-**Last Updated:** 2026-10-04T13:42:00+03:00  
+**Document Version:** 1.15.0  
+**Last Updated:** 2026-10-04T17:55:00+03:00  
 **Platform:** AceleEtme.tech  
 **Operator:** Asterion Technologies / RoboPengu  
-**Git Production Baseline:** `114408d26d54485cdb64bd8cb788ea35a6ee6ef6`  
-**Master Status:** `DAY_2_2_RECONCILIATION_PASS`  
+**Git Production Baseline:** `c4f122b7fe226f9bf701c79100e58ab54bdd0432`  
+**Master Status:** `DAY_3_4_APPLICATION_PROVENANCE_INTEGRATION_PASS`  
 
 ---
 
@@ -29,6 +29,17 @@
 | **Day 2** | Canonical Data Quality Sprint & Catalog Integrity Audit | **PASS** | 5,814 canonical items; 83 Golden roots (0 regression); 421 issues cataloged in MASTER_REPAIR_QUEUE_V3; 0 mutations |
 | **Day 2.1** | High-Risk Identity & Duplicate Forensic Triage | **PASS** | 36 HIGH issues reviewed; 32 clusters (65 products); 27 false positives identified (+ regex stripping); 1 true duplicate root; 0 mutations |
 | **Day 2.2** | Duplicate Detector Fix & Apple 5G Regression Reconciliation | **PASS** | Normalizer preserves '+'; 27 false positives removed; 3 iPhone 17 Pro roots repaired to has5G=true; 12/12 tests pass |
+| **Day 2.2A** | Apple 5G Persistence & Build Closure Gate | **PASS** | Committed `59771dd6`; TypeScript & next build 39/39 pass |
+| **Day 2.2B** | Search Index Canonical Leakage Gate | **PASS** | Excluded 6 filtered from client search index; committed `a414d3d2`; 5/5 tests pass |
+| **Day 2.2C** | Canonical Exclusion Single-Source-of-Truth Gate | **PASS** | Established `canonicalExclusions.ts`; removed inline duplicates; committed `e9bf08a3` |
+| **Day 2.2D** | Controlled Release Closure | **PASS** | Pushed 3 catalog commits + workflow retirement (`c4f122b7`) to `origin/main` |
+| **Day 3** | Price Provenance V2 Preflight | **PASS** | Schema audited; minimal additive migration drafted; backfill & test plans prepared; 0 DB writes |
+| **Day 3.1** | Price Provenance V2 Migration Review & Semantic Reconciliation | **PASS** | Taxonomy aligned (PARTNER_API added); ON DELETE RESTRICT on composite FKs; URL model disambiguated; DDL decoupled from DML; 0 DB writes |
+| **Day 3.1A** | Provenance Visibility & Timestamp Semantic Closure | **PASS** | RLS column exposure audited; Option C backend-only design adopted; observed_at vs checked_at defined; exact Vatan timestamp 2026-10-02T21:26:27.564Z locked; 0 DB writes |
+| **Day 3.2** | Price Provenance V2 Transaction Rollback Rehearsal | **PASS** | Rehearsed DDL + Vatan 1+1 backfill inside transaction; mandatory ROLLBACK executed; 0 persistent mutations; 15/15 tests pass |
+| **Day 3.3** | Price Provenance V2 Production Migration Apply Gate | **PASS** | Atomic production transaction committed; DDL applied; Vatan 1+1 backfilled; 0 commercial price mutations; 19/19 tests pass |
+| **Day 3.3A** | Post-Apply Provenance Semantic Integrity Closure | **PASS** | Seller identity reconciled to 'Vatan Bilgisayar'; implicit source_type default dropped; fail-closed writer policy verified; 10/10 tests pass |
+| **Day 3.4** | Price Provenance V2 Application Integration | **PASS** | Writers/readers enforce fail-closed gate; 8 canonical sources; 0 duplicate history; 26/26 tests pass; Next build passes |
 
 ---
 
@@ -178,4 +189,69 @@ VERCEL_DEPLOY_REQUIRED                    : NO
 - `PRICE_MUTATIONS`: **0**.
 - `DAY_2_2_TESTS`: **12/12 PASS** ([`scripts/test-day-2-2-reconciliation.ts`](file:///C:/Projects/aceleetme-agent-workspaces/task_followup_fixes/scripts/test-day-2-2-reconciliation.ts)).
 - `MASTER_RECONCILIATION_REPORT`: [`reports/data-quality/DAY_2_2_RECONCILIATION.md`](file:///C:/Projects/aceleetme-agent-workspaces/task_followup_fixes/reports/data-quality/DAY_2_2_RECONCILIATION.md).
+
+---
+
+## 8. Day 2.2A-D Release Closure & Day 3 Price Provenance V2 Preflight Accounting
+
+- **Day 2.2A (Apple 5G Persistence & Build Closure):**
+  - Committed verified iPhone 17 Pro non-Max `has5G: true` corrections (`59771dd6`).
+  - `npx tsc --noEmit` and `npm run build` (39/39 static routes) 100% PASS.
+- **Day 2.2B (Search Index Leakage Closure):**
+  - Excluded 6 roots filtered out of client-facing search index generator in `scripts/preDeployCheck.js` (`a414d3d2`).
+  - Search index count reduced from 5,820 to exact canonical safe set of 5,814 items (0 leaked roots).
+  - Test suite `scripts/test-day-2-2b-search-index.ts`: **5/5 PASS**.
+- **Day 2.2C (Canonical Exclusion Single Source of Truth):**
+  - Centralized all 6 exclusions into [`src/lib/governance/canonicalExclusions.ts`](file:///C:/Projects/aceleetme-agent-workspaces/task_followup_fixes/src/lib/governance/canonicalExclusions.ts) (`e9bf08a3`).
+  - Removed all inline sets across build, audits, and test suites.
+- **Day 2.2D (Controlled Release Closure):**
+  - Fast-forward pushed approved commits `59771dd6`, `a414d3d2`, and `e9bf08a3` to `origin/main`.
+  - Retired Daily 2026 Price Scraper committed on `origin/main` as `c4f122b7`.
+  - Remote `origin/main` HEAD locked at `c4f122b7fe226f9bf701c79100e58ab54bdd0432`.
+- **Day 3 (Price Provenance V2 Preflight):**
+  - Preflight schema audit across all 10 production tables completed.
+  - Minimal additive architecture (Option A) recommended and drafted in `supabase/migrations/20261004_price_provenance_v2_preflight.sql`.
+  - Migration applied: **NO** (Strict read-only preflight).
+  - Backfill plan drafted in [`reports/pricing/PRICE_PROVENANCE_V2_BACKFILL_PLAN.md`](file:///C:/Projects/aceleetme-agent-workspaces/task_followup_fixes/reports/pricing/PRICE_PROVENANCE_V2_BACKFILL_PLAN.md).
+  - Test plan drafted in [`reports/pricing/PRICE_PROVENANCE_V2_TEST_PLAN.md`](file:///C:/Projects/aceleetme-agent-workspaces/task_followup_fixes/reports/pricing/PRICE_PROVENANCE_V2_TEST_PLAN.md).
+  - Supabase mutations: **0**.
+  - Retailer network requests: **0**.
+- **Day 3.1 (Price Provenance V2 Migration Review & Semantic Reconciliation):**
+  - Canonical channel taxonomy aligned (6 transport classes, including `PARTNER_API`).
+  - Composite foreign keys configured with `ON DELETE RESTRICT` to guarantee immutable history.
+  - Three-tier URL model formally adopted (`prices.url`, `source_url`, `affiliate_url`).
+  - DDL / DML separation enforced; 0 DB writes.
+- **Day 3.1A (Provenance Visibility & Timestamp Semantic Closure):**
+  - RLS public-read column exposure audited. Option C (segregated tables) selected for sensitive operational telemetry.
+  - `observed_at` defined strictly as observation capture timestamp; distinct from `checked_at` and `recorded_at`.
+  - Evidence-backed Vatan observation timestamp locked at `'2026-10-02T21:26:27.564Z'`.
+- **Day 3.2 (Transaction Rollback Rehearsal):**
+  - Standalone rehearsal script `20261004_price_provenance_v2_rehearsal.sql` executed in single transaction.
+  - Mandatory `ROLLBACK;` executed with 0 persistent mutations.
+  - Test suite `scripts/test-day-3-2-rollback-rehearsal.ts`: **15/15 PASS**.
+- **Day 3.3 (Price Provenance V2 Production Migration Apply Gate):**
+  - Migration SHA256 verified: `3004974b5c17062fa865b13bd2b6e21d46ea3c9daf627d0064f747c1f512da08`.
+  - Atomic production transaction executed via `20261004_price_provenance_v2_apply.sql` (`BEGIN; ... COMMIT;`).
+  - DDL applied: additive columns on `prices` and `price_history`, composite FKs (`ON DELETE RESTRICT`), taxonomy checks, performance indexes.
+  - Evidence-backed Vatan 1+1 backfill applied: exactly 1 `prices` row, exactly 1 `price_history` row (`observed_at = '2026-10-02T21:26:27.564Z'`).
+  - Price firewall strictly enforced: `COMMERCIAL_FIELD_MUTATIONS = 0`, Vatan price = `119999.00 TRY`, stock = `IN_STOCK`.
+  - Public safe guard verified: `SECRET_PATTERN_MATCHES = 0`.
+  - Test suite `scripts/test-day-3-3-production-apply.ts`: **19/19 PASS**.
+  - All test suites passing, TypeScript 0 errors, Next.js build 39/39 pages pass.
+- **Day 3.3A (Post-Apply Provenance Semantic Integrity Closure):**
+  - Reconciled `prices.seller_name` from `'Resmi Satıcı'` to verified merchant identity `'Vatan Bilgisayar'` (`SELLER_ROWS_MUTATED = 1`).
+  - Audited `prices.source_type` and `price_history.source_type` default semantics: dropped `DEFAULT 'OBSERVED'` (`IMPLICIT_OBSERVED_DEFAULT_REMOVED = YES`).
+  - Established `FAIL_CLOSED` failure policy for provenance-aware price writes (missing `source_type` rejected).
+  - Vatan price strictly preserved at `119999.00 TRY`; `COMMERCIAL_FIELD_MUTATIONS = 0`; `NEW_HISTORY_ROWS = 0`.
+  - Test suite `scripts/test-day-3-3a-semantic-closure.ts`: **10/10 PASS**.
+- **Day 3.4 (Price Provenance V2 Application Integration):**
+  - Implemented domain types and validation in `src/lib/pricing/priceProvenance.ts`: 8 canonical sources, `validatePriceProvenance`, URL and identifier credential guards, `getSourceFreshnessTtlMs` (1h Amazon, 24h default), and `getProvenanceTrustLabel`.
+  - Updated `src/lib/db/priceRepository.ts` (`PriceRepository.upsertPrice`) to enforce `FAIL_CLOSED` gate on missing provenance (`PROVENANCE_REQUIRED`, `INVALID_SOURCE_TYPE`, `CHANNEL_REQUIRED`, `OBSERVED_AT_REQUIRED`, `CHANNEL_NOT_PRODUCTION_READY`).
+  - Protected against duplicate price history: updating provenance metadata on existing offers returns `null` from `createPriceObservation` (0 duplicate rows).
+  - Mapped Amazon Creators API normalized offers via `mapAmazonCreatorsOfferToProvenance` (channel unready, 0 network, 0 writes).
+  - Integrated provenance into RoboPengu AI evaluator (`PriceIntelligence.evaluate`).
+  - Audited callers: central writer is provenance-ready; legacy `PriceWorker.processProduct` is safely blocked (`LEGACY_BLOCKED`).
+  - Verified invariants: `NEW_PRODUCTION_PRICE_ROWS = 0`, `NEW_PRICE_HISTORY_ROWS = 0`, `SUPABASE_WRITES = 0`, `RETAILER_NETWORK_REQUESTS = 0`, `CANONICAL_PRODUCTS = 5814`.
+  - Test suite `scripts/test-day-3-4-application-provenance.ts`: **26/26 PASS**.
+  - All 8 test suites passing (129/129 total), TypeScript 0 errors, Next.js build 39/39 pages pass.
 

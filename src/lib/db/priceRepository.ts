@@ -2,6 +2,13 @@ import { supabase } from '@/lib/supabase/client';
 import { getSupabaseServerClient } from '@/lib/supabase/server';
 import { getStoredProducts } from '@/lib/adminData';
 import { catalogPriceRecords, createPriceObservation, readPriceRecord } from '@/lib/pricing/priceRecordEvidence';
+import {
+  PriceSourceType,
+  ProvenanceValidationError,
+  ValidateWriteOptions,
+  validatePriceProvenance,
+} from '@/lib/pricing/priceProvenance';
+import { RETAILER_CHANNEL_REGISTRY, RetailerAccessChannel } from '@/lib/pricing/retailerAccessChannel';
 
 export interface DbStore {
   id: string;
@@ -63,6 +70,12 @@ export interface DbPrice {
   checkedAt: string;
   createdAt?: string;
   updatedAt?: string;
+  channelId?: string | null;
+  sourceType?: PriceSourceType | string | null;
+  sourceIdentifier?: string | null;
+  sourceUrl?: string | null;
+  observedAt?: string | null;
+  affiliateUrl?: string | null;
 }
 
 export interface DbPriceHistory {
@@ -70,7 +83,7 @@ export interface DbPriceHistory {
   productId: string;
   storeId: string;
   storeProductId?: string;
-  oldPrice?: number;
+  oldPrice?: number | null;
   price: number;
   shippingPrice?: number | null;
   totalPrice: number;
@@ -78,9 +91,14 @@ export interface DbPriceHistory {
   percentageDifference: number;
   stockStatus: string;
   recordedAt: string;
-  sourceUrl?: string;
-  sourceType?: 'observed';
+  sourceUrl?: string | null;
+  sourceType?: string | null;
   currency?: string;
+  channelId?: string | null;
+  channelType?: string | null;
+  sourceIdentifier?: string | null;
+  sellerName?: string | null;
+  observedAt?: string | null;
 }
 
 export interface DbPriceUpdateJob {
@@ -164,25 +182,90 @@ export class PriceRepository {
 
   /**
    * Fiyat Kaydet veya Güncelle (Upsert) + Fiyat Geçmişi Oluştur
+   * Enforces Price Provenance V2 write gates (FAIL_CLOSED on missing/invalid provenance).
    */
-  static async upsertPrice(priceData: Omit<DbPrice, 'id' | 'createdAt' | 'updatedAt'>): Promise<DbPrice> {
-    const id = `pr_${priceData.productId}_${priceData.storeId}_${priceData.sellerName.replace(/\s+/g, '_')}`;
+  static async upsertPrice(
+    priceData: Omit<DbPrice, 'id' | 'createdAt' | 'updatedAt'>,
+    options?: ValidateWriteOptions
+  ): Promise<DbPrice> {
+    // 1. Provenance V2 Write Gate: Fail closed if provenance is missing
+    if (!priceData.channelId && !priceData.sourceType && !priceData.observedAt) {
+      throw new ProvenanceValidationError(
+        'PROVENANCE_REQUIRED',
+        `Provenance metadata is required for price writes on store '${priceData.storeId}'. Missing channelId, sourceType, and observedAt.`
+      );
+    }
+
+    if (!priceData.sourceType) {
+      throw new ProvenanceValidationError(
+        'INVALID_SOURCE_TYPE',
+        'Explicit sourceType is required for price writes.'
+      );
+    }
+
+    if (!priceData.channelId) {
+      throw new ProvenanceValidationError(
+        'CHANNEL_REQUIRED',
+        'Explicit channelId is required for price writes.'
+      );
+    }
+
+    if (!priceData.observedAt) {
+      throw new ProvenanceValidationError(
+        'OBSERVED_AT_REQUIRED',
+        'Explicit observedAt is required for price writes.'
+      );
+    }
+
+    // 2. Validate channel, readiness, safety, and source type
+    const validated = validatePriceProvenance(
+      priceData.storeId,
+      {
+        channelId: priceData.channelId,
+        sourceType: priceData.sourceType as PriceSourceType,
+        observedAt: priceData.observedAt,
+        sourceIdentifier: priceData.sourceIdentifier,
+        sourceUrl: priceData.sourceUrl ?? priceData.url,
+        affiliateUrl: priceData.affiliateUrl,
+      },
+      options
+    );
+
+    // Derive channelType from registry
+    const registryChannels = (RETAILER_CHANNEL_REGISTRY as Record<string, RetailerAccessChannel[]>)[priceData.storeId];
+    const matchedChannel = registryChannels?.find(
+      (c) => c.channelId === validated.normalizedChannelId || c.channelId === `${priceData.storeId}:${validated.normalizedChannelId}`
+    );
+    const channelType = matchedChannel?.channelType ?? null;
+
+    const id = `pr_${priceData.productId}_${priceData.storeId}_${priceData.sellerName ? priceData.sellerName.replace(/\s+/g, '_') : 'direct'}`;
     const priceRecord: DbPrice = {
       ...priceData,
       id,
+      channelId: validated.normalizedChannelId,
+      sourceType: validated.normalizedSourceType,
+      sourceIdentifier: validated.normalizedSourceIdentifier,
+      sourceUrl: validated.normalizedSourceUrl,
+      observedAt: validated.normalizedObservedAt,
+      affiliateUrl: validated.normalizedAffiliateUrl,
       updatedAt: new Date().toISOString(),
       createdAt: new Date().toISOString(),
     };
 
     // Check previous price for history logging
     const existingList = inMemoryPrices.get(priceData.productId) || [];
-    const prevIndex = existingList.findIndex((p) => p.storeId === priceData.storeId && p.sellerName === priceData.sellerName);
+    const prevIndex = existingList.findIndex(
+      (p) => p.storeId === priceData.storeId && (p.sellerName === priceData.sellerName || (!p.sellerName && !priceData.sellerName))
+    );
     const prev = prevIndex >= 0 ? existingList[prevIndex] : null;
 
     const historyEntry = createPriceObservation(priceRecord, prev);
     if (historyEntry) {
+      historyEntry.channelType = channelType;
       const histList = inMemoryHistory.get(priceData.productId) || [];
-      if (!histList.some((entry) => entry.storeId === historyEntry.storeId && entry.sourceUrl === historyEntry.sourceUrl && entry.recordedAt === historyEntry.recordedAt)) histList.unshift(historyEntry);
+      if (!histList.some((entry) => entry.storeId === historyEntry.storeId && entry.sourceUrl === historyEntry.sourceUrl && entry.recordedAt === historyEntry.recordedAt)) {
+        histList.unshift(historyEntry);
+      }
       inMemoryHistory.set(priceData.productId, histList);
     }
 
@@ -211,6 +294,12 @@ export class PriceRepository {
           url: priceRecord.url,
           is_anomaly: priceRecord.isAnomaly,
           checked_at: priceRecord.checkedAt,
+          channel_id: validated.normalizedChannelId,
+          source_type: validated.normalizedSourceType,
+          source_identifier: validated.normalizedSourceIdentifier,
+          source_url: validated.normalizedSourceUrl,
+          observed_at: validated.normalizedObservedAt,
+          affiliate_url: validated.normalizedAffiliateUrl,
         }, { onConflict: 'product_id,store_id,seller_name' });
 
         if (historyEntry) {
@@ -227,8 +316,13 @@ export class PriceRepository {
             stock_status: historyEntry.stockStatus,
             recorded_at: historyEntry.recordedAt,
             source_url: historyEntry.sourceUrl,
-            source_type: historyEntry.sourceType || 'observed',
+            source_type: historyEntry.sourceType,
             currency: historyEntry.currency || 'TRY',
+            channel_id: historyEntry.channelId,
+            channel_type: historyEntry.channelType,
+            source_identifier: historyEntry.sourceIdentifier,
+            seller_name: historyEntry.sellerName,
+            observed_at: historyEntry.observedAt,
           });
         }
       }
@@ -251,7 +345,28 @@ export class PriceRepository {
           .eq('product_id', productId)
           .order('recorded_at', { ascending: false });
         if (!error && data && data.length > 0) {
-          return data as DbPriceHistory[];
+          return data.map((row: any) => ({
+            id: row.id,
+            productId: row.product_id ?? row.productId,
+            storeId: row.store_id ?? row.storeId,
+            storeProductId: row.store_product_id ?? row.storeProductId,
+            oldPrice: row.old_price ?? row.oldPrice,
+            price: row.price,
+            shippingPrice: row.shipping_price ?? row.shippingPrice,
+            totalPrice: row.total_price ?? row.totalPrice,
+            difference: row.difference,
+            percentageDifference: row.percentage_difference ?? row.percentageDifference,
+            stockStatus: row.stock_status ?? row.stockStatus,
+            recordedAt: row.recorded_at ?? row.recordedAt,
+            sourceUrl: row.source_url ?? row.sourceUrl,
+            sourceType: row.source_type ?? row.sourceType,
+            currency: row.currency,
+            channelId: row.channel_id ?? row.channelId ?? null,
+            channelType: row.channel_type ?? row.channelType ?? null,
+            sourceIdentifier: row.source_identifier ?? row.sourceIdentifier ?? null,
+            sellerName: row.seller_name ?? row.sellerName ?? null,
+            observedAt: row.observed_at ?? row.observedAt ?? null,
+          }));
         }
       }
     } catch {

@@ -122,7 +122,7 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
                   <div>
                     <div className="flex flex-wrap items-center gap-2">
                       <span className="font-bold text-slate-900 text-sm sm:text-base">{offer.storeName}</span>
-                      {idx === 0 && (
+                      {idx === 0 && activeOffers.length >= 2 && (
                         <span className="bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
                           <Award className="w-3 h-3" />
                           <span>En Uygun Fiyat</span>

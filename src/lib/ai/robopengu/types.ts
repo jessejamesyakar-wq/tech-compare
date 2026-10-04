@@ -61,6 +61,11 @@ export interface PriceIntelligenceInfo {
   bestStore?: string;
   lastUpdated?: string;
   confidence: number;
+  // Provenance V2 (Day 3.4)
+  sourceType?: string | null;
+  channelId?: string | null;
+  observedAt?: string | null;
+  provenanceTrustLabel?: string | null;
 }
 
 export type BuyWaitDecision = 'BUY_NOW' | 'WAIT' | 'NEUTRAL' | 'INSUFFICIENT_DATA';

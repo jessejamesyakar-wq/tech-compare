@@ -26,6 +26,12 @@ export function readPriceRecord(raw: unknown): DbPrice | null {
     sellerName: text('sellerName', 'seller_name'), url,
     isAnomaly: field('isAnomaly', 'is_anomaly') !== false,
     checkedAt: text('checkedAt', 'checked_at'),
+    channelId: (row.channel_id ?? row.channelId ?? null) as string | null,
+    sourceType: (row.source_type ?? row.sourceType ?? null) as string | null,
+    sourceIdentifier: (row.source_identifier ?? row.sourceIdentifier ?? null) as string | null,
+    sourceUrl: (row.source_url ?? row.sourceUrl ?? null) as string | null,
+    observedAt: (row.observed_at ?? row.observedAt ?? null) as string | null,
+    affiliateUrl: (row.affiliate_url ?? row.affiliateUrl ?? null) as string | null,
   };
 }
 
@@ -40,6 +46,7 @@ export function catalogPriceRecords(productId: string, offers: StoreOffer[] = []
       price: offer.price, shippingPrice: shipping, totalPrice: offer.price + (shipping ?? 0),
       currency: 'TRY', stockStatus: 'IN_STOCK', sellerName: offer.sellerName || offer.storeName,
       url: offer.url!, isAnomaly: false, checkedAt: offer.lastCheckedAt!,
+      channelId: null, sourceType: null, sourceIdentifier: null, sourceUrl: null, observedAt: null, affiliateUrl: null,
     };
   });
 }
@@ -47,8 +54,21 @@ export function catalogPriceRecords(productId: string, offers: StoreOffer[] = []
 /** Only a completed, matched, in-stock check can create an observed history point. */
 export function createPriceObservation(price: DbPrice, previous?: DbPrice | null, nowMs = Date.now()): DbPriceHistory | null {
   if (price.isAnomaly || price.stockStatus !== 'IN_STOCK') return null;
+
+  // Commercial Price Firewall: Updating provenance metadata on current price row
+  // must NOT generate a duplicate history observation if commercial terms are unchanged.
+  if (
+    previous &&
+    previous.price === price.price &&
+    previous.totalPrice === price.totalPrice &&
+    previous.stockStatus === price.stockStatus &&
+    previous.shippingPrice === price.shippingPrice
+  ) {
+    return null;
+  }
+
   const points = getObservedPriceHistory([{
-    date: price.checkedAt, observedAt: price.checkedAt, price: price.price,
+    date: price.checkedAt, observedAt: price.observedAt || price.checkedAt, price: price.price,
     currency: price.currency, store: price.sellerName || price.storeId, sourceUrl: price.url, sourceType: 'observed',
   }], nowMs);
   if (!points.length) return null;
@@ -59,6 +79,13 @@ export function createPriceObservation(price: DbPrice, previous?: DbPrice | null
     oldPrice, price: price.price, shippingPrice: price.shippingPrice, totalPrice: price.totalPrice,
     difference, percentageDifference: oldPrice === undefined ? 0 : Number((difference / oldPrice * 100).toFixed(2)),
     stockStatus: price.stockStatus, recordedAt: price.checkedAt,
-    sourceUrl: price.url, sourceType: 'observed', currency: price.currency,
+    sourceUrl: price.sourceUrl ?? price.url,
+    sourceType: price.sourceType ?? null,
+    currency: price.currency,
+    channelId: price.channelId ?? null,
+    channelType: (price as any).channelType ?? null,
+    sourceIdentifier: price.sourceIdentifier ?? price.storeProductId ?? null,
+    sellerName: price.sellerName || null,
+    observedAt: price.observedAt ?? price.checkedAt,
   };
 }

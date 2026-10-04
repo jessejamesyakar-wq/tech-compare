@@ -127,7 +127,7 @@ export function evaluateProductPricing(product: {
     lastSeenPrice: null,
     displayPrice: Number.isFinite(product?.basePrice) && product.basePrice! > 0 ? product.basePrice! : null,
     priceStatus: isUnverified ? 'unverified' : 'no_offer',
-    statusLabel: isUnverified ? 'Fiyat doğrulanmadı' : 'Teklif Yok',
+    statusLabel: isUnverified ? 'Fiyat doğrulanmadı' : 'Güncel Doğrulanmış Teklif Yok',
     lastCheckedAt: undefined,
     activeStoreCount: 0,
     staleStoreCount: 0,

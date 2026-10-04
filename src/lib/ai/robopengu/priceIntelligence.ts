@@ -13,6 +13,7 @@
 import { PriceIntelligenceInfo, PriceStatus } from './types';
 import { evaluateProductPricing, EvaluatedProductPrice } from '@/lib/pricing/unifiedPriceEvaluator';
 import { CatalogProduct } from './candidateEngine';
+import { getProvenanceTrustLabel } from '@/lib/pricing/priceProvenance';
 
 export class PriceIntelligence {
   public static evaluate(product: CatalogProduct): PriceIntelligenceInfo {
@@ -61,6 +62,15 @@ export class PriceIntelligence {
       ? `${effectivePrice.toLocaleString('tr-TR')} TL`
       : 'Fiyat Bilgisi Yok';
 
+    const matchedOffer = (product as any).storeOffers?.find(
+      (o: any) => o.storeName === evalResult.cheapestStoreName && o.price === evalResult.currentPrice
+    ) ?? (product as any).storeOffers?.[0];
+
+    const sourceType = (matchedOffer as any)?.sourceType ?? (product as any).sourceType ?? null;
+    const channelId = (matchedOffer as any)?.channelId ?? (product as any).channelId ?? null;
+    const observedAt = (matchedOffer as any)?.observedAt ?? (matchedOffer as any)?.lastCheckedAt ?? evalResult.lastCheckedAt ?? null;
+    const provenanceTrustLabel = sourceType ? getProvenanceTrustLabel(sourceType, channelId, (matchedOffer as any)?.store || bestStore) : null;
+
     return {
       status,
       effectivePrice,
@@ -72,6 +82,10 @@ export class PriceIntelligence {
       bestStore,
       lastUpdated: evalResult.lastCheckedAt,
       confidence,
+      sourceType,
+      channelId,
+      observedAt,
+      provenanceTrustLabel,
     };
   }
 
