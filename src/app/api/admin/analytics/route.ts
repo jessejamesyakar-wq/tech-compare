@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { getSupabaseServerClient } from '@/lib/supabase/server';
+import { getOperationalHealthSummary } from '@/lib/analytics/operationalMonitoring';
 
 export const dynamic = 'force-dynamic';
 
@@ -105,10 +106,18 @@ export async function GET(request: Request) {
         analyticsHealth: {
           serverPersistence: 'ACTIVE',
           clientAutoTelemetry: true,
+          authDomainSeparation: {
+            cronSecretScope: 'SCHEDULER_ONLY',
+            adminAnalyticsAuth: 'SEPARATE_FROM_CRON',
+            authSeparationPass: true,
+          },
           scheduler: {
             type: 'vercel_cron',
             schedule: '15 3 * * *',
+            timezone: 'UTC',
+            effectiveTurkeyTime: '06:15 TRT (UTC+3)',
             endpoint: '/api/cron/analytics-maintenance',
+            maintenanceOrder: '1. rollup completed day -> 2. verify rollup success -> 3. purge expired raw events',
             rawRetentionDays: 30
           },
           eventsTotal: totalEvents ?? 0,
@@ -118,6 +127,7 @@ export async function GET(request: Request) {
           dailySummaryRows: summaryCount ?? 0,
           recentSummaries: summaries || []
         },
+        operationalHealth: getOperationalHealthSummary(),
         diagnostics: {
           schemaTables,
           eventsError: resTotal.error?.message || null,

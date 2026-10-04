@@ -17,6 +17,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { sanitizeRoutePath } from '@/lib/analytics/funnel';
 import { getSupabaseServerClient } from '@/lib/supabase/server';
+import { recordIngestionEvent } from '@/lib/analytics/operationalMonitoring';
 
 export const dynamic = 'force-dynamic';
 
@@ -403,13 +404,36 @@ export async function POST(req: NextRequest) {
 
         if (error) {
           console.error('[Analytics:Route] Supabase persistence error:', error.message);
+          recordIngestionEvent({
+            receivedCount: events.length,
+            persistedCount: 0,
+            success: false,
+            error: error.message,
+          });
         } else {
           supabasePersisted = true;
+          recordIngestionEvent({
+            receivedCount: events.length,
+            persistedCount: rowsToInsert.length,
+            success: true,
+          });
         }
       }
     } catch (err: any) {
       console.error('[Analytics:Route] Supabase persistence exception:', err?.message || err);
+      recordIngestionEvent({
+        receivedCount: events.length,
+        persistedCount: 0,
+        success: false,
+        error: err?.message || 'Persistence exception',
+      });
     }
+  } else {
+    recordIngestionEvent({
+      receivedCount: events.length,
+      persistedCount: 0,
+      success: true,
+    });
   }
 
   // 6. In-Memory Mock Sink Dispatch (Always maintained for diagnostics / local fallback)

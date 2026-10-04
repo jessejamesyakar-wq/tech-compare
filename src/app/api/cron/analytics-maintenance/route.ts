@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { getSupabaseServerClient } from '@/lib/supabase/server';
+import { recordRollupExecution, recordPurgeExecution } from '@/lib/analytics/operationalMonitoring';
 
 export const dynamic = 'force-dynamic';
 
@@ -152,6 +153,7 @@ export async function GET(request: Request) {
       }
     } catch (engineErr: any) {
       console.error('[Analytics:Maintenance] Server-engine rollup failed:', engineErr.message);
+      recordRollupExecution({ success: false, error: engineErr.message });
       return NextResponse.json(
         {
           ok: false,
@@ -169,17 +171,25 @@ export async function GET(request: Request) {
   // Invariant: Never purge before successful rollup for data to be summarized
   // ---------------------------------------------------------------------------
   if (!rollupSuccess) {
+    recordRollupExecution({ success: false, error: 'Rollup could not be verified' });
     return NextResponse.json(
       { ok: false, step: 'verification', error: 'Rollup could not be verified. Purge aborted.' },
       { status: 500, headers: { 'Cache-Control': 'no-store' } }
     );
   }
 
+  recordRollupExecution({
+    success: true,
+    rowsAffected: rollupRowsAffected,
+    mechanism: rollupMechanism,
+  });
+
   // ---------------------------------------------------------------------------
   // STEP 3: PURGE EXPIRED RAW FUNNEL ROWS (RETENTION: 30 DAYS, FLOOR >= 7 DAYS)
   // ---------------------------------------------------------------------------
   const retentionDays = 30;
   if (retentionDays < 7) {
+    recordPurgeExecution({ success: false, error: 'Safety floor violated: retention_days < 7' });
     return NextResponse.json(
       { ok: false, step: 'purge', error: 'Safety floor violated: retention_days < 7' },
       { status: 500, headers: { 'Cache-Control': 'no-store' } }
@@ -227,6 +237,12 @@ export async function GET(request: Request) {
       purgedRows = 0;
     }
   }
+
+  recordPurgeExecution({
+    success: true,
+    purgedRows,
+    mechanism: purgeMechanism,
+  });
 
   return NextResponse.json(
     {
