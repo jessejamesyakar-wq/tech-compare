@@ -27,14 +27,18 @@ export async function GET(request: Request) {
       resLatest,
       resRecent,
       resSummaries,
-      resChannels
+      resChannels,
+      resRpcRollup,
+      resRpcPurge
     ] = await Promise.all([
       supabase.from('analytics_funnel_events').select('*', { count: 'exact', head: true }),
       supabase.from('analytics_funnel_events').select('*', { count: 'exact', head: true }).gte('created_at', since24h),
       supabase.from('analytics_funnel_events').select('created_at, event_type').order('created_at', { ascending: false }).limit(1),
       supabase.from('analytics_funnel_events').select('event_type, session_id').gte('created_at', since24h),
       supabase.from('analytics_funnel_daily_summary').select('*', { count: 'exact' }).order('summary_date', { ascending: false }).limit(7),
-      supabase.from('retailer_access_channels').select('*', { count: 'exact', head: true })
+      supabase.from('retailer_access_channels').select('*', { count: 'exact', head: true }),
+      supabase.rpc('rollup_funnel_daily', { p_target_date: '2026-10-03' }),
+      supabase.rpc('purge_expired_raw_funnel_events', { p_retention_days: 30 })
     ]);
 
     const totalEvents = resTotal.count;
@@ -104,7 +108,9 @@ export async function GET(request: Request) {
           eventsError: resTotal.error?.message || null,
           summariesError: resSummaries.error?.message || null,
           channelsCount: resChannels.count,
-          channelsError: resChannels.error?.message || null
+          channelsError: resChannels.error?.message || null,
+          rpcRollup: { data: resRpcRollup.data, error: resRpcRollup.error?.message || null },
+          rpcPurge: { data: resRpcPurge.data, error: resRpcPurge.error?.message || null }
         },
         kpiReadModel: {
           landingSessions,
