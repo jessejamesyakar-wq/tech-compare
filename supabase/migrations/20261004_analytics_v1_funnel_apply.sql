@@ -277,6 +277,9 @@ REVOKE ALL ON FUNCTION public.purge_expired_raw_funnel_events(INTEGER) FROM PUBL
 GRANT EXECUTE ON FUNCTION public.rollup_funnel_daily(DATE) TO service_role;
 GRANT EXECUTE ON FUNCTION public.purge_expired_raw_funnel_events(INTEGER) TO service_role;
 
+GRANT ALL PRIVILEGES ON TABLE public.analytics_funnel_events TO service_role;
+GRANT ALL PRIVILEGES ON TABLE public.analytics_funnel_daily_summary TO service_role;
+
 -- -----------------------------------------------------------------------------
 -- 7. PRE-COMMIT VERIFICATION ASSERTIONS
 -- -----------------------------------------------------------------------------
@@ -395,3 +398,6 @@ BEGIN
     RAISE EXCEPTION 'POST_COMMIT_FAILED: analytics_funnel_daily_summary has unexpected rows: %', v_summary_rows;
   END IF;
 END $$;
+
+-- Reload PostgREST schema cache immediately
+NOTIFY pgrst, 'reload schema';
