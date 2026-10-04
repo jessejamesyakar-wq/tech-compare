@@ -20,20 +20,29 @@ export async function GET(request: Request) {
   try {
     const since24h = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
 
-    // 1. Total events and events in last 24 hours
+    // 1. Total events, daily summary, and diagnostics
     const [
-      { count: totalEvents },
-      { count: last24hCount },
-      { data: latestRow },
-      { data: recentEvents },
-      { data: summaries, count: summaryCount }
+      resTotal,
+      resLast24h,
+      resLatest,
+      resRecent,
+      resSummaries,
+      resChannels
     ] = await Promise.all([
       supabase.from('analytics_funnel_events').select('*', { count: 'exact', head: true }),
       supabase.from('analytics_funnel_events').select('*', { count: 'exact', head: true }).gte('created_at', since24h),
       supabase.from('analytics_funnel_events').select('created_at, event_type').order('created_at', { ascending: false }).limit(1),
       supabase.from('analytics_funnel_events').select('event_type, session_id').gte('created_at', since24h),
-      supabase.from('analytics_funnel_daily_summary').select('*', { count: 'exact' }).order('summary_date', { ascending: false }).limit(7)
+      supabase.from('analytics_funnel_daily_summary').select('*', { count: 'exact' }).order('summary_date', { ascending: false }).limit(7),
+      supabase.from('retailer_access_channels').select('*', { count: 'exact', head: true })
     ]);
+
+    const totalEvents = resTotal.count;
+    const last24hCount = resLast24h.count;
+    const latestRow = resLatest.data;
+    const recentEvents = resRecent.data;
+    const summaries = resSummaries.data;
+    const summaryCount = resSummaries.count;
 
     // 2. Aggregate KPI counts from recentEvents
     let landingSessions = 0;
@@ -90,6 +99,12 @@ export async function GET(request: Request) {
           latestEventType: latestRow && latestRow.length > 0 ? latestRow[0].event_type : null,
           dailySummaryRows: summaryCount ?? 0,
           recentSummaries: summaries || []
+        },
+        diagnostics: {
+          eventsError: resTotal.error?.message || null,
+          summariesError: resSummaries.error?.message || null,
+          channelsCount: resChannels.count,
+          channelsError: resChannels.error?.message || null
         },
         kpiReadModel: {
           landingSessions,
