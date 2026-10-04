@@ -24,6 +24,7 @@ export async function GET(request: Request) {
     const rawUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL;
     const rawSecretKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
     let schemaTables: string[] = [];
+    let rpcPaths: string[] = [];
     try {
       const openApiRes = await fetch(`${rawUrl}/rest/v1/`, {
         headers: {
@@ -33,6 +34,7 @@ export async function GET(request: Request) {
       });
       const openApiJson = await openApiRes.json();
       schemaTables = Object.keys(openApiJson.definitions || {});
+      rpcPaths = Object.keys(openApiJson.paths || {}).filter(p => p.startsWith('/rpc/'));
     } catch (e: any) {
       schemaTables = ['error: ' + e.message];
     }
@@ -122,6 +124,7 @@ export async function GET(request: Request) {
         },
         diagnostics: {
           schemaTables,
+          rpcPaths,
           eventsError: resTotal.error?.message || null,
           summariesError: resSummaries.error?.message || null,
           channelsCount: resChannels.count,
