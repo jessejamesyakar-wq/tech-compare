@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Sparkles, Cpu, Pause, Play } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Pause, Play } from 'lucide-react';
+import styles from './Showcase2026.module.css';
 import {
   Showcase2026Product,
   selectControlledRotation,
@@ -20,18 +21,22 @@ export function Homepage2026Showcase({
   rotationPool = []
 }: Homepage2026ShowcaseProps) {
   const [displayed, setDisplayed] = useState<Showcase2026Product[]>(() => initialProducts.slice(0, 14));
+  const [category, setCategory] = useState('all');
+  const railRef = useRef<HTMLDivElement>(null);
+  const [railPosition, setRailPosition] = useState({ start: true, end: false });
+  const isFocusedRef = useRef(false);
   const [rotatingSlots, setRotatingSlots] = useState<number[]>([]);
   const [isUserPaused, setIsUserPaused] = useState(false);
 
   // References to maintain current state without unnecessary effect churn
   const displayedRef = useRef<Showcase2026Product[]>(displayed);
-  displayedRef.current = displayed;
+  useEffect(() => { displayedRef.current = displayed; }, [displayed]);
 
   const poolRef = useRef<Showcase2026Product[]>(rotationPool);
-  poolRef.current = rotationPool;
+  useEffect(() => { poolRef.current = rotationPool; }, [rotationPool]);
 
   const isUserPausedRef = useRef(isUserPaused);
-  isUserPausedRef.current = isUserPaused;
+  useEffect(() => { isUserPausedRef.current = isUserPaused; }, [isUserPaused]);
 
   const isHoveredRef = useRef(false);
   const isInteractingRef = useRef(false);
@@ -61,7 +66,7 @@ export function Homepage2026Showcase({
   }, []);
 
   // Schedule the next cycle with clean 4-minute (240,000ms) delay
-  const scheduleNextCycle = useCallback(() => {
+  const scheduleNextCycle = useCallback(function scheduleCycle() {
     if (timerRef.current) {
       clearTimeout(timerRef.current);
       timerRef.current = null;
@@ -69,7 +74,7 @@ export function Homepage2026Showcase({
 
     // Do not schedule if user paused, hovered, interacting, hidden, or prefers reduced motion
     if (isUserPausedRef.current) return;
-    if (isHoveredRef.current || isInteractingRef.current) return;
+    if (isHoveredRef.current || isInteractingRef.current || isFocusedRef.current) return;
     if (typeof document !== 'undefined' && document.hidden) return;
     if (typeof window !== 'undefined') {
       const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -78,18 +83,18 @@ export function Homepage2026Showcase({
 
     timerRef.current = setTimeout(() => {
       // Safety checks before triggering rotation
-      if (isUserPausedRef.current || isHoveredRef.current || isInteractingRef.current) {
-        scheduleNextCycle();
+      if (isUserPausedRef.current || isHoveredRef.current || isInteractingRef.current || isFocusedRef.current) {
+        scheduleCycle();
         return;
       }
       if (typeof document !== 'undefined' && document.hidden) {
-        scheduleNextCycle();
+        scheduleCycle();
         return;
       }
       if (typeof window !== 'undefined') {
         const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
         if (mediaQuery.matches) {
-          scheduleNextCycle();
+          scheduleCycle();
           return;
         }
       }
@@ -98,7 +103,7 @@ export function Homepage2026Showcase({
       const pool = poolRef.current;
 
       if (!currentVisible || currentVisible.length < 14 || pool.length === 0) {
-        scheduleNextCycle();
+        scheduleCycle();
         return;
       }
 
@@ -110,7 +115,7 @@ export function Homepage2026Showcase({
       );
 
       if (!result || result.replacedSlots.length === 0) {
-        scheduleNextCycle();
+        scheduleCycle();
         return;
       }
 
@@ -135,7 +140,7 @@ export function Homepage2026Showcase({
         }, 50);
 
         // Cleanly schedule next 4-minute cycle
-        scheduleNextCycle();
+        scheduleCycle();
       }, ROTATION_TRANSITION_MS);
     }, ROTATION_INTERVAL_MS);
   }, []);
@@ -237,101 +242,78 @@ export function Homepage2026Showcase({
     };
   }, [initialProducts, scheduleNextCycle, clearAllTimers]);
 
-  if (!displayed || displayed.length === 0) {
-    return null;
-  }
+  const categories = [
+    { id: 'all', label: 'Tümü' },
+    { id: 'smartphones', label: 'Telefon' },
+    { id: 'laptops', label: 'Bilgisayar' },
+    { id: 'tvs', label: 'TV' },
+    { id: 'other', label: 'Diğer' },
+  ];
+  const visibleProducts = displayed.map((product, slot) => ({ product, slot })).filter(({ product }) =>
+    category === 'all' || (category === 'other'
+      ? !['smartphones', 'laptops', 'tvs'].includes(product.category)
+      : product.category === category)
+  );
+  const updateRail = useCallback(() => {
+    const rail = railRef.current;
+    if (rail) setRailPosition({ start: rail.scrollLeft < 2, end: rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 2 });
+  }, []);
+  useEffect(() => {
+    const rail = railRef.current;
+    if (!rail) return;
+    rail.scrollTo({ left: 0, behavior: 'instant' });
+    updateRail();
+    const observer = new ResizeObserver(updateRail);
+    observer.observe(rail);
+    return () => observer.disconnect();
+  }, [category, displayed, updateRail]);
+  const moveRail = (direction: number) => {
+    const rail = railRef.current;
+    if (!rail) return;
+    rail.scrollBy({ left: direction * rail.clientWidth, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  };
 
+  if (!displayed.length) return null;
   return (
-    <section
-      aria-label="2026 Teknoloji Vitrini"
-      className="max-w-7xl mx-auto my-12 sm:my-16 px-4 sm:px-6 lg:px-8"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      {/* Header */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6 sm:mb-8">
-        <div>
-          <div className="flex items-center gap-2 mb-2">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-800 text-[11px] font-bold border border-cyan-200/80 uppercase tracking-wider">
-              <Sparkles className="w-3 h-3 text-cyan-600" />
-              <span>2026 Vitrini</span>
-            </span>
-            <span className="text-xs text-slate-400 font-semibold hidden sm:inline">
-              Yeni Nesil Donanımlar
-            </span>
-          </div>
-
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-            2026 Teknoloji Vitrini
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-2xl leading-relaxed">
-            Yeni nesil amiral gemisi modelleri keşfedin. Acele etmeden teknik detayları inceleyin ve yan yana karşılaştırın.
-          </p>
+    <section aria-label="2026 Teknoloji Vitrini" className={styles.showcase}
+      onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
+      onFocusCapture={() => { isFocusedRef.current = true; clearAllTimers(); setRotatingSlots([]); }}
+      onBlurCapture={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget as Node | null)) {
+          isFocusedRef.current = false;
+          scheduleNextCycle();
+        }
+      }}>
+      <header className={styles.header}>
+        <p className={styles.eyebrow}>YENİ NESİL SEÇKİ</p>
+        <h2>2026 Teknoloji Vitrini</h2>
+        <p className={styles.subtitle}>Yeni nesli keşfet. Kararını aceleye getirme.</p>
+      </header>
+      <div className={styles.toolbar}>
+        <div className={styles.filters} role="group" aria-label="Vitrin kategorileri">
+          {categories.map((item) => <button key={item.id} type="button" aria-pressed={category === item.id}
+            onClick={() => setCategory(item.id)}>{item.label}</button>)}
         </div>
-
-        {/* Controls / Info */}
-        <div className="flex items-center gap-3 self-end sm:self-auto">
-          <button
-            type="button"
-            onClick={togglePause}
-            className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-colors min-h-[44px] cursor-pointer"
-            title={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
-            aria-label={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
-          >
-            {isUserPaused ? (
-              <>
-                <Play className="w-3.5 h-3.5 text-emerald-600" />
-                <span className="text-[11px]">Döngü Başlat</span>
-              </>
-            ) : (
-              <>
-                <Pause className="w-3.5 h-3.5 text-slate-500" />
-                <span className="text-[11px]">Duraklat</span>
-              </>
-            )}
+        <div className={styles.controls}>
+          <button type="button" onClick={togglePause} aria-label={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
+            aria-pressed={isUserPaused} title={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}>
+            {isUserPaused ? <Play size={17} /> : <Pause size={17} />}
           </button>
+          <button type="button" onClick={() => moveRail(-1)} disabled={railPosition.start} aria-label="Önceki ürünler"><ArrowLeft size={18} /></button>
+          <button type="button" onClick={() => moveRail(1)} disabled={railPosition.end} aria-label="Sonraki ürünler"><ArrowRight size={18} /></button>
         </div>
       </div>
-
-      {/* Desktop / Tablet: Responsive Grid (xl: exactly 7 cols x 2 rows = 14 cards) */}
-      <div className="hidden sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3.5 sm:gap-4">
-        {displayed.map((product, idx) => (
-          <Showcase2026Card
-            key={`showcase-slot-${idx}`}
-            product={product}
-            isRotating={rotatingSlots.includes(idx)}
-          />
-        ))}
+      <div ref={railRef} className={styles.rail} onScroll={updateRail}
+        onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd} onTouchCancel={handleTouchEnd}
+        role="group" aria-label="2026 ürün seçkisi" tabIndex={0}>
+        {visibleProducts.map(({ product, slot }) => <div key={product.id} className={styles.slot}>
+          <Showcase2026Card product={product} isRotating={rotatingSlots.includes(slot)} />
+        </div>)}
+        {!visibleProducts.length && <p className={styles.empty}>Bu seçkide henüz bu kategoriden model yok.</p>}
       </div>
-
-      {/* Mobile: Horizontal Swipe Carousel showing ~1.6 - 2.0 cards in viewport */}
-      <div
-        className="sm:hidden flex overflow-x-auto snap-x snap-mandatory gap-3 px-4 -mx-4 pb-4 no-scrollbar"
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
-      >
-        {displayed.map((product, idx) => (
-          <div
-            key={`mobile-slot-${idx}`}
-            className="w-[62vw] max-w-[260px] min-w-[210px] shrink-0 snap-start"
-          >
-            <Showcase2026Card
-              product={product}
-              isRotating={rotatingSlots.includes(idx)}
-            />
-          </div>
-        ))}
-      </div>
-
-      {/* Footnote: Data Integrity Notice */}
-      <div className="mt-4 flex items-center justify-between text-[11px] text-slate-500 px-1">
-        <div className="flex items-center gap-1.5">
-          <Cpu className="w-3.5 h-3.5 text-cyan-600 shrink-0" />
-          <span>Kayıtlı özellikleri kaynaklarıyla inceleyin. Güncel teklif doğrulanmamışsa fiyat önerisi verilmez.</span>
-        </div>
-        <span className="hidden sm:inline font-semibold text-slate-400">
-          {displayed.length} katalog modeli
-        </span>
+      <div className={styles.footer}>
+        <span>Seçkiyi kaydırarak keşfet <span aria-live="polite">· {visibleProducts.length} model</span></span>
+        <p>Kayıtlı özellikleri kaynaklarıyla inceleyin. Güncel teklif doğrulanmamışsa fiyat önerisi verilmez.</p>
       </div>
     </section>
   );
