@@ -6,10 +6,12 @@ import { ArrowRight, ArrowUpRight, Bell, Check, Clock3, Database, Gamepad2, Head
 import { HomepageHero } from './HomepageHero';
 import { Homepage2026Showcase } from './Homepage2026Showcase';
 import { HomepageBudget } from './HomepageBudget';
+import { HomepageLifecycleSections } from './HomepageLifecycleSections';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { trackFunnelEvent } from '@/lib/analytics/funnel';
 import type { Showcase2026Data } from '@/lib/showcase2026';
 import type { PriceSignalResult } from '@/lib/priceSignal';
+import type { LifecycleHomeData } from '@/lib/productLifecycle';
 import styles from './HomepageV2.module.css';
 
 export interface HomepageDecision {
@@ -23,6 +25,7 @@ export interface HomepageDecision {
 export interface HomePageClientProps {
   showcase2026: Showcase2026Data;
   decisions: HomepageDecision[];
+  lifecycleHome: LifecycleHomeData;
   popularComparisons: Array<{ phone1Id: string; phone2Id: string; phone1Name: string; phone2Name: string }>;
   counts: Record<'smartphones' | 'laptops' | 'tvs' | 'appliances' | 'tablets' | 'smartwatches' | 'headphones' | 'consoles' | 'monitors', number>;
 }
@@ -47,7 +50,7 @@ function AdPlaceholder({ secondary = false }: { secondary?: boolean }) {
   </aside>;
 }
 
-export function HomePageClient({ popularComparisons, counts, showcase2026, decisions }: HomePageClientProps) {
+export function HomePageClient({ popularComparisons, counts, showcase2026, decisions, lifecycleHome }: HomePageClientProps) {
   const total = Object.values(counts).reduce((sum, count) => sum + count, 0);
   const categoryCount = Object.values(counts).filter(count => count > 0).length;
   useEffect(() => { trackFunnelEvent({ type: 'landing_view', path: '/', referrerSource: document.referrer ? (document.referrer.includes(window.location.hostname) ? 'internal' : 'external') : 'direct' }); }, []);
@@ -64,6 +67,7 @@ export function HomePageClient({ popularComparisons, counts, showcase2026, decis
     <div className={styles.showcase} id="vitrin">
       <Homepage2026Showcase initialProducts={showcase2026.initialProducts} rotationPool={showcase2026.rotationPool} />
     </div>
+    <HomepageLifecycleSections data={lifecycleHome} />
     <section className={styles.section} aria-labelledby="decision-title">
       <div className={styles.sectionHeading}><div><p className={styles.eyebrow}><Sparkles size={15} /> RoboPengu karar rehberi</p><h2 id="decision-title">Şimdi al, takip et, bekle?</h2><p>Bir fiyat etiketi yetmez. Güncel teklif ve geçmiş gözlemleri birlikte değerlendiririz.</p></div><Link href="/compare" className={styles.quietLink}>Karşılaştırmaya başla <ArrowUpRight size={16} /></Link></div>
       {decisions.length > 0 ? <div className={styles.decisionGrid}>{decisions.map((product, index) => <article key={product.id} className={styles.decisionCard}>

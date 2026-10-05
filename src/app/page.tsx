@@ -1,6 +1,7 @@
 import { getAllProducts, getPopularComparisonsData, isCanonicalExcluded } from '@/lib/data';
 import { get2026ShowcaseData } from '@/lib/showcase2026';
 import { calculatePriceSignal } from '@/lib/priceSignal';
+import { getLifecycleHomeData } from '@/lib/productLifecycle';
 import { HomePageClient, type HomepageDecision } from '@/components/home/HomePageClient';
 
 export const revalidate = 3600;
@@ -29,6 +30,7 @@ export default async function HomePage() {
   });
   // Preserve the existing canonical 2026 selection and client rotation contracts.
   const showcase2026 = get2026ShowcaseData(products);
+  const lifecycleHome = getLifecycleHomeData(products, { value2025: 8, archive2024: 6, archiveClassic: 6 });
   const decisions: HomepageDecision[] = ['smartphones', 'laptops', 'tvs'].flatMap(category => {
     const showcaseProduct = showcase2026.initialProducts.find(product => product.category === category);
     if (!showcaseProduct) return [];
@@ -38,5 +40,5 @@ export default async function HomePage() {
     // Do not send synthetic history, catalog reference prices or placeholder scores to this UI.
     return [{ id: product.id, name: product.name, image: product.image, href: showcaseProduct.detailHref, signal: { status: signal.status, title: signal.title, explanation: signal.explanation } }];
   });
-  return <HomePageClient popularComparisons={popularComparisons} counts={counts} showcase2026={showcase2026} decisions={decisions} />;
+  return <HomePageClient popularComparisons={popularComparisons} counts={counts} showcase2026={showcase2026} decisions={decisions} lifecycleHome={lifecycleHome} />;
 }
