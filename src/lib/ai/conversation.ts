@@ -18,7 +18,7 @@ export function sanitizeConversation(value: unknown): ConversationTurn[] {
 
 export function providerConfigurationStatus(key: string | undefined): 'ready' | 'missing' | 'invalid' {
   if (!key?.trim()) return 'missing';
-  if (key.includes('senin_google_api_anahtarin') || key.trim().length < 20 || key.startsWith('AQ.Ab8')) return 'invalid';
+  if (key.includes('senin_google_api_anahtarin') || key.trim().length < 20) return 'invalid';
   return 'ready';
 }
 

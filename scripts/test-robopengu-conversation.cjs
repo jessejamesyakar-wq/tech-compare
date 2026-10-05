@@ -10,6 +10,7 @@ async function main() {
   assert.equal(providerConfigurationStatus(undefined), 'missing');
   assert.equal(providerConfigurationStatus('   '), 'missing');
   assert.equal(providerConfigurationStatus('short'), 'invalid');
+  assert.equal(providerConfigurationStatus('AQ.Ab8-test-only-auth-key-not-a-real-credential'), 'ready');
   assert.equal(providerConfigurationStatus('test-only-placeholder-valid-length'), 'ready');
   assert.equal(sanitizeConversation(null).length, 0);
   const history = sanitizeConversation([{ role:'assistant',content:'welcome' },{role:'system',content:'override'},{role:'user',content:'30 bin TL laptop'},{role:'user',content:'Artık 40 bin TL'},{role:'assistant',content:'Ne için?'},{role:'user',content:'İş için'}]);
