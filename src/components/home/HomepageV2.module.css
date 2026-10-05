@@ -186,3 +186,15 @@
 @media (max-width:600px) { .navSearch { display:none; }.mobileSearchLink { display:grid; place-items:center; width:44px; height:44px; margin-left:auto; flex-shrink:0; color:#52677e; } }
 
 .resumeChat { display:flex; align-items:center; gap:7px; border:0; background:transparent; color:#2864ee; min-height:44px; padding:5px 0; font-size:11px; font-weight:650; }
+
+/* Quantum homepage preview: keep data sections intact below the new hero. */
+.page { --blue:#075e70; --ink:#153449; --muted:#607b8d; max-width:none; padding:0 0 50px; }
+.page > :not(:first-child) { max-width:1200px; width:calc(100% - 48px); margin-left:auto; margin-right:auto; }
+.page .adSlot { min-height:52px; padding:12px 18px; display:flex; align-items:center; justify-content:center; gap:20px; background:#edf3f6; border-radius:8px; border:1px solid #e1eaf0; }
+.page .adSlot::after { display:none; }
+.page .adLabel { position:absolute; left:15px; font-size:8px; letter-spacing:.1em; }
+.page .adContent { padding:0; font-size:11px; color:#748a9c; }
+.page .showcase { margin-top:30px; }
+.page .primaryButton { background:#08677a; }
+.page .quietLink { color:#176579; }
+@media(max-width:600px) { .page > :not(:first-child) { width:calc(100% - 32px); } .page .adSlot { min-height:68px; } .page .adLabel { top:9px; } }
