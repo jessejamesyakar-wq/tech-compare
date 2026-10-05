@@ -256,7 +256,7 @@ export function Homepage2026Showcase({
   );
   const updateRail = useCallback(() => {
     const rail = railRef.current;
-    if (rail) setRailPosition({ start: rail.scrollLeft < 2, end: rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 2 });
+    if (rail) setRailPosition({ start: rail.scrollLeft <= 4, end: rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 2 });
   }, []);
   useEffect(() => {
     const rail = railRef.current;
