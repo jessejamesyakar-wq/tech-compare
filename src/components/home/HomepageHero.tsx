@@ -3,64 +3,94 @@
 import { FormEvent, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Check, Clock3, Scale, Sparkles, Wallet } from 'lucide-react';
+import { ArrowRight, ChevronRight, Laptop, Tv, Battery, MapPin, Sparkles, MessageCircle, Smartphone, House, Pause, Play } from 'lucide-react';
 import { HomepageAssistant } from './HomepageAssistant';
-import styles from './HomepageV2.module.css';
+import type { Showcase2026Product } from '@/lib/showcase2026';
+import styles from './QuantumHero.module.css';
 
 const shortcuts = [
-  { label: 'Ürün öner', icon: Sparkles, prompt: 'İhtiyacıma uygun bir ürün seçmek istiyorum. Önce kullanım amacımı sor.' },
-  { label: 'Fiyat zamanı', icon: Clock3, prompt: 'Almayı düşündüğüm ürünün fiyat zamanlamasını incelemek istiyorum. Güncel teklif ve yeterli fiyat geçmişi yoksa bunu açıkça belirt.' },
-  { label: 'Karşılaştır', icon: Scale, prompt: 'İki ürünü kayıtlı özellikleri ve kaynaklarıyla karşılaştırmak istiyorum.' },
-  { label: 'Bütçeme göre', icon: Wallet, prompt: 'Bütçeme uygun bir ürün arıyorum. Önce bütçemi ve kullanım amacımı sor; katalog referansını güncel teklif olarak gösterme.' },
+  { label: 'Sessiz bir laptop', icon: Laptop, prompt: 'Sessiz çalışan bir laptop arıyorum. Önce kullanım amacımı ve bütçemi sor.' },
+  { label: 'Film için TV', icon: Tv, prompt: 'Film izlemek için televizyon arıyorum. Önce odamı, izleme mesafemi ve bütçemi sor.' },
+  { label: 'Uzun pil ömrü', icon: Battery, prompt: 'Uzun pil ömrü benim için önemli. Önce hangi tür cihaz aradığımı sor.' },
+];
+const discovery = [
+  { label: 'Telefon', note: 'Sana uygun modelleri keşfet', href: '/phones', icon: Smartphone },
+  { label: 'Bilgisayar', note: 'İş, okul ve oyun için', href: '/laptops', icon: Laptop },
+  { label: 'Televizyon', note: 'Daha büyük deneyimler', href: '/tvs', icon: Tv },
+  { label: 'Ev & Yaşam', note: 'Daha konforlu bir hayat', href: '/appliances', icon: House },
 ];
 
-export function HomepageHero() {
+export function HomepageHero({ products = [] }: { products?: Showcase2026Product[] }) {
   const [query, setQuery] = useState('');
   const [initialQuery, setInitialQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [hasConversation, setHasConversation] = useState(false);
+  const [group, setGroup] = useState(0);
+  const [motionPaused, setMotionPaused] = useState(false);
   const openerRef = useRef<HTMLElement | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-
+  const groupCount = Math.min(3, Math.ceil(products.length / 2));
+  const picks = products.slice(group * 2, group * 2 + 2);
+  function preparePrompt(prompt: string) { setQuery(prompt); inputRef.current?.focus(); }
   function openAssistant(event: FormEvent) {
     event.preventDefault();
     if (!query.trim()) { inputRef.current?.focus(); return; }
     openerRef.current = document.activeElement as HTMLElement;
-    setInitialQuery(query.trim());
-    setHasConversation(true);
-    setIsOpen(true);
+    setInitialQuery(query.trim()); setHasConversation(true); setIsOpen(true);
   }
-
-  return (
-    <>
-      <section id="robopengu-hero" className={styles.hero} aria-labelledby="home-hero-title">
-        <div className={styles.heroCopy}>
-          <p className={styles.eyebrow}><Sparkles size={15} aria-hidden="true" /> Teknoloji seçerken bir adım önde</p>
-          <h1 id="home-hero-title">İyi teknoloji.<br /><span>Doğru karar.</span></h1>
-          <p className={styles.heroDescription}>Seçenekler çok. Doğru seçim sana özel.<br className={styles.desktopBreak} /> RoboPengu ile ihtiyacını netleştir, ürünleri karşılaştır, fiyatın arkasındaki veriyi gör.</p>
-          <form className={styles.heroForm} onSubmit={openAssistant}>
-            <label htmlFor="home-assistant-query" className={styles.srOnly}>RoboPengu’ya ne almak istediğini söyle</label>
-            <Sparkles className={styles.inputSparkle} size={20} aria-hidden="true" />
-            <input id="home-assistant-query" ref={inputRef} value={query} onChange={event => setQuery(event.target.value)} aria-label="RoboPengu mesajı" maxLength={500} placeholder="Ne almak istiyorsun? (örn. iPhone, laptop, TV…)" enterKeyHint="send" autoComplete="off" />
-            <button type="submit" aria-label="RoboPengu’ya sor" title="RoboPengu’ya sor"><ArrowRight size={21} aria-hidden="true" /></button>
-          </form>
-          <div className={styles.shortcuts} aria-label="RoboPengu hızlı başlangıçlar">
-            {shortcuts.map(({ label, icon: Icon, prompt }) => <button key={label} type="button" onClick={() => { setQuery(prompt); inputRef.current?.focus(); }}><Icon size={15} aria-hidden="true" />{label}</button>)}
+  return <>
+    <section id="robopengu-hero" className={styles.hero} aria-labelledby="home-hero-title" data-motion-paused={motionPaused}>
+      <div className={styles.room} aria-hidden="true" />
+      <div className={styles.inner}>
+        <header className={styles.heading}>
+          <h1 id="home-hero-title">Teknoloji karmaşık.<br /><span>Birlikte netleştirelim.</span></h1>
+          <p>Ne aradığını anlat; seçenekleri birlikte inceleyelim.</p>
+        </header>
+        <div className={styles.stage}>
+          <aside className={`${styles.panel} ${styles.products}`} aria-label="Katalogdan ürün seçkisi">
+            <div className={styles.panelHeading}><h2>Birlikte keşfedelim</h2><Link href="/search">Tümünü gör <ArrowRight size={13} /></Link></div>
+            <p className={styles.panelIntro}>Katalogdan bir başlangıç seçkisi.</p>
+            <div className={styles.productPair}>
+              {picks.map(product => <Link key={product.id} href={product.detailHref} className={styles.product}>
+                <div className={styles.productImage}><Image src={product.image} alt={product.name} fill sizes="(max-width: 767px) 35vw, 150px" /></div>
+                <strong title={product.name}>{product.name}</strong>
+                <span>{product.priceStatusLabel}</span>
+              </Link>)}
+              {!picks.length && <Link href="/search" className={styles.catalogFallback}>Ürün kataloğunu keşfet <ArrowRight size={16} /></Link>}
+            </div>
+            {groupCount > 1 && <div className={styles.dots} role="group" aria-label="Ürün seçkisi sayfaları">
+              {Array.from({ length: groupCount }, (_, index) => <button key={index} type="button" aria-label={`${index + 1}. ürün grubu`} aria-pressed={group === index} onClick={() => setGroup(index)}><span /></button>)}
+            </div>}
+          </aside>
+          <div className={styles.character}>
+            <div className={styles.orbit} aria-hidden="true" />
+            <div className={styles.podium} aria-hidden="true" />
+            <Image className={styles.mascot} src="/assets/robopengu-quantum.webp" alt="Elinde tabletle seni selamlayan RoboPengu" width={1313} height={1198} sizes="(max-width: 767px) 260px, 390px" preload />
+            <button type="button" className={styles.motionControl} aria-label={motionPaused ? 'RoboPengu hareketini başlat' : 'RoboPengu hareketini durdur'} aria-pressed={motionPaused} onClick={() => setMotionPaused(value => !value)}>{motionPaused ? <Play size={13} /> : <Pause size={13} />}<span>Hareket</span></button>
           </div>
-          <p className={styles.heroNote}>AI destekli rehberlik. Karar her zaman sende.</p>
-          {hasConversation && <button type="button" className={styles.resumeChat} onClick={event => { openerRef.current = event.currentTarget; setInitialQuery(''); setIsOpen(true); }}>Sohbete dön <ArrowRight size={14} /></button>}
-          <Link href="/search" className={styles.quietLink}>Ya da tüm ürünleri keşfet <ArrowRight size={15} aria-hidden="true" /></Link>
+          <aside className={`${styles.panel} ${styles.guidance}`} aria-labelledby="pengu-guidance-title">
+            <div className={styles.panelHeading}><h2 id="pengu-guidance-title">Önce seni anlayalım.</h2><span className={styles.aiLabel}><Sparkles size={12} /> AI</span></div>
+            <p className={styles.panelIntro}>Daha iyi öneriler için birkaç soruyla başlayalım.</p>
+            <p className={styles.promptLabel}>Sohbet başlangıçları</p>
+            <button type="button" className={styles.question} onClick={() => preparePrompt('Kullanım amacıma uygun bir cihaz seçmek istiyorum. Önce nerede ve nasıl kullanacağımı sor.')}><MapPin size={21} /><span>Nerede kullanacaksın?</span><ChevronRight size={16} /></button>
+            <button type="button" className={styles.question} onClick={() => preparePrompt('Bir cihaz seçerken önceliklerimi netleştirmek istiyorum. Önce benim için en önemli özelliği sor.')}><Sparkles size={21} /><span>Senin için en önemli özellik ne?</span><ChevronRight size={16} /></button>
+            <div className={styles.guidanceNote}><MessageCircle size={23} /><p>İhtiyaçlarını anlattıkça, seçenekleri birlikte netleştirelim.</p></div>
+          </aside>
         </div>
-        <div className={styles.heroVisual}>
-          <div className={styles.heroOrbit} aria-hidden="true" />
-          <div className={styles.heroHello}><span className={styles.helloStar}>✦</span> Merhaba, ben RoboPengu.</div>
-          <Image src="/assets/robopengu-hero-wave.png" alt="El sallayan RoboPengu teknoloji asistanı" width={1097} height={1429} sizes="(max-width: 600px) 230px, (max-width: 900px) 290px, 380px" preload className={styles.heroMascot} />
-          <div className={`${styles.floatingNote} ${styles.noteNeeds}`}><span className={styles.noteIcon}><Check size={16} /></span><div><strong>Önce ihtiyacın.</strong><span>Sana uygun seçenekler</span></div></div>
-          <div className={`${styles.floatingNote} ${styles.noteEvidence}`}><span className={styles.noteIcon}><Scale size={16} /></span><div><strong>Sonra kanıtlar.</strong><span>Açık, anlaşılır karşılaştırma</span></div></div>
-          <span className={styles.heroSignature}>Birlikte, acele etmeden.</span>
+        <div className={styles.conversation}>
+          <form className={styles.form} onSubmit={openAssistant}>
+            <Image src="/assets/robopengu-quantum.webp" alt="" width={46} height={46} className={styles.avatar} />
+            <label htmlFor="home-assistant-query" className={styles.srOnly}>RoboPengu mesajı</label>
+            <input id="home-assistant-query" ref={inputRef} value={query} onChange={event => setQuery(event.target.value)} maxLength={500} placeholder="Ne almak istiyorsun? Bana anlat." enterKeyHint="send" autoComplete="off" />
+            <button type="submit" aria-label="RoboPengu’ya sor"><ArrowRight size={23} /></button>
+          </form>
+          <div className={styles.shortcuts} aria-label="RoboPengu hızlı başlangıçlar">{shortcuts.map(({label,icon:Icon,prompt}) => <button key={label} type="button" onClick={() => preparePrompt(prompt)}><Icon size={16} />{label}</button>)}</div>
+          <div className={styles.explore}><Link href="/search">Ürünleri kendim keşfedeceğim <ArrowRight size={14} /></Link>{hasConversation && <button type="button" onClick={event => { openerRef.current = event.currentTarget; setInitialQuery(''); setIsOpen(true); }}>Sohbete dön <MessageCircle size={14} /></button>}</div>
+          <p className={styles.disclaimer}>AI yanıtları hata içerebilir. Kaynakları ve güncel teklif durumunu kontrol et.</p>
         </div>
-      </section>
-      <HomepageAssistant isOpen={isOpen} onClose={() => { setIsOpen(false); requestAnimationFrame(() => (openerRef.current || inputRef.current)?.focus({ preventScroll: true })); }} initialQuery={initialQuery} />
-    </>
-  );
+      </div>
+    </section>
+    <section className={styles.discovery} aria-labelledby="quick-discovery-title"><h2 id="quick-discovery-title">Keşfetmeye buradan başla</h2><div>{discovery.map(({label,note,href,icon:Icon}) => <Link key={href} href={href}><Icon size={30} strokeWidth={1.5} /><span><strong>{label}</strong><small>{note}</small></span><ChevronRight size={17} /></Link>)}</div></section>
+    <HomepageAssistant isOpen={isOpen} onClose={() => { setIsOpen(false); requestAnimationFrame(() => (openerRef.current || inputRef.current)?.focus({ preventScroll: true })); }} initialQuery={initialQuery} />
+  </>;
 }
