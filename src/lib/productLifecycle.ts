@@ -131,7 +131,6 @@ function detailHref(product: Product): string {
     case 'consoles': return '/consoles/' + slug;
     case 'appliances': return '/appliances/' + slug;
     case 'monitors': return '/monitors/' + slug;
-    default: return '/' + encodeURIComponent(product.category) + '/' + slug;
   }
 }
 
