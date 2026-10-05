@@ -21,11 +21,13 @@ import {
   TechNewsPanelData,
 } from "@/lib/ai/resolvers";
 import { getRelevantLearnedGuidance } from "@/lib/ai/learningHub";
+import { sanitizeConversation, providerConfigurationStatus } from '@/lib/ai/conversation';
 
 import { RoboPenguPipeline } from '@/lib/ai/robopengu/pipeline';
 
 const SYSTEM_INSTRUCTION = `Sen aceleetme.tech’in Türkçe konuşan teknoloji danışmanı RoboPengu’sun.
 Samimi, kısa ve açık konuş; kullanıcının bütçesini koru. Kullanıcı adına duygu, aile ilişkisi veya ihtiyaç uydurma.
+Konuşmayı doğal sürdür. Kategori, kullanım amacı, bütçe ve öncelikleri kullanıcının geçmiş mesajlarından hatırla. Söylenmiş bilgiyi yeniden sorma; son düzeltmesi önceki tercihin yerini alır. Eksik bilgi varsa her yanıtta yalnız bir kısa soru sor. Kullanıcı henüz emin değilse seçeneklerle yardımcı ol. Katalog kanıtı yokken model tavsiyesi uydurmak yerine ihtiyacı netleştir.
 Yalnızca verilen katalog verisine dayan. Katalog alanlarını bağımsız doğrulama veya laboratuvar testi diye sunma. Eksik alanlar bilinmiyor demektir; hayali ürün, kaynak, bağlantı, fiyat, puan veya garanti üretme.
 Doğrulanmış ortak test yöntemi olmadan genel kazanan veya beraberlik ilan etme. MP, mAh, watt veya mimari adı tek başına kalite, kullanım süresi veya hız kanıtı değildir.
 Fiyatı durum etiketiyle aktar. Sadece currentPrice bulunan güncel teklifler bütçe hesabına girebilir; katalog referans fiyatını veya eski fiyatı güncel mağaza teklifi olarak anlatma. Hediye fiyatı doğrulanmamışsa kalan bütçe hesaplama.
@@ -38,11 +40,13 @@ function createFallbackStreamResponse(
   recommendations?: any[],
   userQuery: string = "",
   notice?: string,
-  customReplyText?: string
+  customReplyText?: string,
+  unavailableReason?: string
 ) {
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
     start(controller) {
+      controller.enqueue(encoder.encode(`event: status\ndata: ${JSON.stringify({ mode: unavailableReason ? 'unavailable' : 'catalog', reason: unavailableReason })}\n\n`));
       if (panel) {
         controller.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panel)}\n\n`));
       }
@@ -82,7 +86,8 @@ export async function POST(req: Request) {
 
     // 2. Girdi Doğrulama (Boş mesaj, karakter uzunluğu)
     const body = await req.json().catch(() => ({}));
-    const rawPrompt = body.prompt || body.message || "";
+    const candidatePrompt = body.prompt || body.message || "";
+    const rawPrompt = typeof candidatePrompt === 'string' ? candidatePrompt : '';
     const validation = validateUserMessage(rawPrompt);
     if (!validation.valid) {
       return new Response(
@@ -98,9 +103,8 @@ export async function POST(req: Request) {
     }
 
     // 4. Konuşma Hafızası (Multi-turn History)
-    const history = Array.isArray(body.history) ? body.history : [];
+    const history = sanitizeConversation(body.history);
     const formattedHistory = history
-      .slice(-8)
       .filter((h: any) => h && typeof h.content === "string" && h.content.trim() && !h.content.startsWith("⚠️"))
       .map((h: any) => ({
         role: h.role === "assistant" ? "model" : "user",
@@ -163,7 +167,7 @@ export async function POST(req: Request) {
       if (!budgetInfo && (isFollowUp || trimmedPrompt.length < 50)) {
         for (let i = history.length - 1; i >= 0; i--) {
           const prev = history[i];
-          if (prev && typeof prev.content === "string") {
+          if (prev && prev.role === 'user' && typeof prev.content === "string") {
             const b = extractBudgetFromText(prev.content);
             if (b) {
               budgetInfo = b;
@@ -290,12 +294,8 @@ Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksi
       : contextualPrompt;
 
     // 8. Model Yönlendirici ile Akış Başlatma (gemini-3.6-flash ve hızlı fallback zinciri)
-    const hasValidGeminiKey = Boolean(
-      process.env.GEMINI_API_KEY &&
-      !process.env.GEMINI_API_KEY.includes("senin_google_api_anahtarin") &&
-      process.env.GEMINI_API_KEY.trim().length >= 20 &&
-      !process.env.GEMINI_API_KEY.startsWith("AQ.Ab8")
-    );
+    const providerStatus = providerConfigurationStatus(process.env.GEMINI_API_KEY);
+    const hasValidGeminiKey = providerStatus === 'ready';
 
     let geminiStreamResult: any = null;
     if (hasValidGeminiKey) {
@@ -315,7 +315,8 @@ Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksi
     }
 
     if (!geminiStreamResult || !geminiStreamResult.ok || !geminiStreamResult.stream) {
-      return createFallbackStreamResponse(sidePanel, matchedProducts, trimmedPrompt, undefined, customFallbackReply);
+      return createFallbackStreamResponse(sidePanel, matchedProducts, trimmedPrompt, undefined, customFallbackReply,
+        hasValidGeminiKey ? 'provider_unavailable' : `configuration_${providerStatus}`);
     }
 
     // 8. SSE Yanıt Akışı
@@ -323,6 +324,7 @@ Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksi
     const stream = new ReadableStream({
       async start(controller) {
         try {
+          controller.enqueue(encoder.encode('event: status\ndata: {"mode":"ai"}\n\n'));
           // A. Yan panel verisini SSE olarak gönder
           if (sidePanel) {
             controller.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(sidePanel)}\n\n`));
@@ -335,6 +337,7 @@ Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksi
 
           // C. Gemini metin akışını SSE olarak gönder
           let hasEnqueuedText = false;
+          let fallbackSent = false;
           try {
             for await (const chunk of geminiStreamResult.stream!) {
               const text = chunk.text();
@@ -344,11 +347,18 @@ Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksi
               }
             }
           } catch (streamErr: any) {
+            controller.enqueue(encoder.encode('event: status\ndata: {"mode":"unavailable","reason":"stream_interrupted"}\n\n'));
             console.warn("[RoboPengu][STREAM] Akış ortasında hata:", streamErr?.message);
             if (!hasEnqueuedText) {
               const fallbackText = customFallbackReply || buildCatalogChatReply(sidePanel, matchedProducts);
               controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(fallbackText)}\n\n`));
+              fallbackSent = true;
             }
+          }
+
+          if (!hasEnqueuedText) {
+            controller.enqueue(encoder.encode('event: status\ndata: {"mode":"unavailable","reason":"empty_response"}\n\n'));
+            if (!fallbackSent) controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(buildCatalogChatReply(sidePanel, matchedProducts))}\n\n`));
           }
 
           // D. Akış tamamlandı
