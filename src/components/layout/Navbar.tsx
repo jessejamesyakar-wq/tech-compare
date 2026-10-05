@@ -11,7 +11,6 @@ import { comparisonPath } from '@/lib/comparisonSelection';
 import { Language } from '@/lib/types';
 import { Logo } from './Logo';
 import { CategoryBar } from './CategoryBar';
-import { HomepageNavbar } from '@/components/home/HomepageNavbar';
 import {
   Search,
   ChevronDown,
@@ -28,11 +27,6 @@ import { searchLocalProductsAsync, initClientSearch, CompactSearchProduct } from
 import { LazyAIAssistantModal } from '@/components/ai/LazyAIAssistantModal';
 
 export function Navbar() {
-  const pathname = usePathname();
-  return pathname === '/' ? <HomepageNavbar /> : <StandardNavbar />;
-}
-
-function StandardNavbar() {
   const { t, language, setLanguage, languageNames } = useI18n();
   const { compareList } = useCompare();
   const pathname = usePathname();
