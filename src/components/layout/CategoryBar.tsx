@@ -37,7 +37,7 @@ export function CategoryBar() {
   return (
     <div className="bg-white/80 dark:bg-[#090D16]/80 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-800/80 sticky top-14 sm:top-16 z-30 transition-all">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-2">
-        <div className="flex items-center justify-start md:justify-between gap-1 sm:gap-2 overflow-x-auto md:overflow-x-visible no-scrollbar flex-nowrap scroll-smooth py-0.5">
+        <nav aria-label="Ürün kategorileri" className="flex items-center justify-start md:justify-between gap-1 sm:gap-2 overflow-x-auto flex-nowrap py-0.5">
           {categories.map((cat) => {
             const Icon = cat.icon;
             const isActive =
@@ -50,6 +50,7 @@ export function CategoryBar() {
               <Link
                 key={cat.id}
                 href={cat.href}
+                onFocus={(event) => event.currentTarget.scrollIntoView({ block: 'nearest', inline: 'nearest' })}
                 className={`relative px-2.5 sm:px-3 py-1.5 rounded-full flex items-center gap-1.5 text-xs sm:text-[13px] font-semibold whitespace-nowrap transition-all duration-200 shrink-0 cursor-pointer ${
                   isActive
                     ? 'bg-cyan-600 text-white font-black shadow-xs shadow-cyan-600/20'
@@ -63,7 +64,7 @@ export function CategoryBar() {
               </Link>
             );
           })}
-        </div>
+        </nav>
       </div>
     </div>
   );
