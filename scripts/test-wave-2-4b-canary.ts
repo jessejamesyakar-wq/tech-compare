@@ -24,14 +24,14 @@ import {
   FunnelEvent
 } from '../src/lib/analytics/funnel';
 
+import { POST } from '../src/app/api/telemetry/funnel/route';
 import {
-  POST,
   mockTelemetrySink,
   clearMockTelemetrySink,
   SERVER_PERSISTENCE_ENABLED,
   SUPABASE_ANALYTICS_ENABLED,
   RATE_LIMIT_CLASSIFICATION
-} from '../src/app/api/telemetry/funnel/route';
+} from '../src/lib/analytics/telemetryRouteState';
 
 import { getSupabaseServerClient } from '../src/lib/supabase/server';
 

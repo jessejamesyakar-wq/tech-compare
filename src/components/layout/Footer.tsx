@@ -2,11 +2,18 @@
 
 import Image from 'next/image';
 import React from 'react';
+import { usePathname } from 'next/navigation';
+import { HomepageFooter } from '@/components/home/HomepageFooter';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
 import { Scale, CheckCircle2, ShieldCheck, FileText, ShieldAlert, Mail } from 'lucide-react';
 
 export function Footer() {
+  const pathname = usePathname();
+  return pathname === '/' ? <HomepageFooter /> : <StandardFooter />;
+}
+
+function StandardFooter() {
   const { t } = useI18n();
 
   return (

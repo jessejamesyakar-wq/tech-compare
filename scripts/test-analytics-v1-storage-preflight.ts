@@ -20,13 +20,13 @@ import {
   sanitizeRoutePath,
   FunnelEvent
 } from '../src/lib/analytics/funnel';
+import { POST } from '../src/app/api/telemetry/funnel/route';
 import {
-  POST,
   mockTelemetrySink,
   clearMockTelemetrySink,
   SUPABASE_ANALYTICS_ENABLED,
   RATE_LIMIT_CLASSIFICATION
-} from '../src/app/api/telemetry/funnel/route';
+} from '../src/lib/analytics/telemetryRouteState';
 
 // ==============================================================================
 // 1. TEST HARNESS & ASSERTION COUNTER

@@ -327,10 +327,10 @@ export function Homepage2026Showcase({
       <div className="mt-4 flex items-center justify-between text-[11px] text-slate-500 px-1">
         <div className="flex items-center gap-1.5">
           <Cpu className="w-3.5 h-3.5 text-cyan-600 shrink-0" />
-          <span>Teknik veriler doğrulanmış katalog modelleridir. Canlı teklifler mağaza API&apos;leri ile güncellenir.</span>
+          <span>Kayıtlı özellikleri kaynaklarıyla inceleyin. Güncel teklif doğrulanmamışsa fiyat önerisi verilmez.</span>
         </div>
         <span className="hidden sm:inline font-semibold text-slate-400">
-          Toplam 14 Seçkin Model
+          {displayed.length} katalog modeli
         </span>
       </div>
     </section>

@@ -14,13 +14,13 @@ import {
   resetFunnelSession,
   FunnelEvent
 } from '../src/lib/analytics/funnel';
+import { POST } from '../src/app/api/telemetry/funnel/route';
 import {
-  POST,
   mockTelemetrySink,
   clearMockTelemetrySink,
   SUPABASE_ANALYTICS_ENABLED,
   RATE_LIMIT_CLASSIFICATION
-} from '../src/app/api/telemetry/funnel/route';
+} from '../src/lib/analytics/telemetryRouteState';
 import { NextRequest } from 'next/server';
 
 function createMockRequest(body: any, headers: Record<string, string> = {}): NextRequest {

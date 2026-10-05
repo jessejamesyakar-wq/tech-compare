@@ -18,48 +18,15 @@ import { NextRequest, NextResponse } from 'next/server';
 import { sanitizeRoutePath } from '@/lib/analytics/funnel';
 import { getSupabaseServerClient } from '@/lib/supabase/server';
 import { recordIngestionEvent } from '@/lib/analytics/operationalMonitoring';
+import { SERVER_PERSISTENCE_ENABLED, mockTelemetrySink } from '@/lib/analytics/telemetryRouteState';
 
 export const dynamic = 'force-dynamic';
 
 const MAX_PAYLOAD_BYTES = 64 * 1024; // 64 KB limit
 const MAX_EVENTS_PER_BATCH = 50;
 
-/**
- * Dual Feature Gate: Server Persistence Control
- * Hard Governance Control (Wave 2.4B.2):
- * Strictly FAIL CLOSED. Server persistence is enabled ONLY when
- * process.env.ANALYTICS_SERVER_PERSISTENCE_ENABLED === 'true'.
- * If absent, undefined, or 'false', it strictly evaluates to false.
- */
-export const SERVER_PERSISTENCE_ENABLED =
-  typeof process !== 'undefined' &&
-  process.env.ANALYTICS_SERVER_PERSISTENCE_ENABLED === 'true';
-
-// Hard Governance Invariant: Zero Supabase Writes in Wave 2.2 (Retained for baseline compatibility)
-export const SUPABASE_ANALYTICS_ENABLED = false;
-
-export interface TelemetryRecord {
-  receivedAt: string;
-  batchId: string;
-  eventsCount: number;
-  types: string[];
-}
-
-// In-memory mock/test sink for local testing and validation
-export const mockTelemetrySink: TelemetryRecord[] = [];
-
-export function clearMockTelemetrySink(): void {
-  mockTelemetrySink.length = 0;
-}
-
 // Bot signature pattern for bot filtering interface
 const BOT_UA_REGEX = /(bot|spider|crawl|headless|curl|wget|python-requests|aiohttp|slurp|lighthouse|postman)/i;
-
-// Rate Protection Classification:
-// In a serverless/multi-instance deployment, this in-memory sliding-window token bucket operates
-// per-instance. It is not globally synchronized across distributed replicas and is classified as
-// BEST_EFFORT_LOCAL_PROTECTION against client runaway loops, without introducing new infrastructure.
-export const RATE_LIMIT_CLASSIFICATION = 'BEST_EFFORT_LOCAL_PROTECTION';
 
 // In-memory rate limiting bucket (max 60 requests/minute per bucket)
 interface RateLimitBucket {

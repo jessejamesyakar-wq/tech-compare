@@ -14,7 +14,7 @@ import path from 'node:path';
 import {
   SUPABASE_ANALYTICS_ENABLED,
   RATE_LIMIT_CLASSIFICATION
-} from '../src/app/api/telemetry/funnel/route';
+} from '../src/lib/analytics/telemetryRouteState';
 
 // ==============================================================================
 // 1. HARNESS & COUNTER

@@ -14,7 +14,7 @@ interface Showcase2026CardProps {
 export function Showcase2026Card({ product, isRotating = false }: Showcase2026CardProps) {
   return (
     <div
-      className={`group relative flex flex-col justify-between h-full bg-white rounded-2xl border border-slate-200/80 p-3.5 sm:p-4 shadow-xs hover:shadow-lg hover:border-cyan-300 transition-all duration-300 ${
+      className={`group relative flex flex-col justify-between h-full bg-white rounded-2xl border border-slate-200/80 p-3.5 sm:p-4 shadow-xs hover:shadow-lg hover:border-blue-300 transition-all duration-300 ${
         isRotating ? 'opacity-0 scale-[0.97]' : 'opacity-100 scale-100'
       }`}
     >
@@ -43,7 +43,7 @@ export function Showcase2026Card({ product, isRotating = false }: Showcase2026Ca
         {/* Product Title */}
         <Link
           href={product.detailHref}
-          className="block text-xs sm:text-sm font-bold text-slate-900 group-hover:text-cyan-600 transition-colors line-clamp-2 min-h-[2.5rem] mb-2"
+          className="block text-xs sm:text-sm font-bold text-slate-900 group-hover:text-blue-600 transition-colors line-clamp-2 min-h-[2.5rem] mb-2"
           title={product.name}
         >
           {product.name}
@@ -65,16 +65,16 @@ export function Showcase2026Card({ product, isRotating = false }: Showcase2026Ca
       {/* Bottom Footer: Price Integrity + Actions */}
       <div className="pt-2.5 border-t border-slate-100 mt-auto space-y-2.5">
         {/* Canonical Price Integrity State */}
-        <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] font-medium text-slate-400">
-          <AlertCircle className="w-3 h-3 text-slate-400 shrink-0" />
-          <span className="truncate">{product.priceStatusLabel}</span>
+        <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] font-medium text-slate-500">
+          <AlertCircle className="w-3 h-3 text-slate-500 shrink-0" />
+          <span className="leading-snug">{product.priceStatusLabel}</span>
         </div>
 
         {/* Action Buttons with accessible 44px min touch target */}
         <div className="flex items-center gap-1.5">
           <Link
             href={product.detailHref}
-            className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[44px]"
+            className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition-colors min-h-[44px]"
           >
             <span>İncele</span>
             <ArrowRight className="w-3.5 h-3.5" />
