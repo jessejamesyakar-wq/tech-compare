@@ -1,10 +1,11 @@
 'use client';
 
-import { FormEvent, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, ChevronRight, Laptop, Tv, Battery, MapPin, Sparkles, MessageCircle, Smartphone, House, Pause, Play } from 'lucide-react';
-import { HomepageAssistant } from './HomepageAssistant';
+import { HomepageConversation } from './HomepageAssistant';
+import { RoboPenguPrism } from './RoboPenguPrism';
 import type { Showcase2026Product } from '@/lib/showcase2026';
 import styles from './QuantumHero.module.css';
 
@@ -21,26 +22,22 @@ const discovery = [
 ];
 
 export function HomepageHero({ products = [] }: { products?: Showcase2026Product[] }) {
-  const [query, setQuery] = useState('');
   const [initialQuery, setInitialQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [hasConversation, setHasConversation] = useState(false);
   const [group, setGroup] = useState(0);
   const [motionPaused, setMotionPaused] = useState(false);
   const openerRef = useRef<HTMLElement | null>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
   const groupCount = Math.min(3, Math.ceil(products.length / 2));
   const picks = products.slice(group * 2, group * 2 + 2);
-  function preparePrompt(prompt: string) { setQuery(prompt); inputRef.current?.focus(); }
-  function openAssistant(event: FormEvent) {
-    event.preventDefault();
-    if (!query.trim()) { inputRef.current?.focus(); return; }
+  function preparePrompt(prompt: string) {
     openerRef.current = document.activeElement as HTMLElement;
-    setInitialQuery(query.trim()); setHasConversation(true); setIsOpen(true);
+    setInitialQuery(prompt); setHasConversation(true); setIsOpen(true);
   }
   return <>
     <section id="robopengu-hero" className={styles.hero} aria-labelledby="home-hero-title" data-motion-paused={motionPaused}>
       <div className={styles.room} aria-hidden="true" />
+      <RoboPenguPrism suspended={isOpen} />
       <div className={styles.inner}>
         <header className={styles.heading}>
           <h1 id="home-hero-title">Teknoloji karmaşık.<br /><span>Birlikte netleştirelim.</span></h1>
@@ -78,12 +75,10 @@ export function HomepageHero({ products = [] }: { products?: Showcase2026Product
           </aside>
         </div>
         <div className={styles.conversation}>
-          <form className={styles.form} onSubmit={openAssistant}>
+          <button type="button" className={styles.conversationTrigger} onClick={() => preparePrompt('')} aria-haspopup="dialog">
             <Image src="/assets/robopengu-quantum.webp" alt="" width={46} height={46} className={styles.avatar} />
-            <label htmlFor="home-assistant-query" className={styles.srOnly}>RoboPengu mesajı</label>
-            <input id="home-assistant-query" ref={inputRef} value={query} onChange={event => setQuery(event.target.value)} maxLength={500} placeholder="Ne almak istiyorsun? Bana anlat." enterKeyHint="send" autoComplete="off" />
-            <button type="submit" aria-label="RoboPengu’ya sor"><ArrowRight size={23} /></button>
-          </form>
+            <span>Ne almak istiyorsun? Bana anlat.</span><span className={styles.triggerArrow}><ArrowRight size={23} /></span>
+          </button>
           <div className={styles.shortcuts} aria-label="RoboPengu hızlı başlangıçlar">{shortcuts.map(({label,icon:Icon,prompt}) => <button key={label} type="button" onClick={() => preparePrompt(prompt)}><Icon size={16} />{label}</button>)}</div>
           <div className={styles.explore}><Link href="/search">Ürünleri kendim keşfedeceğim <ArrowRight size={14} /></Link>{hasConversation && <button type="button" onClick={event => { openerRef.current = event.currentTarget; setInitialQuery(''); setIsOpen(true); }}>Sohbete dön <MessageCircle size={14} /></button>}</div>
           <p className={styles.disclaimer}>AI yanıtları hata içerebilir. Kaynakları ve güncel teklif durumunu kontrol et.</p>
@@ -91,6 +86,6 @@ export function HomepageHero({ products = [] }: { products?: Showcase2026Product
       </div>
     </section>
     <section className={styles.discovery} aria-labelledby="quick-discovery-title"><h2 id="quick-discovery-title">Keşfetmeye buradan başla</h2><div>{discovery.map(({label,note,href,icon:Icon}) => <Link key={href} href={href}><Icon size={30} strokeWidth={1.5} /><span><strong>{label}</strong><small>{note}</small></span><ChevronRight size={17} /></Link>)}</div></section>
-    <HomepageAssistant isOpen={isOpen} onClose={() => { setIsOpen(false); requestAnimationFrame(() => (openerRef.current || inputRef.current)?.focus({ preventScroll: true })); }} initialQuery={initialQuery} />
+    <HomepageConversation isOpen={isOpen} onClose={() => setIsOpen(false)} initialQuery={initialQuery} />
   </>;
 }

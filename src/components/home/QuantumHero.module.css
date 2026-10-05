@@ -42,6 +42,9 @@
 .avatar { border-radius:50%; border:1px solid #c9dde6; object-fit:cover; background:#eef7fa; flex:none; }
 .form input { min-width:0; flex:1; border:0; background:transparent; color:#193d51; font-size:15px; height:44px; outline:none; }
 .form input::placeholder { color:#728a9c; }
+.conversationTrigger{display:flex;align-items:center;gap:13px;width:100%;padding:6px;border:1.5px solid #2e7183;background:#fffffff0;border-radius:40px;color:#627d8e;text-align:left;cursor:pointer;font-size:15px;box-shadow:0 8px 22px #2e7b9315}
+.conversationTrigger>span:first-of-type{flex:1;min-width:0}
+.triggerArrow{display:grid;place-items:center;width:48px;height:48px;background:#006276;color:#fff;border-radius:50%;flex:none}
 .form:focus-within { box-shadow:0 0 0 4px #87d8e533; }
 .form button { display:grid; place-items:center; width:48px; height:48px; border-radius:50%; background:#006276; color:white; border:0; flex:none; cursor:pointer; }
 .form button:hover { background:#004859; }
