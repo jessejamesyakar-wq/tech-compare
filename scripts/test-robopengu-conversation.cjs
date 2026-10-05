@@ -5,8 +5,11 @@ const ts = require('typescript');
 const code = ts.transpileModule(fs.readFileSync('src/lib/ai/conversation.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
 const mod = { exports: {} };
 vm.runInNewContext(code, { exports: mod.exports, TextDecoder, ReadableStream });
-const { sanitizeConversation, providerConfigurationStatus, visibleChatText, consumeChatStream } = mod.exports;
+const { sanitizeConversation, providerConfigurationStatus, visibleChatText, consumeChatStream, declinesProductSuggestions } = mod.exports;
 async function main() {
+  assert.equal(declinesProductSuggestions('Henüz model önerme.'), true);
+  assert.equal(declinesProductSuggestions('Bütçemi özetle; ürün önerme.'), true);
+  assert.equal(declinesProductSuggestions('Bana laptop öner.'), false);
   assert.equal(providerConfigurationStatus(undefined), 'missing');
   assert.equal(providerConfigurationStatus('   '), 'missing');
   assert.equal(providerConfigurationStatus('short'), 'invalid');

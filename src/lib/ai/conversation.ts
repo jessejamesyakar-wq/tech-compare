@@ -1,5 +1,9 @@
 export type ConversationTurn = { role: 'user' | 'assistant'; content: string };
 
+export function declinesProductSuggestions(prompt: string): boolean {
+  return /(?:ürün|model|cihaz)\s+(?:tavsiyesi\s+verme|önerme)|(?:ürün|model|cihaz)\s+önermeden/i.test(prompt);
+}
+
 /** Bound untrusted history and preserve user/model turn order for Gemini. */
 export function sanitizeConversation(value: unknown): ConversationTurn[] {
   if (!Array.isArray(value)) return [];

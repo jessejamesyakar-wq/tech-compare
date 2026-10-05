@@ -21,12 +21,13 @@ import {
   TechNewsPanelData,
 } from "@/lib/ai/resolvers";
 import { getRelevantLearnedGuidance } from "@/lib/ai/learningHub";
-import { sanitizeConversation, providerConfigurationStatus } from '@/lib/ai/conversation';
+import { sanitizeConversation, providerConfigurationStatus, declinesProductSuggestions } from '@/lib/ai/conversation';
 
 import { RoboPenguPipeline } from '@/lib/ai/robopengu/pipeline';
 
 const SYSTEM_INSTRUCTION = `Sen aceleetme.tech’in Türkçe konuşan teknoloji danışmanı RoboPengu’sun.
 Samimi, kısa ve açık konuş; kullanıcının bütçesini koru. Kullanıcı adına duygu, aile ilişkisi veya ihtiyaç uydurma.
+Kullanıcıya currentPrice gibi kod alanı adlarını gösterme; güncel doğrulanmış fiyat gibi doğal ifadeler kullan. Kullanıcı yalnız özet veya ihtiyaç sorusu istiyorsa buna odaklan.
 Konuşmayı doğal sürdür. Kategori, kullanım amacı, bütçe ve öncelikleri kullanıcının geçmiş mesajlarından hatırla. Söylenmiş bilgiyi yeniden sorma; son düzeltmesi önceki tercihin yerini alır. Eksik bilgi varsa her yanıtta yalnız bir kısa soru sor. Kullanıcı henüz emin değilse seçeneklerle yardımcı ol. Katalog kanıtı yokken model tavsiyesi uydurmak yerine ihtiyacı netleştir.
 Yalnızca verilen katalog verisine dayan. Katalog alanlarını bağımsız doğrulama veya laboratuvar testi diye sunma. Eksik alanlar bilinmiyor demektir; hayali ürün, kaynak, bağlantı, fiyat, puan veya garanti üretme.
 Doğrulanmış ortak test yöntemi olmadan genel kazanan veya beraberlik ilan etme. MP, mAh, watt veya mimari adı tek başına kalite, kullanım süresi veya hız kanıtı değildir.
@@ -118,173 +119,177 @@ export async function POST(req: Request) {
     let customFallbackReply: string | undefined = undefined;
     let pipelineResult: any = null;
 
-    // Run RoboPenguPipeline for structured shopping intent and recommendation
-    try {
-      pipelineResult = RoboPenguPipeline.execute(trimmedPrompt, history);
-      if (pipelineResult && pipelineResult.recommendation.rankedCandidates.length > 0) {
-        customFallbackReply = pipelineResult.composedResponseText;
-      }
-    } catch (e: any) {
-      console.warn("[RoboPengu] Pipeline execution error:", e?.message);
-    }
-
-    const setupPanel = detectSetupOrPackageQuery(trimmedPrompt);
-    if (setupPanel) {
-      sidePanel = setupPanel;
-    } else {
-      const compParts = tryExtractComparisonFromMessage(trimmedPrompt);
-      if (compParts && compParts.length >= 2) {
-        const compResult = resolveCompareProducts(compParts);
-        if (compResult.ok && compResult.data) {
-          sidePanel = formatComparisonData(compResult.data);
-        } else {
-          // If comparison resolution fails, do NOT generate fake mock products!
-          return createFallbackStreamResponse(null, [], trimmedPrompt, compResult.message);
-        }
-      } else if (isNewsQuery(trimmedPrompt)) {
-        sidePanel = resolveTechNews(trimmedPrompt);
-      }
-    }
-
-    // The response and panel use identical catalogue evidence; no model-generated verdict.
-    if (sidePanel?.type === "comparison") {
-      return createFallbackStreamResponse(sidePanel, [], trimmedPrompt);
-    }
-    if (!sidePanel) {
-      const isFollowUp = isFollowUpQuery(trimmedPrompt);
-
-      // A. Bütçe tespiti (Önce mevcut mesajdan, yoksa geçmişten)
-      let budgetInfo = extractBudgetFromText(trimmedPrompt);
-      let detectedCat = detectCategory(trimmedPrompt).category;
-      let preferredBrand = "";
-
-      const lowerPrompt = trimmedPrompt.toLowerCase();
-      if (lowerPrompt.includes("samsung") || lowerPrompt.includes("galaxy")) preferredBrand = "samsung";
-      else if (lowerPrompt.includes("apple") || lowerPrompt.includes("iphone")) preferredBrand = "apple";
-      else if (lowerPrompt.includes("xiaomi") || lowerPrompt.includes("redmi") || lowerPrompt.includes("poco")) preferredBrand = "xiaomi";
-
-      // Eğer mevcut mesajda bütçe yoksa ve takip sorusu veya kısa bir soruysa geçmiş mesajları tara
-      if (!budgetInfo && (isFollowUp || trimmedPrompt.length < 50)) {
-        for (let i = history.length - 1; i >= 0; i--) {
-          const prev = history[i];
-          if (prev && prev.role === 'user' && typeof prev.content === "string") {
-            const b = extractBudgetFromText(prev.content);
-            if (b) {
-              budgetInfo = b;
-              if (!detectedCat) detectedCat = detectCategory(prev.content).category;
-              if (!preferredBrand) {
-                const prevLower = prev.content.toLowerCase();
-                if (prevLower.includes("samsung") || prevLower.includes("galaxy")) preferredBrand = "samsung";
-                else if (prevLower.includes("apple") || prevLower.includes("iphone")) preferredBrand = "apple";
-                else if (prevLower.includes("xiaomi") || prevLower.includes("redmi") || prevLower.includes("poco")) preferredBrand = "xiaomi";
-              }
-              break;
-            }
-          }
-        }
-      }
-
-      if (budgetInfo && budgetInfo.budget > 0) {
-        // Çoklu talep veya spesifik model tespiti:
-        // Örn 1: "Kız kardeşime apple watch se alacağım, kalan parayla telefon..."
-        // Örn 2: "Kendime 20.000 tl lik bir ürün çocuğuma da hayali olan iphone 18..."
-        const explicitModel = extractExplicitTargetProduct(trimmedPrompt);
-
-        let targetCategory = detectedCat;
-        let effectiveBudget = budgetInfo.budget;
-
-        // Kullanıcı hem bir hediye/cihaz belirtip hem de "arta kalan parayla telefon" diyorsa:
-        const mentionsRemainingPhone =
-          /(?:kalan|arta\s*kalan)\s*(?:parayla|bütçeyle|para\s*ile)?\s*(?:telefon|kendime|cihaz)/i.test(trimmedPrompt) ||
-          /(?:telefon|cihaz)\s*olarak/i.test(trimmedPrompt);
-
-        if (explicitModel && mentionsRemainingPhone) {
-          targetCategory = "smartphones";
-          const explicitPrice = evaluateProductPricing(explicitModel).currentPrice;
-          if (explicitPrice === null) {
-            return createFallbackStreamResponse(null, formatProductRecommendations([explicitModel]), trimmedPrompt,
-              explicitModel.name + " için güncel fiyat doğrulanmadığından kalan bütçeyi hesaplayamıyorum. Diğer cihaz için ayırdığın bütçeyi ayrıca belirtir misin?");
-          }
-          effectiveBudget = budgetInfo.budget - explicitPrice;
-          if (effectiveBudget <= 0) {
-            return createFallbackStreamResponse(null, formatProductRecommendations([explicitModel]), trimmedPrompt,
-              "Seçtiğin cihazın güncel teklifi toplam bütçeyi dolduruyor veya aşıyor; ikinci ürün için kalan bütçe yok.");
-          }
-        }
-
-        const budgetResult = resolveBudgetRecommendation(
-          effectiveBudget,
-          targetCategory || "smartphones",
-          preferredBrand
-        );
-
+    // Respect a conversational request before searching or attaching product evidence.
+    if (!declinesProductSuggestions(trimmedPrompt)) {
+      // Run RoboPenguPipeline for structured shopping intent and recommendation
+      try {
+        pipelineResult = RoboPenguPipeline.execute(trimmedPrompt, history);
         if (pipelineResult && pipelineResult.recommendation.rankedCandidates.length > 0) {
-          const pipelineProducts = pipelineResult.recommendation.rankedCandidates.map((c: any) => ({
-            id: c.rootId,
-            name: c.name,
-            brand: c.brand,
-            slug: c.slug,
-            category: c.category,
-            price: c.priceInfo.effectivePrice,
-            basePrice: c.priceInfo.effectivePrice,
-            specs: c.specs,
-          }));
-          matchedProducts = formatProductRecommendations(pipelineProducts.slice(0, 3));
-          const prodsSummary = matchedProducts.map(p => p.productName + " | " + describeChatPrice(p)).join("\n");
-          contextualPrompt = `Kullanıcı sorusu: ${trimmedPrompt}
-Katalog sonuçları (durum etiketlerini koru):
-${prodsSummary}
-Bütçe: ${effectiveBudget.toLocaleString("tr-TR")} TL.
-Güncel fiyatı olmayan alternatifleri bütçeye uygun veya satın alınabilir diye sunma. Kullanıcının belirtmediği akrabalık ya da hediye senaryosu uydurma. Kartlar ürün detaylarını açar.`;
-        } else if (budgetResult.ok && budgetResult.data && budgetResult.data.products.length > 0) {
-          let selectedProducts: any[] = [];
-          if (explicitModel) {
-            // İlk kart: Kullanıcının açıkça belirttiği hediye veya model (örn: Apple Watch SE)
-            // Diğer kartlar: Bütçeye/arta kalan paraya uygun en güçlü modeller (örn: iPhone 16/17, S24 Ultra)
-            selectedProducts = [
-              explicitModel,
-              ...budgetResult.data.products.filter((p: any) => p.id !== explicitModel.id).slice(0, 2),
-            ];
-          } else {
-            selectedProducts = budgetResult.data.products.slice(0, 3);
-          }
-
-          matchedProducts = formatProductRecommendations(selectedProducts);
-          const prodsSummary = matchedProducts.map(p => p.productName + " | " + describeChatPrice(p)).join("\n");
-          contextualPrompt = `Kullanıcı sorusu: ${trimmedPrompt}
-Katalog sonuçları (durum etiketlerini koru):
-${prodsSummary}
-Bütçe: ${effectiveBudget.toLocaleString("tr-TR")} TL.
-Güncel fiyatı olmayan alternatifleri bütçeye uygun veya satın alınabilir diye sunma. Kullanıcının belirtmediği akrabalık ya da hediye senaryosu uydurma. Kartlar ürün detaylarını açar.`;
+          customFallbackReply = pipelineResult.composedResponseText;
         }
+      } catch (e: any) {
+        console.warn("[RoboPengu] Pipeline execution error:", e?.message);
+      }
+
+      const setupPanel = detectSetupOrPackageQuery(trimmedPrompt);
+      if (setupPanel) {
+        sidePanel = setupPanel;
       } else {
-        // B. Tekil ürün veya model arama kontrolü
-        let rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
-        if (rawMatches.length === 0 && (isFollowUp || trimmedPrompt.length < 35)) {
-          // Geçmişteki son kullanıcı mesajında ürün ara
+        const compParts = tryExtractComparisonFromMessage(trimmedPrompt);
+        if (compParts && compParts.length >= 2) {
+          const compResult = resolveCompareProducts(compParts);
+          if (compResult.ok && compResult.data) {
+            sidePanel = formatComparisonData(compResult.data);
+          } else {
+            // If comparison resolution fails, do NOT generate fake mock products!
+            return createFallbackStreamResponse(null, [], trimmedPrompt, compResult.message);
+          }
+        } else if (isNewsQuery(trimmedPrompt)) {
+          sidePanel = resolveTechNews(trimmedPrompt);
+        }
+      }
+
+      // The response and panel use identical catalogue evidence; no model-generated verdict.
+      if (sidePanel?.type === "comparison") {
+        return createFallbackStreamResponse(sidePanel, [], trimmedPrompt);
+      }
+      if (!sidePanel) {
+        const isFollowUp = isFollowUpQuery(trimmedPrompt);
+
+        // A. Bütçe tespiti (Önce mevcut mesajdan, yoksa geçmişten)
+        let budgetInfo = extractBudgetFromText(trimmedPrompt);
+        let detectedCat = detectCategory(trimmedPrompt).category;
+        let preferredBrand = "";
+
+        const lowerPrompt = trimmedPrompt.toLowerCase();
+        if (lowerPrompt.includes("samsung") || lowerPrompt.includes("galaxy")) preferredBrand = "samsung";
+        else if (lowerPrompt.includes("apple") || lowerPrompt.includes("iphone")) preferredBrand = "apple";
+        else if (lowerPrompt.includes("xiaomi") || lowerPrompt.includes("redmi") || lowerPrompt.includes("poco")) preferredBrand = "xiaomi";
+
+        // Eğer mevcut mesajda bütçe yoksa ve takip sorusu veya kısa bir soruysa geçmiş mesajları tara
+        if (!budgetInfo && (isFollowUp || trimmedPrompt.length < 50)) {
           for (let i = history.length - 1; i >= 0; i--) {
             const prev = history[i];
-            if (prev && prev.role === "user" && typeof prev.content === "string") {
-              rawMatches = searchProductsInCatalog(prev.content, 3);
-              if (rawMatches.length > 0) break;
+            if (prev && prev.role === 'user' && typeof prev.content === "string") {
+              const b = extractBudgetFromText(prev.content);
+              if (b) {
+                budgetInfo = b;
+                if (!detectedCat) detectedCat = detectCategory(prev.content).category;
+                if (!preferredBrand) {
+                  const prevLower = prev.content.toLowerCase();
+                  if (prevLower.includes("samsung") || prevLower.includes("galaxy")) preferredBrand = "samsung";
+                  else if (prevLower.includes("apple") || prevLower.includes("iphone")) preferredBrand = "apple";
+                  else if (prevLower.includes("xiaomi") || prevLower.includes("redmi") || prevLower.includes("poco")) preferredBrand = "xiaomi";
+                }
+                break;
+              }
             }
           }
         }
 
-        if (rawMatches.length > 0) {
-          matchedProducts = formatProductRecommendations(rawMatches);
-          const prodsSummary = matchedProducts
-            .map(p => p.productName + " | " + describeChatPrice(p))
-            .join("\n");
+        if (budgetInfo && budgetInfo.budget > 0) {
+          // Çoklu talep veya spesifik model tespiti:
+          // Örn 1: "Kız kardeşime apple watch se alacağım, kalan parayla telefon..."
+          // Örn 2: "Kendime 20.000 tl lik bir ürün çocuğuma da hayali olan iphone 18..."
+          const explicitModel = extractExplicitTargetProduct(trimmedPrompt);
 
-          contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
+          let targetCategory = detectedCat;
+          let effectiveBudget = budgetInfo.budget;
 
-[KATALOG ÜRÜN VE FİYAT DURUMU]:
-${prodsSummary}
+          // Kullanıcı hem bir hediye/cihaz belirtip hem de "arta kalan parayla telefon" diyorsa:
+          const mentionsRemainingPhone =
+            /(?:kalan|arta\s*kalan)\s*(?:parayla|bütçeyle|para\s*ile)?\s*(?:telefon|kendime|cihaz)/i.test(trimmedPrompt) ||
+            /(?:telefon|cihaz)\s*olarak/i.test(trimmedPrompt);
 
-Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksik özellikleri belleğinden tamamlamaya çalışma. Kartlar katalog detayını açar. Güncel teklifi olmayan ürünü bütçeye uygun diye sunma.`;
+          if (explicitModel && mentionsRemainingPhone) {
+            targetCategory = "smartphones";
+            const explicitPrice = evaluateProductPricing(explicitModel).currentPrice;
+            if (explicitPrice === null) {
+              return createFallbackStreamResponse(null, formatProductRecommendations([explicitModel]), trimmedPrompt,
+                explicitModel.name + " için güncel fiyat doğrulanmadığından kalan bütçeyi hesaplayamıyorum. Diğer cihaz için ayırdığın bütçeyi ayrıca belirtir misin?");
+            }
+            effectiveBudget = budgetInfo.budget - explicitPrice;
+            if (effectiveBudget <= 0) {
+              return createFallbackStreamResponse(null, formatProductRecommendations([explicitModel]), trimmedPrompt,
+                "Seçtiğin cihazın güncel teklifi toplam bütçeyi dolduruyor veya aşıyor; ikinci ürün için kalan bütçe yok.");
+            }
+          }
+
+          const budgetResult = resolveBudgetRecommendation(
+            effectiveBudget,
+            targetCategory || "smartphones",
+            preferredBrand
+          );
+
+          if (pipelineResult && pipelineResult.recommendation.rankedCandidates.length > 0) {
+            const pipelineProducts = pipelineResult.recommendation.rankedCandidates.map((c: any) => ({
+              id: c.rootId,
+              name: c.name,
+              brand: c.brand,
+              slug: c.slug,
+              category: c.category,
+              price: c.priceInfo.effectivePrice,
+              basePrice: c.priceInfo.effectivePrice,
+              specs: c.specs,
+            }));
+            matchedProducts = formatProductRecommendations(pipelineProducts.slice(0, 3));
+            const prodsSummary = matchedProducts.map(p => p.productName + " | " + describeChatPrice(p)).join("\n");
+            contextualPrompt = `Kullanıcı sorusu: ${trimmedPrompt}
+  Katalog sonuçları (durum etiketlerini koru):
+  ${prodsSummary}
+  Bütçe: ${effectiveBudget.toLocaleString("tr-TR")} TL.
+  Güncel fiyatı olmayan alternatifleri bütçeye uygun veya satın alınabilir diye sunma. Kullanıcının belirtmediği akrabalık ya da hediye senaryosu uydurma. Kartlar ürün detaylarını açar.`;
+          } else if (budgetResult.ok && budgetResult.data && budgetResult.data.products.length > 0) {
+            let selectedProducts: any[] = [];
+            if (explicitModel) {
+              // İlk kart: Kullanıcının açıkça belirttiği hediye veya model (örn: Apple Watch SE)
+              // Diğer kartlar: Bütçeye/arta kalan paraya uygun en güçlü modeller (örn: iPhone 16/17, S24 Ultra)
+              selectedProducts = [
+                explicitModel,
+                ...budgetResult.data.products.filter((p: any) => p.id !== explicitModel.id).slice(0, 2),
+              ];
+            } else {
+              selectedProducts = budgetResult.data.products.slice(0, 3);
+            }
+
+            matchedProducts = formatProductRecommendations(selectedProducts);
+            const prodsSummary = matchedProducts.map(p => p.productName + " | " + describeChatPrice(p)).join("\n");
+            contextualPrompt = `Kullanıcı sorusu: ${trimmedPrompt}
+  Katalog sonuçları (durum etiketlerini koru):
+  ${prodsSummary}
+  Bütçe: ${effectiveBudget.toLocaleString("tr-TR")} TL.
+  Güncel fiyatı olmayan alternatifleri bütçeye uygun veya satın alınabilir diye sunma. Kullanıcının belirtmediği akrabalık ya da hediye senaryosu uydurma. Kartlar ürün detaylarını açar.`;
+          }
+        } else {
+          // B. Tekil ürün veya model arama kontrolü
+          let rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
+          if (rawMatches.length === 0 && (isFollowUp || trimmedPrompt.length < 35)) {
+            // Geçmişteki son kullanıcı mesajında ürün ara
+            for (let i = history.length - 1; i >= 0; i--) {
+              const prev = history[i];
+              if (prev && prev.role === "user" && typeof prev.content === "string") {
+                rawMatches = searchProductsInCatalog(prev.content, 3);
+                if (rawMatches.length > 0) break;
+              }
+            }
+          }
+
+          if (rawMatches.length > 0) {
+            matchedProducts = formatProductRecommendations(rawMatches);
+            const prodsSummary = matchedProducts
+              .map(p => p.productName + " | " + describeChatPrice(p))
+              .join("\n");
+
+            contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
+
+  [KATALOG ÜRÜN VE FİYAT DURUMU]:
+  ${prodsSummary}
+
+  Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksik özellikleri belleğinden tamamlamaya çalışma. Kartlar katalog detayını açar. Güncel teklifi olmayan ürünü bütçeye uygun diye sunma.`;
+          }
         }
       }
+
     }
 
     // 7. Dinamik Bilgi & Deneyim Hafızası (Dynamic Few-Shot Learning Guidance)
