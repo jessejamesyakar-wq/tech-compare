@@ -68,11 +68,17 @@ export async function GET(request: Request) {
         .lt('created_at', endOfDay);
 
       if (fetchError) {
-        console.warn('[Analytics:Maintenance] Events query schema notice:', fetchError.message);
-        // Clean baseline: zero events to summarize
-        rollupSuccess = true;
-        rollupMechanism = 'zero_event_baseline';
-        rollupRowsAffected = 0;
+        console.error('[Analytics:Maintenance] Events query failed:', fetchError.message);
+        recordRollupExecution({ success: false, error: 'Database fetch error: ' + fetchError.message });
+        return NextResponse.json(
+          {
+            ok: false,
+            step: 'rollup',
+            targetDate,
+            error: 'Rollup query failed. Purge aborted: ' + fetchError.message
+          },
+          { status: 500, headers: { 'Cache-Control': 'no-store' } }
+        );
       } else {
         // Group by category, store_id
         const groupMap = new Map<string, {
@@ -139,7 +145,17 @@ export async function GET(request: Request) {
             .upsert(summaryRows, { onConflict: 'summary_date,category,store_id' });
 
           if (upsertError) {
-            console.warn('[Analytics:Maintenance] Summary upsert notice:', upsertError.message);
+            console.error('[Analytics:Maintenance] Summary upsert failed:', upsertError.message);
+            recordRollupExecution({ success: false, error: 'Summary upsert error: ' + upsertError.message });
+            return NextResponse.json(
+              {
+                ok: false,
+                step: 'rollup',
+                targetDate,
+                error: 'Rollup summary upsert failed. Purge aborted: ' + upsertError.message
+              },
+              { status: 500, headers: { 'Cache-Control': 'no-store' } }
+            );
           }
 
           rollupSuccess = true;
@@ -147,7 +163,7 @@ export async function GET(request: Request) {
           rollupRowsAffected = summaryRows.length;
         } else {
           rollupSuccess = true;
-          rollupMechanism = 'server_engine_zero_events';
+          rollupMechanism = 'zero_event_baseline';
           rollupRowsAffected = 0;
         }
       }
@@ -221,21 +237,41 @@ export async function GET(request: Request) {
         .select('id');
 
       if (delError) {
-        console.warn('[Analytics:Maintenance] Service-role purge notice:', delError.message);
-        purgeSuccess = true;
-        purgeMechanism = 'zero_event_baseline';
-        purgedRows = 0;
+        console.error('[Analytics:Maintenance] Service-role purge failed:', delError.message);
+        recordPurgeExecution({ success: false, error: 'Service-role purge query failed: ' + delError.message });
+        return NextResponse.json(
+          {
+            ok: false,
+            step: 'purge',
+            error: 'Purge failed: ' + delError.message
+          },
+          { status: 500, headers: { 'Cache-Control': 'no-store' } }
+        );
       } else {
         purgeSuccess = true;
         purgeMechanism = 'service_role_delete';
         purgedRows = delResult ? delResult.length : 0;
       }
     } catch (delErr: any) {
-      console.warn('[Analytics:Maintenance] Service-role purge fallback:', delErr.message);
-      purgeSuccess = true;
-      purgeMechanism = 'zero_event_baseline';
-      purgedRows = 0;
+      console.error('[Analytics:Maintenance] Service-role purge exception:', delErr.message);
+      recordPurgeExecution({ success: false, error: 'Service-role purge exception: ' + delErr.message });
+      return NextResponse.json(
+        {
+          ok: false,
+          step: 'purge',
+          error: 'Purge execution error: ' + delErr.message
+        },
+        { status: 500, headers: { 'Cache-Control': 'no-store' } }
+      );
     }
+  }
+
+  if (!purgeSuccess) {
+    recordPurgeExecution({ success: false, error: 'Purge could not be verified' });
+    return NextResponse.json(
+      { ok: false, step: 'purge', error: 'Purge could not be verified' },
+      { status: 500, headers: { 'Cache-Control': 'no-store' } }
+    );
   }
 
   recordPurgeExecution({
