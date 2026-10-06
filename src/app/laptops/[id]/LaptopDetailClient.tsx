@@ -102,7 +102,7 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
   const inCompare = isInCompare(laptop.id);
 
   return (
-    <div className="space-y-8 py-4">
+    <div className="space-y-8 py-4 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
       {/* Sticky Top Header Bar */}
       <StickyHeaderBar phone={laptop} />
 

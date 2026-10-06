@@ -159,7 +159,7 @@ function CompareContent({ defaultProducts }: CompareClientProps) {
   };
 
   return (
-    <div className="space-y-6 py-2 sm:py-4">
+    <div className="space-y-6 py-2 sm:py-4 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
       {copyError && <p role="alert" className="text-sm text-rose-700">{copyError}</p>}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white/95 backdrop-blur-md border border-slate-200/90 p-3 sm:p-4 rounded-2xl shadow-2xs">
         <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 text-xs">

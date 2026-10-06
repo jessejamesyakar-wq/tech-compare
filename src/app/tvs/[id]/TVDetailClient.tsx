@@ -116,7 +116,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
   const inCompare = isInCompare(tv.id);
 
   return (
-    <div className="space-y-12 py-4">
+    <div className="space-y-12 py-4 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
       {/* Sticky Top Bar when scrolling */}
       <StickyHeaderBar phone={tv} />
 

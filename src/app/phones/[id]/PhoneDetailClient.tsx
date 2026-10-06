@@ -159,7 +159,7 @@ export default function PhoneDetailClient({
   const pricedPhone = selectProductOfferVariant(phone, selectedVariantId, selectedColor);
 
   return (
-    <div className="space-y-12 py-4">
+    <div className="space-y-12 py-4 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
       
       {/* Sticky Top Bar when scrolling */}
       <StickyHeaderBar phone={pricedPhone} />

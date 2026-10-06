@@ -36,7 +36,7 @@ export function CategoryBar() {
 
   return (
     <div className="bg-white/80 dark:bg-[#090D16]/80 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-800/80 sticky top-14 sm:top-16 z-30 transition-all">
-      <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-2">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2">
         <nav aria-label="Ürün kategorileri" className="flex items-center justify-start md:justify-between gap-1 sm:gap-2 overflow-x-auto flex-nowrap py-0.5">
           {categories.map((cat) => {
             const Icon = cat.icon;

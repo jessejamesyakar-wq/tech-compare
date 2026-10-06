@@ -111,7 +111,7 @@ function SearchContent() {
   const popularSearches = ['iPhone 17', 'LG OLED', 'Samsung S26', 'PS5 Pro', '144Hz', 'Dyson V15', 'MacBook Pro'];
 
   return (
-    <div className="space-y-6 py-4">
+    <div className="space-y-6 py-4 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
       <div className="flex items-center gap-2 text-xs text-slate-500">
         <Link href="/" className="hover:text-slate-900 transition-colors">Ana Sayfa</Link>
         <ChevronRight className="w-3.5 h-3.5" />
