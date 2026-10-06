@@ -15,9 +15,11 @@ export function ProductPriceSummary({ product, dark = false, compact = false }: 
     <div data-testid="product-price-summary" className="min-w-0 space-y-1">
       <p className={`text-xs font-medium ${dark ? 'text-slate-300' : 'text-slate-500'}`}>{getPriceHeading(price)}</p>
       <p className={`${compact ? 'text-base' : 'text-2xl sm:text-3xl'} font-black tracking-tight break-words ${tone}`}>
-        {price.displayPrice !== null ? `${price.displayPrice.toLocaleString('tr-TR')} TL` : 'Fiyat bilgisi yok'}
+        {price.displayPrice !== null ? `${price.displayPrice.toLocaleString('tr-TR')} TL` : price.statusLabel}
       </p>
-      <p className={`text-xs font-semibold ${tone}`}>{price.statusLabel}</p>
+      {price.displayPrice !== null && (
+        <p className={`text-xs font-semibold ${tone}`}>{price.statusLabel}</p>
+      )}
       {price.activeStoreCount > 0 && <p className={`text-xs ${tone}`}>{price.activeStoreCount} mağazada doğrulanmış güncel teklif</p>}
     </div>
   );

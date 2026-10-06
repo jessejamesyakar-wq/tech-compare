@@ -284,15 +284,19 @@ export function CompactProductCard({
                     {evaluatedPrice.statusLabel}
                   </span>
                 </div>
+              ) : evaluatedPrice.displayPrice !== null ? (
+                <div className="flex flex-col">
+                  <span className="text-sm sm:text-lg font-black text-slate-700 tracking-tight tabular-nums">
+                    ₺{evaluatedPrice.displayPrice.toLocaleString('tr-TR')}
+                  </span>
+                  <span className="text-[9.5px] font-bold text-slate-500">
+                    {evaluatedPrice.statusLabel}
+                  </span>
+                </div>
               ) : (
                 <div className="flex flex-col">
-                  {evaluatedPrice.displayPrice !== null ? (
-                    <span className="text-sm sm:text-lg font-black text-slate-700 tracking-tight tabular-nums">
-                      ₺{evaluatedPrice.displayPrice.toLocaleString('tr-TR')}
-                    </span>
-                  ) : null}
-                  <span className="text-[9.5px] font-bold text-slate-500">
-                    {evaluatedPrice.displayPrice === null ? 'Fiyat bilgisi yok' : ''}
+                  <span className="text-xs sm:text-sm font-semibold text-slate-500">
+                    {evaluatedPrice.statusLabel}
                   </span>
                 </div>
               )}
@@ -309,11 +313,11 @@ export function CompactProductCard({
               <span className="text-[9px] font-black text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200">
                 Son Görülen
               </span>
-            ) : (
+            ) : evaluatedPrice.displayPrice !== null ? (
               <span className="text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
                 {evaluatedPrice.statusLabel}
               </span>
-            )}
+            ) : null}
           </div>
         </div>
 

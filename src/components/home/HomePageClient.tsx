@@ -42,9 +42,16 @@ const categories = [
   { key: 'appliances', label: 'Ev & yaşam', href: '/appliances', icon: PlugZap },
 ] as const;
 
-function AdPlaceholder({ secondary = false }: { secondary?: boolean }) {
-  return <aside className={`${styles.adSlot} ${secondary ? styles.adSecondary : ''}`} aria-label="Reklam alanı, örnek yerleşim">
-    <span className={styles.adLabel}>REKLAM</span><span className={styles.adContent}>Örnek reklam yerleşimi</span>
+interface ActiveAdCreative {
+  label: string;
+  content: string;
+  href?: string;
+}
+
+function AdPlaceholder({ activeCreative = null, secondary = false }: { activeCreative?: ActiveAdCreative | null; secondary?: boolean }) {
+  if (!activeCreative) return null;
+  return <aside className={`${styles.adSlot} ${secondary ? styles.adSecondary : ''}`} aria-label={activeCreative.label}>
+    <span className={styles.adLabel}>{activeCreative.label}</span><span className={styles.adContent}>{activeCreative.content}</span>
   </aside>;
 }
 
