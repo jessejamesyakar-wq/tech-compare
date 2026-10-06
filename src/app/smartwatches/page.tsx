@@ -4,7 +4,7 @@ import { getAllSmartwatches } from '@/lib/data';
 import { buildCategoryMetadata } from '@/lib/seoHelper';
 import SmartwatchesClient from './SmartwatchesClient';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = buildCategoryMetadata('smartwatches');
 
 export default async function SmartwatchesPage() {
@@ -15,3 +15,4 @@ export default async function SmartwatchesPage() {
     </Suspense>
   );
 }
+

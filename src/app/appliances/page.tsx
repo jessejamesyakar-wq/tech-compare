@@ -4,7 +4,7 @@ import { getCatalogAppliances } from '@/lib/data';
 import { buildCategoryMetadata } from '@/lib/seoHelper';
 import AppliancesClient from './AppliancesClient';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = buildCategoryMetadata('appliances');
 
 export default async function AppliancesPage() {
@@ -15,4 +15,5 @@ export default async function AppliancesPage() {
     </Suspense>
   );
 }
+
 
