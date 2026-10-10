@@ -53,10 +53,22 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
       const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: controller.signal,
         body: JSON.stringify({ prompt, history: history.filter(m => !m.failed).map(({ role, content }) => ({ role, content })) }) });
       if (!response.ok || !response.body) throw new Error(response.status === 429 ? 'Çok hızlı ilerledik. Bir dakika sonra yeniden deneyebilirsin.' : 'Bağlantı kurulamadı. Yeniden deneyebilirsin.');
+      let isTruncated = false;
       await consumeChatStream(response.body, (event, data) => {
         if (event === 'text' && typeof data === 'string') { raw += data; update({ content: visibleChatText(raw) }); }
-        if (event === 'status' && typeof data === 'object' && data !== null && 'mode' in data && data.mode === 'unavailable') {
-          setService('AI yanıt hizmeti şu anda kullanılamıyor. Katalogda keşfetmeye devam edebilirsin.'); update({ failed: true });
+        if (event === 'status' && typeof data === 'object' && data !== null) {
+          const statusObj = data as { mode?: string; completed?: boolean; truncated?: boolean; reason?: string };
+          if (statusObj.mode === 'unavailable') {
+            setService('AI yanıt hizmeti şu anda kullanılamıyor. Katalogda keşfetmeye devam edebilirsin.'); update({ failed: true });
+          }
+          if (statusObj.truncated || (statusObj.completed === false && statusObj.reason === 'max_tokens')) {
+            isTruncated = true;
+            setService('Yanıt uzunluk sınırına ulaştığı için kesildi.');
+            update({
+              failed: true,
+              content: `${visibleChatText(raw)}\n\n⚠️ [Yanıt token sınırına ulaştığı için tamamlanamadı. Soruya "Devam et" yazarak devam edebilirsin.]`,
+            });
+          }
         }
         if (event === 'products' && Array.isArray(data)) {
           const allowed = ['phones', 'laptops', 'tvs', 'tablets', 'smartwatches', 'headphones', 'monitors', 'consoles', 'appliances'];
@@ -64,7 +76,14 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
             ? [{ name: p.productName, href: `/${p.category}/${p.slug}` }] : []) });
         }
       });
-      if (!visibleChatText(raw)) throw new Error('Yanıt tamamlanamadı. Yeniden deneyebilirsin.');
+      if (isTruncated) {
+        update({
+          failed: true,
+          content: `${visibleChatText(raw)}\n\n⚠️ [Yanıt token sınırına ulaştığı için tamamlanamadı. Soruya "Devam et" yazarak devam edebilirsin.]`,
+        });
+      } else if (!visibleChatText(raw)) {
+        throw new Error('Yanıt tamamlanamadı. Yeniden deneyebilirsin.');
+      }
     } catch (error) {
       update({ failed: true, content: raw ? `${visibleChatText(raw)}\n\nYanıt kesildi. Yeniden deneyebilirsin.` : controller.signal.aborted ? 'Yanıt süresi doldu. Yeniden deneyebilirsin.' : error instanceof Error ? error.message : 'Yanıt alınamadı.' });
     } finally { clearTimeout(timeout); busyRef.current = false; controllerRef.current = null; setLoading(false); }

@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "src/lib/ai/**/*.ts",
+    "src/app/api/chat/**/*.ts",
+    "asterion-operations/tracks/track-qa/staging/**/*.ts",
+    "asterion-operations/tracks/track-de/connectors/**/*.ts",
+    "asterion-operations/tracks/track-de/feedParsers/**/*.ts"
+  ]
+}

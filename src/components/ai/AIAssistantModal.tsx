@@ -1089,6 +1089,7 @@ export function AIAssistantModal({
       }
     }, 30000);
 
+    let isTruncated = false;
     try {
       // Konuşma hafızası aktarımı (Hatalı ve boş mesajları filtrele)
       const history = messages
@@ -1195,6 +1196,27 @@ export function AIAssistantModal({
               }
             }
           }
+          // 4. Durum (Status) ve Kesilme / Tamamlanma Takibi
+          else if (eventType === 'status' && dataStr) {
+            try {
+              const statusObj = JSON.parse(dataStr);
+              if (statusObj && (statusObj.truncated || (statusObj.completed === false && statusObj.reason === 'max_tokens'))) {
+                isTruncated = true;
+                setMessages((prev) =>
+                  prev.map((m) =>
+                    m.id === botMsgId
+                      ? {
+                          ...m,
+                          content:
+                            m.content +
+                            '\n\n⚠️ *[Yanıt uzunluk sınırına ulaştığı için kesildi. Devamı için "devam et" yazabilirsin.]*',
+                        }
+                      : m
+                  )
+                );
+              }
+            } catch {}
+          }
       }
     } catch (err: any) {
       if (err.name === 'AbortError') {
@@ -1233,7 +1255,7 @@ export function AIAssistantModal({
           })
         );
         setLoading(false);
-        if (!hasSpokenRef.current && textToSpeak && !textToSpeak.startsWith('⚠️') && voiceEnabled) {
+        if (!hasSpokenRef.current && textToSpeak && !textToSpeak.startsWith('⚠️') && !isTruncated && voiceEnabled) {
           hasSpokenRef.current = true;
           speakSummary(textToSpeak);
         }

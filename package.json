@@ -21,6 +21,7 @@
     "test:links": "npx tsx scripts/testBrandProductIntegrity.ts"
   },
   "dependencies": {
+    "@google/genai": "^2.28.0",
     "@google/generative-ai": "^0.24.1",
     "@supabase/ssr": "^0.12.4",
     "@supabase/supabase-js": "^2.112.3",

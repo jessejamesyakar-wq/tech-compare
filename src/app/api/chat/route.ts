@@ -1,7 +1,7 @@
 import { buildCatalogChatReply, describeChatPrice } from '@/lib/ai/chatEvidence';
 import { evaluateProductPricing } from '@/lib/pricing/unifiedPriceEvaluator';
 import { checkRateLimit, validateUserMessage, flagsPromptInjection } from "@/lib/ai/safety";
-import { callGeminiStreamWithFallback } from "@/lib/ai/modelRouter";
+import { callGeminiStreamWithFallback, normalizeChunkText, extractChunkFinishReason, ThinkingLevel } from "@/lib/ai/modelRouter";
 import { detectCategory } from "@/lib/ai/categoryMatcher";
 import {
   resolveCompareProducts,
@@ -75,8 +75,10 @@ function createFallbackStreamResponse(
 export async function POST(req: Request) {
   try {
     // 1. IP bazlı Rate Limiting (Kullanıcı başına 1 dakikada maks 10 istek)
-    const forwarded = req.headers.get("x-forwarded-for");
-    const ip = forwarded ? forwarded.split(",")[0].trim() : (req.headers.get("x-real-ip") || "127.0.0.1");
+    // Serverless proxy header protection: prioritize platform-verified client IP to prevent header spoofing
+    const vercelIp = req.headers.get("x-vercel-forwarded-for") || req.headers.get("x-real-ip");
+    const rawForwarded = req.headers.get("x-forwarded-for");
+    const ip = vercelIp || (rawForwarded ? rawForwarded.split(",")[0].trim() : "127.0.0.1");
     const rateCheck = checkRateLimit(ip);
     if (!rateCheck.allowed) {
       return new Response(
@@ -302,8 +304,22 @@ export async function POST(req: Request) {
     const providerStatus = providerConfigurationStatus(process.env.GEMINI_API_KEY);
     const hasValidGeminiKey = providerStatus === 'ready';
 
+    // Authoritative server-side feature flag: Only process.env.ROBOPENGU_ENABLE_LIVE_GEMINI === 'true' enables inference.
+    // The legacy ENABLE_GEMINI_PROVIDER variable is strictly ignored and must NOT enable provider calls.
+    const isGeminiFeatureEnabled = process.env.ROBOPENGU_ENABLE_LIVE_GEMINI === 'true';
+    const canInvokeGemini = hasValidGeminiKey && isGeminiFeatureEnabled;
+
+    // Preserve 1,500-token application limit in production.
+    // Staging test configurations can bound output tokens (e.g. 768) via ROBOPENGU_STAGING_MAX_OUTPUT_TOKENS.
+    const stagingOutputLimit = process.env.ROBOPENGU_STAGING_MAX_OUTPUT_TOKENS
+      ? parseInt(process.env.ROBOPENGU_STAGING_MAX_OUTPUT_TOKENS, 10)
+      : undefined;
+    const effectiveMaxOutputTokens = (stagingOutputLimit && !isNaN(stagingOutputLimit))
+      ? stagingOutputLimit
+      : 1500;
+
     let geminiStreamResult: any = null;
-    if (hasValidGeminiKey) {
+    if (canInvokeGemini) {
       try {
         geminiStreamResult = await callGeminiStreamWithFallback({
           prompt: finalPromptWithLearning,
@@ -311,7 +327,10 @@ export async function POST(req: Request) {
           systemInstruction: SYSTEM_INSTRUCTION,
           generationConfig: {
             temperature: 0.65,
-            maxOutputTokens: 1500,
+            maxOutputTokens: effectiveMaxOutputTokens,
+            thinkingConfig: {
+              thinkingLevel: ThinkingLevel.LOW,
+            },
           },
         });
       } catch (e: any) {
@@ -320,8 +339,10 @@ export async function POST(req: Request) {
     }
 
     if (!geminiStreamResult || !geminiStreamResult.ok || !geminiStreamResult.stream) {
-      return createFallbackStreamResponse(sidePanel, matchedProducts, trimmedPrompt, undefined, customFallbackReply,
-        hasValidGeminiKey ? 'provider_unavailable' : `configuration_${providerStatus}`);
+      const unavailableReason = !isGeminiFeatureEnabled
+        ? 'provider_disabled_by_policy'
+        : (hasValidGeminiKey ? 'provider_unavailable' : `configuration_${providerStatus}`);
+      return createFallbackStreamResponse(sidePanel, matchedProducts, trimmedPrompt, undefined, customFallbackReply, unavailableReason);
     }
 
     // 8. SSE Yanıt Akışı
@@ -343,9 +364,26 @@ export async function POST(req: Request) {
           // C. Gemini metin akışını SSE olarak gönder
           let hasEnqueuedText = false;
           let fallbackSent = false;
+          let isTruncated = false;
+          let lastFinishReason: string | null = null;
+          let capturedUsageMetadata: any = null;
+          let capturedModelVersion: string | null = null;
           try {
             for await (const chunk of geminiStreamResult.stream!) {
-              const text = chunk.text();
+              const text = normalizeChunkText(chunk);
+              const chunkReason = extractChunkFinishReason(chunk);
+              if (chunkReason) {
+                lastFinishReason = chunkReason;
+              }
+              if ((chunk as any).usageMetadata) {
+                capturedUsageMetadata = (chunk as any).usageMetadata;
+              }
+              if ((chunk as any).modelVersion) {
+                capturedModelVersion = (chunk as any).modelVersion;
+              }
+              if ((chunk as any).isTruncated || lastFinishReason === 'MAX_TOKENS') {
+                isTruncated = true;
+              }
               if (text) {
                 hasEnqueuedText = true;
                 controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
@@ -361,12 +399,33 @@ export async function POST(req: Request) {
             }
           }
 
+          if (isTruncated) {
+            console.warn("[RoboPengu][STREAM] Yanıt token sınırına (MAX_TOKENS) ulaştığı için kesildi; tamamlanmış olarak işaretlenemez.");
+            controller.enqueue(encoder.encode(`event: status\ndata: ${JSON.stringify({
+              mode: 'ai',
+              completed: false,
+              truncated: true,
+              reason: 'max_tokens',
+              finishReason: lastFinishReason,
+              usage: capturedUsageMetadata,
+              model: capturedModelVersion || geminiStreamResult.modelUsed,
+            })}\n\n`));
+          } else if (hasEnqueuedText) {
+            controller.enqueue(encoder.encode(`event: status\ndata: ${JSON.stringify({
+              mode: 'ai',
+              completed: true,
+              finishReason: lastFinishReason || 'STOP',
+              usage: capturedUsageMetadata,
+              model: capturedModelVersion || geminiStreamResult.modelUsed,
+            })}\n\n`));
+          }
+
           if (!hasEnqueuedText) {
             controller.enqueue(encoder.encode('event: status\ndata: {"mode":"unavailable","reason":"empty_response"}\n\n'));
             if (!fallbackSent) controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(buildCatalogChatReply(sidePanel, matchedProducts))}\n\n`));
           }
 
-          // D. Akış tamamlandı
+          // D. Akış transport seviyesinde tamamlandı (SSE transport termination)
           controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
           controller.close();
         } catch (err) {
