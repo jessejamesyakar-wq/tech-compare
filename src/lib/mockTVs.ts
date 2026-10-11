@@ -18663,7 +18663,10 @@ export const mockTVs: Product[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G",
-      "audioChannels": "2.1 Kanal"
+      "audioChannels": "2.1 Kanal",
+      "contrastRatio": "6500:1 (yerel, TCL laboratuvar verisi)",
+      "colorGamut": "DCI-P3: %93'e kadar (TCL laboratuvar verisi)",
+      "vrrSupport": true
     },
     "images": [
       "/images/products/tvs/icecat-tcl-85-85p8l-85-inc.jpg",
@@ -18674,11 +18677,14 @@ export const mockTVs: Product[] = [
       {
         "fields": [
           "mpn",
-          "specs.audioChannels"
+          "specs.audioChannels",
+          "specs.contrastRatio",
+          "specs.colorGamut",
+          "specs.vrrSupport"
         ],
         "sourceUrl": "https://www.tcl.com/tr/tr/tvs/p8l",
-        "checkedAt": "2026-10-11T19:29:44.000Z",
-        "scopeNote": "TCL Türkiye resmi P8L serisi ürün sayfası ve teknik özellikleri. 85 inç model için 85P8L MPN ve ONKYO 2.1 kanal ses sistemi teyit edilmiştir."
+        "checkedAt": "2026-10-11T21:26:03.000Z",
+        "scopeNote": "TCL Türkiye resmi P8L serisi ürün sayfası ve teknik özellikleri. 85 inç model için 85P8L MPN ve ONKYO 2.1 kanal ses sistemi teyit edilmiştir. TCL laboratuvar verilerine göre 85 inç P8L yerel kontrastı 6500:1, renk gamı DCI-P3 %93'e kadar; üretici 288Hz VRR Game Accelerator desteği belirtir (HDMI 1 ve 2)."
       }
     ]
   },
@@ -18817,7 +18823,10 @@ export const mockTVs: Product[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G",
-      "audioChannels": "2.1 Kanal"
+      "audioChannels": "2.1 Kanal",
+      "contrastRatio": "6000:1 (yerel, TCL laboratuvar verisi)",
+      "colorGamut": "DCI-P3: %93'e kadar (TCL laboratuvar verisi)",
+      "vrrSupport": true
     },
     "images": [
       "/images/products/tvs/icecat-tcl-75-75p8l-75-inc.jpg",
@@ -18828,11 +18837,14 @@ export const mockTVs: Product[] = [
       {
         "fields": [
           "mpn",
-          "specs.audioChannels"
+          "specs.audioChannels",
+          "specs.contrastRatio",
+          "specs.colorGamut",
+          "specs.vrrSupport"
         ],
         "sourceUrl": "https://www.tcl.com/tr/tr/tvs/p8l",
-        "checkedAt": "2026-10-11T19:29:44.000Z",
-        "scopeNote": "TCL Türkiye resmi P8L serisi ürün sayfası ve teknik özellikleri. 75 inç model için 75P8L MPN ve ONKYO 2.1 kanal ses sistemi teyit edilmiştir."
+        "checkedAt": "2026-10-11T21:26:03.000Z",
+        "scopeNote": "TCL Türkiye resmi P8L serisi ürün sayfası ve teknik özellikleri. 75 inç model için 75P8L MPN ve ONKYO 2.1 kanal ses sistemi teyit edilmiştir. TCL laboratuvar verilerine göre 75 inç P8L yerel kontrastı 6000:1, renk gamı DCI-P3 %93'e kadar; üretici 288Hz VRR Game Accelerator desteği belirtir (HDMI 1 ve 2)."
       }
     ]
   },
@@ -21506,7 +21518,10 @@ export const mockTVs: Product[] = [
       "usbPorts": 2,
       "energyClass": "G",
       "audioChannels": "2.1 Kanal",
-      "hdmiVersion": "2.1"
+      "hdmiVersion": "2.1",
+      "viewingAngle": ">178° (TCL laboratuvar verisi)",
+      "colorGamut": "DCI-P3: %93'e kadar (TCL laboratuvar verisi)",
+      "allmSupport": true
     },
     "epeyScore": 86,
     "images": [
@@ -21517,11 +21532,14 @@ export const mockTVs: Product[] = [
         "fields": [
           "mpn",
           "specs.audioChannels",
-          "specs.hdmiVersion"
+          "specs.hdmiVersion",
+          "specs.viewingAngle",
+          "specs.colorGamut",
+          "specs.allmSupport"
         ],
         "sourceUrl": "https://www.tcl.com/tr/tr/tvs/p89k",
-        "checkedAt": "2026-10-11T19:30:06.000Z",
-        "scopeNote": "TCL Türkiye resmi P89K serisi ürün sayfası ve teknik özellikleri. 75 inç model için 75P89K MPN, ONKYO 2.1 kanal ses sistemi ve HDMI 2.1 (4K@144Hz FRL) standardı teyit edilmiştir."
+        "checkedAt": "2026-10-11T21:26:03.000Z",
+        "scopeNote": "TCL Türkiye resmi P89K serisi ürün sayfası ve teknik özellikleri. 75 inç model için 75P89K MPN, ONKYO 2.1 kanal ses sistemi ve HDMI 2.1 (4K@144Hz FRL) standardı teyit edilmiştir. TCL P89K HVA panel sayfasında >178° görüş açısı ve DCI-P3 %93'e kadar renk gamı üretici laboratuvar verisi olarak, Game Master altında ALLM desteği olarak bildirilir."
       }
     ]
   },
