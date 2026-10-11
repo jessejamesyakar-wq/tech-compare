@@ -85,6 +85,9 @@ const FIELD_LABEL_TURKISH: Record<string, string> = {
   waterResistance: 'Suya Dayanıklılık',
   sensors: 'Sensörler',
   health: 'Sağlık Sensörleri',
+  mpn: 'Üretici Parça Kodu (MPN)',
+  audioChannels: 'Ses Kanalları',
+  hdmiVersion: 'HDMI Standardı',
 };
 
 function formatFieldLabel(field: string): string {
@@ -149,6 +152,11 @@ export function FieldSourcesEvidence({ product }: FieldSourcesEvidenceProps) {
   });
 
   const hasSources = validSources.length > 0;
+  const isIcecatSourced = validSources.some(src => {
+    const url = typeof src.sourceUrl === 'string' ? src.sourceUrl.toLowerCase() : '';
+    const note = typeof src.scopeNote === 'string' ? src.scopeNote.toLowerCase() : '';
+    return url.includes('icecat') || note.includes('icecat');
+  });
 
   return (
     <div className="pt-3 border-t border-slate-200 text-xs text-slate-600 space-y-2.5" data-testid="field-sources-evidence">
@@ -161,6 +169,27 @@ export function FieldSourcesEvidence({ product }: FieldSourcesEvidenceProps) {
         <div className="flex items-start gap-2 p-2.5 bg-amber-50 rounded-xl border border-amber-200 text-amber-900 text-[11px] leading-relaxed font-medium">
           <AlertCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
           <div>{notice}</div>
+        </div>
+      )}
+
+      {isIcecatSourced && (
+        <div className="p-2.5 bg-blue-50/70 rounded-xl border border-blue-200/80 text-[11px] text-slate-700 space-y-1.5" data-testid="icecat-license-notice">
+          <div className="font-bold text-blue-900 flex items-center justify-between">
+            <span>Icecat Açık Katalog (Open Content License) Bildirimi</span>
+            <span className="text-[10px] text-slate-500 font-normal">&copy; Icecat. Tüm hakları saklıdır.</span>
+          </div>
+          <p className="text-slate-600 leading-relaxed">
+            Bu üründeki doğrulanmış teknik özellikler Open Icecat ve ilgili marka sahibinin ürün verilerine dayanmaktadır. Teknik veriler &quot;olduğu gibi&quot; (AS IS) sunulmakta olup, ticari garanti teşkil etmez. İlgili marka ve model adları hak sahiplerinin mülkiyetindedir. Open Icecat içerikleri, ayrıca lisans izni olmadan üçüncü taraf yapay zekâ model eğitiminde kullanılmaz. Tam lisans koşulları için{' '}
+            <a
+              href="https://icecat.biz/en/menu/open-content-license"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 underline font-medium hover:text-blue-900"
+            >
+              Icecat Open Content License (OPL)
+            </a>{' '}
+            şartları geçerlidir.
+          </p>
         </div>
       )}
 

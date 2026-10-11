@@ -18533,6 +18533,7 @@ export const mockTVs: Product[] = [
     "name": "TCL 85P8L P8L QD-Mini LED Dimming TV",
     "slug": "tcl-85-85p8l-85-inc",
     "brand": "TCL",
+    "mpn": "85P8L",
     "category": "tvs",
     "basePrice": 93579,
     "currency": "TL",
@@ -18661,19 +18662,32 @@ export const mockTVs: Product[] = [
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "G"
+      "energyClass": "G",
+      "audioChannels": "2.1 Kanal"
     },
     "images": [
       "/images/products/tvs/icecat-tcl-85-85p8l-85-inc.jpg",
       "/images/products/tvs/tv-tcl-85-85p8l-85-inc.jpg"
     ],
-    "epeyScore": 99
+    "epeyScore": 99,
+    "fieldSources": [
+      {
+        "fields": [
+          "mpn",
+          "specs.audioChannels"
+        ],
+        "sourceUrl": "https://www.tcl.com/tr/tr/tvs/p8l",
+        "checkedAt": "2026-10-11T19:29:44.000Z",
+        "scopeNote": "TCL Türkiye resmi P8L serisi ürün sayfası ve teknik özellikleri. 85 inç model için 85P8L MPN ve ONKYO 2.1 kanal ses sistemi teyit edilmiştir."
+      }
+    ]
   },
   {
     "id": "tv-tcl-75-75p8l-75-inc",
     "name": "TCL 75P8L P8L QD-Mini LED Dimming TV",
     "slug": "tcl-75-75p8l-75-inc",
     "brand": "TCL",
+    "mpn": "75P8L",
     "category": "tvs",
     "basePrice": 64029,
     "currency": "TL",
@@ -18802,13 +18816,25 @@ export const mockTVs: Product[] = [
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "G"
+      "energyClass": "G",
+      "audioChannels": "2.1 Kanal"
     },
     "images": [
       "/images/products/tvs/icecat-tcl-75-75p8l-75-inc.jpg",
       "/images/products/tvs/tv-tcl-75-75p8l-75-inc.jpg"
     ],
-    "epeyScore": 99
+    "epeyScore": 99,
+    "fieldSources": [
+      {
+        "fields": [
+          "mpn",
+          "specs.audioChannels"
+        ],
+        "sourceUrl": "https://www.tcl.com/tr/tr/tvs/p8l",
+        "checkedAt": "2026-10-11T19:29:44.000Z",
+        "scopeNote": "TCL Türkiye resmi P8L serisi ürün sayfası ve teknik özellikleri. 75 inç model için 75P8L MPN ve ONKYO 2.1 kanal ses sistemi teyit edilmiştir."
+      }
+    ]
   },
   {
     "id": "tv-tcl-65-65p8l-65-inc",
@@ -21349,6 +21375,7 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P89K P89K QLED TV",
     "slug": "tcl-75-75p89k-75-inc",
     "brand": "TCL",
+    "mpn": "75P89K",
     "category": "tvs",
     "basePrice": 54179,
     "currency": "TL",
@@ -21477,11 +21504,25 @@ export const mockTVs: Product[] = [
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "G"
+      "energyClass": "G",
+      "audioChannels": "2.1 Kanal",
+      "hdmiVersion": "2.1"
     },
     "epeyScore": 86,
     "images": [
       "/images/products/tvs/icecat-tcl-75-75p89k-75-inc.jpg"
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "mpn",
+          "specs.audioChannels",
+          "specs.hdmiVersion"
+        ],
+        "sourceUrl": "https://www.tcl.com/tr/tr/tvs/p89k",
+        "checkedAt": "2026-10-11T19:30:06.000Z",
+        "scopeNote": "TCL Türkiye resmi P89K serisi ürün sayfası ve teknik özellikleri. 75 inç model için 75P89K MPN, ONKYO 2.1 kanal ses sistemi ve HDMI 2.1 (4K@144Hz FRL) standardı teyit edilmiştir."
+      }
     ]
   },
   {
