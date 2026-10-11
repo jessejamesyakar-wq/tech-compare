@@ -26,7 +26,7 @@ export function calculateTVScore(tv: TVProduct): TVScoreResult {
     categories: {
       display: category('Ekran ve Panel', [text(specs.displayTech),text(specs.resolution)].filter(Boolean).join(' • '), 'Tv'),
       gaming: category('Yenileme Hızı',refresh,'Gamepad2'),
-      audio: category('Ses Sistemi',text(specs.soundSystem) || text(specs.audioSystem),'Volume2'),
+      audio: category('Ses Sistemi',text(specs.soundSystem) || text(specs.audioSystem) || text(specs.audioChannels),'Volume2'),
       smart: category('Akıllı TV Sistemi',text(specs.smartOs),'Cpu'),
       design: category('Tasarım',text(specs.design),'Sparkles'),
     },
