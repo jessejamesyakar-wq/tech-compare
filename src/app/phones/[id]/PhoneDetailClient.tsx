@@ -20,6 +20,7 @@ import { CompactStoreComparison } from '@/components/detail/CompactStoreComparis
 import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
 import { evaluateProductPricing } from '@/lib/pricing/unifiedPriceEvaluator';
 import { phoneSpecText } from '@/lib/smartphoneSpecFields';
+import { hasUnresolvedSpecField } from '@/lib/specVerification';
 import { ProductSpecSources } from '@/components/detail/ProductSpecSources';
 import { RelatedModels } from '@/components/detail/RelatedModels';
 
@@ -280,7 +281,7 @@ export default function PhoneDetailClient({
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">RAM</span>
-              <span className="text-slate-900 font-bold">{phoneSpecText(phone.specs, 'memory.ramGb')}</span>
+              <span className="text-slate-900 font-bold">{hasUnresolvedSpecField(phone, 'memory.ramGb') ? 'Doğrulama bekliyor' : phoneSpecText(phone.specs, 'memory.ramGb')}</span>
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">AnTuTu</span>
