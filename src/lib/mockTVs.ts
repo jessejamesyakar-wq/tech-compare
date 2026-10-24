@@ -21349,6 +21349,7 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P89K P89K QLED TV",
     "slug": "tcl-75-75p89k-75-inc",
     "brand": "TCL",
+    "mpn": "75P89K",
     "category": "tvs",
     "basePrice": 54179,
     "currency": "TL",
@@ -21477,11 +21478,25 @@ export const mockTVs: Product[] = [
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "G"
+      "energyClass": "G",
+      "audioChannels": "2.1 Kanal",
+      "hdmiVersion": "2.1"
     },
     "epeyScore": 86,
     "images": [
       "/images/products/tvs/icecat-tcl-75-75p89k-75-inc.jpg"
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "mpn",
+          "specs.audioChannels",
+          "specs.hdmiVersion"
+        ],
+        "sourceUrl": "https://www.tcl.com/tr/tr/tvs/p89k",
+        "checkedAt": "2026-10-24T20:24:06.618Z",
+        "scopeNote": "TCL Türkiye sayfasında seçili 75P89K model kodu, ONKYO 2.1 ses sistemi ve HDMI 2.1 desteği. Yalnız listelenen alanları kapsar; port bant genişliği veya ürünün tamamı için doğrulama iddiası değildir."
+      }
     ]
   },
   {

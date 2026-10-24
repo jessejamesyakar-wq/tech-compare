@@ -29,14 +29,14 @@ check('Fresh actual component shows current price and actual eligible store coun
 check('48-hour offer shows historical price/date without an active store count',()=>{
  const date=ago(48),h=priceHtml({...product,storeOffers:[{...offer,lastCheckedAt:date}]});assert.match(h,/42\.000 TL/);assert.ok(h.includes(formatObservedDate(date)));assert.match(h,/Son Görülen Fiyat/);assert.doesNotMatch(h,/Güncel Fiyat|mağazada doğrulanmış/);
 });
-check('No offer is explicitly a reference price in light and dark themes',()=>{
- for(const dark of [false,true]){const h=priceHtml({...product,storeOffers:[]},dark);assert.match(h,/50\.000 TL/);assert.match(h,/Katalog Referans Fiyatı/);assert.match(h,/Fiyat doğrulanmadı/);}
+check('No offer never exposes an unverified base price in either theme',()=>{
+ for(const dark of [false,true]){const h=priceHtml({...product,storeOffers:[]},dark);assert.match(h,/Fiyat Bilgisi Yok/);assert.doesNotMatch(h,/50\.000|Katalog Referans Fiyatı/);}
 });
 check('Missing and non-finite prices never fabricate a displayed number',()=>{
- for(const value of [undefined,NaN,Infinity,0,-1]){const h=priceHtml({basePrice:value,storeOffers:[]});assert.match(h,/Fiyat bilgisi yok/);assert.doesNotMatch(h,/NaN|Infinity|30\.000|40\.000/);}
+ for(const value of [undefined,NaN,Infinity,0,-1]){const h=priceHtml({basePrice:value,storeOffers:[]});assert.match(h,/Fiyat Bilgisi Yok/);assert.doesNotMatch(h,/NaN|Infinity|30\.000|40\.000/);}
 });
 check('Unknown stock and search URLs cannot make detail price current',()=>{
- for(const changed of [{...offer,inStock:undefined},{...offer,url:'https://www.amazon.com.tr/s?k=fixture'}]){const h=priceHtml({...product,storeOffers:[changed]});assert.match(h,/Katalog Referans Fiyatı/);assert.doesNotMatch(h,/Güncel Fiyat/);}
+ for(const changed of [{...offer,inStock:undefined},{...offer,url:'https://www.amazon.com.tr/s?k=fixture'}]){const h=priceHtml({...product,storeOffers:[changed]});assert.match(h,/Fiyat Bilgisi Yok/);assert.doesNotMatch(h,/Güncel Fiyat|42\.000|50\.000|Katalog Referans/);}
 });
 check('Review availability cannot expose unsourced star/count ratings',()=>{const h=render(<ReviewAvailability/>);assert.match(h,/henüz yok/);assert.doesNotMatch(h,/4\.8|120\+|yorum sayısı/);});
 check('Empty TV specs do not imply premium features or numeric specs',()=>{const h=render(<TVSpecSheet specs={{} as TVSpecs}/>);assert.match(h,/Bilinmiyor/);assert.doesNotMatch(h,/2\.000 nits|4 Adet|6E|2\.1|120 Hz|22 kg/);});

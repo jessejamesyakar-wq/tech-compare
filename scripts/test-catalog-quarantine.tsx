@@ -35,10 +35,10 @@ await check('All 396 original records retained; every catalog identity still res
   assert.equal(getProductById(old.id)!.id,p.id);assert.equal(getProductById(old.slug)!.id,p.id);
  }
 });
-await check('390 technical records remain explicitly incomplete, never counted as corrected',()=>{
+await check('379 technical records remain explicitly incomplete, never counted as corrected',()=>{
  const incomplete=phones.filter(p=>p.brand==='Huawei'&&!Object.keys(p.specs).length);
- assert.equal(incomplete.length,390);
- assert.deepEqual(incomplete.map(p=>p.id).sort(),review.entries.filter((e:any)=>e.fieldsAwaitingSource.includes('specs')).map((e:any)=>e.id).sort());
+ assert.equal(incomplete.length,379);
+ assert.deepEqual(incomplete.map(p=>p.id).sort(),huaweiReviews.filter((e:any)=>e.fieldsAwaitingSource.includes('specs')).map((e:any)=>e.id).sort());
  for(const p of incomplete){assert.match(getSpecVerificationNotice(p as unknown as Product)!,/doğrulaması bekliyor/);assert.equal(p.highlights?.length,0);}
 });
 await check('Pending fields cannot silently regain prices, ratings, stock, history or specs',()=>{
@@ -52,7 +52,7 @@ await check('Pending fields cannot silently regain prices, ratings, stock, histo
 await check('Known synthetic values cannot leak through pricing, listing, schema or sources',()=>{
  const p=getProductById('huawei-mate-40-rs-porsche-design')!;
  for(const product of [p,toCatalogProduct(p)]){const price=evaluateProductPricing(product);assert.equal(price.displayPrice,null);assert.equal(price.currentPrice,null);}
- const priceHtml=render(<ProductPriceSummary product={p}/>);assert.match(priceHtml,/Fiyat bilgisi yok/);assert.doesNotMatch(priceHtml,/2\.479|89\.999|Katalog Referans/);
+ const priceHtml=render(<ProductPriceSummary product={p}/>);assert.match(priceHtml,/Fiyat Bilgisi Yok/);assert.doesNotMatch(priceHtml,/2\.479|89\.999|Katalog Referans/);
  const schema=render(<ProductJsonLd product={p}/>);assert.doesNotMatch(schema,/"offers"|"aggregateRating"/);
  assert.match(render(<ProductSpecSources product={p}/>),/kaynak doğrulaması bekliyor/);
  assert.equal(phoneSpecText(p.specs,'battery.capacitymAh'),'Bilinmiyor');
