@@ -35,7 +35,7 @@ function field(category: string, label: string, paths: string, unit = '', direct
   const alternatives = paths.split('|');
   return {
     id: `${category}:${paths}`, category, label, unit, direction,
-    getValue: p => formatSpecValue(readSpec(p, alternatives), unit),
+    getValue: p => hasUnresolvedSpecField(p, paths) ? 'Doğrulama bekliyor (Tartışmalı değer)' : formatSpecValue(readSpec(p, alternatives), unit),
     getRawNumber: direction ? p => hasUnresolvedSpecField(p, paths) ? null : finiteNumber(readSpec(p, alternatives)) : undefined,
   };
 }
@@ -57,7 +57,7 @@ const rowsByCategory: Record<string, ComparisonRow[]> = {
   smartphones: PHONE_SPEC_FIELDS.map(spec => ({
     id:`${spec.category}:${spec.paths}`, category:spec.category, label:spec.label,
     unit:spec.unit, direction:spec.direction,
-    getValue:p => phoneSpecText(p.specs, spec),
+    getValue:p => hasUnresolvedSpecField(p, spec.paths) ? 'Doğrulama bekliyor (Tartışmalı değer)' : phoneSpecText(p.specs, spec),
     // Legacy imports contain unverified ranges and bundled variants. Display
     // the recorded text, but never turn it into a competitive numeric metric.
     getRawNumber:spec.direction ? p => {

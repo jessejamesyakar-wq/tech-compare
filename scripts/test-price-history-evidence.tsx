@@ -45,7 +45,21 @@ check('Invalid numeric prices, foreign currency and search URLs are filtered',()
 check('Only fresh in-stock direct record can become cheapest',()=>{const rows=[record,{...record,id:'stale',price:100,totalPrice:100,checkedAt:ago(48)},{...record,id:'unknown',price:50,totalPrice:50,stockStatus:'UNKNOWN' as const},{...record,id:'future',price:20,totalPrice:20,checkedAt:ago(-1)}];const view=PriceNormalizer.preparePriceViewList(rows);assert.deepEqual(view.filter(p=>p.isCheapest).map(p=>p.id),['fixture']);assert.equal(view.find(p=>p.id==='stale')?.priceStatus,'stale');assert.equal(view.find(p=>p.id==='future')?.priceStatus,'unverified');});
 check('Unknown shipping is not free; missing/future check time is not recent',()=>{const [p]=PriceNormalizer.preparePriceViewList([record]);assert.equal(p.formattedShipping,'Kargo ücreti bilinmiyor');assert.match(PriceNormalizer.getTimeAgo(''),/doğrulanmadı/);assert.match(PriceNormalizer.getTimeAgo(ago(-1)),/doğrulanmadı/);});
 check('History write keeps successful observation time and URL including first check',()=>{const h=createPriceObservation(record,undefined,now);assert.ok(h);assert.equal(h.recordedAt,record.checkedAt);assert.equal(h.sourceUrl,record.url);assert.equal(h.oldPrice,undefined);});
-check('Unchanged but separately observed price can extend real history',()=>assert.ok(createPriceObservation(record,{...record,checkedAt:ago(48)},now)));
+check('Later check of unchanged commercial terms cannot manufacture a history point',()=>assert.equal(createPriceObservation(record,{...record,checkedAt:ago(48)},now),null));
+check('Provenance-only updates cannot manufacture a history point',()=>{
+ const previous={...record,checkedAt:ago(48)};
+ const updated={...record,sourceUrl:'https://example.com/products/a?source=approved',sourceIdentifier:'new-provenance-id',observedAt:record.checkedAt,channelId:'fixture-channel'};
+ assert.equal(createPriceObservation(updated,previous,now),null);
+});
+check('Corroborated commercial price changes still retain a history point',()=>{
+ const previous={...record,price:43000,totalPrice:43000,checkedAt:ago(48)};
+ const history=createPriceObservation(record,previous,now);
+ assert.ok(history);
+ assert.equal(history.oldPrice,43000);
+ assert.equal(history.price,42000);
+ assert.equal(history.difference,-1000);
+ assert.equal(history.recordedAt,record.checkedAt);
+});
 check('Anomalous, unknown/out of stock, unverified or search checks cannot enter history',()=>{for(const change of [{isAnomaly:true},{stockStatus:'UNKNOWN'},{stockStatus:'OUT_OF_STOCK'},{checkedAt:''},{checkedAt:ago(-1)},{url:'https://example.com/search?q=a'}])assert.equal(createPriceObservation({...record,...change} as DbPrice,null,now),null);});
 check('Known dangerous legacy generators fail before executing their old code',()=>{for(const file of ['addOppo20252026Lineup.js','addOppo2027Lineup.js','addVivo20252026Lineup.js','addXiaomi20252027Lineup.js','bulkCalibrateAllCategories.js','addIcecatVerifiedProducts.js','calibrateAllWithTs.js','updateAndEnrichHonorCatalog.js']){const s=fs.readFileSync('scripts/'+file,'utf8');assert.match(s,/^\/\/ Disabled legacy migration[^\n]*\nthrow new Error/);}});
 check('Malformed percent encoding returns no product rather than throwing',()=>assert.equal(getProductById('%E0%A4%A'),null));

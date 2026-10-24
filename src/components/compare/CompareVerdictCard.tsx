@@ -26,7 +26,7 @@ export function CompareVerdictCard({ products }: CompareVerdictCardProps) {
 
   const verdicts: ProductVerdict[] = products.map(p => ({
     id:p.id,name:p.name,brand:p.brand,score:getRecordedProductScore(p),
-    pros:getComparisonRows([p]).filter(row=>row.category!=='Fiyat ve Kayıt Bilgisi').map(row=>({label:row.label,value:row.getValue(p)})).filter(row=>row.value!=='Bilinmiyor').slice(0,3).map(row=>`${row.label}: ${row.value}`),
+    pros:getComparisonRows([p]).filter(row=>row.category!=='Fiyat ve Kayıt Bilgisi').map(row=>({label:row.label,value:row.getValue(p)})).filter(row=>row.value!=='Bilinmiyor' && !row.value.includes('Doğrulama bekliyor') && !row.value.includes('Tartışmalı')).slice(0,3).map(row=>`${row.label}: ${row.value}`),
     cons:getSpecVerificationNotice(p) || 'Eksik özellikler ve ölçüm yöntemi bilinmeyen puanlar genel kazanan belirlemez.',
     idealFor:'İhtiyaç duyduğunuz özellikleri ve üretici bilgilerini kontrol ederek seçim yapın.',
   }));

@@ -323,7 +323,7 @@ export default function PhoneDetailClient({
           <Sparkles className="w-5 h-5 text-emerald-600" />
           <span>Tüm Teknik Özellikler</span>
         </h2>
-        <SpecSheet specs={phone.specs} />
+        <SpecSheet specs={phone.specs} productId={phone.id} />
       </div>
 
       {/* AI Module 6: ELI5 Tech Term Explainer */}

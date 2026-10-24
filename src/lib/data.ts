@@ -178,6 +178,12 @@ export function getProductById(id: string): Product | null {
     return null;
   }
 
+  if (found.id === 'samsung-samsung-galaxy-s25-fe-110') {
+    return { ...found, specVerification: {
+      note: 'Bu ürünün RAM kapasitesi doğrulama bekliyor; tartışmalı katalog değeri karşılaştırma ve önerilerde kullanılmaz.',
+      unresolvedFields: Array.from(new Set([...(found.specVerification?.unresolvedFields || []), 'specs.memory.ramGb', 'memory.ramGb', 'ramGb', 'ram']))
+    }};
+  }
   return found;
 }
 
