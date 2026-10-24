@@ -77,7 +77,7 @@ export function SpecSheet({ specs, productId }: SpecSheetProps) {
         { label: t.chipsetLabel, value: specs.processor?.chip || 'Belirtilmemiş' },
         { label: t.cpuCoresLabel, value: specs.processor?.cores || 'Belirtilmemiş' },
         { label: t.processNodeLabel, value: specs.processor?.process || 'Belirtilmemiş' },
-        { label: t.antutuScore, value: specs.processor?.antutuScore ? `${specs.processor.antutuScore.toLocaleString()} Puan` : 'Doğrulanmış veri yok' }
+        { label: t.antutuScore, value: specs.processor?.antutuScore ? `${specs.processor.antutuScore.toLocaleString('tr-TR')} Puan` : 'Doğrulanmış veri yok' }
       ]
     },
     {

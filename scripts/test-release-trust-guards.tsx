@@ -30,4 +30,19 @@ const other={...p,id:'unrelated-product',specVerification:undefined};
 assert.equal(hasUnresolvedSpecField(other,'memory.ramGb'),false);
 assert.deepEqual(p.storeOffers,original.storeOffers);
 assert.equal(p.basePrice,original.basePrice);
+// A cloud server's default locale can differ from the browser's locale.
+// Require an explicit locale instead of allowing a host-dependent SSR string.
+const originalToLocaleString=Number.prototype.toLocaleString;
+const localeCalls: unknown[]=[];
+try {
+  Number.prototype.toLocaleString=function(locales,options){
+    localeCalls.push(locales);
+    return originalToLocaleString.call(this,locales,options);
+  };
+  const specs={...p.specs,processor:{...(p.specs as any).processor,antutuScore:1650000}};
+  const rendered=renderToStaticMarkup(<I18nProvider><SpecSheet specs={specs as any} productId={id}/></I18nProvider>);
+  assert.match(rendered,/1\.650\.000 Puan/);
+  assert.ok(localeCalls.length>0);
+  assert.ok(localeCalls.every(locale=>locale==='tr-TR'),'SSR formatting must not depend on the host locale');
+} finally { Number.prototype.toLocaleString=originalToLocaleString; }
 console.log('PASS: RAM held across data, comparison, SEO, AI and rendered specs; sibling fields, other products, catalog and prices preserved.');
