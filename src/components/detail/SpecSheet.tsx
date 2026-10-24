@@ -15,9 +15,10 @@ import {
 
 interface SpecSheetProps {
   specs?: SmartphoneSpecs;
+  productId?: string;
 }
 
-export function SpecSheet({ specs }: SpecSheetProps) {
+export function SpecSheet({ specs, productId }: SpecSheetProps) {
   const { t } = useI18n();
 
   if (!specs) {
@@ -84,7 +85,7 @@ export function SpecSheet({ specs }: SpecSheetProps) {
       icon: HardDrive,
       iconColor: 'text-blue-600',
       items: [
-        { label: t.ramCapacityLabel, value: specs.memory?.ramGb ? `${specs.memory.ramGb} GB ${specs.memory?.ramType ? `(${specs.memory.ramType})` : ''}`.trim() : 'Belirtilmemiş' },
+        { label: t.ramCapacityLabel, value: productId === 'samsung-samsung-galaxy-s25-fe-110' ? 'Doğrulama bekliyor' : specs.memory?.ramGb ? `${specs.memory.ramGb} GB ${specs.memory?.ramType ? `(${specs.memory.ramType})` : ''}`.trim() : 'Belirtilmemiş' },
         { label: t.storageCapacityLabel, value: specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : 'Belirtilmemiş' },
         { label: 'Depolama Seçenekleri', value: specs.memory?.storageOptions && specs.memory.storageOptions.length > 0 ? specs.memory.storageOptions.map((s) => `${s}GB`).join(', ') : 'Belirtilmemiş' },
         { label: 'Hafıza Kartı Desteği', value: specs.memory?.expandableStorage === true ? t.yes : (specs.memory?.expandableStorage === false ? t.no : 'Belirtilmemiş') }

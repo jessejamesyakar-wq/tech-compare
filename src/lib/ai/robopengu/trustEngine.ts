@@ -66,7 +66,12 @@ export class TrustEngine {
       unverifiedFields.push('specs.processor.process');
     }
 
-    // 2. RAM Type Check
+    // 2. RAM Check (Disputed capacity & unverified type)
+    if (rootId === 'samsung-samsung-galaxy-s25-fe-110') {
+      blockedFields.push('specs.memory.ramGb');
+      warnings.push('Bu ürünün RAM kapasitesi doğrulama bekliyor; tartışmalı katalog değeri önerilerde kullanılmaz.');
+    }
+
     const isRamBlocked = ramBlockedSet?.has(rootId);
     const ramTypeValue = product.specs?.memory?.ramType || product.specs?.ramType;
     if (isRamBlocked) {
