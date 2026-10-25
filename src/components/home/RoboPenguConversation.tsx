@@ -18,6 +18,25 @@ const categories = [
   { label: 'Henüz emin değilim', note: 'Birlikte netleştirelim', icon: Sparkles, prompt: 'Henüz ne alacağımdan emin değilim.' },
 ];
 
+// Render only text, paragraphs and lists. Model output never becomes raw HTML.
+function AnswerText({ text }: { text: string }) {
+  return <>{text.split(/\n\s*\n/).filter(Boolean).map((block, index) => {
+    const lines = block.split('\n').filter(line => line.trim());
+    const numbered = lines.every(line => /^\s*\d+[.)]\s+/.test(line));
+    const bulleted = lines.every(line => /^\s*[-*•]\s+/.test(line));
+    if (numbered || bulleted) {
+      const List = numbered ? 'ol' : 'ul';
+      const start = numbered ? Number(lines[0].match(/^\s*(\d+)/)?.[1] || 1) : undefined;
+      return <List key={index} start={start}>{lines.map((line, item) => {
+        const content = line.replace(/^\s*(?:\d+[.)]|[-*•])\s+/, '');
+        const colon = content.indexOf(':');
+        return <li key={item}>{colon > 0 && colon < 70 ? <><strong>{content.slice(0, colon + 1)}</strong>{content.slice(colon + 1)}</> : content}</li>;
+      })}</List>;
+    }
+    return <p key={index}>{block}</p>;
+  })}</>;
+}
+
 export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { isOpen: boolean; onClose: () => void; initialQuery?: string }) {
   const h = useHomeCopy();
   const { language } = useI18n();
@@ -159,7 +178,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
               {!messages.length && <div className={styles.welcome}><span className={styles.eyebrow}><Sparkles size={15} />{h('Birlikte bulalım.')}</span><h3>{h('Aklında ne var?')}</h3><p>{h('Bir ürün, bir ihtiyaç ya da sadece bir soru. Buradan başlayabiliriz.')}</p><div className={styles.choices}>{categories.map(({ label, note, icon: Icon, prompt }) => <button type="button" key={label} onClick={() => void send(h(prompt))}><span className={styles.choiceIcon}><Icon size={21} /></span><span>{h(label)}<small>{h(note)}</small></span><ArrowUpRight size={16} className={styles.choiceArrow} /></button>)}</div></div>}
               <div className={styles.transcript} role="log" aria-live="off" aria-label={h('Sohbet mesajları')}>{messages.map(m => <article key={m.id} className={m.role === 'user' ? styles.user : styles.assistant}>
                 <div className={styles.messageLabel}>{m.role === 'assistant' && <span className={styles.messageAvatar}><Image src="/assets/robopengu-quantum.webp" alt="" width={28} height={28} /></span>}<strong>{m.role === 'user' ? h('Sen') : 'RoboPengu'}</strong>{m.failed && <span className={styles.errorTag}>{h('Yanıt tamamlanamadı')}</span>}</div>
-                <div className={styles.messageBody}>{m.content ? <p>{m.role === 'assistant' ? h(m.content) : m.content}</p> : <span className={styles.thinking}><i /><i /><i /><span>{h('Yanıt hazırlanıyor…')}</span></span>}
+                <div className={styles.messageBody}>{m.content ? (m.role === 'assistant' ? <AnswerText text={h(m.content)} /> : <p>{m.content}</p>) : <span className={styles.thinking}><i /><i /><i /><span>{h('Yanıt hazırlanıyor…')}</span></span>}
                   {!!m.products?.length && <div className={styles.products}>{m.products.map(p => <Link key={p.href} href={p.href}><span>{p.name}<small>{h('Katalogda incele')}</small></span><ArrowUpRight size={18} /></Link>)}</div>}
                 </div>
                 {m.role === 'assistant' && m.content && (!loading || m.id !== last?.id) && <button type="button" className={styles.copyButton} onClick={() => void copyAnswer(m)} aria-label={copiedId === m.id ? h('Kopyalandı') : h('Yanıtı kopyala')}>{copiedId === m.id ? <Check size={14} /> : <Copy size={14} />}{copiedId === m.id ? h('Kopyalandı') : h('Kopyala')}</button>}

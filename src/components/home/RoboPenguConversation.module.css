@@ -18,3 +18,4 @@
 @media(max-height:600px){.guide .character{padding:8px 0}.guide .character img{width:90px;height:85px}.guide ol{gap:10px;padding:16px 0}.welcome{padding-top:0}.welcome>p{margin-bottom:16px}}
 @media(prefers-reduced-motion:reduce){.thinking>i{animation:none}.choices button,.footer form{transition:none}}
 .guide h3 span{font-family:Georgia,serif;font-size:inherit;font-weight:inherit;letter-spacing:inherit}
+.messageBody>p+p,.messageBody>p+ol,.messageBody>p+ul{margin-top:16px}.messageBody>ol,.messageBody>ul{margin:0;padding-left:22px}.messageBody li{padding-left:4px;margin:0 0 12px}.messageBody li:last-child{margin-bottom:0}.messageBody li::marker{color:#4c8998;font-weight:600}.messageBody li strong{font-weight:650;color:#1b4757}.recovery button{min-height:44px}.copyButton{min-height:36px}@media(max-width:600px){.copyButton{min-height:44px}}
