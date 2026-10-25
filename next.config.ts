@@ -8,6 +8,16 @@ const bundleAnalyzer = withBundleAnalyzer({
 
 const nextConfig: NextConfig = {
   compress: true,
+  async headers() {
+    return [{
+      source: '/models/robopengu-motion-1dcdbbc49c6b.glb.gz',
+      headers: [
+        { key: 'Content-Encoding', value: 'gzip' },
+        { key: 'Content-Type', value: 'model/gltf-binary' },
+        { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+      ],
+    }];
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],

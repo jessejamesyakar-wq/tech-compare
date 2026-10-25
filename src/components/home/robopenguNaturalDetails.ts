@@ -210,8 +210,17 @@ export function createRoboPenguNaturalDetails(
   }
   const engravedPoints: number[] = [];
   function onChest(x: number, y: number) {
-    const nearest = chestSamples.map(p => ({ p, d: (p[0] - x) ** 2 + (p[1] - y) ** 2 }))
-      .sort((a, b) => a.d - b.d).slice(0, 4);
+      // Keep the same four samples, including stable ordering for equal
+      // distances, without allocating and sorting the entire chest per mark.
+      const nearest: { p: [number, number, number]; d: number }[] = [];
+      for (const p of chestSamples) {
+        const d = (p[0] - x) ** 2 + (p[1] - y) ** 2;
+        if (nearest.length === 4 && d >= nearest[3].d) continue;
+        let slot = nearest.length;
+        while (slot > 0 && d < nearest[slot - 1].d) slot--;
+        nearest.splice(slot, 0, { p, d });
+        if (nearest.length > 4) nearest.pop();
+      }
     let total = 0, height = 0;
     for (const sample of nearest) {
       const weight = 1 / Math.max(1e-9, sample.d);

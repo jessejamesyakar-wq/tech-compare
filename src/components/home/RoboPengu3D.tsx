@@ -40,7 +40,7 @@ function stepGazeSpring(spring: GazeSpring, target: number, frequency: number, m
 }
 
 /** A real GLB viewer; the homepage never substitutes a different character. */
-export function RoboPengu3D({ modelUrl = '/models/robopengu-new-motion.glb', paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
+export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.glb.gz', paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
   const host = useRef<HTMLDivElement>(null);
   const mount = useRef<HTMLDivElement>(null);
   const controls = useRef({ paused, suspended, manualPause: false, manualMotionAllowed: false });
@@ -133,21 +133,26 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-new-motion.glb', pau
       started = true;
       setState('loading');
       try {
-        const response = await fetch(modelUrl, { signal: controller.signal });
+        // Start engine chunks and the model together. HTTP gzip decoding keeps
+        // every source GLB byte intact; no mesh or texture quality is reduced.
+        const [response, [THREE, { GLTFLoader }, { RoomEnvironment }]] = await Promise.all([
+          fetch(modelUrl, { signal: controller.signal }).then(async response => ({
+            ok: response.ok, status: response.status,
+            bytes: response.ok ? await response.arrayBuffer() : null,
+          })),
+          Promise.all([
+            import('three'),
+            import('three/examples/jsm/loaders/GLTFLoader.js'),
+            import('three/examples/jsm/environments/RoomEnvironment.js'),
+          ]),
+        ]);
         if (!response.ok) {
           if (!disposed) setState(response.status === 404 ? 'missing' : 'error');
           return;
         }
-        const bytes = await response.arrayBuffer();
-        if (disposed) return;
-        const [THREE, { GLTFLoader }, { RoomEnvironment }] = await Promise.all([
-          import('three'),
-          import('three/examples/jsm/loaders/GLTFLoader.js'),
-          import('three/examples/jsm/environments/RoomEnvironment.js'),
-        ]);
-        if (disposed) return;
+        if (disposed || !response.bytes) return;
         const base = new URL('.', new URL(modelUrl, window.location.href)).href;
-        const gltf = await new GLTFLoader().parseAsync(bytes, base);
+        const gltf = await new GLTFLoader().parseAsync(response.bytes, base);
         const geometries = new Set<import('three').BufferGeometry>();
         const materials = new Set<import('three').Material>();
         const textures = new Set<import('three').Texture>();
@@ -445,6 +450,7 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-new-motion.glb', pau
         : '3D model hazırlanıyor…';
 
   return <div className={`${styles.viewer} ${variant === 'hero' ? styles.hero : ''}`} ref={host} data-model-state={state} data-tracking={state === 'ready' ? tracking : undefined}>
+    {variant === 'hero' && <link rel="preload" as="fetch" href={modelUrl} crossOrigin="anonymous" />}
     <div className={styles.stage} role={state === 'ready' || variant === 'preview' ? 'img' : undefined} aria-label={state === 'ready' ? 'Etkileşimli üç boyutlu RoboPengu' : variant === 'preview' ? 'RoboPengu görseli' : undefined} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
       const action = ({ ArrowLeft: 'left', ArrowRight: 'right', Home: 'center', Enter: 'greet', b: 'blink', B: 'blink' } as const)[event.key as 'ArrowLeft' | 'ArrowRight' | 'Home' | 'Enter' | 'b' | 'B'];
       if (action) { event.preventDefault(); pose.current(action); }
