@@ -69,6 +69,8 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
     if (!input) return;
     input.style.height = 'auto';
     input.style.height = `${Math.min(input.scrollHeight, 140)}px`;
+    // Growing the draft must not push the latest reply below the reading area.
+    if (followTail.current && transcriptRef.current?.querySelector('article')) transcriptRef.current.scrollTop = transcriptRef.current.scrollHeight;
   }, [draft, isOpen]);
   useEffect(() => {
     if (copiedId === null) return;
@@ -82,8 +84,12 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
     if (!isOpen || !viewport || !dialog) return;
     // Keep the mobile composer inside the visible area when the keyboard opens.
     const resize = () => {
+      const following = followTail.current;
       dialog.style.setProperty('--pengu-visible-height', `${viewport.height}px`);
       dialog.style.setProperty('--pengu-visible-top', `${viewport.offsetTop}px`);
+      // iOS can shrink only the visual viewport, leaving height media queries unchanged.
+      dialog.dataset.compactViewport = String(viewport.height < 500);
+      if (following && transcriptRef.current?.querySelector('article')) transcriptRef.current.scrollTop = transcriptRef.current.scrollHeight;
     };
     resize();
     viewport.addEventListener('resize', resize);
@@ -93,6 +99,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
       viewport.removeEventListener('scroll', resize);
       dialog.style.removeProperty('--pengu-visible-height');
       dialog.style.removeProperty('--pengu-visible-top');
+      delete dialog.dataset.compactViewport;
     };
   }, [isOpen, dialogRef]);
 
@@ -188,7 +195,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
             </div>
             {showLatest && <button type="button" className={styles.latest} onClick={() => { followTail.current = true; setShowLatest(false); if (transcriptRef.current) transcriptRef.current.scrollTop = transcriptRef.current.scrollHeight; }}><ArrowDown size={16} />{h('Son mesaja git')}</button>}
           </div>
-          <footer className={styles.footer}><form onSubmit={e => { e.preventDefault(); void send(draft); }}><label htmlFor="pengu-message" className={styles.srOnly}>{h('RoboPengu mesajı')}</label><textarea ref={inputRef} id="pengu-message" rows={1} value={draft} onChange={e => setDraft(e.target.value)} onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) { e.preventDefault(); void send(draft); } }} maxLength={500} placeholder={h('İhtiyacını kendi cümlelerinle anlat…')} autoComplete="off" /><div className={styles.composerBottom}><span className={styles.keyboardHint}>{h('Enter ile gönder · Shift + Enter ile yeni satır')}</span><span className={styles.count}>{draft.length > 400 ? `${draft.length}/500` : ''}</span><button type="submit" disabled={loading || !draft.trim()} aria-label={h('Mesajı gönder')}><ArrowUp size={20} /></button></div></form><p>{h('AI yanıtları hata içerebilir. Güncel fiyat ve kaynak durumunu kontrol et.')}</p></footer>
+          <footer className={styles.footer}><form onSubmit={e => { e.preventDefault(); void send(draft); }}><label htmlFor="pengu-message" className={styles.srOnly}>{h('RoboPengu mesajı')}</label><textarea ref={inputRef} id="pengu-message" rows={1} value={draft} onChange={e => setDraft(e.target.value)} onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing && !window.matchMedia('(pointer: coarse)').matches) { e.preventDefault(); void send(draft); } }} enterKeyHint="enter" maxLength={500} placeholder={h('İhtiyacını kendi cümlelerinle anlat…')} autoComplete="off" /><div className={styles.composerBottom}><span className={styles.keyboardHint}>{h('Enter ile gönder · Shift + Enter ile yeni satır')}</span><span className={styles.count}>{draft.length > 400 ? `${draft.length}/500` : ''}</span><button type="submit" disabled={loading || !draft.trim()} aria-label={h('Mesajı gönder')}><ArrowUp size={20} /></button></div></form><p>{h('AI yanıtları hata içerebilir. Güncel fiyat ve kaynak durumunu kontrol et.')}</p></footer>
         </div>
       </div>
     </section>

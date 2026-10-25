@@ -20,3 +20,16 @@
 .guide h3 span{font-family:Georgia,serif;font-size:inherit;font-weight:inherit;letter-spacing:inherit}
 .messageBody>p+p,.messageBody>p+ol,.messageBody>p+ul{margin-top:16px}.messageBody>ol,.messageBody>ul{margin:0;padding-left:22px}.messageBody li{padding-left:4px;margin:0 0 12px}.messageBody li:last-child{margin-bottom:0}.messageBody li::marker{color:#4c8998;font-weight:600}.messageBody li strong{font-weight:650;color:#1b4757}.recovery button{min-height:44px}.copyButton{min-height:36px}@media(max-width:600px){.copyButton{min-height:44px}}
 .messageBody>ol{list-style-type:decimal}.messageBody>ul{list-style-type:disc}
+/* Keep writing and reading space available above the on-screen keyboard. */
+@media(max-width:600px),(max-width:1023px) and (max-height:500px){
+  .footer form{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:8px;align-items:end;padding:10px}
+  .footer textarea{min-height:44px;max-height:clamp(44px,calc(var(--pengu-visible-height,100dvh)*.2),140px);line-height:1.5;padding:10px 2px;scroll-padding-block:10px}
+  .composerBottom{flex-direction:column;gap:4px;margin:0}
+  .count{margin:0}.count:empty{display:none}
+  .transcript article{font-size:16px;line-height:1.75}
+  .overlay[data-compact-viewport=true] .top{padding-block:max(6px,env(safe-area-inset-top)) 6px;min-height:56px}
+  .overlay[data-compact-viewport=true] .identity small{display:none}
+  .overlay[data-compact-viewport=true] .content{padding-top:16px;padding-bottom:16px}
+  .overlay[data-compact-viewport=true] .footer{padding-top:6px;padding-bottom:max(8px,env(safe-area-inset-bottom))}
+  .overlay[data-compact-viewport=true] .footer>p{margin-top:6px}
+}
