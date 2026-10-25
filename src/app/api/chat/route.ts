@@ -27,12 +27,14 @@ import { RoboPenguPipeline } from '@/lib/ai/robopengu/pipeline';
 import { getStoredProducts } from '@/lib/adminData';
 import { televisionComparisonRequest } from '@/lib/ai/televisionComparisonRequest';
 import { parseChatComparison, comparisonChatSummary } from '@/lib/ai/chatComparison';
+import { namedCatalogLookup, isCatalogPresenceQuestion, catalogPresenceReply, catalogTechnicalContext } from '@/lib/ai/catalogGrounding';
 
 const SYSTEM_INSTRUCTION = `Sen aceleetme.tech’in Türkçe konuşan teknoloji danışmanı RoboPengu’sun.
 Samimi, kısa ve açık konuş; kullanıcının bütçesini koru. Kullanıcı adına duygu, aile ilişkisi veya ihtiyaç uydurma.
 Kullanıcıya currentPrice gibi kod alanı adlarını gösterme; güncel doğrulanmış fiyat gibi doğal ifadeler kullan. Kullanıcı yalnız özet veya ihtiyaç sorusu istiyorsa buna odaklan.
 Konuşmayı doğal sürdür. Kategori, kullanım amacı, bütçe ve öncelikleri kullanıcının geçmiş mesajlarından hatırla. Söylenmiş bilgiyi yeniden sorma; son düzeltmesi önceki tercihin yerini alır. Eksik bilgi varsa her yanıtta yalnız bir kısa soru sor. Kullanıcı henüz emin değilse seçeneklerle yardımcı ol. Katalog kanıtı yokken model tavsiyesi uydurmak yerine ihtiyacı netleştir.
 Yalnızca verilen katalog verisine dayan. Katalog alanlarını bağımsız doğrulama veya laboratuvar testi diye sunma. Eksik alanlar bilinmiyor demektir; hayali ürün, kaynak, bağlantı, fiyat, puan veya garanti üretme.
+Katalogda eşleşen bir kayıt varsa o ürün için yok, henüz çıkmadı veya hayali deme. Katalog varlığı, resmî duyuru, satış/stok ve güncel fiyat farklı durumlardır. Eski konuşma veya model belleği güncel katalog kaydını geçersiz kılamaz. Verilmeyen bilgiye sistemde yok deme; yalnızca bu yanıtta doğrulayamadığını söyle.
 Doğrulanmış ortak test yöntemi olmadan genel kazanan veya beraberlik ilan etme. MP, mAh, watt veya mimari adı tek başına kalite, kullanım süresi veya hız kanıtı değildir.
 Fiyatı durum etiketiyle aktar. Sadece currentPrice bulunan güncel teklifler bütçe hesabına girebilir; katalog referans fiyatını veya eski fiyatı güncel mağaza teklifi olarak anlatma. Hediye fiyatı doğrulanmamışsa kalan bütçe hesaplama.
 Ürün kartları katalog sayfasına gider. Mağaza bağlantısı veya satın alma garantisi vaadinde bulunma.
@@ -138,6 +140,10 @@ export async function POST(req: Request) {
           return createFallbackStreamResponse(panel, [], trimmedPrompt, undefined, display ? comparisonChatSummary(display) : undefined);
         }
         return createFallbackStreamResponse(null, [], trimmedPrompt, comparison.message);
+      }
+      const namedLookup = namedCatalogLookup(trimmedPrompt, getStoredProducts());
+      if (namedLookup && (!namedLookup.products.length || isCatalogPresenceQuestion(trimmedPrompt)) && !/kıyas|karşılaştır|\bvs\b/i.test(trimmedPrompt)) {
+        return createFallbackStreamResponse(null, formatProductRecommendations(namedLookup.products.slice(0, 4)), trimmedPrompt, undefined, catalogPresenceReply(namedLookup));
       }
       // Run RoboPenguPipeline for structured shopping intent and recommendation
       try {
@@ -285,7 +291,7 @@ export async function POST(req: Request) {
         } else {
           // B. Tekil ürün veya model arama kontrolü
           let rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
-          if (rawMatches.length === 0 && (isFollowUp || trimmedPrompt.length < 35)) {
+          if (!namedLookup && rawMatches.length === 0 && (isFollowUp || trimmedPrompt.length < 35)) {
             // Geçmişteki son kullanıcı mesajında ürün ara
             for (let i = history.length - 1; i >= 0; i--) {
               const prev = history[i];
@@ -307,7 +313,10 @@ export async function POST(req: Request) {
   [KATALOG ÜRÜN VE FİYAT DURUMU]:
   ${prodsSummary}
 
-  Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksik özellikleri belleğinden tamamlamaya çalışma. Kartlar katalog detayını açar. Güncel teklifi olmayan ürünü bütçeye uygun diye sunma.`;
+  [KAYITLI TEKNİK ALANLAR — BAĞIMSIZ DOĞRULAMA DEĞİLDİR]:
+  ${JSON.stringify(catalogTechnicalContext(rawMatches))}
+
+  Talimat: Eşleşen ürünler katalogda mevcut. Önceki bir yanıt onları yok saydıysa düzelt. Fiyatları durum etiketiyle aktar. Yalnız kayıtlı teknik alanları kullan; bilinmeyen veya tartışmalı alanları belleğinden tamamlama. Kartlar katalog detayını açar. Güncel teklifi olmayan ürünü bütçeye uygun diye sunma.`;
           }
         }
       }

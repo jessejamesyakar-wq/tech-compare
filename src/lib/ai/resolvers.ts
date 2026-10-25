@@ -9,6 +9,7 @@ import { detectCategory, type CatalogCategory } from "./categoryMatcher";
 import { buildComparisonRows } from "./specFields";
 import { getFallbackProductImage } from "./fallbackImages";
 import { evaluateProductPricing } from "@/lib/pricing/unifiedPriceEvaluator";
+import { namedCatalogLookup } from './catalogGrounding';
 
 export interface ResolverResult<T> {
   ok: boolean;
@@ -95,6 +96,8 @@ export function searchProductsInCatalog(
 ): any[] {
   if (!query || typeof query !== "string") return [];
   const catalog = getStoredProducts();
+  const named = namedCatalogLookup(query, catalog);
+  if (named) return named.products.slice(0, limit);
   const normMsg = normalizeTr(query);
   const expandedMsg = normMsg
     .replace(/(\d+)([a-z]+)/g, "$1 $2")
