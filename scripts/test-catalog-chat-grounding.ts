@@ -30,6 +30,7 @@ assert.equal(catalogLookupForTurn('Laptop 512 GB', [{role:'user',content:'iPhone
 const galaxy = namedCatalogLookup('Samsung Galaxy S26 Ultra var mı?', catalog);
 assert.ok(galaxy?.products.length);
 assert.ok(galaxy.products.every(p => p.name.includes('Galaxy S26 Ultra')));
+assert.equal(namedCatalogLookup('Samsung Galaxy S26 Ultra 8 TB var mı?', catalog)?.products.length, 0);
 const found = namedCatalogLookup('iPhone 18 Pro var mı?', catalog)!;
 assert.match(catalogPresenceReply(found), /aceleEtme kataloğunda kayıtlı/);
 assert.doesNotMatch(catalogPresenceReply(found), /Pro Max|Dell|henüz çıkmadı/);

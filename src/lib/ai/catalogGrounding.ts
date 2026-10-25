@@ -31,7 +31,8 @@ export function namedCatalogLookup(query: string, catalog: Product[]) {
   });
   const families = [...new Set(matches.map(m => m.alias))].filter(alias => !matches.some(m => m.alias !== alias && m.alias.startsWith(`${alias} `)));
   if (families.length !== 1) return null;
-  return { name: families[0], products: matches.filter(m => m.alias === families[0]).map(m => m.product) };
+  return { name: families[0], products: matches.filter(m => m.alias === families[0]
+    && (!storage || (` ${normalize(m.product.name)} `).includes(` ${storage} `))).map(m => m.product) };
 }
 
 export function isCatalogPresenceQuestion(query: string): boolean {
