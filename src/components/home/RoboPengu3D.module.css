@@ -24,5 +24,6 @@
 .hero .toolbar { position:absolute; right:8px; bottom:-18px; z-index:3; min-height:0; padding:0; border:0; gap:4px; }
 .hero .toolbar p { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
 .hero .toolbar button { min-height:36px; padding:6px 10px; font-size:10px; gap:5px; background:#ffffffe0; }
-.hero .fallback { inset:4% 8%; }
+.preparing { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; color:#24586b; font-size:13px; text-align:center; }
+.preparingLight { width:34px; height:34px; border:2px solid #8bd9e5; border-top-color:#08788d; border-radius:50%; box-shadow:0 0 20px #80dce84d; }
 @media(max-width:767px) { .hero { max-width:340px; } .hero .toolbar { right:0; bottom:-16px; } }

@@ -39,7 +39,7 @@ function stepGazeSpring(spring: GazeSpring, target: number, frequency: number, m
   if (Math.abs(goal - spring.value) < 0.00001 && Math.abs(spring.velocity) < 0.0001) { spring.value = goal; spring.velocity = 0; }
 }
 
-/** A real GLB viewer. Missing geometry always falls back to the original image. */
+/** A real GLB viewer; the homepage never substitutes a different character. */
 export function RoboPengu3D({ modelUrl = '/models/robopengu-new-motion.glb', paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
   const host = useRef<HTMLDivElement>(null);
   const mount = useRef<HTMLDivElement>(null);
@@ -440,17 +440,21 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-new-motion.glb', pau
     ? effectiveReducedMotion ? 'Hareket azaltma tercihiniz açık. İsterseniz bu önizlemede hareketi başlatabilirsiniz.'
       : stopped ? 'Hareket duraklatıldı.'
         : tracking === 'eyes' ? 'Bakış, göz kırpma ve beden hareketleri açık.' : tracking === 'head' ? 'Baş takibi açık.' : 'Gövde takibi açık.'
-    : state === 'missing' ? '3D model henüz eklenmedi. Mevcut RoboPengu görseli gösteriliyor.'
-      : state === 'error' ? '3D model açılamadı. Mevcut RoboPengu görseli gösteriliyor.'
+    : state === 'missing' ? (variant === 'hero' ? 'RoboPengu yüklenemedi. Yeniden deneyebilirsin.' : '3D model henüz eklenmedi. Mevcut RoboPengu görseli gösteriliyor.')
+      : state === 'error' ? (variant === 'hero' ? 'RoboPengu yüklenemedi. Yeniden deneyebilirsin.' : '3D model açılamadı. Mevcut RoboPengu görseli gösteriliyor.')
         : '3D model hazırlanıyor…';
 
   return <div className={`${styles.viewer} ${variant === 'hero' ? styles.hero : ''}`} ref={host} data-model-state={state} data-tracking={state === 'ready' ? tracking : undefined}>
-    <div className={styles.stage} role="img" aria-label={state === 'ready' ? 'Etkileşimli üç boyutlu RoboPengu' : 'RoboPengu görseli'} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
+    <div className={styles.stage} role={state === 'ready' || variant === 'preview' ? 'img' : undefined} aria-label={state === 'ready' ? 'Etkileşimli üç boyutlu RoboPengu' : variant === 'preview' ? 'RoboPengu görseli' : undefined} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
       const action = ({ ArrowLeft: 'left', ArrowRight: 'right', Home: 'center', Enter: 'greet', b: 'blink', B: 'blink' } as const)[event.key as 'ArrowLeft' | 'ArrowRight' | 'Home' | 'Enter' | 'b' | 'B'];
       if (action) { event.preventDefault(); pose.current(action); }
     }}>
       <div className={styles.canvas} ref={mount} />
-      {state !== 'ready' && <Image src={variant === 'hero' ? '/assets/robopengu-quantum.webp' : '/models/robopengu-new-reference.png'} alt="" width={640} height={640} className={styles.fallback} sizes="(max-width: 767px) 90vw, 560px" />}
+      {state !== 'ready' && variant === 'preview' && <Image src="/models/robopengu-new-reference.png" alt="" width={640} height={640} className={styles.fallback} sizes="(max-width: 767px) 90vw, 560px" />}
+      {state !== 'ready' && variant === 'hero' && <div className={styles.preparing} aria-hidden="true">
+        <span className={styles.preparingLight} />
+        {state === 'error' || state === 'missing' ? 'RoboPengu yüklenemedi' : 'RoboPengu hazırlanıyor…'}
+      </div>}
     </div>
     {state === 'ready' && variant === 'preview' && <div className={styles.gestures} role="group" aria-label="RoboPengu hareketleri">
       <button type="button" disabled={stopped} onClick={() => pose.current('left')}>← Sola bak</button>
