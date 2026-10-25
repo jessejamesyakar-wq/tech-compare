@@ -1,5 +1,6 @@
 import type { Product } from '../types';
 import { getComparisonRows } from '../comparisonEvidence';
+import type { ConversationTurn } from './conversation';
 
 const normalize = (value: string) => value.toLocaleLowerCase('tr-TR').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i').replace(/['’]/g, '').replace(/([a-z])(\d)/g, '$1 $2').replace(/(\d)([a-z])/g, '$1 $2').replace(/promax/g, 'pro max').replace(/\b(pro|max|ultra|plus|mini|air)(?:yu|yi|nun|nin|ya|ye|da|de|dan|den)\b/g, '$1').replace(/[^a-z0-9]+/g, ' ').trim();
 const iphoneIdentity = /\biphone\s+(\d+)\s*(pro\s+max|pro|plus|mini|air|e)?\b/g;
@@ -38,6 +39,16 @@ export function isCatalogPresenceQuestion(query: string): boolean {
   // "Telefoto var mı?" asks about a feature, not whether the product is listed.
   if (/kamera|telefoto|ekran|batarya|pil|islemci|ozellik|hdmi|oled|nfc|esim|stok|satista|satis|cikti|duyuru|piyasa|fiyat/.test(input)) return false;
   return /\b(?:var mi|yok|yok mu|katalogda|katalog|bulamiyorum|goremiyorum|mevcut mu|listeleniyor mu)\b/.test(input);
+}
+
+export function catalogLookupForTurn(query: string, history: ConversationTurn[], catalog: Product[]) {
+  const direct = namedCatalogLookup(query, catalog);
+  if (direct) return direct;
+  // A capacity answer belongs to the model just discussed, not every 512 GB product.
+  if (!/^\d+\s+(?:gb|tb)(?:\s+(?:olani|olan|var mi|lutfen|istiyorum))?$/.test(normalize(query))) return null;
+  const previous = history.filter(turn => turn.role === 'user').at(-1);
+  const prior = previous ? namedCatalogLookup(previous.content, catalog) : null;
+  return prior ? namedCatalogLookup(`${query} ${prior.name}`, catalog) : null;
 }
 
 /** Only record presence is asserted; it does not prove launch, stock or verified specifications. */

@@ -19,6 +19,9 @@ async function ask(prompt, history=[]) {
   const capacity = await ask('iPhone 18 Pro 512 GB var mı?');
   assert.ok(capacity.products.length > 0);
   assert.ok(capacity.products.every(p=>p.productName.includes('Pro (512 GB)')));
+  const followup = await ask('512 GB var mı?', [{role:'user',content:'iPhone 18 Pro var mı?'},{role:'assistant',content:'Katalogda kayıtlı. Hangi kapasite?'}]);
+  assert.ok(followup.products.length > 0);
+  assert.ok(followup.products.every(p=>p.productName === 'Apple iPhone 18 Pro (512 GB)'));
   const unknown = await ask('iPhone 99 Pro var mı?', [{role:'user',content:'iPhone 18 Pro arıyorum'},{role:'assistant',content:'Katalogda var.'}]);
   assert.equal(unknown.products.length,0);
   assert.match(unknown.text,/katalog kaydı bulamadım/);

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { getStoredProducts } from '../src/lib/adminData';
-import { namedCatalogLookup, isCatalogPresenceQuestion, catalogPresenceReply, catalogTechnicalContext } from '../src/lib/ai/catalogGrounding';
+import { namedCatalogLookup, catalogLookupForTurn, isCatalogPresenceQuestion, catalogPresenceReply, catalogTechnicalContext } from '../src/lib/ai/catalogGrounding';
 import { searchProductsInCatalog } from '../src/lib/ai/resolvers';
 
 const catalog = getStoredProducts();
@@ -23,6 +23,10 @@ assert.equal(namedCatalogLookup('merhaba', catalog), null);
 assert.equal(isCatalogPresenceQuestion('iPhone 18 Pro var mı?'), true);
 assert.equal(isCatalogPresenceQuestion('iPhone 18 Pro’da telefoto var mı?'), false);
 assert.equal(isCatalogPresenceQuestion('iPhone 18 Pro stokta var mı?'), false);
+const followup = catalogLookupForTurn('512 GB', [{role:'user',content:'iPhone 18 Pro var mı?'}], catalog);
+assert.ok(followup?.products.length);
+assert.ok(followup.products.every(p => p.name === 'Apple iPhone 18 Pro (512 GB)'));
+assert.equal(catalogLookupForTurn('Laptop 512 GB', [{role:'user',content:'iPhone 18 Pro var mı?'}], catalog), null);
 const galaxy = namedCatalogLookup('Samsung Galaxy S26 Ultra var mı?', catalog);
 assert.ok(galaxy?.products.length);
 assert.ok(galaxy.products.every(p => p.name.includes('Galaxy S26 Ultra')));

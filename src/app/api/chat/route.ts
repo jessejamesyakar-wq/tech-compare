@@ -27,7 +27,7 @@ import { RoboPenguPipeline } from '@/lib/ai/robopengu/pipeline';
 import { getStoredProducts } from '@/lib/adminData';
 import { televisionComparisonRequest } from '@/lib/ai/televisionComparisonRequest';
 import { parseChatComparison, comparisonChatSummary } from '@/lib/ai/chatComparison';
-import { namedCatalogLookup, isCatalogPresenceQuestion, catalogPresenceReply, catalogTechnicalContext } from '@/lib/ai/catalogGrounding';
+import { catalogLookupForTurn, isCatalogPresenceQuestion, catalogPresenceReply, catalogTechnicalContext } from '@/lib/ai/catalogGrounding';
 
 const SYSTEM_INSTRUCTION = `Sen aceleetme.tech’in Türkçe konuşan teknoloji danışmanı RoboPengu’sun.
 Samimi, kısa ve açık konuş; kullanıcının bütçesini koru. Kullanıcı adına duygu, aile ilişkisi veya ihtiyaç uydurma.
@@ -141,7 +141,7 @@ export async function POST(req: Request) {
         }
         return createFallbackStreamResponse(null, [], trimmedPrompt, comparison.message);
       }
-      const namedLookup = namedCatalogLookup(trimmedPrompt, getStoredProducts());
+      const namedLookup = catalogLookupForTurn(trimmedPrompt, history, getStoredProducts());
       if (namedLookup && (!namedLookup.products.length || isCatalogPresenceQuestion(trimmedPrompt)) && !/kıyas|karşılaştır|\bvs\b/i.test(trimmedPrompt)) {
         return createFallbackStreamResponse(null, formatProductRecommendations(namedLookup.products.slice(0, 4)), trimmedPrompt, undefined, catalogPresenceReply(namedLookup));
       }
@@ -290,7 +290,7 @@ export async function POST(req: Request) {
           }
         } else {
           // B. Tekil ürün veya model arama kontrolü
-          let rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
+          let rawMatches = namedLookup ? namedLookup.products.slice(0, 3) : searchProductsInCatalog(trimmedPrompt, 3);
           if (!namedLookup && rawMatches.length === 0 && (isFollowUp || trimmedPrompt.length < 35)) {
             // Geçmişteki son kullanıcı mesajında ürün ara
             for (let i = history.length - 1; i >= 0; i--) {
