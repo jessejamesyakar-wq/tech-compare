@@ -2,6 +2,23 @@ import type { Language } from '../types';
 
 // UI copy only. Product identities, specifications and price records are never translated or rewritten here.
 const rows = `
+Senin teknoloji yol arkadaşın|Your technology companion|Dein Technikbegleiter|Твой помощник в мире технологий|Tu compañero de tecnología|Il tuo compagno tecnologico
+Önce ihtiyacın.|Your needs first.|Zuerst dein Bedarf.|Сначала твои потребности.|Primero, tus necesidades.|Prima le tue esigenze.
+Sonra seçeneklerin.|Then your options.|Dann deine Möglichkeiten.|Затем варианты.|Después, tus opciones.|Poi le tue opzioni.
+İhtiyacını anlat|Tell me what you need|Beschreibe deinen Bedarf|Расскажи, что тебе нужно|Cuéntame qué necesitas|Raccontami cosa ti serve
+Önceliklerini belirle|Set your priorities|Setze deine Prioritäten|Определи приоритеты|Define tus prioridades|Definisci le tue priorità
+Seçenekleri karşılaştır|Compare your options|Vergleiche deine Optionen|Сравни варианты|Compara tus opciones|Confronta le opzioni
+Karar senin. Birlikte netleştirelim.|Your decision. Let's make it clearer.|Deine Entscheidung. Schaffen wir Klarheit.|Решение за тобой. Разберёмся вместе.|Tú decides. Aclaremos las opciones.|La scelta è tua. Facciamo chiarezza.
+Aklında ne var?|What do you have in mind?|Was hast du im Sinn?|Что у тебя на уме?|¿Qué tienes en mente?|Cosa hai in mente?
+Bir ürün, bir ihtiyaç ya da sadece bir soru. Buradan başlayabiliriz.|A product, a need, or just a question. We can start there.|Ein Produkt, ein Bedarf oder einfach eine Frage. Damit können wir beginnen.|Товар, потребность или просто вопрос. Начнём с этого.|Un producto, una necesidad o una pregunta. Podemos empezar por ahí.|Un prodotto, un'esigenza o una domanda. Possiamo partire da lì.
+Yanıt tamamlanamadı|Incomplete response|Unvollständige Antwort|Неполный ответ|Respuesta incompleta|Risposta incompleta
+Katalogda incele|View in catalog|Im Katalog ansehen|Посмотреть в каталоге|Ver en el catálogo|Vedi nel catalogo
+Kopyalandı|Copied|Kopiert|Скопировано|Copiado|Copiato
+Yanıtı kopyala|Copy response|Antwort kopieren|Скопировать ответ|Copiar respuesta|Copia risposta
+Kopyala|Copy|Kopieren|Копировать|Copiar|Copia
+Kopyalanamadı. Metni seçerek kopyalayabilirsin.|Couldn't copy. Select the text to copy it.|Kopieren fehlgeschlagen. Markiere den Text zum Kopieren.|Не удалось скопировать. Выдели текст для копирования.|No se pudo copiar. Selecciona el texto para copiarlo.|Copia non riuscita. Seleziona il testo per copiarlo.
+Son mesaja git|Jump to latest|Zur letzten Nachricht|К последнему сообщению|Ir al último mensaje|Vai all'ultimo messaggio
+Enter ile gönder · Shift + Enter ile yeni satır|Enter to send · Shift + Enter for a new line|Enter zum Senden · Shift + Enter für eine neue Zeile|Enter — отправить · Shift + Enter — новая строка|Enter para enviar · Shift + Enter para nueva línea|Invio per inviare · Shift + Invio per andare a capo
 Akıllı Karşılaştırma & Fiyat Takip|Smart comparison & price tracking|Smart vergleichen & Preise verfolgen|Умное сравнение и отслеживание цен|Comparación y seguimiento de precios|Confronto e monitoraggio prezzi
 RoboPengu’ya danış|Ask RoboPengu|RoboPengu fragen|Спросить RoboPengu|Consulta a RoboPengu|Chiedi a RoboPengu
 Akıllı asistan|Smart assistant|Intelligenter Assistent|Умный помощник|Asistente inteligente|Assistente intelligente

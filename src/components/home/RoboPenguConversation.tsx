@@ -5,7 +5,7 @@ import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowUp, X, Smartphone, Laptop, Tv, Sparkles, RotateCcw } from 'lucide-react';
+import { ArrowUp, ArrowDown, ArrowUpRight, X, Smartphone, Laptop, Tv, Sparkles, Plus, Copy, Check, MessageCircle, SlidersHorizontal, Columns2 } from 'lucide-react';
 import { useModalFocus } from '@/components/ui/useModalFocus';
 import { consumeAvailableChatStream, visibleChatText, type ConversationTurn } from '@/lib/ai/conversation';
 import styles from './RoboPenguConversation.module.css';
@@ -25,12 +25,16 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   const [draft, setDraft] = useState('');
   const [loading, setLoading] = useState(false);
   const [service, setService] = useState('');
+  const [copiedId, setCopiedId] = useState<number | null>(null);
+  const [showLatest, setShowLatest] = useState(false);
   const dialogRef = useModalFocus(isOpen, onClose);
   const controllerRef = useRef<AbortController | null>(null);
   const busyRef = useRef(false);
   const handledRef = useRef('');
   const sequenceRef = useRef(0);
   const transcriptRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
+  const followTail = useRef(true);
 
   useEffect(() => () => controllerRef.current?.abort(), []);
   useEffect(() => {
@@ -39,8 +43,19 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   }, [isOpen, initialQuery]);
   useEffect(() => {
     const el = transcriptRef.current;
-    if (el) el.scrollTop = messages.length || loading ? el.scrollHeight : 0;
+    if (el && followTail.current) el.scrollTop = messages.length || loading ? el.scrollHeight : 0;
   }, [messages, loading, isOpen]);
+  useEffect(() => {
+    const input = inputRef.current;
+    if (!input) return;
+    input.style.height = 'auto';
+    input.style.height = `${Math.min(input.scrollHeight, 140)}px`;
+  }, [draft, isOpen]);
+  useEffect(() => {
+    if (copiedId === null) return;
+    const timer = setTimeout(() => setCopiedId(null), 2000);
+    return () => clearTimeout(timer);
+  }, [copiedId]);
 
   useEffect(() => {
     const viewport = window.visualViewport;
@@ -65,6 +80,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   async function send(text: string, retry = false) {
     const prompt = text.trim();
     if (!prompt || prompt.length > 500 || busyRef.current) return;
+    followTail.current = true; setShowLatest(false);
     busyRef.current = true; setLoading(true); setService(''); setDraft('');
     const history = retry ? messages.slice(0, -2) : messages;
     const userId = ++sequenceRef.current, answerId = ++sequenceRef.current;
@@ -115,20 +131,47 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
       update({ failed: true, content: raw ? `${visibleChatText(raw)}\n\n${h('Yanıt kesildi. Yeniden deneyebilirsin.')}` : controller.signal.aborted ? h("Yanıt süresi doldu. Yeniden deneyebilirsin.") : error instanceof Error ? error.message : h("Yanıt alınamadı.") });
     } finally { clearTimeout(timeout); busyRef.current = false; controllerRef.current = null; setLoading(false); }
   }
-  function reset() { if (busyRef.current) return; setMessages([]); setDraft(''); setService(''); }
+  function reset() { if (busyRef.current) return; followTail.current = true; setShowLatest(false); setCopiedId(null); setMessages([]); setDraft(''); setService(''); }
+  async function copyAnswer(message: Message) {
+    try { await navigator.clipboard.writeText(message.content); setCopiedId(message.id); }
+    catch { setService(h('Kopyalanamadı. Metni seçerek kopyalayabilirsin.')); }
+  }
   if (!isOpen) return null;
   const last = messages.at(-1);
   return <div className={styles.overlay} ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby="pengu-dialog-title" tabIndex={-1}>
     <section className={styles.window}>
-      <header className={styles.top}><div><strong>acele<span>Etme</span> / RoboPengu</strong><small>{h("SENİN TEKNOLOJİ YOL ARKADAŞIN")}</small></div><div className={styles.actions}><button type="button" onClick={reset} disabled={loading || !messages.length} aria-label={h("Yeni sohbet")}><RotateCcw size={18} /></button><button type="button" onClick={onClose} aria-label={h("Sohbeti kapat")}><X size={22} /></button></div></header>
-      <div ref={transcriptRef} className={styles.content}>
-        <div className={`${styles.welcome} ${messages.length ? styles.compact : ''}`}><Image src="/assets/robopengu-quantum.webp" alt="RoboPengu" width={180} height={164} /><h2 id="pengu-dialog-title">{messages.length ? h("Birlikte netleştirelim.") : <>{h("Birlikte bulalım.")}<br />{h("Ne arıyorsun?")}</>}</h2>{!messages.length && <p>{h("Her şeyi bilmen gerekmiyor. İhtiyacından başlayalım.")}</p>}</div>
-        {!messages.length && <div className={styles.choices}>{categories.map(({ label, note, icon: Icon, prompt }) => <button type="button" key={label} onClick={() => void send(h(prompt))}><Icon size={24} /><span>{h(label)}<small>{h(note)}</small></span></button>)}</div>}
-        <div className={styles.transcript} aria-label={h("Sohbet mesajları")}>{messages.map(m => <article key={m.id} className={m.role === 'user' ? styles.user : styles.assistant}><strong>{m.role === 'user' ? h("Sen") : 'RoboPengu'}</strong><p>{m.content ? (m.role === 'assistant' ? h(m.content) : m.content) : h('Yanıt hazırlanıyor…')}</p>{m.products?.map(p => <Link key={p.href} href={p.href}>{p.name} →</Link>)}</article>)}</div>
-        <div role="status" className={styles.status}>{loading ? h("RoboPengu yanıtlıyor…") : service}</div>
-        {!loading && last?.failed && <div className={styles.recovery}><button type="button" onClick={() => void send(messages.at(-2)?.content || '', true)}>{h("Yeniden dene")}</button><Link href="/search">{h("Kataloğu keşfet →")}</Link></div>}
+      <header className={styles.top}>
+        <div className={styles.identity}><span className={styles.avatar}><Image src="/assets/robopengu-quantum.webp" alt="" width={44} height={44} /></span><div><h2 id="pengu-dialog-title">RoboPengu <span>AI</span></h2><small>{h('Senin teknoloji yol arkadaşın')}</small></div></div>
+        <div className={styles.actions}><button className={styles.newChat} type="button" onClick={reset} disabled={loading || !messages.length} aria-label={h('Yeni sohbet')} title={h('Yeni sohbet')}><Plus size={17} /><span>{h('Yeni sohbet')}</span></button><button type="button" onClick={onClose} aria-label={h('Sohbeti kapat')} title={h('Sohbeti kapat')}><X size={20} /></button></div>
+      </header>
+      <div className={styles.body}>
+        <aside className={styles.guide} aria-label={h('Birlikte netleştirelim.')}>
+          <span className={styles.signature}>acele<span>Etme</span></span>
+          <div className={styles.character}><Image src="/assets/robopengu-quantum.webp" alt="" width={180} height={164} /></div>
+          <h3>{h('Önce ihtiyacın.')}<br /><span>{h('Sonra seçeneklerin.')}</span></h3>
+          <p>{h('Her şeyi bilmen gerekmiyor. İhtiyacından başlayalım.')}</p>
+          <ol><li><MessageCircle size={17} /><span>{h('İhtiyacını anlat')}</span></li><li><SlidersHorizontal size={17} /><span>{h('Önceliklerini belirle')}</span></li><li><Columns2 size={17} /><span>{h('Seçenekleri karşılaştır')}</span></li></ol>
+          <div className={styles.guideNote}>{h('Karar senin. Birlikte netleştirelim.')}</div>
+        </aside>
+        <div className={styles.conversation}>
+          <div className={styles.scrollArea}>
+            <div ref={transcriptRef} className={styles.content} onScroll={event => { const el = event.currentTarget; const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80; followTail.current = nearBottom; setShowLatest(!nearBottom && messages.length > 0); }}>
+              {!messages.length && <div className={styles.welcome}><span className={styles.eyebrow}><Sparkles size={15} />{h('Birlikte bulalım.')}</span><h3>{h('Aklında ne var?')}</h3><p>{h('Bir ürün, bir ihtiyaç ya da sadece bir soru. Buradan başlayabiliriz.')}</p><div className={styles.choices}>{categories.map(({ label, note, icon: Icon, prompt }) => <button type="button" key={label} onClick={() => void send(h(prompt))}><span className={styles.choiceIcon}><Icon size={21} /></span><span>{h(label)}<small>{h(note)}</small></span><ArrowUpRight size={16} className={styles.choiceArrow} /></button>)}</div></div>}
+              <div className={styles.transcript} role="log" aria-live="off" aria-label={h('Sohbet mesajları')}>{messages.map(m => <article key={m.id} className={m.role === 'user' ? styles.user : styles.assistant}>
+                <div className={styles.messageLabel}>{m.role === 'assistant' && <span className={styles.messageAvatar}><Image src="/assets/robopengu-quantum.webp" alt="" width={28} height={28} /></span>}<strong>{m.role === 'user' ? h('Sen') : 'RoboPengu'}</strong>{m.failed && <span className={styles.errorTag}>{h('Yanıt tamamlanamadı')}</span>}</div>
+                <div className={styles.messageBody}>{m.content ? <p>{m.role === 'assistant' ? h(m.content) : m.content}</p> : <span className={styles.thinking}><i /><i /><i /><span>{h('Yanıt hazırlanıyor…')}</span></span>}
+                  {!!m.products?.length && <div className={styles.products}>{m.products.map(p => <Link key={p.href} href={p.href}><span>{p.name}<small>{h('Katalogda incele')}</small></span><ArrowUpRight size={18} /></Link>)}</div>}
+                </div>
+                {m.role === 'assistant' && m.content && (!loading || m.id !== last?.id) && <button type="button" className={styles.copyButton} onClick={() => void copyAnswer(m)} aria-label={copiedId === m.id ? h('Kopyalandı') : h('Yanıtı kopyala')}>{copiedId === m.id ? <Check size={14} /> : <Copy size={14} />}{copiedId === m.id ? h('Kopyalandı') : h('Kopyala')}</button>}
+              </article>)}</div>
+              <div role="status" className={styles.status}>{loading ? h('RoboPengu yanıtlıyor…') : service}</div>
+              {!loading && last?.failed && <div className={styles.recovery}><button type="button" onClick={() => void send(messages.at(-2)?.content || '', true)}>{h('Yeniden dene')}</button><Link href="/search">{h('Kataloğu keşfet →')}</Link></div>}
+            </div>
+            {showLatest && <button type="button" className={styles.latest} onClick={() => { followTail.current = true; setShowLatest(false); if (transcriptRef.current) transcriptRef.current.scrollTop = transcriptRef.current.scrollHeight; }}><ArrowDown size={16} />{h('Son mesaja git')}</button>}
+          </div>
+          <footer className={styles.footer}><form onSubmit={e => { e.preventDefault(); void send(draft); }}><label htmlFor="pengu-message" className={styles.srOnly}>{h('RoboPengu mesajı')}</label><textarea ref={inputRef} id="pengu-message" rows={1} value={draft} onChange={e => setDraft(e.target.value)} onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) { e.preventDefault(); void send(draft); } }} maxLength={500} placeholder={h('İhtiyacını kendi cümlelerinle anlat…')} autoComplete="off" /><div className={styles.composerBottom}><span className={styles.keyboardHint}>{h('Enter ile gönder · Shift + Enter ile yeni satır')}</span><span className={styles.count}>{draft.length > 400 ? `${draft.length}/500` : ''}</span><button type="submit" disabled={loading || !draft.trim()} aria-label={h('Mesajı gönder')}><ArrowUp size={20} /></button></div></form><p>{h('AI yanıtları hata içerebilir. Güncel fiyat ve kaynak durumunu kontrol et.')}</p></footer>
+        </div>
       </div>
-      <footer className={styles.footer}><form onSubmit={e => { e.preventDefault(); void send(draft); }}><label htmlFor="pengu-message" className={styles.srOnly}>{h("RoboPengu mesajı")}</label><input id="pengu-message" value={draft} onChange={e => setDraft(e.target.value)} maxLength={500} placeholder={h("İhtiyacını kendi cümlelerinle anlat…")} autoComplete="off" /><button type="submit" disabled={loading || !draft.trim()} aria-label={h("Mesajı gönder")}><ArrowUp size={22} /></button></form><p>{h("AI yanıtları hata içerebilir. Güncel fiyat ve kaynak durumunu kontrol et.")}</p></footer>
     </section>
   </div>;
 }
