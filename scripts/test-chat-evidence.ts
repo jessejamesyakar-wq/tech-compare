@@ -29,7 +29,11 @@ check('response and panel share missing-evidence verdict', () => { assert(reply.
 check('reply never claims a lab or a technology winner', () => assert(!/laboratuvarında|liderliği|öne çıkıyor|kritik donanım testinde/.test(reply)));
 check('reference prices are visibly labelled', () => assert.match(describeChatPrice({price: 42000, priceStatus: 'unverified'}), /42.000 TL.*Katalog Referans Fiyatı.*Fiyat doğrulanmadı/));
 check('stale price keeps observed-date label', () => assert.match(describeChatPrice({price: 42000, priceStatus:'stale', statusLabel:'Son görülen fiyat: 18.09.2026'}), /18.09.2026/));
-check('current offer can be labelled current', () => assert.match(describeChatPrice({price:42000,currentPrice:42000,priceStatus:'fresh'}), /Güncel Fiyat/));
+check('fresh catalog status alone is never labelled a live merchant offer', () => {
+  const description = describeChatPrice({price:42000,currentPrice:42000,priceStatus:'fresh'});
+  assert.match(description, /Güncel Katalog Teklifi.*\[CATALOG_FALLBACK\]/);
+  assert.doesNotMatch(description, /LIVE_PRICE|Güncel Mağaza Teklifi/);
+});
 check('null/invalid recommendation price does not crash or invent number', () => { assert.match(buildCatalogChatReply(null, [{productName:'X',price:null}]), /Fiyat bilgisi yok/); assert(!describeChatPrice({price:NaN}).includes('NaN')); });
 check('failed resolution is a clarification, not a fake product', () => assert.match(buildCatalogChatReply(null, [], 'Bu model bulunamadı.'), /Bu model bulunamadı/));
 import { extractBudgetFromText, resolveBudgetRecommendation } from '../src/lib/ai/resolvers';
