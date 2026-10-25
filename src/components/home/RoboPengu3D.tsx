@@ -15,7 +15,7 @@ import styles from './RoboPengu3D.module.css';
 type ModelState = 'waiting' | 'loading' | 'ready' | 'missing' | 'error';
 type TrackingMode = 'body' | 'head' | 'eyes';
 const DESKTOP_MODEL = '/models/robopengu-motion-1dcdbbc49c6b.glb.gz';
-const MOBILE_MODEL = '/models/robopengu-mobile-feda5b385835.glb.gz';
+const MOBILE_MODEL = '/models/robopengu-mobile-lossless-246c09dcc8a3.glb.gz';
 const MOBILE_MEDIA = '(max-width: 1023px), (pointer: coarse)';
 
 interface RoboPengu3DProps {
@@ -132,7 +132,7 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
       try {
         // Start engine chunks and the model together. HTTP gzip decoding keeps
         // every byte of the selected asset intact. Both profiles share the rig.
-        const [response, [THREE, { GLTFLoader }, { RoomEnvironment }]] = await Promise.all([
+        const [response, [THREE, { GLTFLoader }, { RoomEnvironment }, { MeshoptDecoder }]] = await Promise.all([
           fetch(sourceUrl, { signal: controller.signal }).then(async response => ({
             ok: response.ok, status: response.status,
             bytes: response.ok ? await response.arrayBuffer() : null,
@@ -141,6 +141,7 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
             import('three'),
             import('three/examples/jsm/loaders/GLTFLoader.js'),
             import('three/examples/jsm/environments/RoomEnvironment.js'),
+            import('three/examples/jsm/libs/meshopt_decoder.module.js'),
           ]),
         ]);
         if (!response.ok) {
@@ -149,7 +150,7 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
         }
         if (disposed || !response.bytes) return;
         const base = new URL('.', new URL(sourceUrl, window.location.href)).href;
-        const { scene: loadedScene } = await new GLTFLoader().parseAsync(response.bytes, base);
+        const { scene: loadedScene } = await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(response.bytes, base);
         response.bytes = null;
         const geometries = new Set<import('three').BufferGeometry>();
         const materials = new Set<import('three').Material>();

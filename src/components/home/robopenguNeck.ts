@@ -39,7 +39,7 @@ export function connectNeckSkin(THREE: typeof import('three'), meshes: Three.Mes
   for (const mesh of candidates) {
     const group = mesh.geometry.getAttribute('skinIndex').getX(0);
     const joints = mesh.geometry.getAttribute('skinIndex').clone();
-    const weights = new THREE.Float32BufferAttribute(new Float32Array(positions.count * 4), 4);
+    const weights = new THREE.BufferAttribute(new Float32Array(positions.count * 4), 4);
     for (let i = 0; i < positions.count; i++) {
       weights.setXYZW(i, 1, 0, 0, 0);
       if (!Number.isFinite(distance[i])) continue;

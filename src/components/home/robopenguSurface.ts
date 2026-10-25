@@ -18,9 +18,11 @@ export function referenceSurfaceTint(THREE: typeof import('three'), positions: T
     color.lerp(porcelain, face);
     const beak = (1 - smooth(0.10, 0.15, Math.abs(x))) * smooth(0.31, 0.36, y) * (1 - smooth(0.53, 0.57, y)) * smooth(0.53, 0.59, z);
     color.lerp(neutral, Math.max(beak, 1 - smooth(-0.76, -0.72, y)));
-    colors.set([color.r, color.g, color.b], i * 3);
+    colors[i * 3] = color.r;
+    colors[i * 3 + 1] = color.g;
+    colors[i * 3 + 2] = color.b;
   }
-  return new THREE.Float32BufferAttribute(colors, 3);
+  return new THREE.BufferAttribute(colors, 3);
 }
 
 /** Keep the original albedo/normal/MR maps, but distinguish coated panels from metal. */

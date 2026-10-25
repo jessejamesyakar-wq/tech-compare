@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
     return [
       '/models/robopengu-motion-1dcdbbc49c6b.glb.gz',
       '/models/robopengu-mobile-feda5b385835.glb.gz',
+      '/models/robopengu-mobile-lossless-246c09dcc8a3.glb.gz',
     ].map(source => ({
       source,
       headers: [

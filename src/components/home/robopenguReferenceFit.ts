@@ -42,19 +42,22 @@ export function fitReferenceGeometry(THREE: typeof import('three'), meshes: Thre
   if (!meshes.length) return;
   const original = meshes[0].geometry.getAttribute('position');
   if (original.count !== 271425) return;
-  const positions = new THREE.Float32BufferAttribute(new Float32Array(original.count * 3), 3);
+  const positions = new THREE.BufferAttribute(new Float32Array(original.count * 3), 3);
   for (let i = 0; i < original.count; i++) {
     positions.setXYZ(i, ...referencePoint(original.getX(i), original.getY(i), original.getZ(i)));
   }
   // All five rigid parts share a complete vertex buffer. Calculate normals on
   // the complete surface, not separately on each part (which creates seams).
-  const triangles: number[] = [];
+  // Preserve triangle order exactly without a large, growable JS-number array.
+  const indexCount = meshes.reduce((count, mesh) => count + (mesh.geometry.getIndex()?.count ?? 0), 0);
+  const triangles = new Uint32Array(indexCount);
+  let offset = 0;
   for (const mesh of meshes) {
     const indices = mesh.geometry.getIndex();
-    if (indices) for (let i = 0; i < indices.count; i++) triangles.push(indices.getX(i));
+    if (indices) for (let i = 0; i < indices.count; i++) triangles[offset++] = indices.getX(i);
   }
   const joined = new THREE.BufferGeometry();
-  joined.setAttribute('position', positions); joined.setIndex(triangles); joined.computeVertexNormals();
+  joined.setAttribute('position', positions); joined.setIndex(new THREE.BufferAttribute(triangles, 1)); joined.computeVertexNormals();
   const normals = joined.getAttribute('normal');
   for (const mesh of meshes) {
     mesh.geometry.setAttribute('position', positions);
