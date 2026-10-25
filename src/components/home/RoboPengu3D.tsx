@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import { Pause, Play, RotateCcw } from 'lucide-react';
+import { RotateCcw } from 'lucide-react';
 import type { Bone, Group, Object3D, Quaternion, WebGLRenderer } from 'three';
 import { createRoboPenguNaturalDetails } from './robopenguNaturalDetails';
 import { BlinkTiming, idleAttention } from './robopenguMotion';
@@ -43,33 +43,28 @@ function stepGazeSpring(spring: GazeSpring, target: number, frequency: number, m
 export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.glb.gz', paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
   const host = useRef<HTMLDivElement>(null);
   const mount = useRef<HTMLDivElement>(null);
-  const controls = useRef({ paused, suspended, manualPause: false, manualMotionAllowed: false });
+  const controls = useRef({ paused, suspended });
   const sync = useRef<() => void>(() => {});
   const pose = useRef<(action: 'left' | 'right' | 'center' | 'greet' | 'blink') => void>(() => {});
   const [state, setState] = useState<ModelState>('waiting');
   const [tracking, setTracking] = useState<TrackingMode>('body');
-  const [manualPause, setManualPause] = useState(false);
-  const [manualMotionAllowed, setManualMotionAllowed] = useState(false);
-  const [reducedMotion, setReducedMotion] = useState(false);
   const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
-    controls.current = { paused, suspended, manualPause, manualMotionAllowed };
+    controls.current = { paused, suspended };
     sync.current();
-  }, [paused, suspended, manualPause, manualMotionAllowed]);
+  }, [paused, suspended]);
 
   useEffect(() => {
     const container = mount.current;
     const element = host.current;
     if (!container || !element) return;
-    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
     const controller = new AbortController();
     let disposed = false, visible = false, started = false, ready = false;
     let frame = 0, previousTime = 0, motionTime = 0, lastPointerTime = 0;
     let renderer: WebGLRenderer | null = null;
     let root: Group | null = null;
     let model: Object3D | null = null;
-    let resetPose: (() => void) | null = null;
     let draw: (() => void) | null = null;
     let animate: ((time: number) => void) | null = null;
     let updateSize: (() => void) | null = null;
@@ -81,7 +76,6 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     const bodyYaw: GazeSpring = { value: 0, velocity: 0 }, eyeYaw: GazeSpring = { value: 0, velocity: 0 }, eyePitch: GazeSpring = { value: 0, velocity: 0 };
     const wingStretch: GazeSpring = { value: 0, velocity: 0 };
     const headRoll: GazeSpring = { value: 0, velocity: 0 };
-    const springs = [headYaw, headPitch, bodyYaw, eyeYaw, eyePitch, wingStretch, headRoll];
     const resourceCleanup: (() => void)[] = [];
 
     function stop() {
@@ -91,8 +85,8 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     }
 
     function canAnimate() {
-      return !disposed && ready && visible && !document.hidden && (!media.matches || controls.current.manualMotionAllowed) &&
-        !controls.current.paused && !controls.current.suspended && !controls.current.manualPause;
+      return !disposed && ready && visible && !document.hidden &&
+        !controls.current.paused && !controls.current.suspended;
     }
 
     function synchronize() {
@@ -100,13 +94,7 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
       if (visible && !started && !controls.current.suspended) void load();
       if (!canAnimate()) {
         stop();
-        if (media.matches && !controls.current.manualMotionAllowed) { resetPose?.(); draw?.(); }
       } else if (!frame && animate) frame = requestAnimationFrame(animate);
-    }
-
-    function onMotionPreference() {
-      setReducedMotion(media.matches);
-      synchronize();
     }
 
     function onPointer(event: PointerEvent) {
@@ -316,16 +304,6 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
           for (const eye of eyes) eye.quaternion.copy(eyeRest.get(eye)!);
           for (const wing of wings) wing.quaternion.copy(wingRest.get(wing)!);
         };
-        resetPose = () => {
-          restoreBones();
-          root!.position.set(0, 0, 0); root!.rotation.set(0, 0, 0);
-          targetX = targetY = 0;
-          motionTime = lastPointerTime = 0;
-          for (const spring of springs) { spring.value = 0; spring.velocity = 0; }
-          greetingStarted = -100;
-          blinkTiming.reset(); blinkRequested = false;
-          details?.setGaze(0, 0); details?.setBlink(0);
-        };
         draw = () => { if (!disposed && renderer) renderer.render(scene, camera); };
         updateSize = () => {
           if (disposed || !renderer) return;
@@ -418,17 +396,15 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     const intersection = new IntersectionObserver(entries => { visible = entries[0]?.isIntersecting ?? false; synchronize(); }, { threshold: 0.05 });
     const resize = new ResizeObserver(() => updateSize?.());
     intersection.observe(element); resize.observe(element);
-    media.addEventListener('change', onMotionPreference);
     document.addEventListener('visibilitychange', synchronize);
     window.addEventListener('pointermove', onPointer, { passive: true });
     element.addEventListener('pointerdown', onPointer, { passive: true });
     document.documentElement.addEventListener('pointerleave', onPointerLeave);
     sync.current = synchronize;
-    onMotionPreference();
+    synchronize();
     return () => {
       disposed = true; controller.abort(); stop(); sync.current = () => {};
       intersection.disconnect(); resize.disconnect();
-      media.removeEventListener('change', onMotionPreference);
       document.removeEventListener('visibilitychange', synchronize);
       window.removeEventListener('pointermove', onPointer);
       element.removeEventListener('pointerdown', onPointer);
@@ -439,11 +415,9 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     };
   }, [modelUrl, attempt]);
 
-  const effectiveReducedMotion = reducedMotion && !manualMotionAllowed;
-  const stopped = paused || suspended || manualPause || effectiveReducedMotion;
+  const stopped = paused || suspended;
   const status = state === 'ready'
-    ? effectiveReducedMotion ? 'Hareket azaltma tercihiniz açık. İsterseniz bu önizlemede hareketi başlatabilirsiniz.'
-      : stopped ? 'Hareket duraklatıldı.'
+    ? stopped ? 'Hareket duraklatıldı.'
         : tracking === 'eyes' ? 'Bakış, göz kırpma ve beden hareketleri açık.' : tracking === 'head' ? 'Baş takibi açık.' : 'Gövde takibi açık.'
     : state === 'missing' ? (variant === 'hero' ? 'RoboPengu yüklenemedi. Yeniden deneyebilirsin.' : '3D model henüz eklenmedi. Mevcut RoboPengu görseli gösteriliyor.')
       : state === 'error' ? (variant === 'hero' ? 'RoboPengu yüklenemedi. Yeniden deneyebilirsin.' : '3D model açılamadı. Mevcut RoboPengu görseli gösteriliyor.')
@@ -471,12 +445,6 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     </div>}
     <div className={styles.toolbar}>
       <p role="status" aria-live="polite">{status}</p>
-      {state === 'ready' && <button type="button" disabled={paused || suspended} aria-pressed={!stopped} onClick={() => {
-        if (effectiveReducedMotion) { setManualMotionAllowed(true); setManualPause(false); }
-        else setManualPause(value => !value);
-      }}>
-        {stopped ? <Play size={16} /> : <Pause size={16} />}{stopped ? 'Hareketi başlat' : 'Hareketi durdur'}
-      </button>}
       {(state === 'missing' || state === 'error') && <button type="button" onClick={() => setAttempt(value => value + 1)}><RotateCcw size={16} />Yeniden dene</button>}
     </div>
   </div>;
