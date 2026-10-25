@@ -256,7 +256,7 @@ export function formatProductRecommendations(products: any[]): any[] {
       priceStatus: evaluated.priceStatus,
       statusLabel: evaluated.statusLabel,
       lastCheckedAt: evaluated.lastCheckedAt,
-      image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || getFallbackProductImage(p.name, p.brand, p.category),
+      image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || '/images/product-placeholder.png',
       reason: `${p.brand || "Katalog"} modeli`,
       cheapestStore: evaluated.cheapestStoreName || "",
     };

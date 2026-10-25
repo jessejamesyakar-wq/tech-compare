@@ -20,6 +20,8 @@
 .guide h3 span{font-family:Georgia,serif;font-size:inherit;font-weight:inherit;letter-spacing:inherit}
 .messageBody>p+p,.messageBody>p+ol,.messageBody>p+ul{margin-top:16px}.messageBody>ol,.messageBody>ul{margin:0;padding-left:22px}.messageBody li{padding-left:4px;margin:0 0 12px}.messageBody li:last-child{margin-bottom:0}.messageBody li::marker{color:#4c8998;font-weight:600}.messageBody li strong{font-weight:650;color:#1b4757}.recovery button{min-height:44px}.copyButton{min-height:36px}@media(max-width:600px){.copyButton{min-height:44px}}
 .messageBody>ol{list-style-type:decimal}.messageBody>ul{list-style-type:disc}
+.withComparison{width:min(1440px,100%)}.withComparison .guide{display:none}.withComparison .conversation{flex:1 1 40%}.comparisonDrawer{flex:1 1 60%;min-width:0;min-height:0;max-width:760px}.comparisonButton{display:flex;align-items:center;gap:8px;min-height:46px;padding:10px 14px;margin:13px 0 0 36px;border:1px solid #b7d7df;border-radius:12px;background:#eff8fa;color:#0d677b;font-size:13px;cursor:pointer}.comparisonButton svg:last-child{margin-left:auto}
+@media(max-width:1000px){.withComparison .conversation{display:none}.comparisonDrawer{max-width:none;flex:1}.comparisonButton{margin-left:0}.withComparison{width:760px;max-width:100%}}
 /* Keep writing and reading space available above the on-screen keyboard. */
 @media(max-width:600px),(max-width:1023px) and (max-height:500px){
   .footer form{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:8px;align-items:end;padding:10px}

@@ -24,6 +24,9 @@ import { getRelevantLearnedGuidance } from "@/lib/ai/learningHub";
 import { sanitizeConversation, providerConfigurationStatus, declinesProductSuggestions } from '@/lib/ai/conversation';
 
 import { RoboPenguPipeline } from '@/lib/ai/robopengu/pipeline';
+import { getStoredProducts } from '@/lib/adminData';
+import { televisionComparisonRequest } from '@/lib/ai/televisionComparisonRequest';
+import { parseChatComparison, comparisonChatSummary } from '@/lib/ai/chatComparison';
 
 const SYSTEM_INSTRUCTION = `Sen aceleetme.tech’in Türkçe konuşan teknoloji danışmanı RoboPengu’sun.
 Samimi, kısa ve açık konuş; kullanıcının bütçesini koru. Kullanıcı adına duygu, aile ilişkisi veya ihtiyaç uydurma.
@@ -125,6 +128,17 @@ export async function POST(req: Request) {
 
     // Respect a conversational request before searching or attaching product evidence.
     if (!declinesProductSuggestions(trimmedPrompt)) {
+      const tvRequest = televisionComparisonRequest(trimmedPrompt, history, getStoredProducts());
+      if (tvRequest) {
+        if (!tvRequest.products) return createFallbackStreamResponse(null, [], trimmedPrompt, tvRequest.message);
+        const comparison = resolveCompareProducts([], tvRequest.products.map(product => product.id));
+        if (comparison.ok && comparison.data) {
+          const panel = formatComparisonData(comparison.data);
+          const display = parseChatComparison(panel);
+          return createFallbackStreamResponse(panel, [], trimmedPrompt, undefined, display ? comparisonChatSummary(display) : undefined);
+        }
+        return createFallbackStreamResponse(null, [], trimmedPrompt, comparison.message);
+      }
       // Run RoboPenguPipeline for structured shopping intent and recommendation
       try {
         // This pipeline only ranks phones. Never feed its phone recommendations
@@ -146,6 +160,7 @@ export async function POST(req: Request) {
         if (compParts && compParts.length >= 2) {
           const compResult = resolveCompareProducts(compParts);
           if (compResult.ok && compResult.data) {
+            if (compResult.data.category === 'tvs') return createFallbackStreamResponse(null, [], trimmedPrompt, 'Televizyonlarda ekran boyutu ve bölgesel model kodu önemli. İki ürünün tam model kodunu yazar mısın? Farklı bir varyantı senin yerine seçmeyeyim.');
             sidePanel = formatComparisonData(compResult.data);
           } else {
             // If comparison resolution fails, do NOT generate fake mock products!

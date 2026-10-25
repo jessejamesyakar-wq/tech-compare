@@ -2,6 +2,34 @@ import type { Language } from '../types';
 
 // UI copy only. Product identities, specifications and price records are never translated or rewritten here.
 const rows = `
+YAN YANA, DAHA NET|SIDE BY SIDE, CLEARER|NEBENEINANDER, KLARER|РЯДОМ — ПОНЯТНЕЕ|LADO A LADO, MÁS CLARO|FIANCO A FIANCO, PIÙ CHIARO
+Televizyon karşılaştırması|TV comparison|TV-Vergleich|Сравнение телевизоров|Comparación de televisores|Confronto televisori
+Ürün karşılaştırması|Product comparison|Produktvergleich|Сравнение товаров|Comparación de productos|Confronto prodotti
+Sohbete dön|Back to chat|Zurück zum Chat|Вернуться в чат|Volver al chat|Torna alla chat
+Ürünü incele|View product|Produkt ansehen|Посмотреть товар|Ver producto|Vedi prodotto
+RoboPengu’nun kararı|RoboPengu's verdict|RoboPengus Urteil|Решение RoboPengu|Veredicto de RoboPengu|Il verdetto di RoboPengu
+Senin için önemli olan|What matters to you|Was dir wichtig ist|Что для тебя важно|Lo que te importa|Ciò che conta per te
+Genel değerlendirme|Overall assessment|Gesamtbewertung|Общая оценка|Evaluación general|Valutazione generale
+Yenileme hızı|Refresh rate|Bildwiederholrate|Частота обновления|Frecuencia de actualización|Frequenza di aggiornamento
+HDMI bağlantı sayısı|HDMI port count|Anzahl HDMI-Anschlüsse|Количество HDMI-портов|Número de puertos HDMI|Numero di porte HDMI
+Bu ölçütte önde|Ahead on this criterion|Bei diesem Kriterium vorn|Лидирует по этому критерию|Destaca en este criterio|In vantaggio su questo criterio
+Kesin bir genel kazanan yok|No definitive overall winner|Kein eindeutiger Gesamtsieger|Однозначного общего победителя нет|No hay un ganador general definitivo|Nessun vincitore assoluto certo
+Bu ölçütte kazanan belirlenmedi|No winner on this criterion|Kein Sieger bei diesem Kriterium|Победитель по этому критерию не определён|Sin ganador en este criterio|Nessun vincitore su questo criterio
+Seçim yalnızca bu kayıtlı değere dayanır; genel görüntü kalitesi veya oyun performansı kazananı değildir.|This choice uses only this recorded value; it is not an overall picture quality or gaming performance winner.|Diese Auswahl beruht nur auf diesem erfassten Wert; sie bestimmt keinen Gesamtsieger für Bildqualität oder Spieleleistung.|Выбор основан только на этом значении в каталоге, а не на общем качестве изображения или игровой производительности.|La elección se basa solo en este valor registrado; no determina la calidad de imagen ni el rendimiento general en juegos.|La scelta usa solo questo valore registrato; non determina il vincitore per qualità d'immagine o prestazioni di gioco complessive.
+Ortak koşullarda doğrulanmış testler olmadan genel kazanan seçmiyorum. Önceliğini seç; karşılaştırılabilir bir üstünlük varsa nedenini göstereyim.|I won't choose an overall winner without verified tests under common conditions. Choose a priority to see any comparable advantage.|Ohne verifizierte Tests unter gleichen Bedingungen wähle ich keinen Gesamtsieger. Wähle deine Priorität, um vergleichbare Vorteile zu sehen.|Без проверенных тестов в одинаковых условиях я не выбираю общего победителя. Выбери приоритет, чтобы увидеть сопоставимое преимущество.|Sin pruebas verificadas en las mismas condiciones no elijo un ganador general. Elige tu prioridad para ver ventajas comparables.|Senza test verificati nelle stesse condizioni non scelgo un vincitore assoluto. Scegli una priorità per vedere i vantaggi confrontabili.
+Değerler eşit, eksik veya karşılaştırmaya uygun değil. Bu durum genel bir beraberlik anlamına gelmez.|The values are equal, missing or not comparable. This does not mean an overall tie.|Die Werte sind gleich, fehlen oder sind nicht vergleichbar. Das bedeutet kein allgemeines Unentschieden.|Значения равны, отсутствуют или несопоставимы. Это не означает общую ничью.|Los valores son iguales, faltan o no son comparables. Esto no supone un empate general.|I valori sono uguali, mancanti o non confrontabili. Non significa un pareggio complessivo.
+Teknoloji farkı ne demek?|What does the technology difference mean?|Was bedeutet der Technologieunterschied?|Что означает разница технологий?|¿Qué significa la diferencia tecnológica?|Cosa significa la differenza tecnologica?
+Kendi ışığını üreten pikseller|Self-lit pixels|Selbstleuchtende Pixel|Самосветящиеся пиксели|Píxeles autoiluminados|Pixel autoilluminanti
+Bölgesel arka aydınlatma|Zoned backlighting|Zonen-Hintergrundbeleuchtung|Зональная подсветка|Retroiluminación por zonas|Retroilluminazione a zone
+Modelin ayrıntıları önemli|Model details matter|Modelldetails sind wichtig|Важны детали модели|Importan los detalles del modelo|Contano i dettagli del modello
+Teknoloji kaynağı|Technology source|Technologiequelle|Источник о технологии|Fuente sobre la tecnología|Fonte sulla tecnologia
+Bu açıklamalar teknoloji prensibini anlatır; ürünün tüm özelliklerini doğrulamaz.|These explanations describe the technology; they do not verify all product specifications.|Diese Erklärungen beschreiben die Technologie; sie bestätigen nicht alle Produkteigenschaften.|Пояснения описывают принцип технологии, но не подтверждают все характеристики товара.|Estas explicaciones describen la tecnología; no verifican todas las características del producto.|Queste spiegazioni descrivono la tecnologia, non verificano tutte le specifiche del prodotto.
+Yalnız farklar|Differences only|Nur Unterschiede|Только различия|Solo diferencias|Solo differenze
+Katalog kayıtları · Eksik bilgi destek yok anlamına gelmez.|Catalog records · Missing data does not mean unsupported.|Katalogdaten · Fehlende Angaben bedeuten nicht fehlende Unterstützung.|Данные каталога · Отсутствие данных не означает отсутствие поддержки.|Datos del catálogo · La falta de datos no significa falta de soporte.|Dati del catalogo · Un dato mancante non significa assenza di supporto.
+Daha yüksek kayıtlı değer|Higher recorded value|Höherer erfasster Wert|Большее значение в каталоге|Mayor valor registrado|Valore registrato superiore
+Kayıtlı bir fark bulunamadı.|No recorded difference found.|Kein erfasster Unterschied gefunden.|Различий в записях не найдено.|No se encontraron diferencias registradas.|Nessuna differenza registrata trovata.
+Tam karşılaştırmayı aç|Open full comparison|Vollständigen Vergleich öffnen|Открыть полное сравнение|Abrir comparación completa|Apri il confronto completo
+Karşılaştırmayı aç|Open comparison|Vergleich öffnen|Открыть сравнение|Abrir comparación|Apri il confronto
 Senin teknoloji yol arkadaşın|Your technology companion|Dein Technikbegleiter|Твой помощник в мире технологий|Tu compañero de tecnología|Il tuo compagno tecnologico
 Önce ihtiyacın.|Your needs first.|Zuerst dein Bedarf.|Сначала твои потребности.|Primero, tus necesidades.|Prima le tue esigenze.
 Sonra seçeneklerin.|Then your options.|Dann deine Möglichkeiten.|Затем варианты.|Después, tus opciones.|Poi le tue opzioni.

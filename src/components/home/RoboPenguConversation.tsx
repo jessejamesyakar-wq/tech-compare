@@ -9,8 +9,10 @@ import { ArrowUp, ArrowDown, ArrowUpRight, X, Smartphone, Laptop, Tv, Sparkles, 
 import { useModalFocus } from '@/components/ui/useModalFocus';
 import { consumeAvailableChatStream, visibleChatText, type ConversationTurn } from '@/lib/ai/conversation';
 import styles from './RoboPenguConversation.module.css';
+import { RoboPenguComparison } from './RoboPenguComparison';
+import { parseChatComparison, type ChatComparison } from '@/lib/ai/chatComparison';
 
-type Message = ConversationTurn & { id: number; failed?: boolean; products?: { name: string; href: string }[] };
+type Message = ConversationTurn & { id: number; failed?: boolean; products?: { name: string; href: string }[]; comparison?: ChatComparison };
 const categories = [
   { label: 'Telefon', note: 'Gün boyu yanında', icon: Smartphone, prompt: 'Telefon arıyorum.' },
   { label: 'Bilgisayar', note: 'İş, okul veya oyun', icon: Laptop, prompt: 'Bilgisayar arıyorum.' },
@@ -46,7 +48,13 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   const [service, setService] = useState('');
   const [copiedId, setCopiedId] = useState<number | null>(null);
   const [showLatest, setShowLatest] = useState(false);
-  const dialogRef = useModalFocus(isOpen, onClose);
+  const [activeComparison, setActiveComparison] = useState<ChatComparison | null>(null);
+  const comparisonTrigger = useRef<HTMLButtonElement | null>(null);
+  const previousComparison = useRef(false);
+  function closeComparison() {
+    setActiveComparison(null);
+  }
+  const dialogRef = useModalFocus(isOpen, () => { if (activeComparison) setActiveComparison(null); else onClose(); });
   const controllerRef = useRef<AbortController | null>(null);
   const busyRef = useRef(false);
   const handledRef = useRef('');
@@ -54,6 +62,13 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   const transcriptRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const followTail = useRef(true);
+  useEffect(() => {
+    const restore = previousComparison.current && !activeComparison && isOpen;
+    previousComparison.current = !!activeComparison;
+    if (!restore) return;
+    const frame = requestAnimationFrame(() => (comparisonTrigger.current?.isConnected ? comparisonTrigger.current : inputRef.current)?.focus({ preventScroll: true }));
+    return () => cancelAnimationFrame(frame);
+  }, [activeComparison, isOpen]);
 
   useEffect(() => () => controllerRef.current?.abort(), []);
   useEffect(() => {
@@ -106,6 +121,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   async function send(text: string, retry = false) {
     const prompt = text.trim();
     if (!prompt || prompt.length > 500 || busyRef.current) return;
+    setActiveComparison(null); comparisonTrigger.current = null;
     followTail.current = true; setShowLatest(false);
     busyRef.current = true; setLoading(true); setService(''); setDraft('');
     const history = retry ? messages.slice(0, -2) : messages;
@@ -121,10 +137,15 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
       if (!response.ok || !response.body) throw new Error(response.status === 429 ? h("Çok hızlı ilerledik. Bir dakika sonra yeniden deneyebilirsin.") : h("Bağlantı kurulamadı. Yeniden deneyebilirsin."));
       let isTruncated = false;
       const available = await consumeAvailableChatStream(response.body, (event, data) => {
+        if (event === 'panel') {
+          const comparison = parseChatComparison(data);
+          if (comparison) { update({ comparison }); setActiveComparison(comparison); }
+        }
         if (event === 'text' && typeof data === 'string') { raw += data; update({ content: visibleChatText(raw) }); }
         if (event === 'status' && typeof data === 'object' && data !== null) {
           const statusObj = data as { mode?: string; completed?: boolean; truncated?: boolean; reason?: string };
           if (statusObj.mode === 'unavailable') {
+            setActiveComparison(null); update({ comparison: undefined });
             raw = '';
             setService('');
             update({ failed: true, products: [], content: 'Şu anda AI yanıt hizmetine bağlanamıyorum. Sorunu yeniden deneyebilir veya ürünleri katalogda inceleyebilirsin.' });
@@ -157,7 +178,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
       update({ failed: true, content: raw ? `${visibleChatText(raw)}\n\n${h('Yanıt kesildi. Yeniden deneyebilirsin.')}` : controller.signal.aborted ? h("Yanıt süresi doldu. Yeniden deneyebilirsin.") : error instanceof Error ? error.message : h("Yanıt alınamadı.") });
     } finally { clearTimeout(timeout); busyRef.current = false; controllerRef.current = null; setLoading(false); }
   }
-  function reset() { if (busyRef.current) return; followTail.current = true; setShowLatest(false); setCopiedId(null); setMessages([]); setDraft(''); setService(''); }
+  function reset() { if (busyRef.current) return; setActiveComparison(null); comparisonTrigger.current = null; followTail.current = true; setShowLatest(false); setCopiedId(null); setMessages([]); setDraft(''); setService(''); }
   async function copyAnswer(message: Message) {
     try { await navigator.clipboard.writeText(message.content); setCopiedId(message.id); }
     catch { setService(h('Kopyalanamadı. Metni seçerek kopyalayabilirsin.')); }
@@ -165,7 +186,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   if (!isOpen) return null;
   const last = messages.at(-1);
   return <div className={styles.overlay} ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby="pengu-dialog-title" tabIndex={-1}>
-    <section className={styles.window}>
+    <section className={`${styles.window} ${activeComparison ? styles.withComparison : ''}`}>
       <header className={styles.top}>
         <div className={styles.identity}><span className={styles.avatar}><Image src="/assets/robopengu-quantum.webp" alt="" width={44} height={44} /></span><div><h2 id="pengu-dialog-title">RoboPengu <span>AI</span></h2><small>{h('Senin teknoloji yol arkadaşın')}</small></div></div>
         <div className={styles.actions}><button className={styles.newChat} type="button" onClick={reset} disabled={loading || !messages.length} aria-label={h('Yeni sohbet')} title={h('Yeni sohbet')}><Plus size={17} /><span>{h('Yeni sohbet')}</span></button><button type="button" onClick={onClose} aria-label={h('Sohbeti kapat')} title={h('Sohbeti kapat')}><X size={20} /></button></div>
@@ -189,6 +210,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
                   {!!m.products?.length && <div className={styles.products}>{m.products.map(p => <Link key={p.href} href={p.href}><span>{p.name}<small>{h('Katalogda incele')}</small></span><ArrowUpRight size={18} /></Link>)}</div>}
                 </div>
                 {m.role === 'assistant' && m.content && (!loading || m.id !== last?.id) && <button type="button" className={styles.copyButton} onClick={() => void copyAnswer(m)} aria-label={copiedId === m.id ? h('Kopyalandı') : h('Yanıtı kopyala')}>{copiedId === m.id ? <Check size={14} /> : <Copy size={14} />}{copiedId === m.id ? h('Kopyalandı') : h('Kopyala')}</button>}
+                {m.comparison && <button type="button" className={styles.comparisonButton} onClick={event => { comparisonTrigger.current = event.currentTarget; setActiveComparison(m.comparison!); }}><Columns2 size={17} />{h('Karşılaştırmayı aç')}<ArrowUpRight size={16} /></button>}
               </article>)}</div>
               <div role="status" className={styles.status}>{loading ? h('RoboPengu yanıtlıyor…') : service}</div>
               {!loading && last?.failed && <div className={styles.recovery}><button type="button" onClick={() => void send(messages.at(-2)?.content || '', true)}>{h('Yeniden dene')}</button><Link href="/search">{h('Kataloğu keşfet →')}</Link></div>}
@@ -197,6 +219,7 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
           </div>
           <footer className={styles.footer}><form onSubmit={e => { e.preventDefault(); void send(draft); }}><label htmlFor="pengu-message" className={styles.srOnly}>{h('RoboPengu mesajı')}</label><textarea ref={inputRef} id="pengu-message" rows={1} value={draft} onChange={e => setDraft(e.target.value)} onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing && !window.matchMedia('(pointer: coarse)').matches) { e.preventDefault(); void send(draft); } }} enterKeyHint="enter" maxLength={500} placeholder={h('İhtiyacını kendi cümlelerinle anlat…')} autoComplete="off" /><div className={styles.composerBottom}><span className={styles.keyboardHint}>{h('Enter ile gönder · Shift + Enter ile yeni satır')}</span><span className={styles.count}>{draft.length > 400 ? `${draft.length}/500` : ''}</span><button type="submit" disabled={loading || !draft.trim()} aria-label={h('Mesajı gönder')}><ArrowUp size={20} /></button></div></form><p>{h('AI yanıtları hata içerebilir. Güncel fiyat ve kaynak durumunu kontrol et.')}</p></footer>
         </div>
+        {activeComparison && <div className={styles.comparisonDrawer}><RoboPenguComparison key={activeComparison.products.map(p => p.id).join(':')} data={activeComparison} onClose={closeComparison} /></div>}
       </div>
     </section>
   </div>;

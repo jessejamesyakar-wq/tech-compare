@@ -1,0 +1,54 @@
+import assert from 'node:assert/strict';
+import { parseChatComparison, comparisonDecision, comparisonChatSummary, televisionTechnology } from '../src/lib/ai/chatComparison';
+import { televisionComparisonRequest } from '../src/lib/ai/televisionComparisonRequest';
+import { resolveCompareProducts, formatComparisonData } from '../src/lib/ai/resolvers';
+import { getStoredProducts } from '../src/lib/adminData';
+import type { Product } from '../src/lib/types';
+
+const catalog = getStoredProducts();
+const before = JSON.stringify(catalog);
+const request = televisionComparisonRequest('Samsung 65S95H ile TCL 65C855 kıyasla', [], catalog);
+assert.equal(request?.products?.length, 2);
+assert.deepEqual(televisionComparisonRequest('TCL 65C855 ile Samsung 65S95H kıyasla', [], catalog)?.products?.map(p=>p.id), ['tcl-65c855','samsung-65s95h']);
+const result = resolveCompareProducts([], request!.products!.map(p => p.id));
+assert.ok(result.ok && result.data);
+const payload = formatComparisonData(result.data);
+const panel = parseChatComparison(payload)!;
+assert.ok(panel);
+assert.equal(panel.products.length, 2);
+assert.ok(panel.rows.some(r => r.key.endsWith(':displayTech')));
+assert.ok(panel.rows.every(r => !['price', 'score', 'year'].includes(r.key)));
+assert.doesNotMatch(comparisonChatSummary(panel), /NO_PRICE_DATA|92 \/ 100|82 \/ 100|Fiyat durumu/);
+assert.equal(comparisonDecision(panel, 'general'), null);
+assert.equal(comparisonDecision(panel, 'hdmiPorts'), null); // Equal ports are not an overall tie.
+assert.equal(comparisonDecision(panel, 'refreshRateHz')?.product.id, 'samsung-65s95h');
+assert.equal(televisionComparisonRequest('İki televizyonu kıyasla', [], catalog)?.products, undefined);
+assert.equal(televisionComparisonRequest('Samsung 65S95H ve hayali 65ZZ999 televizyonu kıyasla', [], catalog)?.products, undefined);
+assert.equal(televisionComparisonRequest('Samsung 65S95H ile Samsung 65S95H kıyasla', [], catalog)?.products, undefined);
+assert.equal(televisionComparisonRequest('LG OLED65G64LW ile Samsung 65S95H kıyasla', [], catalog)?.products, undefined); // Conflicting duplicate catalog variants.
+assert.deepEqual(televisionComparisonRequest('https://www.aceleetme.tech/tvs/lg-oled65g64lw ile https://www.aceleetme.tech/tvs/samsung-65s95h kıyasla', [], catalog)?.products?.map(p=>p.id), ['lg-oled65g64lw','samsung-65s95h']);
+assert.equal(televisionComparisonRequest('65S95H ve 65C855', [{role:'user',content:'İki televizyonu kıyasla'}], catalog)?.products?.length, 2);
+assert.equal(televisionComparisonRequest('Pil ömrü hakkında konuşalım', [], catalog), null);
+assert.equal(televisionComparisonRequest('iPhone 17 ile Galaxy S26 kıyasla', [], catalog), null);
+const duplicate = structuredClone(request!.products![0]) as Product;
+duplicate.id += '-duplicate'; duplicate.slug += '-duplicate';
+assert.equal(televisionComparisonRequest('65S95H televizyon kıyasla', [], [request!.products![0], duplicate])?.products, undefined);
+
+assert.equal(parseChatComparison({...payload, products:[payload.products[0],payload.products[0]]}), null);
+assert.equal(parseChatComparison({...payload, products:[{...payload.products[0],slug:'../admin'},payload.products[1]]}), null);
+assert.equal(parseChatComparison({...payload, products:[{...payload.products[0],category:'phones'},payload.products[1]]}), null);
+assert.equal(parseChatComparison({...payload, products:[...payload.products,payload.products[0]]}), null);
+const unsafe = structuredClone(payload); unsafe.products[0].image = 'javascript:alert(1)';
+assert.equal(parseChatComparison(unsafe)?.products[0].image, '/images/product-placeholder.png');
+const noEvidence = structuredClone(panel);
+const refresh = noEvidence.rows.find(r=>r.key.endsWith(':refreshRateHz'))!;
+refresh.values = ['Doğrulama bekliyor (Tartışmalı değer)', '144 Hz'];
+assert.equal(comparisonDecision(noEvidence, 'refreshRateHz'), null);
+refresh.values = ['165 Hz', '144 Hz']; refresh.leader = null;
+assert.equal(comparisonDecision(noEvidence, 'refreshRateHz'), null);
+assert.equal(televisionTechnology('Bilinmiyor'), null);
+assert.equal(televisionTechnology('Doğrulama bekliyor (Tartışmalı değer)'), null);
+assert.ok(televisionTechnology('OLED evo')?.url.startsWith('https://www.lg.com/'));
+assert.ok(televisionTechnology('QD-Mini LED')?.url.startsWith('https://www.samsung.com/'));
+assert.equal(JSON.stringify(catalog), before);
+console.log('PASS: exact TV pair, clarification, ambiguous variants, cross-category rejection, safe panel projection, missing/conflicted metrics, no invented overall winner, unchanged catalog/prices');
