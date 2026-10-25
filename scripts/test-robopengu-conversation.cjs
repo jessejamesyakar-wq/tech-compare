@@ -5,7 +5,7 @@ const ts = require('typescript');
 const code = ts.transpileModule(fs.readFileSync('src/lib/ai/conversation.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
 const mod = { exports: {} };
 vm.runInNewContext(code, { exports: mod.exports, TextDecoder, ReadableStream });
-const { sanitizeConversation, providerConfigurationStatus, visibleChatText, consumeChatStream, declinesProductSuggestions } = mod.exports;
+const { sanitizeConversation, providerConfigurationStatus, visibleChatText, consumeChatStream, consumeAvailableChatStream, declinesProductSuggestions } = mod.exports;
 async function main() {
   assert.equal(declinesProductSuggestions('Henüz model önerme.'), true);
   assert.equal(declinesProductSuggestions('Bütçemi özetle; ürün önerme.'), true);
@@ -25,6 +25,15 @@ async function main() {
   const bytes = new TextEncoder().encode(payload), received=[];
   await consumeChatStream(new ReadableStream({start(c){for(const byte of bytes)c.enqueue(new Uint8Array([byte]));c.close();}}),(event,data)=>received.push([event,data]));
   assert.equal(received[1][1],'Türkçe 🐧');
+  const unavailablePayload = 'event: text\ndata: "Partial answer"\n\nevent: status\ndata: {"mode":"unavailable"}\n\nevent: text\ndata: "Wrong-category fallback"\n\nevent: products\ndata: [{"slug":"unrelated-phone"}]\n\nevent: status\ndata: {"mode":"ai"}\n\nevent: text\ndata: "Must remain blocked"\n\nevent: done\ndata: [DONE]\n\n';
+  const guardedEvents = [];
+  const available = await consumeAvailableChatStream(new ReadableStream({start(c){c.enqueue(new TextEncoder().encode(unavailablePayload));c.close();}}),(event,data)=>guardedEvents.push([event,data]));
+  assert.equal(available, false);
+  assert.equal(guardedEvents.length, 2);
+  assert.equal(guardedEvents[1][1].mode, 'unavailable');
+  const normalEvents = [];
+  assert.equal(await consumeAvailableChatStream(new ReadableStream({start(c){c.enqueue(bytes);c.close();}}),(event,data)=>normalEvents.push([event,data])), true);
+  assert.equal(normalEvents[1][1], 'Türkçe 🐧');
   await assert.rejects(consumeChatStream(new ReadableStream({start(c){c.enqueue(new TextEncoder().encode('event: text\ndata: "partial"\n\n'));c.close();}}),()=>{}),/kesildi/);
   assert.equal(visibleChatText('[VOICE_SUMMARY]ses[/VOICE_SUMMARY][SUMMARY_CHAT]Merhaba[/SUMMARY_CHAT]'),'Merhaba');
   console.log('PASS: configuration classification, bounded role-safe history, corrected budget retention, byte-split UTF-8 SSE, missing completion, visible message parsing');

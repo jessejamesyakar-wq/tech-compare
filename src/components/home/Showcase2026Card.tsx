@@ -1,4 +1,5 @@
 'use client';
+import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 
 import Link from 'next/link';
 import { ArrowRight, Plus, Info } from 'lucide-react';
@@ -14,6 +15,7 @@ const categoryNames: Record<string, string> = {
 export function Showcase2026Card({ product, isRotating = false }: {
   product: Showcase2026Product; isRotating?: boolean;
 }) {
+  const h = useHomeCopy();
   return <article className={`${styles.card} ${isRotating ? styles.rotating : ''}`}>
     <Link href={product.detailHref} className={styles.imageLink} tabIndex={-1} aria-hidden="true">
       <div className={styles.image} data-category={product.category}>
@@ -21,14 +23,14 @@ export function Showcase2026Card({ product, isRotating = false }: {
       </div>
     </Link>
     <div className={styles.cardBody}>
-      <p className={styles.category}>{categoryNames[product.category] || 'Teknoloji'} <span>· {product.brand}</span></p>
+      <p className={styles.category}>{h(categoryNames[product.category] || h("Teknoloji"))} <span>· {product.brand}</span></p>
       <h3><Link href={product.detailHref} title={product.name}>{product.name}</Link></h3>
       <p className={styles.specs} title={product.specs.slice(0, 2).join(' · ')}>{product.specs.slice(0, 2).join(' · ')}</p>
       <div className={styles.cardFooter}>
-        <p className={styles.price}><Info size={14} aria-hidden="true" />{product.priceStatusLabel}</p>
+        <p className={styles.price}><Info size={14} aria-hidden="true" />{h(product.priceStatusLabel)}</p>
         <div className={styles.actions}>
-          <Link href={product.detailHref} className={styles.primary}>İncele <ArrowRight size={16} aria-hidden="true" /></Link>
-          <Link href={product.compareHref} className={styles.secondary} aria-label={`${product.name} modelini karşılaştır`}><Plus size={16} aria-hidden="true" />Karşılaştır</Link>
+          <Link href={product.detailHref} className={styles.primary}>{h("İncele")}<ArrowRight size={16} aria-hidden="true" /></Link>
+          <Link href={product.compareHref} className={styles.secondary} aria-label={h("Karşılaştır") + ': ' + product.name}><Plus size={16} aria-hidden="true" />{h("Karşılaştır")}</Link>
         </div>
       </div>
     </div>

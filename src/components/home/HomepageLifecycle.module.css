@@ -300,3 +300,5 @@
     transition: none;
   }
 }
+
+.archiveToggle{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;padding:24px 28px;font-size:20px;font-weight:600;min-height:64px;list-style:none}.archiveToggle::-webkit-details-marker{display:none}.archiveToggle:focus-visible{outline:3px solid #17879a;outline-offset:-4px}.archiveSection[open]>.archiveToggle svg{transform:rotate(90deg)}.archiveSection:not([open]){padding:0}

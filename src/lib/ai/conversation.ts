@@ -56,3 +56,15 @@ export async function consumeChatStream(body: ReadableStream<Uint8Array>, receiv
     if (!doneEvent) throw new Error('Yanıt bağlantısı kesildi. Yeniden deneyebilirsin.');
   } finally { reader.releaseLock(); }
 }
+
+/** An unavailable provider must not turn a catalog fallback into an AI answer. */
+export async function consumeAvailableChatStream(body: ReadableStream<Uint8Array>, receive: (event: string, data: unknown) => void): Promise<boolean> {
+  let available = true;
+  await consumeChatStream(body, (event, data) => {
+    if (event === 'status' && typeof data === 'object' && data !== null && 'mode' in data && data.mode === 'unavailable') {
+      available = false;
+      receive(event, data);
+    } else if (available) receive(event, data);
+  });
+  return available;
+}

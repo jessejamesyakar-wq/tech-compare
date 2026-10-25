@@ -32,12 +32,13 @@ const CATEGORY_KEYWORDS: Record<CatalogCategory, string[]> = {
     "huawei",
     "honor",
     "realme",
+    "телефон", "teléfono", "telefono", "handy",
   ],
-  tvs: ["televizyon", "smart tv", "oled tv", "qled", "tv", "ekran"],
-  laptops: ["dizüstü bilgisayar", "dizüstü", "notebook", "laptop", "ultrabook", "macbook", "thinkpad", "zenbook", "victus", "tuf", "rog"],
-  tablets: ["tablet", "ipad", "galaxy tab", "matepad"],
-  smartwatches: ["akıllı saat", "smartwatch", "kol saati", "apple watch", "galaxy watch"],
-  headphones: ["kulaklık", "kulaklik", "headphone", "earbud", "kulak içi", "airpods"],
+  tvs: ["televizyon", "television", "fernseher", "телевизор", "televisor", "televisore", "smart tv", "oled tv", "qled", "tv", "ekran"],
+  laptops: ["dizüstü bilgisayar", "bilgisayar", "dizüstü", "computer", "ordinateur", "ordenador", "portatile", "portátil", "ноутбук", "компьютер", "notebook", "laptop", "ultrabook", "macbook", "thinkpad", "zenbook", "victus", "tuf", "rog"],
+  tablets: ["tablet", "планшет", "ipad", "galaxy tab", "matepad"],
+  smartwatches: ["akıllı saat", "smartwatch", "умные часы", "reloj inteligente", "kol saati", "apple watch", "galaxy watch"],
+  headphones: ["kulaklık", "kulaklik", "headphone", "kopfhörer", "наушники", "auriculares", "cuffie", "earbud", "kulak içi", "airpods"],
   appliances: [
     "beyaz eşya", "ev aleti", "süpürge", "robot süpürge", "paspas", "roborock",
     "dreame", "dyson", "blender", "ütü", "fırın", "klima", "bulaşık", "çamaşır"
@@ -91,4 +92,9 @@ export function detectCategory(query: string): CategoryMatchResult {
   const modifiers = ADJECTIVE_MODIFIERS.filter((mod) => normalized.includes(mod));
 
   return { category: bestCategory, modifiers, matchedKeyword: bestKeyword };
+}
+
+export function conversationCategory(query: string, history: Array<{ role: string; content: string }>): CatalogCategory | null {
+  return detectCategory(query).category || [...history].reverse().filter(turn => turn.role === 'user')
+    .map(turn => detectCategory(turn.content).category).find(Boolean) || null;
 }

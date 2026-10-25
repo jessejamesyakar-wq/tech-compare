@@ -2,7 +2,7 @@ import { buildCatalogChatReply, describeChatPrice } from '@/lib/ai/chatEvidence'
 import { evaluateProductPricing } from '@/lib/pricing/unifiedPriceEvaluator';
 import { checkRateLimit, validateUserMessage, flagsPromptInjection } from "@/lib/ai/safety";
 import { callGeminiStreamWithFallback, normalizeChunkText, extractChunkFinishReason, ThinkingLevel } from "@/lib/ai/modelRouter";
-import { detectCategory } from "@/lib/ai/categoryMatcher";
+import { detectCategory, conversationCategory } from "@/lib/ai/categoryMatcher";
 import {
   resolveCompareProducts,
   formatComparisonData,
@@ -107,6 +107,8 @@ export async function POST(req: Request) {
 
     // 4. Konuşma Hafızası (Multi-turn History)
     const history = sanitizeConversation(body.history);
+    const replyLanguages: Record<string, string> = { tr: 'Türkçe', en: 'English', de: 'Deutsch', ru: 'Русский', es: 'Español', it: 'Italiano' };
+    const replyLanguage = replyLanguages[typeof body.language === 'string' ? body.language : 'tr'] || replyLanguages.tr;
     const formattedHistory = history
       .filter((h: any) => h && typeof h.content === "string" && h.content.trim() && !h.content.startsWith("⚠️"))
       .map((h: any) => ({
@@ -125,7 +127,10 @@ export async function POST(req: Request) {
     if (!declinesProductSuggestions(trimmedPrompt)) {
       // Run RoboPenguPipeline for structured shopping intent and recommendation
       try {
-        pipelineResult = RoboPenguPipeline.execute(trimmedPrompt, history);
+        // This pipeline only ranks phones. Never feed its phone recommendations
+        // into a television/laptop request or an unknown-category conversation.
+        pipelineResult = conversationCategory(trimmedPrompt, history) === 'smartphones'
+          ? RoboPenguPipeline.execute(trimmedPrompt, history) : null;
         if (pipelineResult && pipelineResult.recommendation.rankedCandidates.length > 0) {
           customFallbackReply = pipelineResult.composedResponseText;
         }
@@ -160,7 +165,7 @@ export async function POST(req: Request) {
 
         // A. Bütçe tespiti (Önce mevcut mesajdan, yoksa geçmişten)
         let budgetInfo = extractBudgetFromText(trimmedPrompt);
-        let detectedCat = detectCategory(trimmedPrompt).category;
+        let detectedCat = conversationCategory(trimmedPrompt, history);
         let preferredBrand = "";
 
         const lowerPrompt = trimmedPrompt.toLowerCase();
@@ -189,7 +194,7 @@ export async function POST(req: Request) {
           }
         }
 
-        if (budgetInfo && budgetInfo.budget > 0) {
+        if (budgetInfo && budgetInfo.budget > 0 && detectedCat) {
           // Çoklu talep veya spesifik model tespiti:
           // Örn 1: "Kız kardeşime apple watch se alacağım, kalan parayla telefon..."
           // Örn 2: "Kendime 20.000 tl lik bir ürün çocuğuma da hayali olan iphone 18..."
@@ -324,7 +329,7 @@ export async function POST(req: Request) {
         geminiStreamResult = await callGeminiStreamWithFallback({
           prompt: finalPromptWithLearning,
           history: formattedHistory,
-          systemInstruction: SYSTEM_INSTRUCTION,
+          systemInstruction: SYSTEM_INSTRUCTION + '\nYanıtı kullanıcının seçtiği şu dilde ver: ' + replyLanguage + '. Doğruluk ve fiyat kuralları tüm dillerde geçerlidir.',
           generationConfig: {
             temperature: 0.65,
             maxOutputTokens: effectiveMaxOutputTokens,

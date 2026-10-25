@@ -198,3 +198,5 @@
 .page .primaryButton { background:#08677a; }
 .page .quietLink { color:#176579; }
 @media(max-width:600px) { .page > :not(:first-child) { width:calc(100% - 32px); } .page .adSlot { min-height:68px; } .page .adLabel { top:9px; } }
+
+.compactNotice{display:flex;align-items:center;gap:16px;max-width:1216px;margin:32px auto;padding:20px 24px;border:1px solid #dce8ee;border-radius:16px;background:#f5fafc;color:#486174;font-size:14px;line-height:1.65}.compactNotice>svg{flex:none}.compactNotice p{flex:1}.compactNotice a{display:flex;align-items:center;gap:8px;min-height:44px;color:#086473;font-weight:600}.compactNotice a:focus-visible{outline:3px solid #17879a;outline-offset:4px}@media(max-width:767px){.compactNotice{margin:24px 16px;flex-wrap:wrap;padding:16px}.compactNotice p{flex-basis:calc(100% - 40px)}.compactNotice a{margin-left:36px}.categoryGrid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px}.categoryCard{padding:14px 8px!important;min-width:0}.categoryCard strong{font-size:12px;overflow-wrap:anywhere}.categoryCard small{font-size:11px}}

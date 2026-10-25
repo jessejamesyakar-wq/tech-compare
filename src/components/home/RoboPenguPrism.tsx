@@ -1,10 +1,12 @@
 'use client';
+import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 
 import { useEffect, useRef, useState } from 'react';
 import { Pause, Play } from 'lucide-react';
 import styles from './RoboPenguPrism.module.css';
 
 export function RoboPenguPrism({ suspended = false }: { suspended?: boolean }) {
+  const h = useHomeCopy();
   const host = useRef<HTMLDivElement>(null), video = useRef<HTMLVideoElement>(null);
   const [desktop, setDesktop] = useState(false), [loaded, setLoaded] = useState(false), [playing, setPlaying] = useState(false);
   const paused = useRef(false), manuallyAllowed = useRef(false), visible = useRef(false);
@@ -34,7 +36,7 @@ export function RoboPenguPrism({ suspended = false }: { suspended?: boolean }) {
         <video ref={video} muted loop playsInline preload="none" poster="/assets/robopengu-lab-poster.webp" src={loaded ? '/assets/robopengu-lab.mp4' : undefined} onPlay={() => setPlaying(true)} onPause={() => setPlaying(false)} onError={() => setPlaying(false)} aria-label="RoboPengu laboratuvar videosu" />
         <span className={styles.edgeLight} aria-hidden="true" />
       </div>
-      <div className={styles.caption}><span><strong>ROBOPENGU</strong><small>QUANTUM LAB</small></span><button type="button" aria-label={playing ? 'Laboratuvar videosunu duraklat' : 'Laboratuvar videosunu oynat'} onClick={toggle}>{playing ? <Pause size={13} /> : <Play size={13} />}</button></div>
+      <div className={styles.caption}><span><strong>ROBOPENGU</strong><small>QUANTUM LAB</small></span><button type="button" aria-label={playing ? h("Laboratuvar videosunu duraklat") : h("Laboratuvar videosunu oynat")} onClick={toggle}>{playing ? <Pause size={13} /> : <Play size={13} />}</button></div>
     </div>}
   </div>;
 }

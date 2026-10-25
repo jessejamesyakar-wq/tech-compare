@@ -1,4 +1,5 @@
 'use client';
+import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -27,6 +28,7 @@ import { searchLocalProductsAsync, initClientSearch, CompactSearchProduct } from
 import { LazyAIAssistantModal } from '@/components/ai/LazyAIAssistantModal';
 
 export function Navbar() {
+  const h = useHomeCopy();
   const { t, language, setLanguage, languageNames } = useI18n();
   const { compareList } = useCompare();
   const pathname = usePathname();
@@ -42,6 +44,28 @@ export function Navbar() {
   const [isFocused, setIsFocused] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
   const [isListening, setIsListening] = useState(false);
+  const [voiceNotice, setVoiceNotice] = useState(false);
+  const languageMenuRef = useRef<HTMLDivElement>(null);
+  const languageButtonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (!langDropdownOpen) return;
+    const closeOutside = (event: PointerEvent) => {
+      if (!languageMenuRef.current?.contains(event.target as Node)) setLangDropdownOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setLangDropdownOpen(false);
+        languageButtonRef.current?.focus();
+      }
+    };
+    document.addEventListener('pointerdown', closeOutside);
+    document.addEventListener('keydown', closeOnEscape);
+    return () => {
+      document.removeEventListener('pointerdown', closeOutside);
+      document.removeEventListener('keydown', closeOnEscape);
+    };
+  }, [langDropdownOpen]);
 
   // Dedicated AI Assistant Modal State (Layer B)
   const [isAiModalOpen, setIsAiModalOpen] = useState(false);
@@ -61,7 +85,7 @@ export function Navbar() {
       (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
     if (!SpeechRecognition) {
-      openAiAssistant(undefined, true);
+      setVoiceNotice(true);
       return;
     }
 
@@ -72,9 +96,10 @@ export function Navbar() {
     }
 
     try {
+      setVoiceNotice(false);
       const recognition = new SpeechRecognition();
       speechRecognitionRef.current = recognition;
-      recognition.lang = 'tr-TR';
+      recognition.lang = ({ tr: 'tr-TR', en: 'en-US', de: 'de-DE', ru: 'ru-RU', es: 'es-ES', it: 'it-IT' })[language];
       recognition.interimResults = true;
       recognition.continuous = false;
 
@@ -88,7 +113,7 @@ export function Navbar() {
           setIsFocused(true);
         }
       };
-      recognition.onerror = () => setIsListening(false);
+      recognition.onerror = () => { setIsListening(false); setVoiceNotice(true); };
       recognition.onend = () => {
         setIsListening(false);
         (window.innerWidth < 1024 ? mobileInputRef.current : searchInputRef.current)?.focus();
@@ -96,6 +121,7 @@ export function Navbar() {
       recognition.start();
     } catch {
       setIsListening(false);
+      setVoiceNotice(true);
     }
   };
 
@@ -119,12 +145,11 @@ export function Navbar() {
   // Animated rotating placeholder for luxury search bar
   const placeholderList = [
     t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara...',
-    'Örn: iPhone 17 Pro Max...',
-    'Örn: Galaxy S26 Ultra...',
-    'Örn: 20.000 TL bütçeye telefon...',
-    'Örn: Yazılım için hafif laptop...',
-    'Örn: 55 inç OLED 120Hz TV...',
-    'Örn: En ucuz PS5 Pro...',
+    'iPhone 17 Pro Max',
+    'Galaxy S26 Ultra',
+    'MacBook Pro',
+    'OLED 120Hz TV',
+    'PS5 Pro',
   ];
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
@@ -138,26 +163,16 @@ export function Navbar() {
 
   const currentPlaceholder = placeholderList[placeholderIndex];
 
-  // Open Gemini AI Assistant: on homepage smooth-scrolls to the inline hero and focuses input; on other pages redirects to /#robopengu-hero
+  // The homepage conversation is a portal, not an input inside the hero.
   const openAiAssistant = (initialText?: string, isVoice = false) => {
     setIsFocused(false);
-    if (isHomePage) {
-      const heroSection = document.getElementById('robopengu-hero');
-      if (heroSection) {
-        heroSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        const inputElem = heroSection.querySelector<HTMLInputElement>('input[aria-label="RoboPengu mesajı"]');
-        if (inputElem) {
-          setTimeout(() => inputElem.focus(), 350);
-          if (initialText) {
-            inputElem.value = initialText;
-            inputElem.dispatchEvent(new Event('input', { bubbles: true }));
-          }
-        }
-        return;
-      }
-    } else {
-      router.push('/#robopengu-hero');
+    if (isHomePage && !isVoice) {
+      window.dispatchEvent(new CustomEvent('robopengu:open', { detail: { query: initialText || '' } }));
+      return;
     }
+    setAiModalQuery(initialText || '');
+    setAiModalVoiceTrigger(isVoice);
+    setIsAiModalOpen(true);
   };
 
   // Await the shared index and ignore completions from superseded queries.
@@ -184,7 +199,7 @@ export function Navbar() {
     container?.querySelector<HTMLElement>(`[data-nav-result-index="${selectedIndex}"]`)?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
   }, [isFocused, selectedIndex]);
 
-  // Global ⌘K / Ctrl+K keyboard shortcut listener & Arrow navigation
+  // Global Ctrl / ⌘ K / Ctrl+K keyboard shortcut listener & Arrow navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
@@ -275,24 +290,23 @@ export function Navbar() {
       return (
         <div className="absolute top-full left-0 right-0 mt-2 max-h-[min(520px,calc(100dvh-180px))] overflow-y-auto overscroll-contain bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl space-y-2.5">
           <div className="flex items-center justify-between text-xs text-slate-500 pb-1.5 border-b border-slate-100 dark:border-slate-800">
-            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu&apos;ya Danış</span>
-            <span className="text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">Akıllı Asistan 🐧</span>
+            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">{h('RoboPengu’ya danış')}</span>
+            <span className="text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">{h('Akıllı asistan')}</span>
           </div>
           <div className="flex flex-wrap gap-1.5">
             {[
               'iPhone 17 Pro Max',
               'Galaxy S26 Ultra',
-              '20.000 TL bütçeye telefon',
-              'Fiyat takibi nasıl çalışır?',
-              'Kargo kaç günde gelir?',
-            ].map((qText) => (
+              h("20.000 TL bütçeye telefon"),
+              h("Fiyat takibi nasıl çalışır?"),
+            ].map((qText, index) => (
               <button
-                key={qText}
+                key={h(qText)}
                 type="button"
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => {
-                  if (qText.includes('nasıl') || qText.includes('bütçeye') || qText.includes('kaç')) {
-                    openAiAssistant(qText);
+                  if (index >= 2) {
+                    openAiAssistant(h(qText));
                   } else {
                     setQuery(qText);
                   }
@@ -309,9 +323,9 @@ export function Navbar() {
 
     if (searchState !== 'idle') return (
       <div role="status" className="absolute top-full left-0 right-0 mt-2 max-h-[min(520px,calc(100dvh-180px))] overflow-y-auto overscroll-contain rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-xl p-4 z-50 text-sm space-y-2">
-        <p>{searchState === 'loading' ? 'Ürün önerileri hazırlanıyor…' : 'Arama önerileri yüklenemedi.'}</p>
-        {searchState === 'error' && <button type="button" className="min-h-11 underline font-semibold" onClick={() => setSearchRetry(n => n + 1)}>Tekrar Dene</button>}
-        <Link href={'/search?q=' + encodeURIComponent(trimmed)} onClick={() => setIsFocused(false)} className="min-h-11 flex items-center text-emerald-700 dark:text-emerald-300 underline">Arama Sayfasını Aç</Link>
+        <p>{searchState === 'loading' ? h("Ürün önerileri hazırlanıyor…") : h("Arama önerileri yüklenemedi.")}</p>
+        {searchState === 'error' && <button type="button" className="min-h-11 underline font-semibold" onClick={() => setSearchRetry(n => n + 1)}>{h("Tekrar Dene")}</button>}
+        <Link href={'/search?q=' + encodeURIComponent(trimmed)} onClick={() => setIsFocused(false)} className="min-h-11 flex items-center text-emerald-700 dark:text-emerald-300 underline">{h("Arama Sayfasını Aç")}</Link>
       </div>
     );
     const hasLexicalResults = searchResults.length > 0;
@@ -326,8 +340,8 @@ export function Navbar() {
         {hasLexicalResults ? (
           <div>
             <div className="px-1 pb-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 dark:text-slate-500 flex items-center justify-between">
-              <span>Eşleşen Modeller</span>
-              <span>{searchResults.length} Model</span>
+              <span>{h('Eşleşen modeller')}</span>
+              <span>{searchResults.length} {h('model')}</span>
             </div>
 
             <div className="space-y-1">
@@ -371,9 +385,9 @@ export function Navbar() {
 
                   <div className="text-right shrink-0">
                     <span className="text-slate-700 dark:text-slate-300 text-xs font-black block tabular-nums">
-                      {Number.isFinite(item.basePrice) && item.basePrice > 0 ? `₺${item.basePrice.toLocaleString('tr-TR')}` : 'Fiyat yok'}
+                      {Number.isFinite(item.basePrice) && item.basePrice > 0 ? `₺${item.basePrice.toLocaleString('tr-TR')}` : h("Fiyat yok")}
                     </span>
-                    <span className="block text-[10px] text-slate-500 font-medium">Katalog referansı</span>
+                    <span className="block text-[10px] text-slate-500 font-medium">{h('Katalog referansı')}</span>
                   </div>
                 </Link>
               ))}
@@ -385,7 +399,7 @@ export function Navbar() {
                 onClick={() => setIsFocused(false)}
                 className="w-full py-2 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-400 text-xs font-extrabold rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
               >
-                <span>Arama Sayfasında Devam Et</span>
+                <span>{h("Arama Sayfasında Devam Et")}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
 
@@ -400,14 +414,14 @@ export function Navbar() {
                 className="w-full py-2 px-3 bg-gradient-to-r from-emerald-600/10 via-teal-600/10 to-cyan-600/10 hover:from-emerald-600/20 hover:to-teal-600/20 text-emerald-800 dark:text-emerald-300 text-xs font-extrabold rounded-xl border border-emerald-500/30 flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500" />
-                <span>Bu Aramayı RoboPengu’ya Sor 🐧</span>
+                <span>{h("Bu Aramayı RoboPengu’ya Sor 🐧")}</span>
               </button>
             </div>
           </div>
         ) : (
           <div className="py-5 text-center space-y-3">
             <p className="text-slate-500 text-xs font-semibold break-words">
-              &ldquo;{trimmed}&rdquo; için doğrudan model bulunamadı.
+              {h('Doğrudan eşleşen model bulunamadı.')} <strong>{trimmed}</strong>
             </p>
             <button
               type="button"
@@ -419,7 +433,7 @@ export function Navbar() {
               className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-black rounded-xl shadow-md transition-all inline-flex items-center gap-2 cursor-pointer"
             >
               <Sparkles className="w-4 h-4 text-emerald-200 fill-emerald-200" />
-              <span>RoboPengu&apos;dan Tavsiye Al 🐧</span>
+              <span>{h('RoboPengu’ya danış')}</span>
             </button>
           </div>
         )}
@@ -430,6 +444,7 @@ export function Navbar() {
   return (
     <>
       <header className="sticky top-0 z-40 bg-white/95 dark:bg-[#090D16]/95 backdrop-blur-xl border-b border-slate-200/80 dark:border-slate-800/80 shadow-xs transition-colors">
+        {voiceNotice && <div role="status" className="flex items-center justify-center gap-3 bg-slate-100 px-4 py-2 text-xs text-slate-700"><span>{h('Sesli arama kullanılamıyor. Aramanı yazarak sürdürebilirsin.')}</span><button type="button" onClick={() => setVoiceNotice(false)} aria-label={h('Kapat')} className="min-h-11 min-w-11"><X size={16} /></button></div>}
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           
           {/* Row 1: Logo & Desktop Search Bar & Right Language/Compare */}
@@ -444,19 +459,10 @@ export function Navbar() {
               {isHomePage && (
                 <nav className="hidden xl:flex items-center gap-4 text-xs font-extrabold text-slate-700 dark:text-slate-200">
                   <Link href="/phones" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
-                    Keşfet
-                  </Link>
+                    {h("Keşfet")}</Link>
                   <Link href="/compare" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
-                    Karşılaştır
-                  </Link>
-                  <button
-                    type="button"
-                    onClick={() => openAiAssistant()}
-                    className="hover:text-cyan-600 dark:hover:text-cyan-400 text-cyan-600 dark:text-cyan-400 font-extrabold flex items-center gap-1 cursor-pointer"
-                  >
-                    <span>RoboPengu</span>
-                    <Sparkles className="w-3 h-3 text-cyan-500 fill-cyan-500" />
-                  </button>
+                    {h("Karşılaştır")}</Link>
+
                 </nav>
               )}
             </div>
@@ -481,7 +487,7 @@ export function Navbar() {
                   <div className="flex items-center gap-2.5 flex-1 min-w-0 pr-2">
                     <button
                       type="submit"
-                      aria-label="Arama yap"
+                      aria-label={h("Arama yap")}
                       className="p-1 rounded-full text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer"
                     >
                       <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-cyan-500 dark:text-cyan-400' : 'text-slate-400'}`} />
@@ -490,7 +496,7 @@ export function Navbar() {
                     <input
                       ref={searchInputRef}
                       type="search"
-                      aria-label="Ürün ara"
+                      aria-label={h("Ürün ara")}
                       maxLength={200}
                       inputMode="search"
                       enterKeyHint="search"
@@ -514,7 +520,7 @@ export function Navbar() {
                     {query && (
                       <button
                         type="button"
-                        aria-label="Aramayı temizle"
+                        aria-label={h("Aramayı temizle")}
                         onClick={(e) => {
                           e.stopPropagation();
                           setQuery('');
@@ -527,7 +533,7 @@ export function Navbar() {
                     )}
                   </div>
 
-                  {/* Right Action Cluster: Sesli Arama Mikrofonu + Canlı Ses Dalgası Butonu + ⌘K + Fütüristik RoboPengu AI Butonu */}
+                  {/* Right Action Cluster: Sesli Arama Mikrofonu + Canlı Ses Dalgası Butonu + Ctrl / ⌘ K + Fütüristik RoboPengu AI Butonu */}
                   <div className="flex items-center gap-1.5 shrink-0">
                     {/* Mikrofon Butonu */}
                     <button
@@ -542,7 +548,7 @@ export function Navbar() {
                           : 'text-slate-500 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-cyan-50 dark:hover:bg-slate-800'
                       }`}
                       title={isListening ? 'Dinlemeyi Durdur' : 'Sesli Arama (Mikrofon)'}
-                      aria-label="Sesli Arama"
+                      aria-label={h("Sesli Arama")}
                     >
                       {isListening ? (
                         <MicOff className="w-4 h-4 text-white animate-bounce" />
@@ -551,27 +557,11 @@ export function Navbar() {
                       )}
                     </button>
 
-                    {/* Canlı Ses Dalgası Butonu */}
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        openAiAssistant(undefined, true);
-                      }}
-                      className="w-8 h-8 rounded-full bg-[#d8ecfc] hover:bg-[#c2e2fa] dark:bg-blue-950/70 dark:hover:bg-blue-900 text-[#0b57d0] dark:text-blue-300 flex items-center justify-center transition-all active:scale-95 shadow-2xs cursor-pointer hover:shadow-cyan-500/20"
-                      title="RoboPengu Canlı Ses Modu"
-                      aria-label="RoboPengu Canlı Ses"
-                    >
-                      <div className="flex items-center justify-center gap-[2px] h-3.5">
-                        <span className="w-[2px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-2.5"></span>
-                        <span className="w-[2px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-3.5" style={{ animationDelay: '0.2s' }}></span>
-                        <span className="w-[2px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-2" style={{ animationDelay: '0.4s' }}></span>
-                      </div>
-                    </button>
+
 
                     {!isFocused && !query && (
                       <kbd className="hidden xl:inline-flex items-center bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 px-1.5 py-0.5 rounded-md text-[10px] font-black border border-slate-200 dark:border-slate-700 shadow-2xs font-mono">
-                        ⌘K
+                        Ctrl / ⌘ K
                       </kbd>
                     )}
 
@@ -620,8 +610,12 @@ export function Navbar() {
               )}
 
               {/* Language Selector Pill */}
-              <div className="relative">
+              <div className="relative" ref={languageMenuRef}>
                 <motion.button
+                  ref={languageButtonRef}
+                  aria-label={h('Dil seç')}
+                  aria-expanded={langDropdownOpen}
+                  aria-controls="site-language-options"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => setLangDropdownOpen(!langDropdownOpen)}
@@ -633,15 +627,16 @@ export function Navbar() {
                 </motion.button>
 
                 {langDropdownOpen && (
-                  <div className="absolute right-0 mt-2 w-44 bg-white/95 border border-slate-200 rounded-2xl shadow-xl p-1.5 z-50 animate-in fade-in zoom-in-95 duration-100 backdrop-blur-md">
+                  <div id="site-language-options" className="absolute right-0 mt-2 w-44 bg-white/95 border border-slate-200 rounded-2xl shadow-xl p-1.5 z-50 animate-in fade-in zoom-in-95 duration-100 backdrop-blur-md">
                     {(Object.keys(languageNames) as Language[]).map((langKey) => (
                       <button
                         key={langKey}
                         onClick={() => {
                           setLanguage(langKey);
                           setLangDropdownOpen(false);
+                          languageButtonRef.current?.focus();
                         }}
-                        className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-extrabold cursor-pointer transition-colors ${
+                        className={`min-h-11 w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-extrabold cursor-pointer transition-colors ${
                           language === langKey
                             ? 'bg-emerald-50 text-emerald-700 font-black'
                             : 'text-slate-700 hover:bg-slate-100'
@@ -678,7 +673,7 @@ export function Navbar() {
                 <div className="flex items-center gap-2 flex-1 min-w-0">
                   <button
                     type="submit"
-                    aria-label="Arama yap"
+                    aria-label={h("Arama yap")}
                     className="w-11 h-11 shrink-0 flex items-center justify-center rounded-full text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 cursor-pointer"
                   >
                     <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-cyan-500' : 'text-slate-400'}`} />
@@ -687,7 +682,7 @@ export function Navbar() {
                   <input
                     ref={mobileInputRef}
                     type="search"
-                      aria-label="Ürün ara"
+                      aria-label={h("Ürün ara")}
                       maxLength={200}
                     inputMode="search"
                     enterKeyHint="search"
@@ -711,7 +706,7 @@ export function Navbar() {
                   {query && (
                     <button
                       type="button"
-                      aria-label="Aramayı temizle"
+                      aria-label={h("Aramayı temizle")}
                       onClick={() => {
                         setQuery('');
                         mobileInputRef.current?.focus();
@@ -734,8 +729,8 @@ export function Navbar() {
                         ? 'bg-rose-500 text-white animate-pulse ring-2 ring-rose-300'
                         : 'text-slate-500 hover:text-cyan-600 dark:hover:text-cyan-400'
                     }`}
-                    title="Sesli Arama"
-                    aria-label="Sesli Arama"
+                    title={h("Sesli Arama")}
+                    aria-label={h("Sesli Arama")}
                   >
                     {isListening ? (
                       <MicOff className="w-3.5 h-3.5 text-white animate-bounce" />
@@ -770,8 +765,8 @@ export function Navbar() {
                       openAiAssistant();
                     }}
                     className="relative flex min-h-11 min-w-11 justify-center items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-[11px] font-black transition-all duration-300 cursor-pointer overflow-hidden border border-cyan-400/50 dark:border-cyan-500/60 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-950 text-white shadow-[0_0_10px_rgba(6,182,212,0.3)] hover:border-cyan-400 hover:shadow-[0_0_16px_rgba(6,182,212,0.5)] active:scale-95 whitespace-nowrap shrink-0 group/ai"
-                    title="RoboPengu AI Danışmanı"
-                    aria-label="RoboPengu AI Danışmanı"
+                    title={h("RoboPengu AI Danışmanı")}
+                    aria-label={h("RoboPengu AI Danışmanı")}
                   >
                     <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span>
                     <div className="w-4 h-4 rounded-full overflow-hidden flex items-center justify-center shrink-0 bg-slate-900 border border-cyan-400/70 p-0.5 shadow-[0_0_6px_rgba(6,182,212,0.6)]">
@@ -821,7 +816,7 @@ export function Navbar() {
           {/* Tooltip speech pill */}
           <span className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] md:text-xs font-black px-3 py-1.5 md:px-3.5 md:py-2 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-all group-hover:scale-105 group-hover:border-emerald-500/40 active:scale-95">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-            <span>RoboPengu&apos;ya Sor!</span>
+            <span>{h('RoboPengu’ya danış')}</span>
             <span className="text-xs md:text-sm">🐧</span>
           </span>
 

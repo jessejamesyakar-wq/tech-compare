@@ -24,6 +24,7 @@ const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguageState] = useState<Language>('tr');
+  useEffect(() => { document.documentElement.lang = language; }, [language]);
 
   useEffect(() => {
     try {

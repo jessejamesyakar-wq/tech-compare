@@ -1,4 +1,5 @@
 'use client';
+import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
@@ -44,6 +45,7 @@ function stepGazeSpring(spring: GazeSpring, target: number, frequency: number, m
 
 /** A real GLB viewer; the homepage never substitutes a different character. */
 export function RoboPengu3D({ modelUrl, paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
+  const h = useHomeCopy();
   const host = useRef<HTMLDivElement>(null);
   const mount = useRef<HTMLDivElement>(null);
   const controls = useRef({ paused, suspended });
@@ -431,11 +433,11 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
 
   const stopped = paused || suspended;
   const status = state === 'ready'
-    ? stopped ? 'Hareket duraklatıldı.'
-        : tracking === 'eyes' ? 'Bakış, göz kırpma ve beden hareketleri açık.' : tracking === 'head' ? 'Baş takibi açık.' : 'Gövde takibi açık.'
-    : state === 'missing' ? (variant === 'hero' ? 'RoboPengu yüklenemedi. Yeniden deneyebilirsin.' : '3D model henüz eklenmedi. Mevcut RoboPengu görseli gösteriliyor.')
-      : state === 'error' ? (variant === 'hero' ? 'RoboPengu yüklenemedi. Yeniden deneyebilirsin.' : '3D model açılamadı. Mevcut RoboPengu görseli gösteriliyor.')
-        : '3D model hazırlanıyor…';
+    ? stopped ? h("Hareket duraklatıldı.")
+        : tracking === 'eyes' ? h("Bakış, göz kırpma ve beden hareketleri açık.") : tracking === 'head' ? 'Baş takibi açık.' : 'Gövde takibi açık.'
+    : state === 'missing' ? (variant === 'hero' ? h("RoboPengu yüklenemedi. Yeniden deneyebilirsin.") : '3D model henüz eklenmedi. Mevcut RoboPengu görseli gösteriliyor.')
+      : state === 'error' ? (variant === 'hero' ? h("RoboPengu yüklenemedi. Yeniden deneyebilirsin.") : '3D model açılamadı. Mevcut RoboPengu görseli gösteriliyor.')
+        : h("3D model hazırlanıyor…");
 
   return <div className={`${styles.viewer} ${variant === 'hero' ? styles.hero : ''}`} ref={host} data-model-state={state} data-tracking={state === 'ready' ? tracking : undefined}>
     {variant === 'hero' && (modelUrl
@@ -444,7 +446,7 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
         <link rel="preload" as="fetch" href={MOBILE_MODEL} media={MOBILE_MEDIA} crossOrigin="anonymous" />
         <link rel="preload" as="fetch" href={DESKTOP_MODEL} media="(min-width: 1024px) and (pointer: fine)" crossOrigin="anonymous" />
       </>)}
-    <div className={styles.stage} role={state === 'ready' || variant === 'preview' ? 'img' : undefined} aria-label={state === 'ready' ? 'Etkileşimli üç boyutlu RoboPengu' : variant === 'preview' ? 'RoboPengu görseli' : undefined} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
+    <div className={styles.stage} role={state === 'ready' || variant === 'preview' ? 'img' : undefined} aria-label={state === 'ready' ? h("Etkileşimli üç boyutlu RoboPengu") : variant === 'preview' ? 'RoboPengu görseli' : undefined} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
       const action = ({ ArrowLeft: 'left', ArrowRight: 'right', Home: 'center', Enter: 'greet', b: 'blink', B: 'blink' } as const)[event.key as 'ArrowLeft' | 'ArrowRight' | 'Home' | 'Enter' | 'b' | 'B'];
       if (action) { event.preventDefault(); pose.current(action); }
     }}>
@@ -464,7 +466,7 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
     </div>}
     <div className={styles.toolbar}>
       <p role="status" aria-live="polite">{status}</p>
-      {(state === 'missing' || state === 'error') && <button type="button" onClick={() => setAttempt(value => value + 1)}><RotateCcw size={16} />Yeniden dene</button>}
+      {(state === 'missing' || state === 'error') && <button type="button" onClick={() => setAttempt(value => value + 1)}><RotateCcw size={16} />{h("Yeniden dene")}</button>}
     </div>
   </div>;
 }

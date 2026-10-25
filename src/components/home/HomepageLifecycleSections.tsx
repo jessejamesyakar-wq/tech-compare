@@ -1,4 +1,5 @@
 'use client';
+import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 
 import Link from 'next/link';
 import {
@@ -21,11 +22,12 @@ interface HomepageLifecycleSectionsProps {
 }
 
 function ValueCard({ product }: { product: LifecycleHomeProduct }) {
+  const h = useHomeCopy();
   return (
     <Link href={product.detailHref} className={styles.valueCard}>
       <div className={styles.cardMeta}>
-        <span className={styles.valueBadge}><Sparkles size={13} />2025 Akıllı Fırsat</span>
-        <span className={styles.categoryTag}>{product.category}</span>
+        <span className={styles.valueBadge}><Sparkles size={13} />{h("2025 Model Seçkisi")}</span>
+        <span className={styles.categoryTag}>{h(({ smartphones: 'Telefon', laptops: 'Bilgisayar', tvs: 'Televizyon', tablets: 'Tablet', smartwatches: 'Akıllı saat', headphones: 'Kulaklık', appliances: 'Ev & yaşam', monitors: 'Monitör', consoles: 'Oyun konsolu' } as Record<string, string>)[product.category] || product.category)}</span>
       </div>
 
       <div className={styles.valueImage}>
@@ -35,9 +37,9 @@ function ValueCard({ product }: { product: LifecycleHomeProduct }) {
       <div className={styles.cardBody}>
         <p className={styles.brand}>{product.brand}</p>
         <h3>{product.name}</h3>
-        <p className={styles.safePrice}>{product.priceStatusLabel}</p>
+        <p className={styles.safePrice}>{h(product.priceStatusLabel)}</p>
         <div className={styles.cardCta}>
-          <span>Yeni nesile alternatif</span>
+          <span>{h("Yeni nesile alternatif")}</span>
           <ArrowRight size={16} />
         </div>
       </div>
@@ -46,6 +48,7 @@ function ValueCard({ product }: { product: LifecycleHomeProduct }) {
 }
 
 function ArchiveCard({ product }: { product: LifecycleHomeProduct }) {
+  const h = useHomeCopy();
   const nearArchive = product.lifecycleTier === 'ARCHIVE_ACTIVE';
 
   return (
@@ -53,7 +56,7 @@ function ArchiveCard({ product }: { product: LifecycleHomeProduct }) {
       <div className={styles.archiveTop}>
         <span className={styles.archiveBadge}>
           <Archive size={13} />
-          {nearArchive ? 'Yakın Arşiv' : 'Teknoloji Arşivi'}
+          {nearArchive ? h("Yakın Arşiv") : h("Teknoloji Arşivi")}
         </span>
         <span className={styles.year}>{product.releaseYear}</span>
       </div>
@@ -63,12 +66,12 @@ function ArchiveCard({ product }: { product: LifecycleHomeProduct }) {
       </div>
 
       <div className={styles.cardBody}>
-        <p className={styles.era}><CalendarDays size={13} />{product.eraLabel}</p>
+        <p className={styles.era}><CalendarDays size={13} />{product.releaseYear}</p>
         <p className={styles.archiveBrand}>{product.brand}</p>
         <h3>{product.name}</h3>
         <p className={styles.archivePrice}>{product.priceStatusLabel}</p>
         <div className={styles.archiveCta}>
-          <span>Sergiyi incele</span>
+          <span>{h("Sergiyi incele")}</span>
           <ArrowRight size={16} />
         </div>
       </div>
@@ -97,6 +100,7 @@ function ProductRail({
 }
 
 export function HomepageLifecycleSections({ data }: HomepageLifecycleSectionsProps) {
+  const h = useHomeCopy();
   const archiveProducts = [...data.archive2024, ...data.archiveClassic];
   const hasValue = data.value2025.length > 0;
   const hasArchive = archiveProducts.length > 0;
@@ -109,13 +113,12 @@ export function HomepageLifecycleSections({ data }: HomepageLifecycleSectionsPro
         <section className={styles.valueSection} aria-labelledby="value-2025-title">
           <div className={styles.sectionHeading}>
             <div>
-              <p className={styles.valueEyebrow}><Gem size={15} />Geçen neslin güçlü seçimleri</p>
-              <h2 id="value-2025-title">2025 Akıllı Fırsatlar</h2>
-              <p>Yeni nesile çıkmadan önce fiyat-performans açısından yeniden değerlendirmeye değer modeller.</p>
+              <p className={styles.valueEyebrow}><Gem size={15} />{h("Geçen neslin güçlü seçimleri")}</p>
+              <h2 id="value-2025-title">{h("2025 Model Seçkisi")}</h2>
+              <p>{h("Önceki neslin modellerini kayıtlı özellikleriyle keşfet.")}</p>
             </div>
             <span className={styles.freshnessNote}>
-              <Clock3 size={14} />Teklif yalnız doğrulandığında güncel kabul edilir
-            </span>
+              <Clock3 size={14} />{h("Teklif yalnız doğrulandığında güncel kabul edilir")}</span>
           </div>
 
           <ProductRail products={data.value2025} />
@@ -123,21 +126,21 @@ export function HomepageLifecycleSections({ data }: HomepageLifecycleSectionsPro
       )}
 
       {hasArchive && (
-        <section className={styles.archiveSection} aria-labelledby="archive-title">
+        <details className={styles.archiveSection}><summary className={styles.archiveToggle}>{h("Teknoloji arşivini keşfet")}<ArrowRight size={18} /></summary><section aria-labelledby="archive-title">
           <div className={styles.archiveTexture} aria-hidden="true" />
           <div className={styles.archiveInner}>
             <div className={styles.sectionHeading}>
               <div>
                 <p className={styles.archiveEyebrow}><Archive size={15} />RoboPengu Timeline</p>
-                <h2 id="archive-title">Teknoloji Arşivi</h2>
-                <p>Raf dışı değil, sergide: döneminin önemli modellerini teknoloji tarihinin bir parçası olarak keşfedin.</p>
+                <h2 id="archive-title">{h("Teknoloji Arşivi")}</h2>
+                <p>{h("Raf dışı değil, sergide: döneminin önemli modellerini teknoloji tarihinin bir parçası olarak keşfedin.")}</p>
               </div>
-              <span className={styles.archiveLegend}>2024 Yakın Arşiv · 2023 ve öncesi Modern Klasikler</span>
+              <span className={styles.archiveLegend}>{h("2024 Yakın Arşiv · 2023 ve öncesi Modern Klasikler")}</span>
             </div>
 
             <ProductRail products={archiveProducts} archive />
           </div>
-        </section>
+        </section></details>
       )}
     </div>
   );

@@ -1,4 +1,5 @@
 'use client';
+import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 
 import React from 'react';
 import Image from 'next/image';
@@ -32,6 +33,7 @@ interface LogoProps {
 }
 
 export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
+  const h = useHomeCopy();
   const isDarkTheme = variant === 'dark';
   
   // Try to use context safely, or fallback to defaults
@@ -120,7 +122,7 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
             isDarkTheme ? 'text-emerald-400/90' : 'text-slate-500 dark:text-slate-400'
           }`}
         >
-          {logoConfig.subtitleText || 'Akıllı Karşılaştırma & Fiyat Takip'}
+          {h(logoConfig.subtitleText || h("Akıllı Karşılaştırma & Fiyat Takip"))}
         </span>
       </div>
     </div>

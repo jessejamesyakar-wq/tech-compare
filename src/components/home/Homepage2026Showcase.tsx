@@ -1,4 +1,5 @@
 'use client';
+import { useHomeCopy } from '@/lib/i18n/useHomeCopy';
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { ArrowLeft, ArrowRight, Pause, Play } from 'lucide-react';
@@ -20,6 +21,7 @@ export function Homepage2026Showcase({
   initialProducts = [],
   rotationPool = []
 }: Homepage2026ShowcaseProps) {
+  const h = useHomeCopy();
   const [displayed, setDisplayed] = useState<Showcase2026Product[]>(() => initialProducts.slice(0, 14));
   const [category, setCategory] = useState('all');
   const railRef = useRef<HTMLDivElement>(null);
@@ -275,7 +277,7 @@ export function Homepage2026Showcase({
 
   if (!displayed.length) return null;
   return (
-    <section aria-label="2026 Teknoloji Vitrini" className={styles.showcase}
+    <section aria-label={h("2026 Teknoloji Vitrini")} className={styles.showcase}
       onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
       onFocusCapture={() => { isFocusedRef.current = true; clearAllTimers(); setRotatingSlots([]); }}
       onBlurCapture={(event) => {
@@ -285,35 +287,35 @@ export function Homepage2026Showcase({
         }
       }}>
       <header className={styles.header}>
-        <p className={styles.eyebrow}>YENİ NESİL SEÇKİ</p>
-        <h2>2026 Teknoloji Vitrini</h2>
-        <p className={styles.subtitle}>Yeni nesli keşfet. Kararını aceleye getirme.</p>
+        <p className={styles.eyebrow}>{h("YENİ NESİL SEÇKİ")}</p>
+        <h2>{h("2026 Teknoloji Vitrini")}</h2>
+        <p className={styles.subtitle}>{h("Yeni nesli keşfet. Kararını aceleye getirme.")}</p>
       </header>
       <div className={styles.toolbar}>
-        <div className={styles.filters} role="group" aria-label="Vitrin kategorileri">
+        <div className={styles.filters} role="group" aria-label={h("Vitrin kategorileri")}>
           {categories.map((item) => <button key={item.id} type="button" aria-pressed={category === item.id}
-            onClick={() => setCategory(item.id)}>{item.label}</button>)}
+            onClick={() => setCategory(item.id)}>{h(item.label)}</button>)}
         </div>
         <div className={styles.controls}>
-          <button type="button" onClick={togglePause} aria-label={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
-            aria-pressed={isUserPaused} title={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}>
+          <button type="button" onClick={togglePause} aria-label={isUserPaused ? h("Döngüyü Başlat") : h("Döngüyü Duraklat")}
+            aria-pressed={isUserPaused} title={isUserPaused ? h("Döngüyü Başlat") : h("Döngüyü Duraklat")}>
             {isUserPaused ? <Play size={17} /> : <Pause size={17} />}
           </button>
-          <button type="button" onClick={() => moveRail(-1)} disabled={railPosition.start} aria-label="Önceki ürünler"><ArrowLeft size={18} /></button>
-          <button type="button" onClick={() => moveRail(1)} disabled={railPosition.end} aria-label="Sonraki ürünler"><ArrowRight size={18} /></button>
+          <button type="button" onClick={() => moveRail(-1)} disabled={railPosition.start} aria-label={h("Önceki ürünler")}><ArrowLeft size={18} /></button>
+          <button type="button" onClick={() => moveRail(1)} disabled={railPosition.end} aria-label={h("Sonraki ürünler")}><ArrowRight size={18} /></button>
         </div>
       </div>
       <div ref={railRef} className={styles.rail} onScroll={updateRail}
         onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd} onTouchCancel={handleTouchEnd}
-        role="group" aria-label="2026 ürün seçkisi" tabIndex={0}>
+        role="group" aria-label={h("2026 ürün seçkisi")} tabIndex={0}>
         {visibleProducts.map(({ product, slot }) => <div key={product.id} className={styles.slot}>
           <Showcase2026Card product={product} isRotating={rotatingSlots.includes(slot)} />
         </div>)}
-        {!visibleProducts.length && <p className={styles.empty}>Bu seçkide henüz bu kategoriden model yok.</p>}
+        {!visibleProducts.length && <p className={styles.empty}>{h("Bu seçkide henüz bu kategoriden model yok.")}</p>}
       </div>
       <div className={styles.footer}>
-        <span>Seçkiyi kaydırarak keşfet <span aria-live="polite">· {visibleProducts.length} model</span></span>
-        <p>Kayıtlı özellikleri kaynaklarıyla inceleyin. Güncel teklif doğrulanmamışsa fiyat önerisi verilmez.</p>
+        <span>{h("Seçkiyi kaydırarak keşfet")}<span aria-live="polite">· {visibleProducts.length} {h("model")}</span></span>
+        <p>{h("Kayıtlı özellikleri kaynaklarıyla inceleyin. Güncel teklif doğrulanmamışsa fiyat önerisi verilmez.")}</p>
       </div>
     </section>
   );
