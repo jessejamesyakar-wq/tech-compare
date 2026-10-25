@@ -3,9 +3,10 @@
 import { useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, ChevronRight, Laptop, Tv, Battery, MapPin, Sparkles, MessageCircle, Smartphone, House, Pause, Play } from 'lucide-react';
+import { ArrowRight, ChevronRight, Laptop, Tv, Battery, MapPin, Sparkles, MessageCircle, Smartphone, House } from 'lucide-react';
 import { HomepageConversation } from './HomepageAssistant';
 import { RoboPenguPrism } from './RoboPenguPrism';
+import { RoboPengu3D } from './RoboPengu3D';
 import type { Showcase2026Product } from '@/lib/showcase2026';
 import styles from './QuantumHero.module.css';
 
@@ -26,7 +27,6 @@ export function HomepageHero({ products = [] }: { products?: Showcase2026Product
   const [isOpen, setIsOpen] = useState(false);
   const [hasConversation, setHasConversation] = useState(false);
   const [group, setGroup] = useState(0);
-  const [motionPaused, setMotionPaused] = useState(false);
   const openerRef = useRef<HTMLElement | null>(null);
   const groupCount = Math.min(3, Math.ceil(products.length / 2));
   const picks = products.slice(group * 2, group * 2 + 2);
@@ -35,7 +35,7 @@ export function HomepageHero({ products = [] }: { products?: Showcase2026Product
     setInitialQuery(prompt); setHasConversation(true); setIsOpen(true);
   }
   return <>
-    <section id="robopengu-hero" className={styles.hero} aria-labelledby="home-hero-title" data-motion-paused={motionPaused}>
+    <section id="robopengu-hero" className={styles.hero} aria-labelledby="home-hero-title">
       <div className={styles.room} aria-hidden="true" />
       <RoboPenguPrism suspended={isOpen} />
       <div className={styles.inner}>
@@ -62,8 +62,7 @@ export function HomepageHero({ products = [] }: { products?: Showcase2026Product
           <div className={styles.character}>
             <div className={styles.orbit} aria-hidden="true" />
             <div className={styles.podium} aria-hidden="true" />
-            <Image className={styles.mascot} src="/assets/robopengu-quantum.webp" alt="Elinde tabletle seni selamlayan RoboPengu" width={1313} height={1198} sizes="(max-width: 767px) 260px, 390px" preload />
-            <button type="button" className={styles.motionControl} aria-label={motionPaused ? 'RoboPengu hareketini başlat' : 'RoboPengu hareketini durdur'} aria-pressed={motionPaused} onClick={() => setMotionPaused(value => !value)}>{motionPaused ? <Play size={13} /> : <Pause size={13} />}<span>Hareket</span></button>
+            <RoboPengu3D variant="hero" suspended={isOpen} />
           </div>
           <aside className={`${styles.panel} ${styles.guidance}`} aria-labelledby="pengu-guidance-title">
             <div className={styles.panelHeading}><h2 id="pengu-guidance-title">Önce seni anlayalım.</h2><span className={styles.aiLabel}><Sparkles size={12} /> AI</span></div>

@@ -1,4 +1,6 @@
 @import "tailwindcss";
+/* Binary 3D assets are not templates and may contain arbitrary class-like bytes. */
+@source not "../../public/models";
 
 @theme {
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;

@@ -1,0 +1,28 @@
+.viewer { width:100%; min-width:0; color:#163345; }
+.stage { position:relative; width:100%; height:clamp(320px,55vw,550px); overflow:hidden; isolation:isolate; background:#cecece; }
+.canvas { position:absolute; inset:0; z-index:2; }
+.canvas canvas { display:block; width:100%; height:100%; }
+.stage:focus-visible { outline:3px solid #148299; outline-offset:-4px; }
+.gestures { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; padding:12px; border-top:1px solid #dcecef; }
+.gestures button { min-height:44px; border:1px solid #b8d6dd; border-radius:999px; padding:8px 12px; background:#fff; color:#145666; cursor:pointer; font-size:13px; }
+.gestures button:hover { background:#edf9fa; }
+.gestures button:focus-visible { outline:3px solid #148299; outline-offset:2px; }
+.gestures button:disabled { opacity:.5; cursor:default; }
+.viewer:not([data-model-state=ready]) .canvas { visibility:hidden; }
+.fallback { position:absolute; inset:4% 8%; width:84%; height:92%; object-fit:contain; filter:drop-shadow(0 18px 18px #16445b28); }
+.toolbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:center; padding:16px 20px; border-top:1px solid #dcecef; min-height:85px; }
+.toolbar p { flex:1 1 220px; font-size:13px; line-height:1.6; margin:0; color:#466275; }
+.toolbar button { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:44px; padding:10px 16px; border:1px solid #b8d6dd; border-radius:999px; background:#fff; color:#145666; cursor:pointer; font-size:13px; font-weight:600; }
+.toolbar button:hover { background:#edf9fa; }
+.toolbar button:focus-visible { outline:3px solid #148299; outline-offset:3px; }
+.toolbar button:disabled { cursor:default; opacity:.55; }
+@media(max-width:600px) { .toolbar { text-align:center; padding:16px; } .toolbar p { flex-basis:100%; } }
+
+/* Embed the transparent canvas in the existing room, above its podium. */
+.hero { position:relative; z-index:2; flex:none; width:calc(100% + 48px); max-width:440px; height:100%; }
+.hero .stage { height:calc(100% + 64px); top:-28px; background:transparent; }
+.hero .toolbar { position:absolute; right:8px; bottom:-18px; z-index:3; min-height:0; padding:0; border:0; gap:4px; }
+.hero .toolbar p { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+.hero .toolbar button { min-height:36px; padding:6px 10px; font-size:10px; gap:5px; background:#ffffffe0; }
+.hero .fallback { inset:4% 8%; }
+@media(max-width:767px) { .hero { max-width:340px; } .hero .toolbar { right:0; bottom:-16px; } }
