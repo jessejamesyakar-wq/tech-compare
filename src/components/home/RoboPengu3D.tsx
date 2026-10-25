@@ -107,6 +107,7 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     }
 
     function onPointerLeave() { targetX = 0; targetY = 0; lastPointerTime = motionTime; }
+    function onPointerEnd(event: PointerEvent) { if (event.pointerType !== 'mouse') onPointerLeave(); }
 
     pose.current = action => {
       if (!canAnimate()) return;
@@ -399,6 +400,8 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     document.addEventListener('visibilitychange', synchronize);
     window.addEventListener('pointermove', onPointer, { passive: true });
     element.addEventListener('pointerdown', onPointer, { passive: true });
+    window.addEventListener('pointerup', onPointerEnd, { passive: true });
+    window.addEventListener('pointercancel', onPointerEnd, { passive: true });
     document.documentElement.addEventListener('pointerleave', onPointerLeave);
     sync.current = synchronize;
     synchronize();
@@ -408,6 +411,8 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
       document.removeEventListener('visibilitychange', synchronize);
       window.removeEventListener('pointermove', onPointer);
       element.removeEventListener('pointerdown', onPointer);
+      window.removeEventListener('pointerup', onPointerEnd);
+      window.removeEventListener('pointercancel', onPointerEnd);
       document.documentElement.removeEventListener('pointerleave', onPointerLeave);
       pose.current = () => {};
       resourceCleanup.forEach(cleanup => cleanup());

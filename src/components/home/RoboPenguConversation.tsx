@@ -35,8 +35,28 @@ export function RoboPenguConversation({ isOpen, onClose, initialQuery = '' }: { 
   }, [isOpen, initialQuery]);
   useEffect(() => {
     const el = transcriptRef.current;
-    if (el) el.scrollTop = el.scrollHeight;
+    if (el) el.scrollTop = messages.length || loading ? el.scrollHeight : 0;
   }, [messages, loading, isOpen]);
+
+  useEffect(() => {
+    const viewport = window.visualViewport;
+    const dialog = dialogRef.current;
+    if (!isOpen || !viewport || !dialog) return;
+    // Keep the mobile composer inside the visible area when the keyboard opens.
+    const resize = () => {
+      dialog.style.setProperty('--pengu-visible-height', `${viewport.height}px`);
+      dialog.style.setProperty('--pengu-visible-top', `${viewport.offsetTop}px`);
+    };
+    resize();
+    viewport.addEventListener('resize', resize);
+    viewport.addEventListener('scroll', resize);
+    return () => {
+      viewport.removeEventListener('resize', resize);
+      viewport.removeEventListener('scroll', resize);
+      dialog.style.removeProperty('--pengu-visible-height');
+      dialog.style.removeProperty('--pengu-visible-top');
+    };
+  }, [isOpen, dialogRef]);
 
   async function send(text: string, retry = false) {
     const prompt = text.trim();

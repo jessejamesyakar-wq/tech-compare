@@ -68,16 +68,32 @@
 @keyframes penguGreeting { 0%,100% { transform:translateY(0) rotate(-.6deg); } 50% { transform:translateY(-5px) rotate(.6deg); } }
 @media(min-width:1600px) { .hero { padding-top:40px; } }
 @media(max-width:1100px) { .stage { gap:14px; grid-template-columns:minmax(0,1fr) minmax(220px,.82fr) minmax(0,1fr); } .panel { padding:17px; } .hero .panelHeading h2 { font-size:20px; } .panelHeading a { font-size:9px; } .character { height:330px; } .mascot { max-width:140%; } .question { font-size:10px; padding:10px; gap:7px; } .productImage { height:122px; } .discovery a { padding:15px; gap:10px; } }
-@media(min-width:768px) and (max-width:900px) { .hero { padding-inline:20px; } .stage { grid-template-columns:minmax(0,1fr) minmax(180px,.7fr) minmax(0,1fr); gap:10px; } .panel { padding:13px; border-radius:18px; } .hero .panelHeading h2 { font-size:18px; } .panelHeading a { display:none; } .productPair { gap:6px; } .product { padding:6px; } .productImage { height:100px; } .product strong { font-size:10px; } .guidanceNote { padding:9px; gap:7px; } .hero .guidanceNote p { font-size:10px; } .character { height:305px; } .mascot { max-width:145%; } .aiLabel { padding:5px; } .aiLabel svg { display:none; } .discovery > div { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:1023px) {
+  .hero { padding:24px max(20px,env(safe-area-inset-right)) 24px max(20px,env(safe-area-inset-left)); }
+  .inner { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:20px; }
+  .stage { display:contents; }
+  .heading { grid-column:1/-1; order:0; }
+  .hero .heading h1 { font-size:clamp(28px,7.8vw,44px); line-height:1.1; }
+  .character { grid-column:1/-1; order:1; height:320px; width:100%; margin-top:18px; }
+  .conversation { grid-column:1/-1; order:2; width:100%; margin:24px auto 0; }
+  .products { order:3; margin-top:24px; }
+  .guidance { order:4; margin-top:24px; }
+  .panelHeading a { min-height:44px; font-size:11px; }
+  .dots button { width:44px; height:44px; }
+  .shortcuts button { min-height:44px; }
+  .explore a,.explore button { min-height:44px; font-size:12px; }
+  .hero .disclaimer { font-size:10px; line-height:1.6; }
+  .discovery > div { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
 @media(max-width:767px) {
-  .hero { padding:26px 20px 18px; }
+  .hero { padding:20px max(16px,env(safe-area-inset-right)) 20px max(16px,env(safe-area-inset-left)); }
   .room { background-size:auto 650px; background-position:center top; }
-  .hero .heading h1 { font-size:39px; }
+  .hero .heading h1 { font-size:clamp(28px,7.8vw,39px); }
   .hero .heading p { font-size:13px; max-width:310px; margin:12px auto 0; }
   .inner { display:flex; flex-direction:column; }
   .heading { order:0; }
   .stage { display:contents; }
-  .character { order:1; width:100%; height:255px; margin-top:18px; }
+  .character { order:1; width:100%; height:clamp(260px,70vw,320px); margin-top:14px; }
   .mascot { height:255px; width:280px; max-width:100%; }
   .podium { width:370px; height:67px; bottom:-10px; }
   .podium::before { inset:6px 34px 18px; border-width:2px; }
@@ -85,27 +101,33 @@
   .motionControl { right:0; bottom:0; }
   .products { order:3; width:100%; margin-top:20px; }
   .guidance { order:4; width:100%; margin-top:20px; }
-  .panel { padding:20px; }
-  .hero .panelHeading h2 { font-size:23px; }
+  .panel { padding:16px; border-radius:20px; }
+  .hero .panelHeading h2 { font-size:clamp(20px,5.5vw,23px); }
   .productImage { height:140px; }
   .product strong { font-size:12px; }
   .question { font-size:12px; }
   .conversation { order:2; width:100%; margin:24px auto 0; }
   .avatar { width:35px; height:35px; }
+  .conversationTrigger { gap:8px; font-size:14px; min-height:58px; }
+  .triggerArrow { width:44px; height:44px; }
   .form { gap:6px; padding:5px; }
   .form input { font-size:16px; height:42px; }
   .form button { width:42px; height:42px; }
-  .shortcuts { gap:5px; margin-top:9px; }
-  .shortcuts button { font-size:9px; padding:6px 8px; min-height:32px; gap:4px; }
-  .shortcuts svg { width:13px; }
+  .shortcuts { gap:6px; margin-top:10px; }
+  .shortcuts button { font-size:11px; padding:8px 10px; min-height:44px; gap:5px; }
+  .shortcuts svg { width:15px; flex:none; }
   .explore { margin-top:4px; }
-  .hero .disclaimer { font-size:8px; }
+  .hero .disclaimer { font-size:10px; }
   .discovery { margin-top:20px; }
   .discovery > div { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
   .discovery a { align-items:flex-start; padding:14px 10px; gap:9px; }
   .discovery a > svg:first-child { width:23px; }
   .discovery a > svg:last-child { display:none; }
-  .discovery strong { font-size:11px; }
-  .discovery small { font-size:9px; }
+  .discovery strong { font-size:12px; }
+  .discovery small { font-size:11px; }
 }
 @media(prefers-reduced-motion:reduce) { .mascot { animation:none; } .motionControl { display:none; } }
+@media(max-width:1199px), (pointer:coarse) {
+  .dots button { width:44px; height:44px; }
+  .shortcuts button,.explore a,.explore button,.panelHeading a { min-height:44px; }
+}

@@ -1,7 +1,7 @@
 .viewer { width:100%; min-width:0; color:#163345; }
 .stage { position:relative; width:100%; height:clamp(320px,55vw,550px); overflow:hidden; isolation:isolate; background:#cecece; }
 .canvas { position:absolute; inset:0; z-index:2; }
-.canvas canvas { display:block; width:100%; height:100%; }
+.canvas canvas { display:block; width:100%; height:100%; touch-action:pan-y pinch-zoom; }
 .stage:focus-visible { outline:3px solid #148299; outline-offset:-4px; }
 .gestures { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; padding:12px; border-top:1px solid #dcecef; }
 .gestures button { min-height:44px; border:1px solid #b8d6dd; border-radius:999px; padding:8px 12px; background:#fff; color:#145666; cursor:pointer; font-size:13px; }
@@ -26,4 +26,9 @@
 .hero .toolbar button { min-height:36px; padding:6px 10px; font-size:10px; gap:5px; background:#ffffffe0; }
 .preparing { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; color:#24586b; font-size:13px; text-align:center; }
 .preparingLight { width:34px; height:34px; border:2px solid #8bd9e5; border-top-color:#08788d; border-radius:50%; box-shadow:0 0 20px #80dce84d; }
-@media(max-width:767px) { .hero { max-width:340px; } .hero .toolbar { right:0; bottom:-16px; } }
+@media(max-width:1023px) {
+  .hero { width:100%; max-width:380px; }
+  .hero .stage { height:100%; top:0; }
+  .hero .toolbar { right:0; bottom:0; }
+  .hero .toolbar button { min-height:44px; font-size:12px; }
+}
