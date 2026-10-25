@@ -13,6 +13,9 @@ import styles from './RoboPengu3D.module.css';
 
 type ModelState = 'waiting' | 'loading' | 'ready' | 'missing' | 'error';
 type TrackingMode = 'body' | 'head' | 'eyes';
+const DESKTOP_MODEL = '/models/robopengu-motion-1dcdbbc49c6b.glb.gz';
+const MOBILE_MODEL = '/models/robopengu-mobile-feda5b385835.glb.gz';
+const MOBILE_MEDIA = '(max-width: 1023px), (pointer: coarse)';
 
 interface RoboPengu3DProps {
   modelUrl?: string;
@@ -40,7 +43,7 @@ function stepGazeSpring(spring: GazeSpring, target: number, frequency: number, m
 }
 
 /** A real GLB viewer; the homepage never substitutes a different character. */
-export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.glb.gz', paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
+export function RoboPengu3D({ modelUrl, paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
   const host = useRef<HTMLDivElement>(null);
   const mount = useRef<HTMLDivElement>(null);
   const controls = useRef({ paused, suspended });
@@ -59,6 +62,9 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
     const container = mount.current;
     const element = host.current;
     if (!container || !element) return;
+    // Select before fetching or decoding. Download compression alone does not
+    // reduce texture memory, and decoding the desktop maps can terminate iOS tabs.
+    const sourceUrl = modelUrl ?? (window.matchMedia(MOBILE_MEDIA).matches ? MOBILE_MODEL : DESKTOP_MODEL);
     const controller = new AbortController();
     let disposed = false, visible = false, started = false, ready = false;
     let frame = 0, previousTime = 0, motionTime = 0, lastPointerTime = 0;
@@ -123,9 +129,9 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
       setState('loading');
       try {
         // Start engine chunks and the model together. HTTP gzip decoding keeps
-        // every source GLB byte intact; no mesh or texture quality is reduced.
+        // every byte of the selected asset intact. Both profiles share the rig.
         const [response, [THREE, { GLTFLoader }, { RoomEnvironment }]] = await Promise.all([
-          fetch(modelUrl, { signal: controller.signal }).then(async response => ({
+          fetch(sourceUrl, { signal: controller.signal }).then(async response => ({
             ok: response.ok, status: response.status,
             bytes: response.ok ? await response.arrayBuffer() : null,
           })),
@@ -140,8 +146,9 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
           return;
         }
         if (disposed || !response.bytes) return;
-        const base = new URL('.', new URL(modelUrl, window.location.href)).href;
-        const gltf = await new GLTFLoader().parseAsync(response.bytes, base);
+        const base = new URL('.', new URL(sourceUrl, window.location.href)).href;
+        const { scene: loadedScene } = await new GLTFLoader().parseAsync(response.bytes, base);
+        response.bytes = null;
         const geometries = new Set<import('three').BufferGeometry>();
         const materials = new Set<import('three').Material>();
         const textures = new Set<import('three').Texture>();
@@ -149,7 +156,7 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
         let detailSource: import('three').Mesh | null = null;
         const referenceMeshes: import('three').Mesh[] = [];
         let surfaceTint: import('three').BufferAttribute | null = null;
-        gltf.scene.traverse(object => {
+        loadedScene.traverse(object => {
           const mesh = object as import('three').Mesh;
           if (!mesh.isMesh) return;
           if (mesh.geometry.getAttribute('position')?.count === 271425) {
@@ -208,6 +215,8 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
           event.preventDefault();
           if (disposed) return;
           ready = false; stop(); setState('error');
+          resourceCleanup.splice(0).forEach(cleanup => cleanup());
+          renderer?.dispose(); renderer?.domElement.remove(); renderer = null;
         };
         canvas.addEventListener('webglcontextlost', onContextLost);
         resourceCleanup.push(() => canvas.removeEventListener('webglcontextlost', onContextLost));
@@ -235,7 +244,7 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
         resourceCleanup.push(() => key.shadow.dispose());
         const rim = new THREE.DirectionalLight(0xe4edff, 0.75);
         rim.position.set(-3, 2, -2); scene.add(rim);
-        model = gltf.scene;
+        model = loadedScene;
         const bounds = new THREE.Box3().setFromObject(model);
         const size = bounds.getSize(new THREE.Vector3());
         const center = bounds.getCenter(new THREE.Vector3());
@@ -388,7 +397,7 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
         if (!disposed && !(error instanceof DOMException && error.name === 'AbortError')) {
           ready = false; stop();
           resourceCleanup.splice(0).forEach(cleanup => cleanup());
-          renderer?.dispose(); renderer?.domElement.remove(); renderer = null;
+          renderer?.dispose(); renderer?.forceContextLoss(); renderer?.domElement.remove(); renderer = null;
           setState('error');
         }
       }
@@ -416,7 +425,7 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
       document.documentElement.removeEventListener('pointerleave', onPointerLeave);
       pose.current = () => {};
       resourceCleanup.forEach(cleanup => cleanup());
-      renderer?.dispose(); renderer?.domElement.remove();
+      renderer?.dispose(); renderer?.forceContextLoss(); renderer?.domElement.remove();
     };
   }, [modelUrl, attempt]);
 
@@ -429,7 +438,12 @@ export function RoboPengu3D({ modelUrl = '/models/robopengu-motion-1dcdbbc49c6b.
         : '3D model hazırlanıyor…';
 
   return <div className={`${styles.viewer} ${variant === 'hero' ? styles.hero : ''}`} ref={host} data-model-state={state} data-tracking={state === 'ready' ? tracking : undefined}>
-    {variant === 'hero' && <link rel="preload" as="fetch" href={modelUrl} crossOrigin="anonymous" />}
+    {variant === 'hero' && (modelUrl
+      ? <link rel="preload" as="fetch" href={modelUrl} crossOrigin="anonymous" />
+      : <>
+        <link rel="preload" as="fetch" href={MOBILE_MODEL} media={MOBILE_MEDIA} crossOrigin="anonymous" />
+        <link rel="preload" as="fetch" href={DESKTOP_MODEL} media="(min-width: 1024px) and (pointer: fine)" crossOrigin="anonymous" />
+      </>)}
     <div className={styles.stage} role={state === 'ready' || variant === 'preview' ? 'img' : undefined} aria-label={state === 'ready' ? 'Etkileşimli üç boyutlu RoboPengu' : variant === 'preview' ? 'RoboPengu görseli' : undefined} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
       const action = ({ ArrowLeft: 'left', ArrowRight: 'right', Home: 'center', Enter: 'greet', b: 'blink', B: 'blink' } as const)[event.key as 'ArrowLeft' | 'ArrowRight' | 'Home' | 'Enter' | 'b' | 'B'];
       if (action) { event.preventDefault(); pose.current(action); }
