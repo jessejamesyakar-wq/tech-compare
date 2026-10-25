@@ -21,6 +21,20 @@ export function namedCatalogLookup(query: string, catalog: Product[]) {
     });
     return { name: identity, products };
   }
+  // Galaxy is optional in everyday speech: Samsung S26, Galaxy S26 and S26.
+  const galaxyPattern = /\b(?:samsung\s+)?(?:galaxy\s+)?s\s*(\d{2,3})(?:\s+(ultra|plus|fe))?\b/g;
+  const galaxies = [...input.matchAll(galaxyPattern)];
+  if (galaxies.length > 1) return null;
+  if (galaxies.length === 1) {
+    const number = galaxies[0][1], tier = galaxies[0][2] || '';
+    return { name: `Samsung Galaxy S${number}${tier ? ` ${tier}` : ''}`, products: catalog.filter(product => {
+      const name = normalize(product.name);
+      const match = [...name.matchAll(galaxyPattern)][0];
+      return product.category === 'smartphones' && normalize(product.brand || '') === 'samsung'
+        && match?.[1] === number && (match?.[2] || '') === tier
+        && (!storage || (` ${name} `).includes(` ${storage} `));
+    }) };
+  }
   // Read aliases from catalog names rather than maintaining a list of current releases.
   const matches = catalog.flatMap(product => {
     const name = normalize(product.name.split('(')[0]).replace(/\s+\d+\s+(?:gb|tb)\b.*$/, '').trim();

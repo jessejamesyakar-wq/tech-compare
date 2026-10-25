@@ -314,6 +314,16 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
   const directId = products.find((p) => p.id === nameOrId || p.slug === nameOrId);
   if (directId) return directId;
 
+  const named = namedCatalogLookup(nameOrId, products);
+  if (named) {
+    const capacity = (product: any) => {
+      const match = product.name.match(/\b(\d+)\s*(gb|tb)\b/i);
+      return match ? Number(match[1]) * (match[2].toLowerCase() === 'tb' ? 1024 : 1) : Infinity;
+    };
+    // Keep the exact family/tier; show the chosen capacity in the existing product title.
+    return [...named.products].sort((a, b) => capacity(a) - capacity(b) || a.id.localeCompare(b.id))[0] || null;
+  }
+
   // Direct brand synonyms to flagship products
   const brandFlagships: Record<string, string> = {
     dream: "dreame-bot-l20-ultra",
@@ -954,6 +964,17 @@ export function formatComparisonData(
 
 export function tryExtractComparisonFromMessage(message: string): string[] | null {
   if (!message || typeof message !== "string") return null;
+
+  // Split complete names before the legacy keyword/one-word matcher can turn
+  // "iphone 17 vs samsung s26 kıyasla" into only "17" and "samsung".
+  const comparisonText = normalizeTr(message)
+    .replace(/\b(?:lutfen|dostum|bana|kiyasla|karsilastir|karsilastirmasi|kiyaslamasi)\b/g, ' ')
+    .replace(/[?!,]+/g, ' ').trim();
+  if (/\s+(?:vs\.?|versus|karsi)\s+/i.test(comparisonText)
+      || /kiyas|karsilastir/.test(normalizeTr(message))) {
+    const parts = comparisonText.split(/\s+(?:vs\.?|versus|karsi|ile|ve)\s+/i).map(part => part.trim()).filter(Boolean);
+    if (parts.length === 2 && parts.every(part => /[a-z]/i.test(part) && /\d/.test(part))) return parts;
+  }
 
   // 1. Bilinen amiral gemisi veya popüler model adları
   // Uzun modeller önce eşleşsin diye anahtar uzunluğuna göre azalan sıralanır
