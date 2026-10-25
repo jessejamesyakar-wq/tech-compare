@@ -14,7 +14,11 @@ import styles from './RoboPengu3D.module.css';
 
 type ModelState = 'waiting' | 'loading' | 'ready' | 'missing' | 'error';
 type TrackingMode = 'body' | 'head' | 'eyes';
-const DESKTOP_MODEL = '/models/robopengu-motion-1dcdbbc49c6b.glb.gz';
+const DESKTOP_BASE = '/models/robopengu-desktop-74cbb2b2b277/';
+const DESKTOP_MODEL = `${DESKTOP_BASE}scene.gltf`;
+const DESKTOP_GEOMETRY = `${DESKTOP_BASE}geometry-84273364f678.bin.gz`;
+const DESKTOP_TEXTURES = ['texture-0-369ec70c1ccc.jpg', 'texture-1-a17dddfefe9a.jpg', 'texture-2-c8863ccf4445.jpg'];
+const DESKTOP_MEDIA = '(min-width: 1024px) and (pointer: fine)';
 const MOBILE_MODEL = '/models/robopengu-mobile-lossless-246c09dcc8a3.glb.gz';
 const MOBILE_MEDIA = '(max-width: 1023px), (pointer: coarse)';
 
@@ -43,7 +47,7 @@ function stepGazeSpring(spring: GazeSpring, target: number, frequency: number, m
   if (Math.abs(goal - spring.value) < 0.00001 && Math.abs(spring.velocity) < 0.0001) { spring.value = goal; spring.velocity = 0; }
 }
 
-/** A real GLB viewer; the homepage never substitutes a different character. */
+/** A real glTF viewer; the homepage never substitutes a different character. */
 export function RoboPengu3D({ modelUrl, paused = false, suspended = false, variant = 'preview' }: RoboPengu3DProps) {
   const h = useHomeCopy();
   const host = useRef<HTMLDivElement>(null);
@@ -130,8 +134,9 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
       started = true;
       setState('loading');
       try {
-        // Start engine chunks and the model together. HTTP gzip decoding keeps
-        // every byte of the selected asset intact. Both profiles share the rig.
+        // Desktop geometry and original-resolution textures are separate cacheable
+        // resources, so image decoding need not wait for one large GLB buffer.
+        // Both profiles preserve every vertex and share the same rig.
         const [response, [THREE, { GLTFLoader }, { RoomEnvironment }, { MeshoptDecoder }]] = await Promise.all([
           fetch(sourceUrl, { signal: controller.signal }).then(async response => ({
             ok: response.ok, status: response.status,
@@ -445,7 +450,9 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
       ? <link rel="preload" as="fetch" href={modelUrl} crossOrigin="anonymous" />
       : <>
         <link rel="preload" as="fetch" href={MOBILE_MODEL} media={MOBILE_MEDIA} crossOrigin="anonymous" />
-        <link rel="preload" as="fetch" href={DESKTOP_MODEL} media="(min-width: 1024px) and (pointer: fine)" crossOrigin="anonymous" />
+        <link rel="preload" as="fetch" href={DESKTOP_MODEL} media={DESKTOP_MEDIA} crossOrigin="anonymous" />
+        <link rel="preload" as="fetch" href={DESKTOP_GEOMETRY} media={DESKTOP_MEDIA} crossOrigin="anonymous" />
+        {DESKTOP_TEXTURES.map(texture => <link key={texture} rel="preload" as="fetch" href={`${DESKTOP_BASE}${texture}`} media={DESKTOP_MEDIA} crossOrigin="anonymous" />)}
       </>)}
     <div className={styles.stage} role={state === 'ready' || variant === 'preview' ? 'img' : undefined} aria-label={state === 'ready' ? h("Etkileşimli üç boyutlu RoboPengu") : variant === 'preview' ? 'RoboPengu görseli' : undefined} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
       const action = ({ ArrowLeft: 'left', ArrowRight: 'right', Home: 'center', Enter: 'greet', b: 'blink', B: 'blink' } as const)[event.key as 'ArrowLeft' | 'ArrowRight' | 'Home' | 'Enter' | 'b' | 'B'];
