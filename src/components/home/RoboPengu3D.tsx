@@ -14,10 +14,7 @@ import styles from './RoboPengu3D.module.css';
 
 type ModelState = 'waiting' | 'loading' | 'ready' | 'missing' | 'error';
 type TrackingMode = 'body' | 'head' | 'eyes';
-const DESKTOP_BASE = '/models/robopengu-desktop-5c9e2e8c3aa8/';
-const DESKTOP_MODEL = `${DESKTOP_BASE}scene.gltf`;
-const DESKTOP_GEOMETRY = `${DESKTOP_BASE}geometry-84273364f678.bin.gz`;
-const DESKTOP_TEXTURES = ['texture-0-6758289a8110.jpg', 'texture-1-4e510b79135a.jpg', 'texture-2-f8d9715f1429.jpg'];
+const DESKTOP_MODEL = '/models/robopengu-desktop-lossless-e487f79e706b.glb.gz';
 const DESKTOP_MEDIA = '(min-width: 1024px) and (pointer: fine)';
 const MOBILE_MODEL = '/models/robopengu-mobile-lossless-246c09dcc8a3.glb.gz';
 const MOBILE_MEDIA = '(max-width: 1023px), (pointer: coarse)';
@@ -135,9 +132,9 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
       started = true;
       setState('loading');
       try {
-        // Desktop geometry and original-resolution textures are separate cacheable
-        // resources, so image decoding need not wait for one large GLB buffer.
-        // Both profiles preserve every vertex and share the same rig.
+        // Start the engine and losslessly packed model together. Embedded textures
+        // are parsed only after the complete payload arrives; both profiles keep
+        // every vertex and share the same rig.
         const [response, [THREE, { GLTFLoader }, { RoomEnvironment }, { MeshoptDecoder }]] = await Promise.all([
           fetch(sourceUrl, { signal: controller.signal }).then(async response => ({
             ok: response.ok, status: response.status,
@@ -466,8 +463,6 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
       : <>
         <link rel="preload" as="fetch" href={MOBILE_MODEL} media={MOBILE_MEDIA} crossOrigin="anonymous" />
         <link rel="preload" as="fetch" href={DESKTOP_MODEL} media={DESKTOP_MEDIA} crossOrigin="anonymous" />
-        <link rel="preload" as="fetch" href={DESKTOP_GEOMETRY} media={DESKTOP_MEDIA} crossOrigin="anonymous" />
-        {DESKTOP_TEXTURES.map(texture => <link key={texture} rel="preload" as="fetch" href={`${DESKTOP_BASE}${texture}`} media={DESKTOP_MEDIA} crossOrigin="anonymous" />)}
       </>)}
     <div className={styles.stage} role={state === 'ready' || variant === 'preview' ? 'img' : undefined} aria-label={state === 'ready' ? h("Etkileşimli üç boyutlu RoboPengu") : variant === 'preview' ? 'RoboPengu görseli' : undefined} tabIndex={state === 'ready' ? 0 : -1} onKeyDown={event => {
       const action = ({ ArrowLeft: 'left', ArrowRight: 'right', Home: 'center', Enter: 'greet', b: 'blink', B: 'blink' } as const)[event.key as 'ArrowLeft' | 'ArrowRight' | 'Home' | 'Enter' | 'b' | 'B'];

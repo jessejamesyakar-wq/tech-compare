@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
   async headers() {
     const binaryModels = [
       '/models/robopengu-motion-1dcdbbc49c6b.glb.gz',
+      '/models/robopengu-desktop-lossless-e487f79e706b.glb.gz',
       '/models/robopengu-mobile-feda5b385835.glb.gz',
       '/models/robopengu-mobile-lossless-246c09dcc8a3.glb.gz',
     ].map(source => ({
