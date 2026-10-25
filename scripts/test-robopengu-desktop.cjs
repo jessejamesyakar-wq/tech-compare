@@ -1,7 +1,7 @@
 // Compare the shipped desktop bundle with the approved original, not the encoder.
 const fs=require('node:fs'),path=require('node:path'),zlib=require('node:zlib'),assert=require('node:assert/strict'),sharp=require('sharp');
 const {pathToFileURL}=require('node:url');
-const root=path.resolve(__dirname,'..'),base=root+'/public/models/robopengu-desktop-74cbb2b2b277/';
+const root=path.resolve(__dirname,'..'),base=root+'/public/models/robopengu-desktop-5c9e2e8c3aa8/';
 (async()=>{
  const {MeshoptDecoder}=await import(pathToFileURL(root+'/node_modules/three/examples/jsm/libs/meshopt_decoder.module.js').href);await MeshoptDecoder.ready;
  const packed=fs.readFileSync(root+'/public/models/robopengu-motion-1dcdbbc49c6b.glb.gz'),bytes=zlib.gunzipSync(packed),length=bytes.readUInt32LE(12);

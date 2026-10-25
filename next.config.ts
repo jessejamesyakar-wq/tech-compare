@@ -21,12 +21,12 @@ const nextConfig: NextConfig = {
         { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
       ],
     }));
-    const desktopBase = '/models/robopengu-desktop-74cbb2b2b277/';
+    const desktopBase = '/models/robopengu-desktop-5c9e2e8c3aa8/';
     return [...binaryModels, ...[
       ['scene.gltf', 'model/gltf+json'],
-      ['texture-0-369ec70c1ccc.jpg', 'image/jpeg'],
-      ['texture-1-a17dddfefe9a.jpg', 'image/jpeg'],
-      ['texture-2-c8863ccf4445.jpg', 'image/jpeg'],
+      ['texture-0-6758289a8110.jpg', 'image/jpeg'],
+      ['texture-1-4e510b79135a.jpg', 'image/jpeg'],
+      ['texture-2-f8d9715f1429.jpg', 'image/jpeg'],
       ['geometry-84273364f678.bin.gz', 'application/octet-stream'],
     ].map(([file, type]) => ({
       source: `${desktopBase}${file}`,

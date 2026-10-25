@@ -14,10 +14,10 @@ import styles from './RoboPengu3D.module.css';
 
 type ModelState = 'waiting' | 'loading' | 'ready' | 'missing' | 'error';
 type TrackingMode = 'body' | 'head' | 'eyes';
-const DESKTOP_BASE = '/models/robopengu-desktop-74cbb2b2b277/';
+const DESKTOP_BASE = '/models/robopengu-desktop-5c9e2e8c3aa8/';
 const DESKTOP_MODEL = `${DESKTOP_BASE}scene.gltf`;
 const DESKTOP_GEOMETRY = `${DESKTOP_BASE}geometry-84273364f678.bin.gz`;
-const DESKTOP_TEXTURES = ['texture-0-369ec70c1ccc.jpg', 'texture-1-a17dddfefe9a.jpg', 'texture-2-c8863ccf4445.jpg'];
+const DESKTOP_TEXTURES = ['texture-0-6758289a8110.jpg', 'texture-1-4e510b79135a.jpg', 'texture-2-f8d9715f1429.jpg'];
 const DESKTOP_MEDIA = '(min-width: 1024px) and (pointer: fine)';
 const MOBILE_MODEL = '/models/robopengu-mobile-lossless-246c09dcc8a3.glb.gz';
 const MOBILE_MEDIA = '(max-width: 1023px), (pointer: coarse)';
@@ -73,6 +73,7 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
     const sourceUrl = modelUrl ?? (window.matchMedia(MOBILE_MEDIA).matches ? MOBILE_MODEL : DESKTOP_MODEL);
     const controller = new AbortController();
     let disposed = false, visible = false, started = false, ready = false;
+    let resourceFailed = false;
     let frame = 0, previousTime = 0, motionTime = 0, lastPointerTime = 0;
     let renderer: WebGLRenderer | null = null;
     let root: Group | null = null;
@@ -155,7 +156,10 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
         }
         if (disposed || !response.bytes) return;
         const base = new URL('.', new URL(sourceUrl, window.location.href)).href;
-        const { scene: loadedScene } = await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(response.bytes, base);
+        const manager = new THREE.LoadingManager();
+        manager.onError = () => { resourceFailed = true; };
+        resourceCleanup.push(() => manager.abort());
+        const { scene: loadedScene } = await new GLTFLoader(manager).setMeshoptDecoder(MeshoptDecoder).parseAsync(response.bytes, base);
         response.bytes = null;
         const geometries = new Set<import('three').BufferGeometry>();
         const materials = new Set<import('three').Material>();
@@ -202,6 +206,15 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
         };
         if (disposed) { freeModel(); return; }
         resourceCleanup.push(freeModel);
+        // GLTFLoader can resolve a scene after a texture fails. Never show the
+        // character as ready with missing color or surface detail.
+        if (!modelUrl) for (const mesh of referenceMeshes) {
+          for (const material of Array.isArray(mesh.material) ? mesh.material : [mesh.material]) {
+            const pbr = material as import('three').MeshStandardMaterial;
+            if (!pbr.map || !pbr.normalMap || !pbr.roughnessMap || !pbr.metalnessMap) resourceFailed = true;
+          }
+        }
+        if (resourceFailed) throw new Error('RoboPengu textures are incomplete');
         fitReferenceGeometry(THREE, referenceMeshes);
         if (referenceMeshes.length && !connectNeckSkin(THREE, referenceMeshes)) {
           throw new Error('The new model neck seam could not be connected');
@@ -406,7 +419,9 @@ export function RoboPengu3D({ modelUrl, paused = false, suspended = false, varia
           ready = false; stop();
           resourceCleanup.splice(0).forEach(cleanup => cleanup());
           renderer?.dispose(); renderer?.forceContextLoss(); renderer?.domElement.remove(); renderer = null;
-          setState('error');
+          if (resourceFailed && attempt === 0) {
+            setAttempt(value => value + 1);
+          } else setState('error');
         }
       }
     }
