@@ -412,3 +412,217 @@
 {"timestamp":"2026-10-26T17:47:11.195Z","productId":"samsung-samsung-galaxy-s9-2","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":8.5,"action":"VALUE_CORRECTED"}
 {"timestamp":"2026-10-26T17:47:11.195Z","productId":"samsung-samsung-galaxy-s9-2","fieldPath":"specs.build.weightGrams","oldValue":219,"newValue":189,"action":"VALUE_CORRECTED"}
 {"timestamp":"2026-10-26T17:47:11.195Z","productId":"samsung-samsung-galaxy-s9-2","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 8.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.screen.size","oldValue":"6.6\"","newValue":"6.6 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.screen.type","oldValue":"6.6\" FHD+ PLS LCD","newValue":"PLS","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"1080 x 2408","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"2 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"2 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"720p, 1080p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.connectivity.has5G","oldValue":false,"newValue":true,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.connectivity.wifiStandard","oldValue":"Wi-Fi 6","newValue":"Wi-Fi 5 (802.11ac)","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.2","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":9.1,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:43:59.430Z","productId":"samsung-samsung-galaxy-a14-86","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":205,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.screen.size","oldValue":"6.7\"","newValue":"6.7 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.screen.type","oldValue":"6.7\" FHD+ 120Hz Dynamic AMOLED 2X Katlanabilir","newValue":"Dynamic AMOLED 2X","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.screen.resolution","oldValue":"3080 x 1440 px","newValue":"2640 x 1080","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.screen.ppi","oldValue":500,"newValue":302,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.processor.chip","oldValue":"Snapdragon 8+ Gen 1","newValue":"Snapdragon","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.memory.storageGb","oldValue":256,"newValue":128,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.camera.selfieMp","oldValue":"12 MP Dual Pixel","newValue":"10 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.camera.videoRes","oldValue":"8K @ 30fps","newValue":"720p, 1080p, 2160p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.2","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.build.waterResistance","oldValue":"IP68 (1.5m 30dk)","newValue":"IPX8","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":6.9,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.build.weightGrams","oldValue":219,"newValue":187,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.015Z","productId":"samsung-samsung-galaxy-z-flip-4-69","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 12","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.screen.size","oldValue":"7.6\"","newValue":"7.6 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.screen.type","oldValue":"7.6\" QXGA+ 120Hz Katlanabilir Dynamic AMOLED 2X","newValue":"Dynamic AMOLED 2X","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.screen.resolution","oldValue":"3080 x 1440 px","newValue":"2176 x 1812","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.screen.ppi","oldValue":500,"newValue":402,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.processor.chip","oldValue":"Snapdragon 8+ Gen 1","newValue":"Snapdragon","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.camera.telephotoMp","oldValue":"50 MP (5x Optik Zoom)","newValue":"10 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.camera.selfieMp","oldValue":"12 MP Dual Pixel","newValue":"10 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.camera.videoRes","oldValue":"8K @ 30fps","newValue":"720p, 1080p, 2160p, 4320p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.connectivity.wifiStandard","oldValue":"Wi-Fi 7","newValue":"Wi-Fi 6 (802.11ax)","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.2","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.build.waterResistance","oldValue":"IP68 (1.5m 30dk)","newValue":"IPX8","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":6.3,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.build.weightGrams","oldValue":219,"newValue":263,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:00.546Z","productId":"samsung-samsung-galaxy-z-fold-4-70","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 12","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.screen.size","oldValue":"6.5\"","newValue":"6.5 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.screen.type","oldValue":"6.5\" HD+ PLS TFT","newValue":"PLS","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"720 x 1600","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.processor.chip","oldValue":"Helio P35","newValue":"MediaTek","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.memory.storageGb","oldValue":64,"newValue":128,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"2 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.camera.selfieMp","oldValue":"13 MP","newValue":"8 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"1080p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":8.9,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.142Z","productId":"samsung-samsung-galaxy-a12-57","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":205,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.screen.size","oldValue":"6.7\"","newValue":"6.7 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.screen.type","oldValue":"6.7\" FHD+ 120Hz Dynamic AMOLED 2X Katlanabilir","newValue":"Dynamic AMOLED 2X","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.screen.resolution","oldValue":"3080 x 1440 px","newValue":"2640 x 1080","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.screen.ppi","oldValue":500,"newValue":302,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.processor.chip","oldValue":"Snapdragon 888","newValue":"Snapdragon","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.memory.storageGb","oldValue":128,"newValue":256,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.camera.mainMp","oldValue":"12 MP","newValue":"3000 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.camera.selfieMp","oldValue":"12 MP Dual Pixel","newValue":"10 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.camera.videoRes","oldValue":"8K @ 30fps","newValue":"720p, 1080p, 2160p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.1","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.build.waterResistance","oldValue":"IP68 (1.5m 30dk)","newValue":"IPX8","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":6.9,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.build.weightGrams","oldValue":219,"newValue":183,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:01.718Z","productId":"samsung-samsung-galaxy-z-flip-3-54","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 11","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.screen.size","oldValue":"6.7\"","newValue":"6.7 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.screen.type","oldValue":"6.7\" FHD+ Super AMOLED Plus (S-Pen)","newValue":"Süper AMOLED Plus","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.screen.resolution","oldValue":"3080 x 1440 px","newValue":"2400 x 1080","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.screen.ppi","oldValue":500,"newValue":393,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.processor.chip","oldValue":"Exynos 990","newValue":"Samsung Exynos","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.camera.mainMp","oldValue":"64 MP","newValue":"12 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"64 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.camera.telephotoMp","oldValue":"50 MP (5x Optik Zoom)","newValue":"12 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.camera.selfieMp","oldValue":"12 MP Dual Pixel","newValue":"10 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.camera.videoRes","oldValue":"8K @ 30fps","newValue":"720p, 1080p, 2160p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.connectivity.has5G","oldValue":false,"newValue":true,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.connectivity.hasesim","oldValue":true,"newValue":false,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.build.waterResistance","oldValue":"IP68 (1.5m 30dk)","newValue":"IP68","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":8.3,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.build.weightGrams","oldValue":219,"newValue":192,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.257Z","productId":"samsung-samsung-galaxy-note-20-36","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 10","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.screen.size","oldValue":"6.4\"","newValue":"6.4 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.screen.type","oldValue":"6.4\" FHD+ Super AMOLED","newValue":"Super AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"1080 x 2340","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.screen.ppi","oldValue":390,"newValue":403,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.processor.chip","oldValue":"Exynos 9610","newValue":"Samsung Exynos","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.processor.cores","oldValue":"8 Çekirdek","newValue":"4 Çekirdek","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.memory.ramGb","oldValue":6,"newValue":4,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.camera.mainMp","oldValue":"25 MP","newValue":"5760 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"8 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.camera.selfieMp","oldValue":"13 MP","newValue":"25 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"720p, 1080p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":7.7,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":166,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:02.785Z","productId":"samsung-samsung-galaxy-a50-24","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 9.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.screen.size","oldValue":"6.7\"","newValue":"6.7 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.screen.type","oldValue":"6.7\" FHD+ Döner Kameralı New Infinity AMOLED","newValue":"Super AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"1080 x 2400","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.screen.ppi","oldValue":390,"newValue":393,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.processor.chip","oldValue":"Snapdragon 730G","newValue":"Snapdragon","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.processor.cores","oldValue":"8 Çekirdek","newValue":"2 Çekirdek","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.memory.expandableStorage","oldValue":true,"newValue":false,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"8 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"720p, 1080p, 2160p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":9.3,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":220,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:03.443Z","productId":"samsung-samsung-galaxy-a80-27","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 9.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.screen.size","oldValue":"6.7\"","newValue":"6.7 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.screen.type","oldValue":"6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)","newValue":"Super AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"1080 x 2340","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.memory.ramGb","oldValue":6,"newValue":4,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"2 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.connectivity.wifiStandard","oldValue":"Wi-Fi 6","newValue":"Wi-Fi 5 (802.11ac)","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.build.waterResistance","oldValue":"Yok","newValue":"IP54","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":200,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.006Z","productId":"samsung-samsung-galaxy-a16-5g-114","fieldPath":"specs.software.osName","oldValue":"Android 15 (One UI 7.0)","newValue":"Android 14","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.screen.size","oldValue":"6.5\"","newValue":"6.5 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.screen.type","oldValue":"6.5\" HD+ PLS TFT","newValue":"PLS","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"720 x 1600","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.screen.ppi","oldValue":390,"newValue":270,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.processor.chip","oldValue":"Exynos 850","newValue":"Samsung Exynos","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.processor.cores","oldValue":"8 Çekirdek","newValue":"4 Çekirdek","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.memory.ramGb","oldValue":4,"newValue":3,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.memory.storageGb","oldValue":64,"newValue":32,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"8 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"2 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"1080p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":8.9,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":192,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:04.551Z","productId":"samsung-samsung-galaxy-a21s-41","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 10","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.screen.size","oldValue":"6.1\"","newValue":"6.1 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.screen.type","oldValue":"6.1\" FHD+ Super AMOLED","newValue":"Super AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"1080 x 2400","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"8 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.camera.selfieMp","oldValue":"13 MP","newValue":"25 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.116Z","productId":"samsung-samsung-galaxy-a41-43","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":152,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.screen.size","oldValue":"6.7\"","newValue":"6.7 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.screen.type","oldValue":"6.7\" FHD+ Super AMOLED Plus","newValue":"Süper AMOLED Plus","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"2400 x 1080","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.memory.ramGb","oldValue":8,"newValue":6,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.camera.selfieMp","oldValue":"13 MP","newValue":"32 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":9.5,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:05.646Z","productId":"samsung-samsung-galaxy-m51-49","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":213,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.screen.size","oldValue":"6.7\"","newValue":"6.7 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.screen.type","oldValue":"6.7\" FHD+ Katlanabilir Dynamic AMOLED","newValue":"Dynamic AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.screen.resolution","oldValue":"3080 x 1440 px","newValue":"2636 x 1080","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.screen.ppi","oldValue":500,"newValue":425,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.processor.chip","oldValue":"Snapdragon 855+","newValue":"Snapdragon","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.camera.mainMp","oldValue":"12 MP","newValue":"4032 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.camera.selfieMp","oldValue":"12 MP Dual Pixel","newValue":"10 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.camera.videoRes","oldValue":"8K @ 30fps","newValue":"720p, 1080p, 2160p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":7.2,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.build.weightGrams","oldValue":219,"newValue":183,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.190Z","productId":"samsung-samsung-galaxy-z-flip-38","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 10","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.screen.size","oldValue":"6.4\"","newValue":"5.8 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.screen.type","oldValue":"6.4\" HD+ Super AMOLED","newValue":"PLS","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"720 x 1560","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.processor.chip","oldValue":"Exynos 7884","newValue":"Samsung Exynos","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.processor.cores","oldValue":"8 Çekirdek","newValue":"2 Çekirdek","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.camera.selfieMp","oldValue":"13 MP","newValue":"8 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"1080p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.battery.capacitymAh","oldValue":4000,"newValue":3000,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":8.4,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":141,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:06.733Z","productId":"samsung-samsung-galaxy-a20-21","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 9.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.screen.size","oldValue":"6.4\"","newValue":"6.4 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.screen.type","oldValue":"6.4\" FHD+ Super AMOLED","newValue":"Super AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"720 x 1560","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.processor.chip","oldValue":"Exynos 7904","newValue":"Samsung Exynos","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.camera.mainMp","oldValue":"16 MP","newValue":"25 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.camera.telephotoMp","oldValue":"Yok","newValue":"8 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.camera.selfieMp","oldValue":"13 MP","newValue":"16 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"720p, 1080p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":7.8,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.277Z","productId":"samsung-samsung-galaxy-a30-22","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":169,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.screen.size","oldValue":"5.9\"","newValue":"5.9 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.screen.type","oldValue":"5.9\" FHD+ Super AMOLED","newValue":"Super AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.screen.resolution","oldValue":"2340 x 1080 px","newValue":"2340 x 1080","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.processor.chip","oldValue":"Exynos 7904","newValue":"Samsung Exynos","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.camera.ultrawideMp","oldValue":"12 MP","newValue":"5 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.camera.selfieMp","oldValue":"13 MP","newValue":"25 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.camera.videoRes","oldValue":"4K @ 30fps","newValue":"1080p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.build.weightGrams","oldValue":185,"newValue":140,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:07.963Z","productId":"samsung-samsung-galaxy-a40-23","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 9.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.screen.size","oldValue":"7.3\"","newValue":"7.3 inç","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.screen.type","oldValue":"7.3\" QXGA+ Katlanabilir Dynamic AMOLED","newValue":"Dynamic AMOLED","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.screen.resolution","oldValue":"3080 x 1440 px","newValue":"2152 x 1536","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.screen.ppi","oldValue":500,"newValue":399,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.processor.chip","oldValue":"Snapdragon 855","newValue":"Snapdragon","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.camera.mainMp","oldValue":"12 MP","newValue":"16 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.camera.telephotoMp","oldValue":"50 MP (5x Optik Zoom)","newValue":"12 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.camera.selfieMp","oldValue":"12 MP Dual Pixel","newValue":"10 MP","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.camera.videoRes","oldValue":"8K @ 30fps","newValue":"720p, 1080p, 2160p","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.connectivity.has5G","oldValue":true,"newValue":false,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.connectivity.hasesim","oldValue":true,"newValue":false,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.connectivity.bluetooth","oldValue":"5.3","newValue":"5.0","action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.build.thicknessMm","oldValue":7.9,"newValue":7.5,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.build.weightGrams","oldValue":219,"newValue":276,"action":"VALUE_CORRECTED"}
+{"timestamp":"2026-10-27T18:44:08.685Z","productId":"samsung-samsung-galaxy-fold-19","fieldPath":"specs.software.osName","oldValue":"Android 14 (One UI 6.1)","newValue":"Android 9.0","action":"VALUE_CORRECTED"}

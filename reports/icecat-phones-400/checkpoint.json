@@ -1,12 +1,12 @@
 {
   "processedCount": 400,
   "statusCounts": {
-    "APPLIED_ALL_AVAILABLE": 32,
+    "APPLIED_ALL_AVAILABLE": 49,
     "APPLIED_PARTIAL": 0,
     "NO_CHANGE_NEEDED": 3,
-    "BLOCKED_IDENTITY": 336,
-    "BLOCKED_ACCESS": 0,
-    "SOURCE_NOT_FOUND": 29,
+    "BLOCKED_IDENTITY": 105,
+    "BLOCKED_ACCESS": 202,
+    "SOURCE_NOT_FOUND": 41,
     "ERROR": 0,
     "NOT_ATTEMPTED": 0
   },
@@ -434,6 +434,5 @@
     "samsung-samsung-galaxy-m10-29",
     "samsung-samsung-galaxy-m20-30",
     "samsung-samsung-galaxy-m30-31"
-  ],
-  "lastProductId": "samsung-samsung-galaxy-m30-31"
+  ]
 }
