@@ -69,6 +69,7 @@ export interface BaseProduct {
   specVerification?: { note: string; unresolvedFields: string[] };
   aliasIds?: string[];
   storageGb?: number;
+  extraSpecs?: Array<{ featureId: number; name: string; group: string; value: string; unit?: string }>;
 }
 
 export interface ApplianceSpecs {

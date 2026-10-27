@@ -16,9 +16,10 @@ import {
 interface SpecSheetProps {
   specs?: SmartphoneSpecs;
   productId?: string;
+  extraSpecs?: Array<{ featureId: number; name: string; group: string; value: string; unit?: string }>;
 }
 
-export function SpecSheet({ specs, productId }: SpecSheetProps) {
+export function SpecSheet({ specs, productId, extraSpecs }: SpecSheetProps) {
   const { t } = useI18n();
 
   if (!specs) {
@@ -153,6 +154,34 @@ export function SpecSheet({ specs, productId }: SpecSheetProps) {
           </div>
         );
       })}
+      {extraSpecs && extraSpecs.length > 0 && (() => {
+        const groups: Record<string, typeof extraSpecs> = {};
+        for (const spec of extraSpecs) {
+          const g = spec.group || 'Diğer Özellikler';
+          if (!groups[g]) groups[g] = [];
+          groups[g].push(spec);
+        }
+        return (
+          <div className="space-y-6 pt-4 border-t border-slate-200">
+            <h3 className="text-slate-900 font-bold text-base flex items-center gap-2">
+              <span>Doğrulanmış Ek Katalog Özellikleri (Icecat)</span>
+            </h3>
+            {Object.entries(groups).map(([grpName, items]) => (
+              <div key={grpName} className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs">
+                <h4 className="text-slate-800 font-bold text-sm mb-4 pb-2 border-b border-slate-100">{grpName}</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-8 text-xs">
+                  {items.map((item, iIdx) => (
+                    <div key={iIdx} className="flex items-center justify-between py-1 border-b border-slate-100">
+                      <span className="text-slate-500 font-medium">{item.name}</span>
+                      <span className="text-slate-900 font-bold text-right">{item.value} {item.unit || ''}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        );
+      })()}
     </div>
   );
 }

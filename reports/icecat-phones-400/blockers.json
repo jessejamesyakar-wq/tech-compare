@@ -1,0 +1,3374 @@
+[
+  {
+    "canonicalId": "philips-xenium-e2125",
+    "brand": "Philips",
+    "model": "Philips Xenium E2125 Çift Hatlı Tuşlu Cep Telefonu",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Philips",
+      "code": "CTE2125"
+    },
+    "timestamp": "2026-10-26T17:46:27.420Z"
+  },
+  {
+    "canonicalId": "philips-xenium-e227",
+    "brand": "Philips",
+    "model": "Philips Xenium E227 Yaşlı & Acil Durum Uyumlu Şarj Standlı Tuşlu Telefon",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Philips",
+      "code": "CTE227"
+    },
+    "timestamp": "2026-10-26T17:46:28.139Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a05-99",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A05",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A055FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:28.904Z"
+  },
+  {
+    "canonicalId": "philips-xenium-x818",
+    "brand": "Philips",
+    "model": "Philips Xenium X818 32 GB",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Philips",
+      "code": "CTX818"
+    },
+    "timestamp": "2026-10-26T17:46:33.784Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a14-86",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A14",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A145FZKUEUE"
+    },
+    "timestamp": "2026-10-26T17:46:34.424Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a24-87",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A24",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A245FZKVEUE"
+    },
+    "timestamp": "2026-10-26T17:46:35.055Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m14-5g-90",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M14 5G",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M146BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:36.535Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m34-5g-91",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M34 5G",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M346BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:37.162Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m54-5g-92",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M54 5G",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M546BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:37.783Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-fold-5-85",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 5",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-F946BZAGEUE"
+    },
+    "timestamp": "2026-10-26T17:46:41.975Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a23-72",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A23",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A235FZKUEUE"
+    },
+    "timestamp": "2026-10-26T17:46:43.375Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a73-5g-75",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A73 5G",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A736BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:45.624Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m13-76",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M13",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M135FZKUEUE"
+    },
+    "timestamp": "2026-10-26T17:46:46.278Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m23-5g-77",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M23 5G",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M236BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:46.949Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m33-5g-78",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M33 5G",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M336BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:47.618Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m53-5g-79",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M53 5G",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M536BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:48.244Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-flip-4-69",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 4",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-F721BZADEUE"
+    },
+    "timestamp": "2026-10-26T17:46:50.370Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-fold-4-70",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 4",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-F936BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:51.002Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a02-56",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A02",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A022GZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:52.630Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a12-57",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A12",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A127FZKEEUB"
+    },
+    "timestamp": "2026-10-26T17:46:53.257Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m12-63",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M12",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M127FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:56.964Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m32-64",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M32",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-M325FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:46:57.591Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-flip-3-54",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 3",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-F711BZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:47:01.015Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a51-44",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A51",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A515FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:47:01.634Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a71-45",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A71",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A715FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:47:02.276Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-note-20-36",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 20",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-N980FZNHEUE"
+    },
+    "timestamp": "2026-10-26T17:47:03.278Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a50-24",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A50",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A505FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:47:06.590Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a70-26",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A70",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A705FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:47:07.474Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a80-27",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A80",
+    "outcome": "SOURCE_NOT_FOUND",
+    "reason": "SOURCE_NOT_FOUND: Product not found in Icecat database",
+    "queryAttempted": {
+      "brand": "Samsung",
+      "code": "SM-A805FZKDEUE"
+    },
+    "timestamp": "2026-10-26T17:47:08.138Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-pro-max-1-tb-1027079",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 Pro Max (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.238Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-pro-max-2-tb-1027080",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 Pro Max (2 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.239Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-pro-max-256-gb-1023353",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 Pro Max (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.240Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-pro-max-512-gb-1027078",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 Pro Max (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.241Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s25-fe-110",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25 FE",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.242Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-y5ii",
+    "brand": "Huawei",
+    "model": "Huawei Y5ii",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.243Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-256-gb-1027084",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.244Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-512-gb-1027085",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.245Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-pro-1-tb-1027083",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 Pro (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.246Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-pro-256-gb-1023349",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 Pro (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.247Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17-pro-512-gb-1027082",
+    "brand": "Apple",
+    "model": "Apple iPhone 17 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.248Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17e-256-gb-1048093",
+    "brand": "Apple",
+    "model": "Apple iPhone 17e (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.250Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-17e-512-gb-1048094",
+    "brand": "Apple",
+    "model": "Apple iPhone 17e (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.251Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-1-tb-1071808",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.253Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-2-tb-1071809",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro (2 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.255Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-256-gb-1071246",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.257Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-512-gb-1071807",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.259Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-max-1-tb-1071805",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro Max (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.261Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-max-2-tb-1071806",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro Max (2 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.262Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-max-256-gb-1071187",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro Max (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.264Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-18-pro-max-512-gb-1071804",
+    "brand": "Apple",
+    "model": "Apple iPhone 18 Pro Max (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.266Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-air-1-tb-1027085",
+    "brand": "Apple",
+    "model": "Apple iPhone Air (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.267Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-air-256-gb-1027083",
+    "brand": "Apple",
+    "model": "Apple iPhone Air (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.268Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-air-512-gb-1027084",
+    "brand": "Apple",
+    "model": "Apple iPhone Air (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.270Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-duo-1-tb-1071811",
+    "brand": "Apple",
+    "model": "Apple iPhone Duo (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.271Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-duo-2-tb-1071812",
+    "brand": "Apple",
+    "model": "Apple iPhone Duo (2 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.271Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-duo-256-gb-1071268",
+    "brand": "Apple",
+    "model": "Apple iPhone Duo (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.272Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-duo-512-gb-1071810",
+    "brand": "Apple",
+    "model": "Apple iPhone Duo (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.273Z"
+  },
+  {
+    "canonicalId": "gm-gm-26-5g-128gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM 26 5G (8/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.274Z"
+  },
+  {
+    "canonicalId": "gm-gm-26-5g-256gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM 26 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.275Z"
+  },
+  {
+    "canonicalId": "gm-gm-26-pro-5g-12-256gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM 26 Pro 5G (12/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.276Z"
+  },
+  {
+    "canonicalId": "gm-gm-26-pro-5g-12-512gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM 26 Pro 5G (12/512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.277Z"
+  },
+  {
+    "canonicalId": "gm-gm-26-pro-5g-8-256gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM 26 Pro 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.278Z"
+  },
+  {
+    "canonicalId": "gm-gm-fenix-2-pro-5g-512gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM Fenix II Pro 5G (12/512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.280Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-10a-30",
+    "brand": "Google",
+    "model": "Google Pixel 10a",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.281Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-11-31",
+    "brand": "Google",
+    "model": "Google Pixel 11",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.282Z"
+  },
+  {
+    "canonicalId": "google-pixel-10-pro-xl-256gb-icecat",
+    "brand": "Google",
+    "model": "Google Pixel 10 Pro XL (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.284Z"
+  },
+  {
+    "canonicalId": "honor-honor-600-88",
+    "brand": "Honor",
+    "model": "Honor 600 5G (8/512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.285Z"
+  },
+  {
+    "canonicalId": "honor-honor-600-lite-90",
+    "brand": "Honor",
+    "model": "Honor 600 Lite 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.286Z"
+  },
+  {
+    "canonicalId": "honor-honor-600-pro-89",
+    "brand": "Honor",
+    "model": "Honor 600 Pro 5G (12/512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.287Z"
+  },
+  {
+    "canonicalId": "honor-honor-magic-v6-87",
+    "brand": "Honor",
+    "model": "Honor Magic V6",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.289Z"
+  },
+  {
+    "canonicalId": "honor-honor-magic8-84",
+    "brand": "Honor",
+    "model": "Honor Magic8",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.292Z"
+  },
+  {
+    "canonicalId": "honor-honor-magic8-lite-86",
+    "brand": "Honor",
+    "model": "Honor Magic 8 Lite 5G (8/512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.293Z"
+  },
+  {
+    "canonicalId": "honor-honor-magic8-pro-85",
+    "brand": "Honor",
+    "model": "Honor Magic 8 Pro 5G (12/512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.295Z"
+  },
+  {
+    "canonicalId": "honor-honor-win-win-turbo-91",
+    "brand": "Honor",
+    "model": "Honor Win / Win Turbo",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.296Z"
+  },
+  {
+    "canonicalId": "nothing-nothing-phone-3a-lite-10",
+    "brand": "Nothing",
+    "model": "Nothing Phone (3a) Lite",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.298Z"
+  },
+  {
+    "canonicalId": "nothing-nothing-phone-3a-pro-9",
+    "brand": "Nothing",
+    "model": "Nothing Phone (3a) Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.299Z"
+  },
+  {
+    "canonicalId": "nothing-nothing-phone-4a-11",
+    "brand": "Nothing",
+    "model": "Nothing Phone (4a)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.301Z"
+  },
+  {
+    "canonicalId": "nothing-nothing-phone-4a-pro-12",
+    "brand": "Nothing",
+    "model": "Nothing Phone (4a) Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.302Z"
+  },
+  {
+    "canonicalId": "nothing-nothing-phone-4b-13",
+    "brand": "Nothing",
+    "model": "Nothing Phone (4b)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.304Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-15t-5g",
+    "brand": "OnePlus",
+    "model": "OnePlus 15T",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.305Z"
+  },
+  {
+    "canonicalId": "oppo-a6t-5g-4-128gb",
+    "brand": "Oppo",
+    "model": "OPPO A6T 5G (4/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.306Z"
+  },
+  {
+    "canonicalId": "oppo-a6t-5g-4-256gb",
+    "brand": "Oppo",
+    "model": "OPPO A6T 5G (4/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.307Z"
+  },
+  {
+    "canonicalId": "oppo-a7-pro-5g-256gb-2027",
+    "brand": "Oppo",
+    "model": "OPPO A7 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.309Z"
+  },
+  {
+    "canonicalId": "oppo-find-n6-5g-512gb",
+    "brand": "Oppo",
+    "model": "OPPO Find N6 5G (512 GB - Katlanabilir Amiral Gemisi)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.310Z"
+  },
+  {
+    "canonicalId": "oppo-find-x10-5g-256gb-2027",
+    "brand": "Oppo",
+    "model": "OPPO Find X10 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.311Z"
+  },
+  {
+    "canonicalId": "oppo-find-x10-pro-512gb-2027",
+    "brand": "Oppo",
+    "model": "OPPO Find X10 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.313Z"
+  },
+  {
+    "canonicalId": "oppo-find-x9-5g-256gb-2026",
+    "brand": "Oppo",
+    "model": "OPPO Find X9 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.314Z"
+  },
+  {
+    "canonicalId": "oppo-find-x9-pro-512gb-2026",
+    "brand": "Oppo",
+    "model": "OPPO Find X9 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.315Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-find-x8s-5g-13769",
+    "brand": "Oppo",
+    "model": "OPPO Find X8s",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.316Z"
+  },
+  {
+    "canonicalId": "oppo-reno-15-5g-256gb-2026",
+    "brand": "Oppo",
+    "model": "OPPO Reno15 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.318Z"
+  },
+  {
+    "canonicalId": "oppo-reno-15-f-5g-12-256gb",
+    "brand": "Oppo",
+    "model": "OPPO Reno15 F 5G (12/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.319Z"
+  },
+  {
+    "canonicalId": "oppo-reno-15-pro-5g-512gb-2026",
+    "brand": "Oppo",
+    "model": "OPPO Reno15 Pro 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.321Z"
+  },
+  {
+    "canonicalId": "oppo-reno-16-5g-8-256gb",
+    "brand": "Oppo",
+    "model": "OPPO Reno16 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.322Z"
+  },
+  {
+    "canonicalId": "oppo-reno-16-f-5g-8-256gb",
+    "brand": "Oppo",
+    "model": "OPPO Reno16 F 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.323Z"
+  },
+  {
+    "canonicalId": "oppo-reno-16-pro-5g-12-512gb",
+    "brand": "Oppo",
+    "model": "OPPO Reno16 Pro 5G (12/512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.324Z"
+  },
+  {
+    "canonicalId": "poco-m8-pro-5g-256gb-2027",
+    "brand": "Xiaomi",
+    "model": "Poco M8 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.326Z"
+  },
+  {
+    "canonicalId": "poco-x8-pro-256gb-2027",
+    "brand": "Xiaomi",
+    "model": "Poco X8 Pro (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.327Z"
+  },
+  {
+    "canonicalId": "poco-x8-pro-max-512gb-2027",
+    "brand": "Xiaomi",
+    "model": "Poco X8 Pro Max (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.329Z"
+  },
+  {
+    "canonicalId": "realme-realme-16-pro-59",
+    "brand": "Realme",
+    "model": "Realme 16 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.330Z"
+  },
+  {
+    "canonicalId": "realme-realme-16-pro-60",
+    "brand": "Realme",
+    "model": "Realme 16 Pro+",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.331Z"
+  },
+  {
+    "canonicalId": "realme-realme-c85-63",
+    "brand": "Realme",
+    "model": "Realme C85",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.332Z"
+  },
+  {
+    "canonicalId": "realme-realme-gt-8-pro-58",
+    "brand": "Realme",
+    "model": "Realme GT 8 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.333Z"
+  },
+  {
+    "canonicalId": "realme-realme-p4-power-61",
+    "brand": "Realme",
+    "model": "Realme P4 Power",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.335Z"
+  },
+  {
+    "canonicalId": "realme-realme-p4-pro-62",
+    "brand": "Realme",
+    "model": "Realme P4 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.336Z"
+  },
+  {
+    "canonicalId": "redmi-note-15-pro-5g-256gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 15 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.337Z"
+  },
+  {
+    "canonicalId": "redmi-note-15-pro-plus-5g-256gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 15 Pro+ 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.339Z"
+  },
+  {
+    "canonicalId": "redmi-note-15-pro-plus-5g-512gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 15 Pro+ 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.341Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a27-5g-127",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A27 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.342Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a37-5g-125",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A37 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.344Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a37-5g-256gb-129",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A37 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.345Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a57-5g-126",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A57 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.347Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m17-5g-127",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M17 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.348Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m37-5g-128",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M37 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.350Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m57-5g-129",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M57 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.351Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s26-118",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S26",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.352Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s26-119",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S26+",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.353Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s26-ultra-120",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S26 Ultra",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.354Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s26-ultra-1tb-131",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S26 Ultra (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.355Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-flip-8-121",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 8",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.356Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-flip-8-512gb-133",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 8 (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.357Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-fold-8-122",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 8",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.359Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-fold-8-ultra-123",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 8 Ultra",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.360Z"
+  },
+  {
+    "canonicalId": "sony-sony-xperia-viii-34",
+    "brand": "Sony",
+    "model": "Sony Xperia VIII",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.362Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-k70-5g-52",
+    "brand": "TCL",
+    "model": "TCL K70 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.363Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-k70-power-54",
+    "brand": "TCL",
+    "model": "TCL K70 Power",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.364Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-k70-se-5g-53",
+    "brand": "TCL",
+    "model": "TCL K70 SE 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.366Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-nxtpaper-70-pro-51",
+    "brand": "TCL",
+    "model": "TCL NxtPaper 70 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.367Z"
+  },
+  {
+    "canonicalId": "tecno-camon-50-8-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Camon 50 (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.368Z"
+  },
+  {
+    "canonicalId": "tecno-camon-50-ultra-5g-12-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Camon 50 Ultra 5G (12/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.369Z"
+  },
+  {
+    "canonicalId": "tecno-camon-50-ultra-5g-8-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Camon 50 Ultra 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.370Z"
+  },
+  {
+    "canonicalId": "tecno-pova-8-pro-5g-8-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Pova 8 Pro 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.371Z"
+  },
+  {
+    "canonicalId": "tecno-pova-curve-2-5g-8-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Pova Curve 2 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.372Z"
+  },
+  {
+    "canonicalId": "tecno-spark-50-4-128gb",
+    "brand": "Tecno",
+    "model": "Tecno Spark 50 (4/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.373Z"
+  },
+  {
+    "canonicalId": "tecno-spark-50-5g-6-128gb",
+    "brand": "Tecno",
+    "model": "Tecno Spark 50 5G (6/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.374Z"
+  },
+  {
+    "canonicalId": "tecno-spark-50-6-128gb",
+    "brand": "Tecno",
+    "model": "Tecno Spark 50 (6/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.376Z"
+  },
+  {
+    "canonicalId": "tecno-spark-50-pro-8-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Spark 50 Pro (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.377Z"
+  },
+  {
+    "canonicalId": "tecno-spark-go-3-4-128gb",
+    "brand": "Tecno",
+    "model": "Tecno Spark Go 3 (4/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.379Z"
+  },
+  {
+    "canonicalId": "vivo-v60-5g-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo V60 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.380Z"
+  },
+  {
+    "canonicalId": "vivo-v60-lite-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo V60 Lite 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.382Z"
+  },
+  {
+    "canonicalId": "vivo-v60-lite-4g-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo V60 Lite (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.383Z"
+  },
+  {
+    "canonicalId": "vivo-v70-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo V70 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.385Z"
+  },
+  {
+    "canonicalId": "vivo-v70-fe-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo V70 FE (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.386Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-x300-ultra",
+    "brand": "Vivo",
+    "model": "vivo X300 Ultra (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.387Z"
+  },
+  {
+    "canonicalId": "vivo-y11d-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo Y11d (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.388Z"
+  },
+  {
+    "canonicalId": "vivo-y21-5g-128gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo Y21 5G (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.389Z"
+  },
+  {
+    "canonicalId": "vivo-y21-5g-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo Y21 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.391Z"
+  },
+  {
+    "canonicalId": "vivo-y31-5g-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo Y31 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.391Z"
+  },
+  {
+    "canonicalId": "xiaomi-17t-256gb-2026",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.392Z"
+  },
+  {
+    "canonicalId": "xiaomi-17t-pro-512gb-2027",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.393Z"
+  },
+  {
+    "canonicalId": "xiaomi-redmi-15-256gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi 15 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.394Z"
+  },
+  {
+    "canonicalId": "xiaomi-redmi-15c-256gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi 15C (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.395Z"
+  },
+  {
+    "canonicalId": "xiaomi-redmi-a7-pro-128gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi A7 Pro (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.396Z"
+  },
+  {
+    "canonicalId": "xiaomi-redmi-note-15-256gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 15 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.397Z"
+  },
+  {
+    "canonicalId": "xiaomi-redmi-note-15-pro-256gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 15 Pro (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.398Z"
+  },
+  {
+    "canonicalId": "xiaomi-redmi-note-15-pro-512gb-2026",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 15 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.399Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-poco-c81-pro-14635",
+    "brand": "Xiaomi",
+    "model": "Poco C81 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.400Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-poco-f8-pro-5g-14303",
+    "brand": "Xiaomi",
+    "model": "Poco F8 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.401Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-redmi-6a-9217",
+    "brand": "Xiaomi",
+    "model": "Redmi 6A",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.403Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-redmi-k100-pro-max-5g-14865",
+    "brand": "Xiaomi",
+    "model": "Redmi K100 Pro Max",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.404Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-4-16-gb-138",
+    "brand": "Apple",
+    "model": "Apple iPhone 4 (16 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.406Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-5-16-gb-91",
+    "brand": "Apple",
+    "model": "Apple iPhone 5 (16 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.407Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-5c-16-gb-90",
+    "brand": "Apple",
+    "model": "Apple iPhone 5c (16 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.408Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-6s-plus-16-gb-26038",
+    "brand": "Apple",
+    "model": "Apple iPhone 6s Plus (16 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.409Z"
+  },
+  {
+    "canonicalId": "gm-gm-era-30-128gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM Era 30 (4/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.410Z"
+  },
+  {
+    "canonicalId": "gm-gm-era-30-pro-256gb",
+    "brand": "General Mobile",
+    "model": "General Mobile GM Era 30 Pro (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.411Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-10-26",
+    "brand": "Google",
+    "model": "Google Pixel 10",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.413Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-10-pro-xl-28",
+    "brand": "Google",
+    "model": "Google Pixel 10 Pro XL",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.414Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-9a-25",
+    "brand": "Google",
+    "model": "Google Pixel 9a",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.415Z"
+  },
+  {
+    "canonicalId": "google-pixel-9a-128gb-icecat",
+    "brand": "Google",
+    "model": "Google Pixel 9a (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.416Z"
+  },
+  {
+    "canonicalId": "honor-honor-magic-v5-82",
+    "brand": "Honor",
+    "model": "Honor Magic V5",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.418Z"
+  },
+  {
+    "canonicalId": "honor-honor-win-83",
+    "brand": "Honor",
+    "model": "Honor Win",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.419Z"
+  },
+  {
+    "canonicalId": "infinix-hot-60-pro-8-256gb",
+    "brand": "Infinix",
+    "model": "Infinix Hot 60 Pro (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.420Z"
+  },
+  {
+    "canonicalId": "infinix-hot-60-pro-plus-8-256gb",
+    "brand": "Infinix",
+    "model": "Infinix Hot 60 Pro Plus (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.421Z"
+  },
+  {
+    "canonicalId": "infinix-hot-60i-4-128gb",
+    "brand": "Infinix",
+    "model": "Infinix Hot 60i (4/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.423Z"
+  },
+  {
+    "canonicalId": "infinix-hot-60i-6-128gb",
+    "brand": "Infinix",
+    "model": "Infinix Hot 60i (6/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.424Z"
+  },
+  {
+    "canonicalId": "infinix-hot-60i-8-256gb",
+    "brand": "Infinix",
+    "model": "Infinix Hot 60i (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.425Z"
+  },
+  {
+    "canonicalId": "infinix-note-50-8-256gb",
+    "brand": "Infinix",
+    "model": "Infinix Note 50 (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.426Z"
+  },
+  {
+    "canonicalId": "infinix-smart-10-4-128gb",
+    "brand": "Infinix",
+    "model": "Infinix Smart 10 (4/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.427Z"
+  },
+  {
+    "canonicalId": "nothing-cmf-phone-2-pro-7",
+    "brand": "Nothing",
+    "model": "CMF Phone 2 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.429Z"
+  },
+  {
+    "canonicalId": "nothing-nothing-phone-3-6",
+    "brand": "Nothing",
+    "model": "Nothing Phone (3)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.430Z"
+  },
+  {
+    "canonicalId": "nothing-nothing-phone-3a-8",
+    "brand": "Nothing",
+    "model": "Nothing Phone (3a)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.431Z"
+  },
+  {
+    "canonicalId": "nothing-phone-3a-256gb-icecat",
+    "brand": "Nothing",
+    "model": "Nothing Phone (3a) (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.432Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-13t-5g",
+    "brand": "OnePlus",
+    "model": "OnePlus 13T",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.433Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-nord-ce5-5g",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE5",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.434Z"
+  },
+  {
+    "canonicalId": "oppo-a5-4g-6-128gb",
+    "brand": "Oppo",
+    "model": "OPPO A5 4G (6/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.435Z"
+  },
+  {
+    "canonicalId": "oppo-a5-5g-8-256gb",
+    "brand": "Oppo",
+    "model": "OPPO A5 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.437Z"
+  },
+  {
+    "canonicalId": "oppo-a5-pro-5g-256gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO A5 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.438Z"
+  },
+  {
+    "canonicalId": "oppo-a6-max-5g-256gb-2027",
+    "brand": "Oppo",
+    "model": "OPPO A6 Max 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.440Z"
+  },
+  {
+    "canonicalId": "oppo-a6-pro-4g-8-256gb",
+    "brand": "Oppo",
+    "model": "OPPO A6 Pro 4G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.441Z"
+  },
+  {
+    "canonicalId": "oppo-a6-pro-5g-256gb-2027",
+    "brand": "Oppo",
+    "model": "OPPO A6 Pro 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.442Z"
+  },
+  {
+    "canonicalId": "oppo-f29-pro-256gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO F29 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.443Z"
+  },
+  {
+    "canonicalId": "oppo-f31-256gb-2027",
+    "brand": "Oppo",
+    "model": "OPPO F31 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.445Z"
+  },
+  {
+    "canonicalId": "oppo-f31-pro-5g-256gb-2026",
+    "brand": "Oppo",
+    "model": "OPPO F31 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.446Z"
+  },
+  {
+    "canonicalId": "oppo-f31-pro-plus-512gb-2027",
+    "brand": "Oppo",
+    "model": "OPPO F31 Pro+ 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.448Z"
+  },
+  {
+    "canonicalId": "oppo-find-n5-512gb-foldable-2025",
+    "brand": "Oppo",
+    "model": "OPPO Find N5 (512 GB - Katlanabilir Amiral Gemisi)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.450Z"
+  },
+  {
+    "canonicalId": "oppo-find-x8-256gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO Find X8 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.451Z"
+  },
+  {
+    "canonicalId": "oppo-find-x8-pro-512gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO Find X8 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.453Z"
+  },
+  {
+    "canonicalId": "oppo-find-x8-ultra-512gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO Find X8 Ultra (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.455Z"
+  },
+  {
+    "canonicalId": "oppo-k13-5g-256gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO K13 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.456Z"
+  },
+  {
+    "canonicalId": "oppo-k13-turbo-pro-5g-512gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO K13 Turbo Pro 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.458Z"
+  },
+  {
+    "canonicalId": "oppo-reno-14-5g-256gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO Reno14 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.459Z"
+  },
+  {
+    "canonicalId": "oppo-reno-14-f-5g-256gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO Reno14 F 5G (12/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.460Z"
+  },
+  {
+    "canonicalId": "oppo-reno-14-pro-5g-512gb-2025",
+    "brand": "Oppo",
+    "model": "OPPO Reno14 Pro 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.462Z"
+  },
+  {
+    "canonicalId": "poco-f7-pro-512gb-2025",
+    "brand": "Xiaomi",
+    "model": "Poco F7 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.464Z"
+  },
+  {
+    "canonicalId": "poco-f8-ultra-512gb-2027",
+    "brand": "Xiaomi",
+    "model": "Poco F8 Ultra (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.466Z"
+  },
+  {
+    "canonicalId": "poco-m7-pro-5g-256gb-2025",
+    "brand": "Xiaomi",
+    "model": "Poco M7 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.468Z"
+  },
+  {
+    "canonicalId": "poco-poco-f7-5g-85",
+    "brand": "POCO",
+    "model": "POCO F7 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.469Z"
+  },
+  {
+    "canonicalId": "poco-poco-f7-ultra-86",
+    "brand": "POCO",
+    "model": "POCO F7 Ultra",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.470Z"
+  },
+  {
+    "canonicalId": "poco-poco-x7-5g-89",
+    "brand": "POCO",
+    "model": "POCO X7 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.472Z"
+  },
+  {
+    "canonicalId": "poco-poco-x7-pro-5g-90",
+    "brand": "POCO",
+    "model": "POCO X7 Pro 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.473Z"
+  },
+  {
+    "canonicalId": "realme-14-pro-plus-512gb-icecat",
+    "brand": "Realme",
+    "model": "Realme 14 Pro+ 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.474Z"
+  },
+  {
+    "canonicalId": "realme-realme-14-pro-54",
+    "brand": "Realme",
+    "model": "Realme 14 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.475Z"
+  },
+  {
+    "canonicalId": "realme-realme-14-pro-55",
+    "brand": "Realme",
+    "model": "Realme 14 Pro+",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.476Z"
+  },
+  {
+    "canonicalId": "realme-realme-c73-57",
+    "brand": "Realme",
+    "model": "Realme C73",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.477Z"
+  },
+  {
+    "canonicalId": "realme-realme-narzo-70-56",
+    "brand": "Realme",
+    "model": "Realme Narzo 70",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.479Z"
+  },
+  {
+    "canonicalId": "redmi-k80-pro-512gb-2025",
+    "brand": "Xiaomi",
+    "model": "Redmi K80 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.481Z"
+  },
+  {
+    "canonicalId": "redmi-note-14-pro-5g-256gb-2025",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 14 Pro 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.482Z"
+  },
+  {
+    "canonicalId": "redmi-note-14-pro-plus-5g-512gb-2025",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 14 Pro+ 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.484Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a06-113",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A06",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.486Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a16-5g-114",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A16 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.487Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a17-5g-124",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A17 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.489Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a17-5g-256gb-128",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A17 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.491Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a26-5g-115",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A26 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.492Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a36-5g-116",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A36 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.493Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a56-5g-117",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A56 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.495Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s25-107",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.496Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s25-108",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25+",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.498Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s25-fe-256gb-130",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25 FE (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.499Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-s25-ultra-109",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25 Ultra",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.501Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-flip-7-111",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 7",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.502Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-fold-7-112",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 7",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.503Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-fold-7-256gb-132",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 7 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.505Z"
+  },
+  {
+    "canonicalId": "sony-sony-xperia-1-vii-33",
+    "brand": "Sony",
+    "model": "Sony Xperia 1 VII",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.506Z"
+  },
+  {
+    "canonicalId": "sony-sony-xperia-10-vii-32",
+    "brand": "Sony",
+    "model": "Sony Xperia 10 VII",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.507Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-60-45",
+    "brand": "TCL",
+    "model": "TCL 60",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.508Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-60-5g-46",
+    "brand": "TCL",
+    "model": "TCL 60 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.510Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-60-nxtpaper-4g-47",
+    "brand": "TCL",
+    "model": "TCL 60 NxtPaper 4G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.512Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-60-se-nxtpaper-5g-48",
+    "brand": "TCL",
+    "model": "TCL 60 SE NxtPaper 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.513Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-60-xe-nxtpaper-49",
+    "brand": "TCL",
+    "model": "TCL 60 XE NxtPaper",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.515Z"
+  },
+  {
+    "canonicalId": "tcl-tcl-605-50",
+    "brand": "TCL",
+    "model": "TCL 605",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.517Z"
+  },
+  {
+    "canonicalId": "tecno-camon-40-8-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Camon 40 (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.519Z"
+  },
+  {
+    "canonicalId": "tecno-camon-40-pro-5g-8-256gb",
+    "brand": "Tecno",
+    "model": "Tecno Camon 40 Pro 5G (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.520Z"
+  },
+  {
+    "canonicalId": "tecno-spark-40c-4-128gb",
+    "brand": "Tecno",
+    "model": "Tecno Spark 40C (4/128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.522Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-camon-30s-pro",
+    "brand": "Tecno",
+    "model": "Tecno Camon 30S Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.523Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-pova-7-5g",
+    "brand": "Tecno",
+    "model": "Tecno Pova 7",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.525Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-pova-7-pro-5g",
+    "brand": "Tecno",
+    "model": "Tecno Pova 7 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.526Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-40-4g",
+    "brand": "Tecno",
+    "model": "Tecno Spark 40 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.528Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-40-pro",
+    "brand": "Tecno",
+    "model": "Tecno Spark 40 Pro+",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.529Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-40-pro-2",
+    "brand": "Tecno",
+    "model": "Tecno Spark 40 Pro (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.530Z"
+  },
+  {
+    "canonicalId": "vivo-v50-pro-512gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo V50 Pro 5G (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.531Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-v50-5g",
+    "brand": "Vivo",
+    "model": "vivo V50 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.533Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-v50-lite",
+    "brand": "Vivo",
+    "model": "vivo V50 Lite",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.535Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-v50-lite-5g",
+    "brand": "Vivo",
+    "model": "vivo V50 Lite 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.536Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-y29",
+    "brand": "Vivo",
+    "model": "vivo Y29 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.538Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-y29s-5g",
+    "brand": "Vivo",
+    "model": "vivo Y29s 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.539Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-y31d",
+    "brand": "Vivo",
+    "model": "vivo Y31d",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.541Z"
+  },
+  {
+    "canonicalId": "vivo-x200-256gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo X200 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.542Z"
+  },
+  {
+    "canonicalId": "vivo-x200-fe-256gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo X200 FE (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.543Z"
+  },
+  {
+    "canonicalId": "vivo-x200-pro-512gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo X200 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.545Z"
+  },
+  {
+    "canonicalId": "vivo-x200-ultra-512gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo X200 Ultra (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.546Z"
+  },
+  {
+    "canonicalId": "vivo-x300-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo X300 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.547Z"
+  },
+  {
+    "canonicalId": "vivo-x300-512gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo X300 (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.548Z"
+  },
+  {
+    "canonicalId": "vivo-x300-pro-512gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo X300 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.549Z"
+  },
+  {
+    "canonicalId": "vivo-y05-128gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo Y05 (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.551Z"
+  },
+  {
+    "canonicalId": "vivo-y19s-128gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo Y19s (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.552Z"
+  },
+  {
+    "canonicalId": "vivo-y200-5g-256gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo Y200 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.554Z"
+  },
+  {
+    "canonicalId": "vivo-y28-256gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo Y28 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.555Z"
+  },
+  {
+    "canonicalId": "vivo-y300-5g-256gb-2025",
+    "brand": "Vivo",
+    "model": "Vivo Y300 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.557Z"
+  },
+  {
+    "canonicalId": "vivo-y400-5g-256gb-2026",
+    "brand": "Vivo",
+    "model": "Vivo Y400 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.558Z"
+  },
+  {
+    "canonicalId": "xiaomi-15-256gb-2025",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.560Z"
+  },
+  {
+    "canonicalId": "xiaomi-15-pro-512gb-2025",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.561Z"
+  },
+  {
+    "canonicalId": "xiaomi-15-ultra-512gb-2025",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Ultra (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.563Z"
+  },
+  {
+    "canonicalId": "xiaomi-15t-pro-512gb-2025",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15T Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.564Z"
+  },
+  {
+    "canonicalId": "xiaomi-17-256gb-2027",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.566Z"
+  },
+  {
+    "canonicalId": "xiaomi-17-pro-512gb-2027",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.568Z"
+  },
+  {
+    "canonicalId": "xiaomi-17-ultra-1tb-2027",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Ultra (1 TB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.569Z"
+  },
+  {
+    "canonicalId": "xiaomi-mix-flip-2-512gb-2026",
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip 2 (512 GB - Katlanabilir)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.571Z"
+  },
+  {
+    "canonicalId": "honor-magic6-pro-512gb-flagship",
+    "brand": "Honor",
+    "model": "Honor Magic6 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.572Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-nova-12-ultra",
+    "brand": "Huawei",
+    "model": "Huawei nova 12 Ultra",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.574Z"
+  },
+  {
+    "canonicalId": "infinix-hot-50-8-256gb",
+    "brand": "Infinix",
+    "model": "Infinix Hot 50 (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.575Z"
+  },
+  {
+    "canonicalId": "infinix-hot-50-pro-plus-8-256gb",
+    "brand": "Infinix",
+    "model": "Infinix Hot 50 Pro Plus (8/256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.577Z"
+  },
+  {
+    "canonicalId": "oneplus-12-512gb-icecat",
+    "brand": "OnePlus",
+    "model": "OnePlus 12 (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.578Z"
+  },
+  {
+    "canonicalId": "oneplus-nord-4-256gb-icecat",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord 4 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.579Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-13",
+    "brand": "OnePlus",
+    "model": "OnePlus 13",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.581Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-ace-3-pro",
+    "brand": "OnePlus",
+    "model": "OnePlus Ace 3 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.582Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-ace-3v",
+    "brand": "OnePlus",
+    "model": "OnePlus Ace 3V",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.584Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-nord-ce4",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE4",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.585Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-nord-ce4-lite",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE4 Lite",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.587Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-nord-ce4-lite-india",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE4 Lite (India)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.588Z"
+  },
+  {
+    "canonicalId": "oppo-a80-5g-256gb-2024",
+    "brand": "Oppo",
+    "model": "OPPO A80 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.590Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-a3-pro-(china",
+    "brand": "Oppo",
+    "model": "OPPO A3 Pro (China)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.591Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-a3-pro-13160",
+    "brand": "Oppo",
+    "model": "OPPO A3 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.593Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-a39-8890",
+    "brand": "Oppo",
+    "model": "OPPO A39",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.594Z"
+  },
+  {
+    "canonicalId": "oppo-reno-13-256gb-2024",
+    "brand": "Oppo",
+    "model": "OPPO Reno13 (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.596Z"
+  },
+  {
+    "canonicalId": "oppo-reno-13-pro-512gb-2024",
+    "brand": "Oppo",
+    "model": "OPPO Reno13 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.597Z"
+  },
+  {
+    "canonicalId": "poco-x6-pro-512gb-2024",
+    "brand": "Xiaomi",
+    "model": "Poco X6 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.599Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m15-5g-104",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M15 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.600Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m35-5g-105",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M35 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.602Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m55-5g-106",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M55 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.604Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-20-pro-2",
+    "brand": "Tecno",
+    "model": "Tecno Spark 20 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.606Z"
+  },
+  {
+    "canonicalId": "vivo-v40-5g-256gb-2024",
+    "brand": "Vivo",
+    "model": "Vivo V40 5G (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.608Z"
+  },
+  {
+    "canonicalId": "vivo-v40-lite-256gb-2024",
+    "brand": "Vivo",
+    "model": "Vivo V40 Lite (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.610Z"
+  },
+  {
+    "canonicalId": "vivo-x100-pro-512gb-2024",
+    "brand": "Vivo",
+    "model": "Vivo X100 Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.612Z"
+  },
+  {
+    "canonicalId": "xiaomi-14-ultra-512gb-icecat",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14 Ultra (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.613Z"
+  },
+  {
+    "canonicalId": "xiaomi-14t-pro-512gb-icecat",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14T Pro (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.615Z"
+  },
+  {
+    "canonicalId": "xiaomi-mix-fold-4-512gb-2025",
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Fold 4 (512 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.618Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-mate-60-pro",
+    "brand": "Huawei",
+    "model": "Huawei Mate 60 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.620Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-p60-pro",
+    "brand": "Huawei",
+    "model": "Huawei P60 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.621Z"
+  },
+  {
+    "canonicalId": "nothing-phone-2-256gb-icecat",
+    "brand": "Nothing",
+    "model": "Nothing Phone (2) (256 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.623Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-nord-ce3",
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE3",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.625Z"
+  },
+  {
+    "canonicalId": "philips-s318",
+    "brand": "Philips",
+    "model": "Philips S318 16 GB",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.627Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-redmi-k60-ultra-12470",
+    "brand": "Xiaomi",
+    "model": "Redmi K60 Ultra",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.629Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-11-pro-32",
+    "brand": "Google",
+    "model": "Google Pixel 11 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.631Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-11-pro-fold-34",
+    "brand": "Google",
+    "model": "Google Pixel 11 Pro Fold",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.632Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-11-pro-xl-33",
+    "brand": "Google",
+    "model": "Google Pixel 11 Pro XL",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.634Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-mate-50-pro",
+    "brand": "Huawei",
+    "model": "Huawei Mate 50 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.636Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-nova-10-pro",
+    "brand": "Huawei",
+    "model": "Huawei nova 10 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.638Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-a17k-11936",
+    "brand": "Oppo",
+    "model": "OPPO A17k",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.640Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-reno7-11448",
+    "brand": "Oppo",
+    "model": "OPPO Reno7",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.641Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-9t",
+    "brand": "Tecno",
+    "model": "Tecno Spark 9T",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.643Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-9t-india",
+    "brand": "Tecno",
+    "model": "Tecno Spark 9T (India)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.645Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-y16",
+    "brand": "Vivo",
+    "model": "vivo Y16",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.647Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-y22s",
+    "brand": "Vivo",
+    "model": "vivo Y22s",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.649Z"
+  },
+  {
+    "canonicalId": "vivo-vivo-y35",
+    "brand": "Vivo",
+    "model": "vivo Y35",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.652Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-redmi-note-12-pro-4g-12209",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12 Pro 4G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.654Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-10-pro-27",
+    "brand": "Google",
+    "model": "Google Pixel 10 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.657Z"
+  },
+  {
+    "canonicalId": "google-google-pixel-10-pro-fold-29",
+    "brand": "Google",
+    "model": "Google Pixel 10 Pro Fold",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.659Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-p50-pro",
+    "brand": "Huawei",
+    "model": "Huawei P50 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.660Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-a94-10765",
+    "brand": "Oppo",
+    "model": "OPPO A94",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.661Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-7t",
+    "brand": "Tecno",
+    "model": "Tecno Spark 7T",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.662Z"
+  },
+  {
+    "canonicalId": "tecno-tecno-spark-go-2021",
+    "brand": "Tecno",
+    "model": "Tecno Spark Go 2021",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.664Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-6-128-gb-1097",
+    "brand": "Apple",
+    "model": "Apple iPhone 6 (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.667Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-6-plus-128-gb-1099",
+    "brand": "Apple",
+    "model": "Apple iPhone 6 Plus (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.669Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-6s-128-gb-31580",
+    "brand": "Apple",
+    "model": "Apple iPhone 6s (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.671Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-6s-plus-128-gb-31582",
+    "brand": "Apple",
+    "model": "Apple iPhone 6s Plus (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.672Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-7-128-gb-61487",
+    "brand": "Apple",
+    "model": "Apple iPhone 7 (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.674Z"
+  },
+  {
+    "canonicalId": "apple-apple-iphone-7-product-red-special-edition-128-gb-75834",
+    "brand": "Apple",
+    "model": "Apple iPhone 7 (PRODUCT)RED Special Edition (128 GB)",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.675Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-enjoy-20-pro",
+    "brand": "Huawei",
+    "model": "Huawei Enjoy 20 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.677Z"
+  },
+  {
+    "canonicalId": "oneplus-oneplus-7t-pro",
+    "brand": "OnePlus",
+    "model": "OnePlus 7T Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.678Z"
+  },
+  {
+    "canonicalId": "oppo-oppo-k7x-10573",
+    "brand": "Oppo",
+    "model": "OPPO K7x",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.680Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a11-40",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A11",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.681Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a21s-41",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A21s",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.683Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a31-42",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A31",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.684Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a41-43",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A41",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.686Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m11-46",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M11",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.688Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m21-47",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M21",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.690Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m31-48",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M31",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.691Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m51-49",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M51",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.693Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-flip-38",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.695Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-z-fold-2-39",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 2",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.697Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-mi-10t-lite-5g-10480",
+    "brand": "Xiaomi",
+    "model": "Mi 10T Lite 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.699Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-mi-note-10-lite-10183",
+    "brand": "Xiaomi",
+    "model": "Mi Note 10 Lite",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.701Z"
+  },
+  {
+    "canonicalId": "xiaomi-xiaomi-redmi-10x-4g-10202",
+    "brand": "Xiaomi",
+    "model": "Redmi 10X 4G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.703Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-enjoy-10-plus",
+    "brand": "Huawei",
+    "model": "Huawei Enjoy 10 Plus",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.705Z"
+  },
+  {
+    "canonicalId": "huawei-huawei-p30-pro",
+    "brand": "Huawei",
+    "model": "Huawei P30 Pro",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.708Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a10-20",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A10",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.710Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a20-21",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A20",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.712Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a30-22",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A30",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.713Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a40-23",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A40",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.715Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a60-25",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A60",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.716Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-a90-5g-28",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A90 5G",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.718Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-fold-19",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Fold",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.719Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m10-29",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M10",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.721Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m20-30",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M20",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.722Z"
+  },
+  {
+    "canonicalId": "samsung-samsung-galaxy-m30-31",
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M30",
+    "outcome": "BLOCKED_IDENTITY",
+    "reason": "IDENTITY_UNRESOLVED: Missing manufacturer part code or GTIN",
+    "queryAttempted": null,
+    "timestamp": "2026-10-26T17:47:11.724Z"
+  }
+]

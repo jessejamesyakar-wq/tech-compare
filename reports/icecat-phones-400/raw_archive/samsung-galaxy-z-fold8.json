@@ -1,0 +1,449 @@
+{
+  "GeneralInfo": {
+    "IcecatId": 149522019,
+    "ReleaseDate": "",
+    "EndOfLifeDate": "",
+    "Title": "Samsung Galaxy Z Fold8 SM-F971BLVBTUR akıllı telefon",
+    "TitleInfo": {
+      "GeneratedIntTitle": "Samsung Galaxy Z Fold8 SM-F971BLVBTUR smartphone",
+      "GeneratedLocalTitle": {
+        "Value": "Samsung Galaxy Z Fold8 SM-F971BLVBTUR akıllı telefon",
+        "Language": "TR"
+      },
+      "BrandLocalTitle": {
+        "Value": "",
+        "Language": "TR"
+      }
+    },
+    "Brand": "Samsung",
+    "BrandID": "26",
+    "BrandLogo": "https://images.icecat.biz/img/brand/thumb/26_c012d76b332e4624b88a05c9932c9266.jpg",
+    "BrandInfo": {
+      "BrandName": "Samsung",
+      "BrandLocalName": "",
+      "BrandLogo": "https://images.icecat.biz/img/brand/thumb/26_c012d76b332e4624b88a05c9932c9266.jpg"
+    },
+    "ProductName": "SM-F971BLVBTUR",
+    "ProductNameInfo": {
+      "ProductIntName": "SM-F971BLVBTUR",
+      "ProductLocalName": {
+        "Value": "",
+        "Language": "TR"
+      }
+    },
+    "BrandPartCode": "SM-F971BLVBTUR",
+    "GTIN": [
+      "8806099221768"
+    ],
+    "Category": {
+      "CategoryID": "1893",
+      "Name": {
+        "Value": "Akıllı Telefonlar",
+        "Language": "TR"
+      }
+    },
+    "ProductFamily": {
+      "ProductFamilyID": "63895",
+      "Value": "Galaxy",
+      "Language": "EN"
+    },
+    "ProductSeries": {
+      "SeriesID": "9246",
+      "Value": "Z Fold8",
+      "Language": "EN"
+    },
+    "Description": {},
+    "SEOs": {},
+    "SummaryDescription": {
+      "ShortSummaryDescription": "Samsung Galaxy Z Fold8 SM-F971BLVBTUR, Fold",
+      "LongSummaryDescription": "Samsung Galaxy Z Fold8 SM-F971BLVBTUR. Form faktörü: Fold"
+    },
+    "BulletPoints": {},
+    "GeneratedBulletPoints": {},
+    "GTINs": [
+      {
+        "GTIN": "8806099221768",
+        "IsApproved": true
+      }
+    ]
+  },
+  "Image": {
+    "HighPic": "https://images.icecat.biz/img/gallery/29b63b966c17d442157849c3366e9a9bcba75110.jpg",
+    "HighPicSize": "333652",
+    "HighPicHeight": "1200",
+    "HighPicWidth": "1200",
+    "LowPic": "https://images.icecat.biz/img/gallery_lows/62ceb79de83f282f3821b568629ea6e4847c75ed.jpg",
+    "LowPicSize": "15481",
+    "LowPicHeight": "200",
+    "LowPicWidth": "200",
+    "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/81fdbc3d57de469beeaec81e53e74f12f2b8a145.jpg",
+    "Pic500x500Size": "68767",
+    "Pic500x500Height": "500",
+    "Pic500x500Width": "500",
+    "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/58fde517f80026271b7722f22a7d2af87e9dbdad.jpg",
+    "ThumbPicSize": "4138"
+  },
+  "Multimedia": [
+    {
+      "ID": "00000000-0000-0000-0000-000000000000",
+      "URL": "https://icecat.biz/rest/product-pdf?productId=149522019&lang=tr",
+      "Type": "leaflet",
+      "ContentType": "application/pdf",
+      "KeepAsUrl": "0",
+      "Description": "Brochure Samsung SM-F971BLVBTUR",
+      "Size": "0",
+      "IsPrivate": "0",
+      "Updated": "2026-08-05 14:15:24",
+      "Language": "TR",
+      "IsVideo": 0
+    }
+  ],
+  "Gallery": [
+    {
+      "ID": "151756241",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/62ceb79de83f282f3821b568629ea6e4847c75ed.jpg",
+      "LowSize": "15481",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/58fde517f80026271b7722f22a7d2af87e9dbdad.jpg",
+      "ThumbPicSize": "4138",
+      "Pic": "https://images.icecat.biz/img/gallery/29b63b966c17d442157849c3366e9a9bcba75110.jpg",
+      "Size": "333652",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/81fdbc3d57de469beeaec81e53e74f12f2b8a145.jpg",
+      "Pic500x500Size": "68767",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "1",
+      "IsMain": "Y",
+      "Updated": "2026-07-17 12:40:04",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756244",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/62ceb79de83f282f3821b568629ea6e4847c75ed.jpg",
+      "LowSize": "15481",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/58fde517f80026271b7722f22a7d2af87e9dbdad.jpg",
+      "ThumbPicSize": "4138",
+      "Pic": "https://images.icecat.biz/img/gallery/29b63b966c17d442157849c3366e9a9bcba75110.jpg",
+      "Size": "333652",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/81fdbc3d57de469beeaec81e53e74f12f2b8a145.jpg",
+      "Pic500x500Size": "68767",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "2",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:04",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756250",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/0e0116b9c92e2b52d192577fb1103f53c7d7c1c9.jpg",
+      "LowSize": "15774",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/5a45c22e146be2af076ff7445be99d696913a389.jpg",
+      "ThumbPicSize": "4232",
+      "Pic": "https://images.icecat.biz/img/gallery/59b135806bec139b82cfbc641c17a5deb442dbe5.jpg",
+      "Size": "379694",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/862e007c5b67c9cfccb13037c7187cf794204d45.jpg",
+      "Pic500x500Size": "74506",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "3",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:08",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756259",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/0e0116b9c92e2b52d192577fb1103f53c7d7c1c9.jpg",
+      "LowSize": "15774",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/5a45c22e146be2af076ff7445be99d696913a389.jpg",
+      "ThumbPicSize": "4232",
+      "Pic": "https://images.icecat.biz/img/gallery/59b135806bec139b82cfbc641c17a5deb442dbe5.jpg",
+      "Size": "379694",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/862e007c5b67c9cfccb13037c7187cf794204d45.jpg",
+      "Pic500x500Size": "74506",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "4",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:08",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756216",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/cee067a9493893e5f171a41744218ade82d99584.jpg",
+      "LowSize": "8599",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/4c360efc63895fa1da1577568fcdc36c1ecbf858.jpg",
+      "ThumbPicSize": "2465",
+      "Pic": "https://images.icecat.biz/img/gallery/f1664a9fdbd4771c14cad865267456abb6009f0e.jpg",
+      "Size": "223151",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/40259d19ee4e7ec68c8f69b55e2d43d1807282cf.jpg",
+      "Pic500x500Size": "39022",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "5",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:08",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756217",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/cee067a9493893e5f171a41744218ade82d99584.jpg",
+      "LowSize": "8599",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/4c360efc63895fa1da1577568fcdc36c1ecbf858.jpg",
+      "ThumbPicSize": "2465",
+      "Pic": "https://images.icecat.biz/img/gallery/f1664a9fdbd4771c14cad865267456abb6009f0e.jpg",
+      "Size": "223151",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/40259d19ee4e7ec68c8f69b55e2d43d1807282cf.jpg",
+      "Pic500x500Size": "39022",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "6",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:08",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756218",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/30a3b46e4eda71983730e69f9289331cfe3ec704.jpg",
+      "LowSize": "16269",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/a3117664cea1d5a52a763398ac94446a24a4ed21.jpg",
+      "ThumbPicSize": "4422",
+      "Pic": "https://images.icecat.biz/img/gallery/a37ebda67393fa00cd2adbfd54f49a52f2fe997d.jpg",
+      "Size": "345641",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/3456b3221d654b3e8d6030de4280a54eafa245d6.jpg",
+      "Pic500x500Size": "71335",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "7",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:08",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756219",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/30a3b46e4eda71983730e69f9289331cfe3ec704.jpg",
+      "LowSize": "16269",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/a3117664cea1d5a52a763398ac94446a24a4ed21.jpg",
+      "ThumbPicSize": "4422",
+      "Pic": "https://images.icecat.biz/img/gallery/a37ebda67393fa00cd2adbfd54f49a52f2fe997d.jpg",
+      "Size": "345641",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/3456b3221d654b3e8d6030de4280a54eafa245d6.jpg",
+      "Pic500x500Size": "71335",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "8",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:08",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756268",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/2a8b28563b2dd96c6ccee24e9a62b00846751560.jpg",
+      "LowSize": "3818",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/7d55c11ec47b923d325287ab8623a2ae787647be.jpg",
+      "ThumbPicSize": "1386",
+      "Pic": "https://images.icecat.biz/img/gallery/c043117008d15848e4acd38d2163c941b8f6656f.jpg",
+      "Size": "79535",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/ccbbd1374c0e92998eaca904ab2065f378ce2ed2.jpg",
+      "Pic500x500Size": "15854",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "9",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:02",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "151756272",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/2a8b28563b2dd96c6ccee24e9a62b00846751560.jpg",
+      "LowSize": "3818",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/7d55c11ec47b923d325287ab8623a2ae787647be.jpg",
+      "ThumbPicSize": "1386",
+      "Pic": "https://images.icecat.biz/img/gallery/c043117008d15848e4acd38d2163c941b8f6656f.jpg",
+      "Size": "79535",
+      "PicHeight": "1200",
+      "PicWidth": "1200",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/ccbbd1374c0e92998eaca904ab2065f378ce2ed2.jpg",
+      "Pic500x500Size": "15854",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "10",
+      "IsMain": "N",
+      "Updated": "2026-07-17 12:40:02",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    }
+  ],
+  "FeaturesGroups": [
+    {
+      "ID": 11003,
+      "SortNo": "70",
+      "FeatureGroup": {
+        "ID": "148",
+        "Name": {
+          "Value": "Tasarım",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 1023024158,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Fold",
+          "CategoryFeatureId": "51570",
+          "CategoryFeatureGroupID": "11003",
+          "SortNo": "55",
+          "PresentationValue": "Fold",
+          "RawValue": "Fold",
+          "LocalValue": "Fold",
+          "Description": "The shape or design of the product.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "771",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Form faktörü",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "FeatureLogos": [],
+  "ReasonsToBuy": [],
+  "Reviews": [],
+  "ProductRelated": [],
+  "CatalogObjectCloud": {
+    "ProductPage": {
+      "QRCodeURL": "https://qr.icecat.biz/coc/b0c862fa-e639-498f-a34f-002e25d0d05a",
+      "URL": "https://coc.icecat.biz/b0c862fa-e639-498f-a34f-002e25d0d05a"
+    }
+  },
+  "Variants": [],
+  "ProductStory": [],
+  "Dictionary": {
+    "zoom_panel_in": "Zoom in",
+    "cat_name": "Kategori",
+    "html_content": "Story",
+    "demo_msg_part1": "You are using now a Demo account. Please, use your own Icecat account",
+    "reviews_head_name": "İncelemeler",
+    "model_name": "&Uuml;r&uuml;n adı",
+    "ean_code": "EAN/UPC kodu",
+    "desc": "Açıklama",
+    "link_integrate_desk": "How to integrate Icecat LIVE JavaScript.",
+    "zoom_panel_out": "Zoom out",
+    "eu_energy_label": "AB Enerji Etiketi",
+    "zoom_panel_init": "Original size",
+    "demo_insert_desc": "This is a demo of a seamless insert of an Icecat LIVE product data-sheet in your website. Imagine that this responsive data-sheet is included in the product page of your webshop.",
+    "pdf_url": "Kullanım kılavuzu",
+    "supplier_name": "Marka",
+    "demo_msg_part2": "your Icecat login name",
+    "pdf_specs": "Broş&uuml;r",
+    "specs": "Ürün özellikleri",
+    "eu_product_fiche": "AB Ürün Bilgi Formu",
+    "demo_msg_part3": "If you don't have an Icecat account, please register here for free.",
+    "product_family": "&Uuml;r&uuml;n ailesi",
+    "product_series": "&Uuml;r&uuml;n Serisi",
+    "reasons_to_buy": "Satın alma nedenleri",
+    "repairability_index": "Repairability index",
+    "options_head_name": "Options",
+    "marketing_text": "Tanım",
+    "prod_code": "&Uuml;r&uuml;n kodu",
+    "flash360": "3D tour",
+    "video": "Video",
+    "back_to_top": "Başa d&ouml;n",
+    "release_date": "Release date",
+    "zoom_panel_dragg": "Mouse dragging"
+  },
+  "DemoAccount": false
+}
