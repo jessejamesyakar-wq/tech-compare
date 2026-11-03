@@ -18,6 +18,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 
 import { mockSmartphones } from '../mockData';
 import { mockTVs } from '../mockTVs';
@@ -442,15 +443,36 @@ export function isCanonicalActiveProduct(productId: string): boolean {
 // MANDATORY WRITE-POINT ICECAT TARGET vs SOURCE IDENTITY GATE (P0 HARDENING)
 // -----------------------------------------------------------------------------
 
+export type PreTransferMpnSource =
+  | 'MANIFEST'
+  | 'PRE_TRANSFER_CATALOG'
+  | 'PRE_TRANSFER_EVIDENCE'
+  | 'QUERY_CANDIDATE'
+  | 'NONE';
+
 export interface IcecatWriteGateInput {
   targetId: string;
   targetBrand: string;
   targetName: string;
   targetSlug?: string;
-  /** Pre-transfer independent MPN from locked manifest or manufacturer record (never post-transfer) */
+  /** The MPN used to query Icecat (must NEVER be used to self-validate preTransferMpn) */
+  queriedMpn?: string;
+  /** Pre-transfer independent MPN from locked manifest or manufacturer record (never post-transfer or query candidate) */
   preTransferMpn?: string;
+  /** Provenance of preTransferMpn; QUERY_CANDIDATE is strictly forbidden */
+  preTransferMpnSource?: PreTransferMpnSource;
   /** Pre-transfer independent 5G identity proof (never post-transfer specs.connectivity.has5G) */
   preTransferIndependent5GProof?: boolean;
+  /** Pre-transfer independent hardware region from manifest (e.g. 'TR/Global', 'EU/Global') */
+  targetHardwareRegion?: string;
+  /** Pre-transfer independent RAM (GB) from manifest/catalog */
+  targetRamGb?: number;
+  /** Pre-transfer independent storage (GB) from manifest/catalog */
+  targetStorageGb?: number;
+  /** Parsed source RAM (GB) from Icecat payload */
+  sourceRamGb?: number;
+  /** Parsed source storage (GB) from Icecat payload */
+  sourceStorageGb?: number;
   /** Raw Icecat data object (either { data: ... } or data.GeneralInfo/FeaturesGroups) */
   icecatPayload: any;
 }
@@ -459,17 +481,21 @@ export interface IcecatWriteGateResult {
   passed: boolean;
   reasonCode:
     | 'IDENTITY_MATCH_VERIFIED'
+    | 'SELF_REFERENTIAL_QUERY_MPN_FORBIDDEN'
     | 'BRAND_MISMATCH'
     | 'MODEL_FAMILY_MISMATCH'
     | 'SUBMODEL_MISMATCH'
     | 'MPN_VARIANT_MISMATCH'
     | 'VARIANT_4G_5G_MISMATCH'
+    | 'REGION_VARIANT_MISMATCH'
+    | 'MEMORY_VARIANT_MISMATCH'
     | 'INVALID_PAYLOAD';
   detail: string;
   targetModelTokens: string[];
   sourceModelTokens: string[];
   targetIs5G: boolean;
   sourceIs5G: boolean;
+  variantSpecificExcludedFields?: string[];
 }
 
 const KNOWN_SAMSUNG_MPN_SUBMODEL_MAP: Record<string, { modelToken: string; modifiers?: string[]; is5G?: boolean }> = {
@@ -591,6 +617,29 @@ export function verifyIcecatTargetIdentity(input: IcecatWriteGateInput): IcecatW
     general.BrandPartCode || general.ProductCode || d.productCode || ''
   ).trim().toUpperCase();
 
+  // 0. Forbid using the queried candidate MPN as its own preTransferMpn proof (Requirement 3)
+  const queriedMpnUpper = (input.queriedMpn || '').trim().toUpperCase();
+  const preTransferMpnUpper = (input.preTransferMpn || '').trim().toUpperCase();
+  if (
+    input.preTransferMpnSource === 'QUERY_CANDIDATE' ||
+    (preTransferMpnUpper &&
+      queriedMpnUpper &&
+      preTransferMpnUpper === queriedMpnUpper &&
+      input.preTransferMpnSource !== 'MANIFEST' &&
+      input.preTransferMpnSource !== 'PRE_TRANSFER_CATALOG' &&
+      input.preTransferMpnSource !== 'PRE_TRANSFER_EVIDENCE')
+  ) {
+    return {
+      passed: false,
+      reasonCode: 'SELF_REFERENTIAL_QUERY_MPN_FORBIDDEN',
+      detail: `Query candidate MPN '${queriedMpnUpper || preTransferMpnUpper}' cannot be used as its own independent preTransferMpn proof.`,
+      targetModelTokens: [],
+      sourceModelTokens: [],
+      targetIs5G: false,
+      sourceIs5G: false,
+    };
+  }
+
   // 1. Brand check
   if (!sourceBrand || sourceBrand.toLowerCase() !== input.targetBrand.trim().toLowerCase()) {
     return {
@@ -698,9 +747,8 @@ export function verifyIcecatTargetIdentity(input: IcecatWriteGateInput): IcecatW
   const sourceIs5G = sourceParsed.hasExplicit5G || sourceHas5GFeature || knownMpn5G === true;
 
   // 5. Determine Target 5G Status Strictly from Pre-Transfer Independent Evidence
-  // NEVER trust post-transfer product.specs.connectivity.has5G!
+  // NEVER trust post-transfer product.specs.connectivity.has5G or self-referential query MPN!
   const targetSlugHas5G = /\b5g\b/i.test((input.targetSlug || input.targetId).replace(/-/g, ' '));
-  const preTransferMpnUpper = (input.preTransferMpn || '').trim().toUpperCase();
   const preMpnPrefixMatch = preTransferMpnUpper.match(/^(SM-[A-Z]\d{3})/);
   const preMpnPrefix = preMpnPrefixMatch ? preMpnPrefixMatch[1] : '';
 
@@ -723,7 +771,7 @@ export function verifyIcecatTargetIdentity(input: IcecatWriteGateInput): IcecatW
     }
   }
 
-  // Pre-transfer MPN proves 5G only if the pre-transfer MPN itself matches the 5G B-suffix SKU (and wasn't overridden)
+  // Pre-transfer MPN proves 5G only if the independent pre-transfer MPN itself matches the 5G B-suffix SKU
   const preTransferMpnIs5GSku =
     !!preMpnPrefix &&
     preMpnPrefix === sourceMpnPrefix &&
@@ -747,6 +795,74 @@ export function verifyIcecatTargetIdentity(input: IcecatWriteGateInput): IcecatW
     };
   }
 
+  // 6. Regional Variant Check (Requirement 3: compare source region against independent target region)
+  const samsungRegionMatch = sourceProductCode.match(/^SM-[A-Z]\d{3}[A-Z][A-Z0-9]{3}([A-Z]{3})$/);
+  const sourceRegionCode = samsungRegionMatch ? samsungRegionMatch[1] : null;
+  const targetRegionNorm = (input.targetHardwareRegion || '').toUpperCase();
+  const NON_EU_TR_SAMSUNG_REGIONS = new Set([
+    'XSA', // Australia
+    'XAC', // Canada
+    'XAA', 'VZW', 'ATT', 'TMB', 'USC', // US
+    'CHC', 'TGY', 'BRI', // China / HK / TW
+    'KTC', 'SKC', 'LUC', 'KOO', // Korea
+    'INS', 'INU', // India
+    'ZTO', 'ARO', 'MXO', 'CHO', 'COO', // LATAM
+  ]);
+  if (
+    sourceRegionCode &&
+    NON_EU_TR_SAMSUNG_REGIONS.has(sourceRegionCode) &&
+    (targetRegionNorm.includes('EU') || targetRegionNorm.includes('TR') || preTransferMpnUpper.endsWith('EUE') || preTransferMpnUpper.endsWith('TUR'))
+  ) {
+    return {
+      passed: false,
+      reasonCode: 'REGION_VARIANT_MISMATCH',
+      detail: `Regional variant mismatch: target region='${input.targetHardwareRegion || 'EU/TR'}' (preTransferMpn='${input.preTransferMpn || 'NONE'}') vs source region='${sourceRegionCode}' in [${sourceProductCode}].`,
+      targetModelTokens: targetParsed.coreSeriesTokens,
+      sourceModelTokens: sourceParsed.coreSeriesTokens,
+      targetIs5G,
+      sourceIs5G,
+    };
+  }
+
+  // 7. Independent RAM & Storage Variant Check (Requirement 3)
+  if (
+    (input.targetRamGb !== undefined && input.sourceRamGb !== undefined && input.targetRamGb !== input.sourceRamGb) ||
+    (input.targetStorageGb !== undefined && input.sourceStorageGb !== undefined && input.targetStorageGb !== input.sourceStorageGb)
+  ) {
+    return {
+      passed: false,
+      reasonCode: 'MEMORY_VARIANT_MISMATCH',
+      detail: `Memory tier mismatch against independent target: target=${input.targetRamGb}/${input.targetStorageGb} GB vs source=${input.sourceRamGb}/${input.sourceStorageGb} GB.`,
+      targetModelTokens: targetParsed.coreSeriesTokens,
+      sourceModelTokens: sourceParsed.coreSeriesTokens,
+      targetIs5G,
+      sourceIs5G,
+    };
+  }
+
+  // 8. Isolate sub-SKU / hardware-revision-specific fields when preTransferMpn differs in sub-revision letter or is absent
+  const preHwSkuMatch = preTransferMpnUpper.match(/^(SM-[A-Z]\d{3}[A-Z])/);
+  const srcHwSkuMatch = sourceProductCode.match(/^(SM-[A-Z]\d{3}[A-Z])/);
+  const preHwSku = preHwSkuMatch ? preHwSkuMatch[1] : '';
+  const srcHwSku = srcHwSkuMatch ? srcHwSkuMatch[1] : '';
+
+  let variantSpecificExcludedFields: string[] = [];
+  if (preHwSku && srcHwSku && preHwSku !== srcHwSku) {
+    // e.g. SM-A145F (Exynos 850 / BT 5.1) vs SM-A145R (Helio G80 / BT 5.3)
+    variantSpecificExcludedFields = [
+      'specs.processor.chip',
+      'specs.connectivity.bluetooth',
+      'specs.connectivity.hasNFC',
+      'specs.connectivity.hasesim',
+    ];
+  } else if (!preTransferMpnUpper) {
+    // No independent pre-transfer MPN in manifest/catalog -> exclude sub-SKU-dependent NFC/eSIM claims
+    variantSpecificExcludedFields = [
+      'specs.connectivity.hasNFC',
+      'specs.connectivity.hasesim',
+    ];
+  }
+
   return {
     passed: true,
     reasonCode: 'IDENTITY_MATCH_VERIFIED',
@@ -755,6 +871,388 @@ export function verifyIcecatTargetIdentity(input: IcecatWriteGateInput): IcecatW
     sourceModelTokens: sourceParsed.coreSeriesTokens,
     targetIs5G,
     sourceIs5G,
+    variantSpecificExcludedFields,
   };
 }
+
+// -----------------------------------------------------------------------------
+// MANUFACTURER SNAPSHOT & LOCATOR VERIFICATION GATE (REQUIREMENT 1)
+// -----------------------------------------------------------------------------
+
+export interface ManufacturerFieldExtractionSpec {
+  fieldPath: string;
+  locator: string;
+  rowHeader: string;
+  rawExcerpt: string;
+  normalizedValue: any;
+}
+
+export interface ManufacturerSnapshotMeta {
+  canonicalId: string;
+  brand: string;
+  model: string;
+  mpn: string;
+  regionalSupportUrl?: string;
+  sourceUrl: string;
+  snapshotHtmlRelativePath: string;
+  sourceType: 'OFFICIAL_MANUFACTURER';
+  trustClassification: 'OFFICIAL_MANUFACTURER_VERIFIED';
+  fetchedAt: string;
+  sourceContentHash: string;
+  normalizedDataHash: string;
+  unsupportedFieldsExcluded?: string[];
+  fieldExtractions: ManufacturerFieldExtractionSpec[];
+}
+
+export interface VerifiedManufacturerFieldEvidence {
+  productId: string;
+  mpn: string;
+  sourceUrl: string;
+  fieldPath: string;
+  locator: string;
+  rawValue: string;
+  normalizedValue: any;
+  scope: 'EXACT_SKU_MANUFACTURER_DOC';
+  sourceLang: string;
+  fetchedAt: string;
+  appliedAt: string;
+  reviewedAt: string;
+  sourceType: 'OFFICIAL_MANUFACTURER';
+  trustClassification: 'OFFICIAL_MANUFACTURER_VERIFIED';
+  sourceContentHash: string;
+  normalizedDataHash: string;
+  fieldEvidenceHash: string;
+}
+
+export interface ManufacturerSnapshotGateResult {
+  passed: boolean;
+  reasonCode:
+    | 'SNAPSHOT_VERIFIED'
+    | 'SNAPSHOT_MISSING_OR_EMPTY'
+    | 'SOURCE_CONTENT_HASH_MISMATCH'
+    | 'FIELD_LOCATOR_OR_EXCERPT_UNVERIFIED'
+    | 'FETCHED_AT_IMMUTABLE_VIOLATION';
+  detail: string;
+  verifiedFields: VerifiedManufacturerFieldEvidence[];
+  rejectedFields: Array<{ fieldPath: string; reason: string }>;
+  sourceContentHash?: string;
+  normalizedDataHash?: string;
+}
+
+/**
+ * Verifies an official manufacturer specification snapshot from disk, ensuring:
+ * 1. A real raw HTML/document snapshot exists on disk and matches sourceContentHash.
+ * 2. Every field has an explicit document locator, rowHeader, and rawExcerpt literally present in the raw snapshot.
+ * 3. sourceContentHash (SHA-256 of raw document bytes) and normalizedDataHash (SHA-256 of normalized field record) are distinct.
+ * 4. fetchedAt is the immutable real acquisition timestamp of the source snapshot; re-applying an existing snapshot
+ *    cannot overwrite fetchedAt with a newer timestamp (appliedAt / reviewedAt are tracked separately).
+ */
+export function verifyAndExtractManufacturerSnapshot(
+  snapshotMeta: ManufacturerSnapshotMeta | null | undefined,
+  options?: {
+    workspaceRoot?: string;
+    existingEvidenceByField?: Map<string, { fetchedAt: string; sourceContentHash: string }>;
+    attemptedFetchedAtOverride?: string;
+    appliedAt?: string;
+    reviewedAt?: string;
+  }
+): ManufacturerSnapshotGateResult {
+  if (!snapshotMeta || !snapshotMeta.snapshotHtmlRelativePath || !snapshotMeta.fetchedAt) {
+    return {
+      passed: false,
+      reasonCode: 'SNAPSHOT_MISSING_OR_EMPTY',
+      detail: 'Manufacturer snapshot metadata or snapshotHtmlRelativePath or fetchedAt is missing.',
+      verifiedFields: [],
+      rejectedFields: [],
+    };
+  }
+
+  const rootDir = options?.workspaceRoot || process.cwd();
+  const htmlFullPath = path.resolve(rootDir, snapshotMeta.snapshotHtmlRelativePath);
+  if (!fs.existsSync(htmlFullPath)) {
+    return {
+      passed: false,
+      reasonCode: 'SNAPSHOT_MISSING_OR_EMPTY',
+      detail: `Raw manufacturer snapshot file does not exist at '${htmlFullPath}'.`,
+      verifiedFields: [],
+      rejectedFields: [],
+    };
+  }
+
+  const rawBytes = fs.readFileSync(htmlFullPath);
+  if (rawBytes.length === 0) {
+    return {
+      passed: false,
+      reasonCode: 'SNAPSHOT_MISSING_OR_EMPTY',
+      detail: `Raw manufacturer snapshot file at '${htmlFullPath}' is empty.`,
+      verifiedFields: [],
+      rejectedFields: [],
+    };
+  }
+
+  const computedSourceContentHash = crypto.createHash('sha256').update(rawBytes).digest('hex');
+  if (computedSourceContentHash !== snapshotMeta.sourceContentHash) {
+    return {
+      passed: false,
+      reasonCode: 'SOURCE_CONTENT_HASH_MISMATCH',
+      detail: `Raw snapshot SHA-256 ('${computedSourceContentHash}') does not match declared sourceContentHash ('${snapshotMeta.sourceContentHash}').`,
+      verifiedFields: [],
+      rejectedFields: [],
+    };
+  }
+
+  // Enforce fetchedAt immutability when re-applying an existing snapshot
+  if (
+    options?.attemptedFetchedAtOverride &&
+    options.attemptedFetchedAtOverride !== snapshotMeta.fetchedAt
+  ) {
+    return {
+      passed: false,
+      reasonCode: 'FETCHED_AT_IMMUTABLE_VIOLATION',
+      detail: `Attempted to overwrite immutable snapshot fetchedAt ('${snapshotMeta.fetchedAt}') with '${options.attemptedFetchedAtOverride}' on re-application.`,
+      verifiedFields: [],
+      rejectedFields: [],
+    };
+  }
+
+  const rawText = rawBytes.toString('utf8');
+  const appliedAt = options?.appliedAt || new Date().toISOString();
+  const reviewedAt = options?.reviewedAt || appliedAt;
+
+  const verifiedFields: VerifiedManufacturerFieldEvidence[] = [];
+  const rejectedFields: Array<{ fieldPath: string; reason: string }> = [];
+
+  for (const ext of snapshotMeta.fieldExtractions || []) {
+    if (!ext.locator || !ext.rowHeader || !ext.rawExcerpt) {
+      rejectedFields.push({
+        fieldPath: ext.fieldPath,
+        reason: 'MISSING_LOCATOR_OR_EXCERPT',
+      });
+      continue;
+    }
+
+    if (!rawText.includes(ext.rowHeader) || !rawText.includes(ext.rawExcerpt)) {
+      rejectedFields.push({
+        fieldPath: ext.fieldPath,
+        reason: `EXCERPT_NOT_FOUND_IN_SNAPSHOT: rowHeader='${ext.rowHeader}' or rawExcerpt='${ext.rawExcerpt}' not found in raw snapshot.`,
+      });
+      continue;
+    }
+
+    const existing = options?.existingEvidenceByField?.get(ext.fieldPath);
+    if (
+      existing &&
+      existing.sourceContentHash === computedSourceContentHash &&
+      existing.fetchedAt !== snapshotMeta.fetchedAt
+    ) {
+      return {
+        passed: false,
+        reasonCode: 'FETCHED_AT_IMMUTABLE_VIOLATION',
+        detail: `Existing evidence fetchedAt ('${existing.fetchedAt}') differs from snapshot fetchedAt ('${snapshotMeta.fetchedAt}') for identical sourceContentHash.`,
+        verifiedFields: [],
+        rejectedFields: [],
+      };
+    }
+
+    const immutableFetchedAt = existing?.fetchedAt || snapshotMeta.fetchedAt;
+    const normalizedFieldDataHash = crypto
+      .createHash('sha256')
+      .update(
+        JSON.stringify({
+          productId: snapshotMeta.canonicalId,
+          mpn: snapshotMeta.mpn,
+          fieldPath: ext.fieldPath,
+          normalizedValue: ext.normalizedValue,
+        })
+      )
+      .digest('hex');
+
+    const fieldEvidenceHash = crypto
+      .createHash('sha256')
+      .update(`${snapshotMeta.canonicalId}:${ext.fieldPath}:${computedSourceContentHash}:${normalizedFieldDataHash}`)
+      .digest('hex');
+
+    verifiedFields.push({
+      productId: snapshotMeta.canonicalId,
+      mpn: snapshotMeta.mpn,
+      sourceUrl: snapshotMeta.sourceUrl,
+      fieldPath: ext.fieldPath,
+      locator: ext.locator,
+      rawValue: ext.rawExcerpt,
+      normalizedValue: ext.normalizedValue,
+      scope: 'EXACT_SKU_MANUFACTURER_DOC',
+      sourceLang: 'en/tr',
+      fetchedAt: immutableFetchedAt,
+      appliedAt,
+      reviewedAt,
+      sourceType: 'OFFICIAL_MANUFACTURER',
+      trustClassification: 'OFFICIAL_MANUFACTURER_VERIFIED',
+      sourceContentHash: computedSourceContentHash,
+      normalizedDataHash: normalizedFieldDataHash,
+      fieldEvidenceHash,
+    });
+  }
+
+  if (rejectedFields.length > 0 || verifiedFields.length === 0) {
+    return {
+      passed: false,
+      reasonCode: 'FIELD_LOCATOR_OR_EXCERPT_UNVERIFIED',
+      detail: `Rejected ${rejectedFields.length} field(s) lacking verified snapshot locator/excerpt: ${rejectedFields.map(r => r.fieldPath).join(', ')}`,
+      verifiedFields,
+      rejectedFields,
+      sourceContentHash: computedSourceContentHash,
+    };
+  }
+
+  const normalizedPayloadHash = crypto
+    .createHash('sha256')
+    .update(
+      JSON.stringify({
+        canonicalId: snapshotMeta.canonicalId,
+        mpn: snapshotMeta.mpn,
+        fields: Object.fromEntries(verifiedFields.map(f => [f.fieldPath, f.normalizedValue])),
+      })
+    )
+    .digest('hex');
+
+  return {
+    passed: true,
+    reasonCode: 'SNAPSHOT_VERIFIED',
+    detail: `Verified ${verifiedFields.length} fields against raw manufacturer snapshot (${computedSourceContentHash.slice(0, 12)}...).`,
+    verifiedFields,
+    rejectedFields: [],
+    sourceContentHash: computedSourceContentHash,
+    normalizedDataHash: normalizedPayloadHash,
+  };
+}
+
+// -----------------------------------------------------------------------------
+// RAW ACCESS BLOCKER OBSERVATION GATE (REQUIREMENT 2)
+// -----------------------------------------------------------------------------
+
+export interface RawAccessObservation {
+  canonicalId: string;
+  brand: string;
+  model?: string;
+  probedMpn?: string;
+  httpStatus: number;
+  icecatStatusCode: number;
+  redactedMessage: string;
+  observedAt: string;
+}
+
+export interface ResolvedAccessBlockerRecord {
+  passedGate: boolean;
+  classification:
+    | 'BRAND_RESTRICTION_CODE_14'
+    | 'FULL_ICECAT_APP_KEY_REQUIRED_CODE_9'
+    | 'NOT_PRESENT_IN_ICECAT_DB_CODE_8'
+    | 'OBSERVED_OTHER_HTTP_ERROR'
+    | 'ACCESS_REASON_UNCONFIRMED'
+    | 'REJECTED_FABRICATED_CODE';
+  httpStatus: number | null;
+  icecatStatusCode: number | null;
+  redactedMessage: string | null;
+  observedAt: string | null;
+  reasonCode: string;
+}
+
+/**
+ * Resolves the access blocker record for a product strictly from raw HTTP/Icecat API observations.
+ * Never fabricates HTTP 404 / StatusCode=14 when raw evidence is missing; returns ACCESS_REASON_UNCONFIRMED instead.
+ * Rejects any attempt to supply a hardcoded HTTP/Icecat status code without a valid raw observation.
+ */
+export function resolveAccessBlockerObservation(params: {
+  canonicalId: string;
+  brand: string;
+  rawObservation?: RawAccessObservation | null;
+  attemptedHardcodedHttpStatus?: number;
+  attemptedHardcodedIcecatCode?: number;
+}): ResolvedAccessBlockerRecord {
+  const obs = params.rawObservation;
+  const hasValidRawObservation =
+    !!obs &&
+    typeof obs.httpStatus === 'number' &&
+    obs.httpStatus > 0 &&
+    typeof obs.icecatStatusCode === 'number' &&
+    typeof obs.redactedMessage === 'string' &&
+    obs.redactedMessage.trim().length > 0 &&
+    typeof obs.observedAt === 'string' &&
+    obs.observedAt.trim().length > 0;
+
+  if (
+    !hasValidRawObservation &&
+    (params.attemptedHardcodedHttpStatus !== undefined || params.attemptedHardcodedIcecatCode !== undefined)
+  ) {
+    return {
+      passedGate: false,
+      classification: 'REJECTED_FABRICATED_CODE',
+      httpStatus: null,
+      icecatStatusCode: null,
+      redactedMessage: null,
+      observedAt: null,
+      reasonCode: 'FABRICATED_ACCESS_CODE_FORBIDDEN: Cannot assign HTTP or Icecat error code without raw response observation.',
+    };
+  }
+
+  if (!hasValidRawObservation || !obs) {
+    return {
+      passedGate: true,
+      classification: 'ACCESS_REASON_UNCONFIRMED',
+      httpStatus: null,
+      icecatStatusCode: null,
+      redactedMessage: null,
+      observedAt: null,
+      reasonCode:
+        'ACCESS_REASON_UNCONFIRMED: No raw HTTP/Icecat API response observation on disk and no verified regional MPN/GTIN in manifest to query.',
+    };
+  }
+
+  if (obs.httpStatus === 404 && obs.icecatStatusCode === 14) {
+    return {
+      passedGate: true,
+      classification: 'BRAND_RESTRICTION_CODE_14',
+      httpStatus: obs.httpStatus,
+      icecatStatusCode: obs.icecatStatusCode,
+      redactedMessage: obs.redactedMessage,
+      observedAt: obs.observedAt,
+      reasonCode: `BRAND_RESTRICTION_CODE_14 (HTTP ${obs.httpStatus} / Icecat StatusCode=${obs.icecatStatusCode}, MPN=${obs.probedMpn || 'N/A'}, observedAt=${obs.observedAt}): "${obs.redactedMessage}"`,
+    };
+  }
+
+  if (obs.httpStatus === 403 && obs.icecatStatusCode === 9) {
+    return {
+      passedGate: true,
+      classification: 'FULL_ICECAT_APP_KEY_REQUIRED_CODE_9',
+      httpStatus: obs.httpStatus,
+      icecatStatusCode: obs.icecatStatusCode,
+      redactedMessage: obs.redactedMessage,
+      observedAt: obs.observedAt,
+      reasonCode: `FULL_ICECAT_APP_KEY_REQUIRED_CODE_9 (HTTP ${obs.httpStatus} / Icecat StatusCode=${obs.icecatStatusCode}, MPN=${obs.probedMpn || 'N/A'}, observedAt=${obs.observedAt}): "${obs.redactedMessage}"`,
+    };
+  }
+
+  if (obs.httpStatus === 404 && obs.icecatStatusCode === 8) {
+    return {
+      passedGate: true,
+      classification: 'NOT_PRESENT_IN_ICECAT_DB_CODE_8',
+      httpStatus: obs.httpStatus,
+      icecatStatusCode: obs.icecatStatusCode,
+      redactedMessage: obs.redactedMessage,
+      observedAt: obs.observedAt,
+      reasonCode: `NOT_PRESENT_IN_ICECAT_DB_CODE_8 (HTTP ${obs.httpStatus} / Icecat StatusCode=${obs.icecatStatusCode}, MPN=${obs.probedMpn || 'N/A'}, observedAt=${obs.observedAt}): "${obs.redactedMessage}"`,
+    };
+  }
+
+  return {
+    passedGate: true,
+    classification: 'OBSERVED_OTHER_HTTP_ERROR',
+    httpStatus: obs.httpStatus,
+    icecatStatusCode: obs.icecatStatusCode,
+    redactedMessage: obs.redactedMessage,
+    observedAt: obs.observedAt,
+    reasonCode: `OBSERVED_HTTP_${obs.httpStatus}_CODE_${obs.icecatStatusCode} (observedAt=${obs.observedAt}): "${obs.redactedMessage}"`,
+  };
+}
+
 

@@ -1,15 +1,187 @@
 {
-  "generatedAt": "2026-11-03T21:53:18.428Z",
-  "totalAccessBlocked": 202,
-  "accountTypeEvaluated": "Open Icecat (Free / Partner tier)",
-  "brandBreakdown": {
-    "Apple": {
-      "count": 36,
+  "generatedAt": "2026-11-03T23:01:20.616Z",
+  "totalAccessBlockedRecords": 202,
+  "rawObservedRecordsCount": 27,
+  "unconfirmedRecordsCount": 176,
+  "classificationDistribution": {
+    "ACCESS_REASON_UNCONFIRMED": {
+      "count": 176,
+      "httpStatus": null,
+      "icecatStatusCode": null,
+      "redactedMessage": null,
+      "sampleObservedAt": null,
+      "brands": {
+        "Apple": 26,
+        "Huawei": 5,
+        "General Mobile": 8,
+        "Google": 10,
+        "Honor": 10,
+        "Nothing": 9,
+        "Oppo": 32,
+        "Xiaomi": 22,
+        "Infinix": 3,
+        "Realme": 1,
+        "TCL": 6,
+        "Tecno": 14,
+        "Vivo": 22,
+        "OnePlus": 8
+      },
+      "sampleIds": [
+        "apple-apple-iphone-17-pro-max-1-tb-1027079",
+        "apple-apple-iphone-17-pro-max-2-tb-1027080",
+        "apple-apple-iphone-17-pro-max-256-gb-1023353",
+        "apple-apple-iphone-17-pro-max-512-gb-1027078",
+        "huawei-huawei-y5ii",
+        "apple-apple-iphone-17-256-gb-1027084"
+      ]
+    },
+    "NOT_PRESENT_IN_ICECAT_DB_CODE_8": {
+      "count": 18,
+      "httpStatus": 404,
+      "icecatStatusCode": 8,
+      "redactedMessage": "The requested product is not present in the Icecat database",
+      "sampleObservedAt": "2026-11-03T22:38:11.022Z",
+      "brands": {
+        "Apple": 4,
+        "Honor": 1,
+        "OnePlus": 2,
+        "Vivo": 1,
+        "Xiaomi": 4,
+        "Huawei": 5,
+        "Nothing": 1
+      },
+      "sampleIds": [
+        "apple-apple-iphone-4-16-gb-138",
+        "apple-apple-iphone-5-16-gb-91",
+        "apple-apple-iphone-5c-16-gb-90",
+        "honor-magic6-pro-512gb-flagship",
+        "oneplus-12-512gb-icecat",
+        "oneplus-nord-4-256gb-icecat"
+      ]
+    },
+    "BRAND_RESTRICTION_CODE_14": {
+      "count": 6,
       "httpStatus": 404,
       "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Apple Brand Sponsor reseller authorization in Icecat account",
+      "redactedMessage": "Product has brand restrictions or access is limited",
+      "sampleObservedAt": "2026-11-03T22:38:08.500Z",
+      "brands": {
+        "Apple": 6
+      },
       "sampleIds": [
+        "apple-apple-iphone-6s-plus-16-gb-26038",
+        "apple-apple-iphone-6-128-gb-1097",
+        "apple-apple-iphone-6-plus-128-gb-1099",
+        "apple-apple-iphone-6s-128-gb-31580",
+        "apple-apple-iphone-6s-plus-128-gb-31582",
+        "apple-apple-iphone-7-128-gb-61487"
+      ]
+    },
+    "FULL_ICECAT_APP_KEY_REQUIRED_CODE_9": {
+      "count": 2,
+      "httpStatus": 403,
+      "icecatStatusCode": 9,
+      "redactedMessage": "Icecat'ın tam içeriğine erişmek için bir app_key gereklidir. Full Icecat kullanıcıları bunu \"Profilim\" sayfalarında bulabilirler.",
+      "sampleObservedAt": "2026-11-03T22:38:19.528Z",
+      "brands": {
+        "Google": 2
+      },
+      "sampleIds": [
+        "google-google-pixel-9a-25",
+        "google-pixel-9a-128gb-icecat"
+      ]
+    }
+  },
+  "brandBreakdown": {
+    "Apple": {
+      "totalCount": 36,
+      "observedBrandRestrictionCode14": 6,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 4,
+      "accessReasonUnconfirmed": 26,
+      "observedSamples": [
+        {
+          "canonicalId": "apple-apple-iphone-4-16-gb-138",
+          "probedMpn": "MC603ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:11.022Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-5-16-gb-91",
+          "probedMpn": "MD297ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:10.434Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-5c-16-gb-90",
+          "probedMpn": "ME505ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:09.656Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-6s-plus-16-gb-26038",
+          "probedMpn": "MKU12ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 14,
+          "redactedMessage": "Product has brand restrictions or access is limited",
+          "observedAt": "2026-11-03T22:38:08.500Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-6-128-gb-1097",
+          "probedMpn": "MG4C2ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 14,
+          "redactedMessage": "Product has brand restrictions or access is limited",
+          "observedAt": "2026-11-03T22:38:07.373Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-6-plus-128-gb-1099",
+          "probedMpn": "MGAF2ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 14,
+          "redactedMessage": "Product has brand restrictions or access is limited",
+          "observedAt": "2026-11-03T22:38:07.767Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-6s-128-gb-31580",
+          "probedMpn": "MKQT2ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 14,
+          "redactedMessage": "Product has brand restrictions or access is limited",
+          "observedAt": "2026-11-03T22:38:04.695Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-6s-plus-128-gb-31582",
+          "probedMpn": "MKUD2ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 14,
+          "redactedMessage": "Product has brand restrictions or access is limited",
+          "observedAt": "2026-11-03T22:38:06.523Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-7-128-gb-61487",
+          "probedMpn": "MN922ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 14,
+          "redactedMessage": "Product has brand restrictions or access is limited",
+          "observedAt": "2026-11-03T22:38:04.139Z"
+        },
+        {
+          "canonicalId": "apple-apple-iphone-7-product-red-special-edition-128-gb-75834",
+          "probedMpn": "MPRH2ZD/A",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:08.134Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "apple-apple-iphone-17-pro-max-1-tb-1027079",
         "apple-apple-iphone-17-pro-max-2-tb-1027080",
         "apple-apple-iphone-17-pro-max-256-gb-1023353",
@@ -18,26 +190,69 @@
       ]
     },
     "Huawei": {
-      "count": 10,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Huawei Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 10,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 5,
+      "accessReasonUnconfirmed": 5,
+      "observedSamples": [
+        {
+          "canonicalId": "huawei-huawei-p60-pro",
+          "probedMpn": "51097CBY",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:11.389Z"
+        },
+        {
+          "canonicalId": "huawei-huawei-mate-50-pro",
+          "probedMpn": "51097EBB",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:12.422Z"
+        },
+        {
+          "canonicalId": "huawei-huawei-nova-10-pro",
+          "probedMpn": "51097DJa",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:13.160Z"
+        },
+        {
+          "canonicalId": "huawei-huawei-p50-pro",
+          "probedMpn": "51096YEF",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:12.789Z"
+        },
+        {
+          "canonicalId": "huawei-huawei-p30-pro",
+          "probedMpn": "51093NEB",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:12.056Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "huawei-huawei-y5ii",
         "huawei-huawei-nova-12-ultra",
         "huawei-huawei-mate-60-pro",
-        "huawei-huawei-p60-pro",
-        "huawei-huawei-mate-50-pro"
+        "huawei-huawei-enjoy-20-pro",
+        "huawei-huawei-enjoy-10-plus"
       ]
     },
     "General Mobile": {
-      "count": 8,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or General Mobile Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 8,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 0,
+      "accessReasonUnconfirmed": 8,
+      "observedSamples": [],
+      "unconfirmedSampleIds": [
         "gm-gm-26-5g-128gb",
         "gm-gm-26-5g-256gb",
         "gm-gm-26-pro-5g-12-256gb",
@@ -46,12 +261,30 @@
       ]
     },
     "Google": {
-      "count": 12,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Google Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 12,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 2,
+      "observedNotInIcecatDbCode8": 0,
+      "accessReasonUnconfirmed": 10,
+      "observedSamples": [
+        {
+          "canonicalId": "google-google-pixel-9a-25",
+          "probedMpn": "GA05769-GB",
+          "httpStatus": 403,
+          "icecatStatusCode": 9,
+          "redactedMessage": "Icecat'ın tam içeriğine erişmek için bir app_key gereklidir. Full Icecat kullanıcıları bunu \"Profilim\" sayfalarında bulabilirler.",
+          "observedAt": "2026-11-03T22:38:19.528Z"
+        },
+        {
+          "canonicalId": "google-pixel-9a-128gb-icecat",
+          "probedMpn": "GA05769-GB",
+          "httpStatus": 403,
+          "icecatStatusCode": 9,
+          "redactedMessage": "Icecat'ın tam içeriğine erişmek için bir app_key gereklidir. Full Icecat kullanıcıları bunu \"Profilim\" sayfalarında bulabilirler.",
+          "observedAt": "2026-11-03T22:38:18.817Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "google-google-pixel-10a-30",
         "google-google-pixel-11-31",
         "google-pixel-10-pro-xl-256gb-icecat",
@@ -60,12 +293,22 @@
       ]
     },
     "Honor": {
-      "count": 11,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Honor Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 11,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 1,
+      "accessReasonUnconfirmed": 10,
+      "observedSamples": [
+        {
+          "canonicalId": "honor-magic6-pro-512gb-flagship",
+          "probedMpn": "5109AYUX",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:14.868Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "honor-honor-600-88",
         "honor-honor-600-lite-90",
         "honor-honor-600-pro-89",
@@ -74,12 +317,22 @@
       ]
     },
     "Nothing": {
-      "count": 10,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Nothing Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 10,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 1,
+      "accessReasonUnconfirmed": 9,
+      "observedSamples": [
+        {
+          "canonicalId": "nothing-phone-2-256gb-icecat",
+          "probedMpn": "A065",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:14.322Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "nothing-nothing-phone-3a-lite-10",
         "nothing-nothing-phone-3a-pro-9",
         "nothing-nothing-phone-4a-11",
@@ -88,12 +341,13 @@
       ]
     },
     "Oppo": {
-      "count": 32,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Oppo Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 32,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 0,
+      "accessReasonUnconfirmed": 32,
+      "observedSamples": [],
+      "unconfirmedSampleIds": [
         "oppo-a6t-5g-4-128gb",
         "oppo-a6t-5g-4-256gb",
         "oppo-a7-pro-5g-256gb-2027",
@@ -102,12 +356,46 @@
       ]
     },
     "Xiaomi": {
-      "count": 26,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Xiaomi Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 26,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 4,
+      "accessReasonUnconfirmed": 22,
+      "observedSamples": [
+        {
+          "canonicalId": "xiaomi-14-ultra-512gb-icecat",
+          "probedMpn": "MZB0GC5EU",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:16.772Z"
+        },
+        {
+          "canonicalId": "xiaomi-14t-pro-512gb-icecat",
+          "probedMpn": "MZB0HHTEU",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:17.144Z"
+        },
+        {
+          "canonicalId": "xiaomi-xiaomi-mi-10t-lite-5g-10480",
+          "probedMpn": "MZB07Z0EU",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:17.517Z"
+        },
+        {
+          "canonicalId": "xiaomi-xiaomi-mi-note-10-lite-10183",
+          "probedMpn": "MZB9621EU",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:18.450Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "xiaomi-redmi-a7-pro-128gb-2026",
         "xiaomi-xiaomi-poco-c81-pro-14635",
         "xiaomi-xiaomi-poco-f8-pro-5g-14303",
@@ -116,34 +404,37 @@
       ]
     },
     "Infinix": {
-      "count": 3,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Infinix Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 3,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 0,
+      "accessReasonUnconfirmed": 3,
+      "observedSamples": [],
+      "unconfirmedSampleIds": [
         "infinix-note-50-8-256gb",
         "infinix-hot-50-8-256gb",
         "infinix-hot-50-pro-plus-8-256gb"
       ]
     },
     "Realme": {
-      "count": 1,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Realme Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 1,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 0,
+      "accessReasonUnconfirmed": 1,
+      "observedSamples": [],
+      "unconfirmedSampleIds": [
         "realme-realme-narzo-70-56"
       ]
     },
     "TCL": {
-      "count": 6,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or TCL Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 6,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 0,
+      "accessReasonUnconfirmed": 6,
+      "observedSamples": [],
+      "unconfirmedSampleIds": [
         "tcl-tcl-60-45",
         "tcl-tcl-60-5g-46",
         "tcl-tcl-60-nxtpaper-4g-47",
@@ -152,12 +443,13 @@
       ]
     },
     "Tecno": {
-      "count": 14,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Tecno Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 14,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 0,
+      "accessReasonUnconfirmed": 14,
+      "observedSamples": [],
+      "unconfirmedSampleIds": [
         "tecno-camon-40-8-256gb",
         "tecno-camon-40-pro-5g-8-256gb",
         "tecno-spark-40c-4-128gb",
@@ -166,12 +458,22 @@
       ]
     },
     "Vivo": {
-      "count": 23,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or Vivo Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
+      "totalCount": 23,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 1,
+      "accessReasonUnconfirmed": 22,
+      "observedSamples": [
+        {
+          "canonicalId": "vivo-x100-pro-512gb-2024",
+          "probedMpn": "V2324A",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:16.117Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "vivo-v50-pro-512gb-2025",
         "vivo-vivo-v50-5g",
         "vivo-vivo-v50-lite",
@@ -180,17 +482,35 @@
       ]
     },
     "OnePlus": {
-      "count": 10,
-      "httpStatus": 404,
-      "icecatStatusCode": 14,
-      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
-      "requirement": "Full Icecat contract or OnePlus Brand Sponsor reseller authorization in Icecat account",
-      "sampleIds": [
-        "oneplus-12-512gb-icecat",
-        "oneplus-nord-4-256gb-icecat",
+      "totalCount": 10,
+      "observedBrandRestrictionCode14": 0,
+      "observedAppKeyRequiredCode9": 0,
+      "observedNotInIcecatDbCode8": 2,
+      "accessReasonUnconfirmed": 8,
+      "observedSamples": [
+        {
+          "canonicalId": "oneplus-12-512gb-icecat",
+          "probedMpn": "5011105273",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:13.528Z"
+        },
+        {
+          "canonicalId": "oneplus-nord-4-256gb-icecat",
+          "probedMpn": "5011110075",
+          "httpStatus": 404,
+          "icecatStatusCode": 8,
+          "redactedMessage": "The requested product is not present in the Icecat database",
+          "observedAt": "2026-11-03T22:38:13.895Z"
+        }
+      ],
+      "unconfirmedSampleIds": [
         "oneplus-oneplus-13",
         "oneplus-oneplus-ace-3-pro",
-        "oneplus-oneplus-ace-3v"
+        "oneplus-oneplus-ace-3v",
+        "oneplus-oneplus-nord-ce4",
+        "oneplus-oneplus-nord-ce4-lite"
       ]
     }
   }

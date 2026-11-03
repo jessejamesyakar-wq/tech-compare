@@ -1,0 +1,109 @@
+{
+  "canonicalId": "samsung-samsung-galaxy-a20-21",
+  "brand": "Samsung",
+  "model": "Galaxy A20",
+  "mpn": "SM-A205F/DS",
+  "regionalSupportUrl": "https://www.samsung.com/tr/support/model/SM-A205FZKETUR/",
+  "sourceUrl": "https://www.samsungmobilepress.com/media-assets/galaxy_a20?tab=specs",
+  "snapshotHtmlRelativePath": "reports/icecat-phones-400/raw_archive/samsung-samsung-galaxy-a20-21.official_manufacturer.html",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "trustClassification": "OFFICIAL_MANUFACTURER_VERIFIED",
+  "fetchedAt": "2026-11-03T22:28:01.000Z",
+  "sourceContentHash": "28c87056c58885257c1cdd97bb6cd554a2b214b4fefc5f1b102cc870f32d3765",
+  "normalizedDataHash": "5ce305d4be28737140a46458f80e04e7897e7a9246e05c31450af7f59f9f3d9a",
+  "unsupportedFieldsExcluded": [
+    "specs.processor.chip",
+    "specs.camera.videoRes",
+    "specs.battery.chargingWatts",
+    "specs.connectivity.has5G",
+    "specs.connectivity.wifiStandard",
+    "specs.connectivity.bluetooth",
+    "specs.build.weightGrams"
+  ],
+  "fieldExtractions": [
+    {
+      "fieldPath": "specs.screen.size",
+      "locator": "div.cont_spec > table > tbody > tr[1](th=\"Display**\") > td[0] > p[0]",
+      "rowHeader": "Display**",
+      "rawExcerpt": "6.4-inch HD+ (720x1560)",
+      "normalizedValue": "6.4 inç"
+    },
+    {
+      "fieldPath": "specs.screen.resolution",
+      "locator": "div.cont_spec > table > tbody > tr[1](th=\"Display**\") > td[0] > p[0]",
+      "rowHeader": "Display**",
+      "rawExcerpt": "6.4-inch HD+ (720x1560)",
+      "normalizedValue": "720 x 1560"
+    },
+    {
+      "fieldPath": "specs.screen.type",
+      "locator": "div.cont_spec > table > tbody > tr[1](th=\"Display**\") > td[0] > p[1]",
+      "rowHeader": "Display**",
+      "rawExcerpt": "Super AMOLED",
+      "normalizedValue": "Super AMOLED"
+    },
+    {
+      "fieldPath": "specs.camera.mainMp",
+      "locator": "div.cont_spec > table > tbody > tr[2](th=\"Camera\") > td[0] > p[0]",
+      "rowHeader": "Camera",
+      "rawExcerpt": "- Main: 13MP, F1.9",
+      "normalizedValue": "13 MP"
+    },
+    {
+      "fieldPath": "specs.camera.selfieMp",
+      "locator": "table(th=\"Samsung Galaxy A20 Product Specifications*\") > tbody > tr[2](th=\"Camera\") > td[0]",
+      "rowHeader": "Camera",
+      "rawExcerpt": "- Selfie: 8MP,\\u0026nbsp; F2.0",
+      "normalizedValue": "8 MP"
+    },
+    {
+      "fieldPath": "specs.build.thicknessMm",
+      "locator": "div.cont_spec > table > tbody > tr[3](th=\"Body\") > td[0] > p[0]",
+      "rowHeader": "Body",
+      "rawExcerpt": "158.4 x 74.7 x 7.8mm",
+      "normalizedValue": 7.8
+    },
+    {
+      "fieldPath": "specs.processor.cores",
+      "locator": "div.cont_spec > table > tbody > tr[4](th=\"AP\") > td[0] > p[0]",
+      "rowHeader": "AP",
+      "rawExcerpt": "Octa Core (Dual 1.6GHz + Hexa 1.35GHz)",
+      "normalizedValue": "8 Çekirdek"
+    },
+    {
+      "fieldPath": "specs.memory.ramGb",
+      "locator": "div.cont_spec > table > tbody > tr[5](th=\"Memory\") > td[0] > p[0]",
+      "rowHeader": "Memory",
+      "rawExcerpt": "3 GB RAM, 32 GB Internal Storage",
+      "normalizedValue": 3
+    },
+    {
+      "fieldPath": "specs.memory.storageGb",
+      "locator": "div.cont_spec > table > tbody > tr[5](th=\"Memory\") > td[0] > p[0]",
+      "rowHeader": "Memory",
+      "rawExcerpt": "3 GB RAM, 32 GB Internal Storage",
+      "normalizedValue": 32
+    },
+    {
+      "fieldPath": "specs.memory.expandableStorage",
+      "locator": "div.cont_spec > table > tbody > tr[5](th=\"Memory\") > td[0] > p[1]",
+      "rowHeader": "Memory",
+      "rawExcerpt": "Up to 512 GB Micro SD",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.battery.capacitymAh",
+      "locator": "div.cont_spec > table > tbody > tr[7](th=\"Battery***\") > td[0] > p[0]",
+      "rowHeader": "Battery***",
+      "rawExcerpt": "4,000mAh (typical)",
+      "normalizedValue": 4000
+    },
+    {
+      "fieldPath": "specs.software.osName",
+      "locator": "div.cont_spec > table > tbody > tr[8](th=\"OS\") > td[0] > p[0]",
+      "rowHeader": "OS",
+      "rawExcerpt": "Android 9.0 (Pie)",
+      "normalizedValue": "Android 9.0"
+    }
+  ]
+}
