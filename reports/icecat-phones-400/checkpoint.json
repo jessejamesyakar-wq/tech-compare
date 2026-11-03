@@ -1,10 +1,10 @@
 {
   "processedCount": 400,
   "statusCounts": {
-    "APPLIED_ALL_AVAILABLE": 49,
+    "APPLIED_ALL_AVAILABLE": 45,
     "APPLIED_PARTIAL": 0,
     "NO_CHANGE_NEEDED": 3,
-    "BLOCKED_IDENTITY": 105,
+    "BLOCKED_IDENTITY": 109,
     "BLOCKED_ACCESS": 202,
     "SOURCE_NOT_FOUND": 41,
     "ERROR": 0,

@@ -58776,8 +58776,6 @@
       },
       "camera": {
         "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": null,
         "selfieMp": "8 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -59653,7 +59651,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s9-2",
@@ -59786,8 +59791,6 @@
       },
       "camera": {
         "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
         "selfieMp": "8 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -60711,7 +60714,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-note-9-3",
@@ -60844,8 +60854,6 @@
       },
       "camera": {
         "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
         "selfieMp": "8 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -61859,7 +61867,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a8-2018-4",
@@ -64113,9 +64128,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "4032 MP",
-        "ultrawideMp": "16 MP",
-        "telephotoMp": "12 MP",
+        "mainMp": "12 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -64949,7 +64962,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-note-10-18",
@@ -65244,8 +65264,6 @@
       },
       "camera": {
         "mainMp": "16 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "12 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -66157,7 +66175,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a10-20",
@@ -66430,867 +66455,62 @@
     ],
     "specs": {
       "screen": {
-        "size": "5.8 inç",
-        "type": "PLS",
-        "resolution": "720 x 1560",
-        "refreshRate": 60,
-        "ppi": 390,
-        "brightnessNits": 1000,
         "brightnessTypicalNits": 1000
       },
-      "processor": {
-        "chip": "Samsung Exynos",
-        "cores": "2 Çekirdek",
-        "process": "Samsung 14nm",
-        "antutuScore": 750000
-      },
+      "processor": {},
       "memory": {
-        "ramGb": 3,
-        "ramType": "LPDDR5X",
-        "storageGb": 32,
         "storageOptions": [
           32
-        ],
-        "expandableStorage": true
+        ]
       },
-      "camera": {
-        "mainMp": "13 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "8 MP",
-        "videoRes": "1080p",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 3000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": false,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.0",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 141,
-        "thicknessMm": 8.4,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
+      "camera": {},
+      "battery": {},
+      "connectivity": {},
+      "build": {},
       "software": {
-        "osName": "Android 9.0",
         "updateYears": 4
       }
     },
-    "extraSpecs": [
-      {
-        "featureId": 944,
-        "name": "Ekran boyutu",
-        "group": "Ekran",
-        "value": "14,7 cm (5.8\")"
-      },
-      {
-        "featureId": 17554,
-        "name": "Ekran şekli",
-        "group": "Ekran",
-        "value": "Düz"
-      },
-      {
-        "featureId": 15285,
-        "name": "Panel tipi",
-        "group": "Ekran",
-        "value": "PLS"
-      },
-      {
-        "featureId": 1585,
-        "name": "Ekran çözünürlüğü",
-        "group": "Ekran",
-        "value": "720 x 1560 Piksel"
-      },
-      {
-        "featureId": 24847,
-        "name": "Görüntülenen renk sayısı",
-        "group": "Ekran",
-        "value": "16 milyon renk"
-      },
-      {
-        "featureId": 11417,
-        "name": "Yerel açı oranı",
-        "group": "Ekran",
-        "value": "19.5:9"
-      },
-      {
-        "featureId": 7698,
-        "name": "Dokunma teknolojisi",
-        "group": "Ekran",
-        "value": "Çoklu Dokunuş"
-      },
-      {
-        "featureId": 8097,
-        "name": "Dokunmatik ekran türü",
-        "group": "Ekran",
-        "value": "Kapasitif"
-      },
-      {
-        "featureId": 33690,
-        "name": "Yuvarlatılmış gösterge köşeleri",
-        "group": "Ekran",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2196,
-        "name": "İşlemci ailesi",
-        "group": "İşlemci",
-        "value": "Samsung Exynos"
-      },
-      {
-        "featureId": 47,
-        "name": "İşlemci",
-        "group": "İşlemci",
-        "value": "7884"
-      },
-      {
-        "featureId": 9984,
-        "name": "İşlemci mimarisi",
-        "group": "İşlemci",
-        "value": "ARM Cortex-A73"
-      },
-      {
-        "featureId": 6089,
-        "name": "İşlemci Çekirdek Sayısı",
-        "group": "İşlemci",
-        "value": "2"
-      },
-      {
-        "featureId": 11379,
-        "name": "İşlemci frekansı",
-        "group": "İşlemci",
-        "value": "1,6 GHz"
-      },
-      {
-        "featureId": 1623,
-        "name": "İşlemci litografi",
-        "group": "İşlemci",
-        "value": "14 nm"
-      },
-      {
-        "featureId": 17981,
-        "name": "Yardımcı işlemci",
-        "group": "İşlemci",
-        "value": "Evet"
-      },
-      {
-        "featureId": 17982,
-        "name": "Yardımcı işlemci frekansı",
-        "group": "İşlemci",
-        "value": "1,35 GHz"
-      },
-      {
-        "featureId": 17984,
-        "name": "Yardımcı işlemci mimarisi",
-        "group": "İşlemci",
-        "value": "ARM Cortex-A53"
-      },
-      {
-        "featureId": 17983,
-        "name": "Yardımcı işlemci çekirdekleri",
-        "group": "İşlemci",
-        "value": "6"
-      },
-      {
-        "featureId": 13908,
-        "name": "Kullanıcı belleği",
-        "group": "Depolama birimi",
-        "value": "21,5 GB"
-      },
-      {
-        "featureId": 7861,
-        "name": "RAM kapasitesi",
-        "group": "Depolama birimi",
-        "value": "3 GB"
-      },
-      {
-        "featureId": 8730,
-        "name": "Dahili hafıza",
-        "group": "Depolama birimi",
-        "value": "32 GB"
-      },
-      {
-        "featureId": 730,
-        "name": "Uyumlu hafıza kartları",
-        "group": "Depolama birimi",
-        "value": "MicroSD (TransFlash)"
-      },
-      {
-        "featureId": 7021,
-        "name": "Maksimum Hafıza kartı büyüklüğü",
-        "group": "Depolama birimi",
-        "value": "512 GB"
-      },
-      {
-        "featureId": 3797,
-        "name": "USB yığın bellek",
-        "group": "Depolama birimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33517,
-        "name": "Bellek kartı yuva türü",
-        "group": "Depolama birimi",
-        "value": "Özel yuva"
-      },
-      {
-        "featureId": 12435,
-        "name": "Arka kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "13 MP"
-      },
-      {
-        "featureId": 27588,
-        "name": "İkinci arka kamera çözünürlüğü (sayısal)",
-        "group": "Kamera",
-        "value": "5 MP"
-      },
-      {
-        "featureId": 27597,
-        "name": "Arka kamera açıklığı numarası",
-        "group": "Kamera",
-        "value": "1,9"
-      },
-      {
-        "featureId": 27598,
-        "name": "İkinci arka kamera açıklığı sayısı",
-        "group": "Kamera",
-        "value": "2,2"
-      },
-      {
-        "featureId": 48,
-        "name": "Dijital zum",
-        "group": "Kamera",
-        "value": "4x"
-      },
-      {
-        "featureId": 33562,
-        "name": "Ön kamera tipi",
-        "group": "Kamera",
-        "value": "Tek kamera"
-      },
-      {
-        "featureId": 12437,
-        "name": "Ön kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "8 MP"
-      },
-      {
-        "featureId": 27601,
-        "name": "Ön kamera adaptörü sayısı",
-        "group": "Kamera",
-        "value": "2"
-      },
-      {
-        "featureId": 36602,
-        "name": "Arka kamera flaşı",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6697,
-        "name": "Flaş türü",
-        "group": "Kamera",
-        "value": "LED"
-      },
-      {
-        "featureId": 1597,
-        "name": "Video çekim çözünürlüğü",
-        "group": "Kamera",
-        "value": "1920 x 1080 Piksel"
-      },
-      {
-        "featureId": 7515,
-        "name": "Maksimum çerçeve hızı",
-        "group": "Kamera",
-        "value": "30 fps"
-      },
-      {
-        "featureId": 2963,
-        "name": "Yakalama hızınde çözünürlük",
-        "group": "Kamera",
-        "value": "1920x1080@30fps"
-      },
-      {
-        "featureId": 8745,
-        "name": "Video kaydetme modu",
-        "group": "Kamera",
-        "value": "1080p"
-      },
-      {
-        "featureId": 27587,
-        "name": "Arka kamera tipi",
-        "group": "Kamera",
-        "value": "Cift yönlü kamera"
-      },
-      {
-        "featureId": 1614,
-        "name": "Oto fokus",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 472,
-        "name": "Yakınlaştırma yeteneği",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8649,
-        "name": "Video kaydı",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8697,
-        "name": "Konum Etiketleme",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 19653,
-        "name": "Sim Kart Yeterliliği",
-        "group": "Ağ Bağlantıları",
-        "value": "Çift SIM"
-      },
-      {
-        "featureId": 40629,
-        "name": "Mobil ağ oluşturma",
-        "group": "Ağ Bağlantıları",
-        "value": "4G"
-      },
-      {
-        "featureId": 9166,
-        "name": "SIM kart türü",
-        "group": "Ağ Bağlantıları",
-        "value": "NanoSIM"
-      },
-      {
-        "featureId": 16924,
-        "name": "2G standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "GSM"
-      },
-      {
-        "featureId": 16923,
-        "name": "3G Standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "WCDMA"
-      },
-      {
-        "featureId": 16922,
-        "name": "4G standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "LTE"
-      },
-      {
-        "featureId": 3239,
-        "name": "Wi-Fi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 432,
-        "name": "Wi-Fi standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n)"
-      },
-      {
-        "featureId": 2183,
-        "name": "Bluetooth",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1208,
-        "name": "Bluetooth versiyonu",
-        "group": "Ağ Bağlantıları",
-        "value": "5.0"
-      },
-      {
-        "featureId": 40984,
-        "name": "Bluetooth Düşük Enerji (BLE)",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7061,
-        "name": "2G bandı (Ana SIM)",
-        "group": "Ağ Bağlantıları",
-        "value": "850,900,1800,1900 MHz"
-      },
-      {
-        "featureId": 7062,
-        "name": "2G bandı (İkinci SIM)",
-        "group": "Ağ Bağlantıları",
-        "value": "850,900,1800,1900 MHz"
-      },
-      {
-        "featureId": 8367,
-        "name": "3G şeridi destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "850,900,1900,2100 MHz"
-      },
-      {
-        "featureId": 14695,
-        "name": "4G band destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "800,850,900,1800,2100,2300,2600 MHz"
-      },
-      {
-        "featureId": 9097,
-        "name": "İnternet Paylaşımı (Modem modu)",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9779,
-        "name": "Wi-Fi yönlendirme",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 10157,
-        "name": "Yakın Alan İletişimi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8578,
-        "name": "Abonelik türü",
-        "group": "Üyelik/abonelik",
-        "value": "Abonelik gerektirmez"
-      },
-      {
-        "featureId": 23798,
-        "name": "USB bağlantı noktası",
-        "group": "Bağlantı",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1742,
-        "name": "USB bağlayıcı",
-        "group": "Bağlantı",
-        "value": "USB C Tipi"
-      },
-      {
-        "featureId": 8541,
-        "name": "USB versiyonu",
-        "group": "Bağlantı",
-        "value": "2.0"
-      },
-      {
-        "featureId": 4163,
-        "name": "Kulaklık bağlantısı",
-        "group": "Bağlantı",
-        "value": "3,5 mm"
-      },
-      {
-        "featureId": 1901,
-        "name": "Kısa mesaj servisi (SMS)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2180,
-        "name": "Multimedya mesaj servisi (MMS)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6621,
-        "name": "Anında mesajlaşma (IM)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2182,
-        "name": "Sohbet",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 23802,
-        "name": "E-mail",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33547,
-        "name": "Metin tahmin sistemi",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6623,
-        "name": "Destekli GPS (A-GPS)",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 3329,
-        "name": "GPS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 15618,
-        "name": "GLONASS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 28694,
-        "name": "BeiDou",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33685,
-        "name": "Galileo",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 26425,
-        "name": "Konum belirleme",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8742,
-        "name": "Wi-Fi ile konumlandırma",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 771,
-        "name": "Form faktörü",
-        "group": "Tasarım",
-        "value": "Bar"
-      },
-      {
-        "featureId": 1766,
-        "name": "Ürün rengi",
-        "group": "Tasarım",
-        "value": "Siyah"
-      },
-      {
-        "featureId": 4981,
-        "name": "Hızlı şarj",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 614,
-        "name": "Video adaptörü sürücüsü",
-        "group": "Performans",
-        "value": "Mali-G71 MP2"
-      },
-      {
-        "featureId": 3577,
-        "name": "Parmak izi okuyucu",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 4277,
-        "name": "Kişisel bilgi yönetimi",
-        "group": "Performans",
-        "value": "Alarm, Hesap makinesi, Takvim"
-      },
-      {
-        "featureId": 1805,
-        "name": "Eller Serbest (HandsFree)",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7351,
-        "name": "Uçuş modu",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1455,
-        "name": "Kişiselleştirme",
-        "group": "Performans",
-        "value": "İkonlar, Menü, Kısayollar"
-      },
-      {
-        "featureId": 6627,
-        "name": "Kontak grupları için destek",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2673,
-        "name": "Mikrofon sessiz",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9832,
-        "name": "Temalar",
-        "group": "Performans",
-        "value": "Duvar kağıtları"
-      },
-      {
-        "featureId": 3541,
-        "name": "Titreşimli Alarm",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 4851,
-        "name": "Desteklenen video modları",
-        "group": "Multimedya",
-        "value": "1080p"
-      },
-      {
-        "featureId": 2224,
-        "name": "Desteklenen ses formatları",
-        "group": "Multimedya",
-        "value": "3GA, AAC, AMR, FLAC, IMY, M4A, MIDI, MP3, MXMF, OGA, OGG, RTTTL, RTX, WAV, WMA, XMF"
-      },
-      {
-        "featureId": 6893,
-        "name": "Desteklenen video formatları",
-        "group": "Multimedya",
-        "value": "3G2, 3GP, ASF, AVI, FLV, MKV, MP4, WEBM, WMV"
-      },
-      {
-        "featureId": 2748,
-        "name": "Arama bekletme",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7349,
-        "name": "Arama Yönlendirme",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6698,
-        "name": "Arama bekletme",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2672,
-        "name": "Arayan kimliği",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1808,
-        "name": "Konferans Görüşmesi",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2962,
-        "name": "Hızlı arama",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6619,
-        "name": "Arama süresi sayacı",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 75,
-        "name": "Platform",
-        "group": "Yazılım",
-        "value": "Android"
-      },
-      {
-        "featureId": 3233,
-        "name": "İşletim sistemi yazılımı",
-        "group": "Yazılım",
-        "value": "Android 9.0"
-      },
-      {
-        "featureId": 42058,
-        "name": "Uygulama dağıtım platformu",
-        "group": "Yazılım",
-        "value": "Google Play"
-      },
-      {
-        "featureId": 9780,
-        "name": "Google uygulamaları desteği",
-        "group": "Yazılım",
-        "value": "Google Chrome, Google Maps, Google Play, YouTube"
-      },
-      {
-        "featureId": 909,
-        "name": "Pil performansı",
-        "group": "Batarya",
-        "value": "3000 mAh"
-      },
-      {
-        "featureId": 7283,
-        "name": "Konuşma süresi (3G)(max)",
-        "group": "Batarya",
-        "value": "19 Saat"
-      },
-      {
-        "featureId": 15264,
-        "name": "İnternet Kullanımı (WiFi) (max)",
-        "group": "Batarya",
-        "value": "15 Saat"
-      },
-      {
-        "featureId": 15265,
-        "name": "İnternet Kullanımı (3G) (max)",
-        "group": "Batarya",
-        "value": "13 Saat"
-      },
-      {
-        "featureId": 15266,
-        "name": "İnternet Kullanımı (4G) (max)",
-        "group": "Batarya",
-        "value": "15 Saat"
-      },
-      {
-        "featureId": 2169,
-        "name": "Müzik Oynatma",
-        "group": "Batarya",
-        "value": "61 Saat"
-      },
-      {
-        "featureId": 2173,
-        "name": "Sürekli video pleybek süresi (max)",
-        "group": "Batarya",
-        "value": "14 Saat"
-      },
-      {
-        "featureId": 8698,
-        "name": "Yakınlık sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9731,
-        "name": "Hız ölçer",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8720,
-        "name": "Çevre ışığı sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7350,
-        "name": "Oryantasyon sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 38333,
-        "name": "Hall sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 42930,
-        "name": "Onarılabilirlik indeksi",
-        "group": "Dayanıklılık",
-        "value": "5.6"
-      },
-      {
-        "featureId": 1649,
-        "name": "Genişlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "69,7 mm"
-      },
-      {
-        "featureId": 1650,
-        "name": "Derinlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "8,4 mm"
-      },
-      {
-        "featureId": 1464,
-        "name": "Yükseklik",
-        "group": "Ağırlık & boyutlar",
-        "value": "147,4 mm"
-      },
-      {
-        "featureId": 94,
-        "name": "Ağırlık",
-        "group": "Ağırlık & boyutlar",
-        "value": "141 g"
-      },
-      {
-        "featureId": 1230,
-        "name": "AC sarma adaptör",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 3981,
-        "name": "Hızlı başlangıç rehberi",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 4023,
-        "name": "Garanti kartı",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1830,
-        "name": "Pakete dahil kablolar",
-        "group": "Paket içeriği",
-        "value": "USB C Tipi"
-      },
-      {
-        "featureId": 3965,
-        "name": "Kullanım kılavuzu",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 17669,
-        "name": "Baş SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "0,498 W/kg"
-      },
-      {
-        "featureId": 17670,
-        "name": "Vücut SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "1,303 W/kg"
-      },
-      {
-        "featureId": 41625,
-        "name": "Kollar ve Bacaklar için SAR oranı (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "2,65 W/kg"
-      },
-      {
-        "featureId": 4963,
-        "name": "Dokunmatik ekran",
-        "group": "Diğer özellikler",
-        "value": "Evet"
-      }
-    ]
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "screen.size",
+        "screen.type",
+        "screen.resolution",
+        "screen.refreshRate",
+        "screen.ppi",
+        "screen.brightnessNits",
+        "processor.chip",
+        "processor.cores",
+        "processor.process",
+        "processor.antutuScore",
+        "memory.ramGb",
+        "memory.ramType",
+        "memory.storageGb",
+        "memory.expandableStorage",
+        "camera.mainMp",
+        "camera.ultrawideMp",
+        "camera.telephotoMp",
+        "camera.selfieMp",
+        "camera.videoRes",
+        "camera.dxomarkScore",
+        "battery.capacitymAh",
+        "battery.chargingWatts",
+        "battery.wirelessCharging",
+        "battery.reverseWireless",
+        "connectivity.has5G",
+        "connectivity.wifiStandard",
+        "connectivity.bluetooth",
+        "connectivity.hasNFC",
+        "connectivity.hasesim",
+        "build.weightGrams",
+        "build.thicknessMm",
+        "build.waterResistance",
+        "build.frameMaterial",
+        "software.osName"
+      ],
+      "note": "Bu ürün için yanlış alt model kaynağından (A20e / A30s) aktarılan teknik özellikler ve kanıtlar izole edilmiştir; doğrulanmış üretici verisi beklenmektedir."
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a30-22",
@@ -67400,807 +66620,62 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.4 inç",
-        "type": "Super AMOLED",
-        "resolution": "720 x 1560",
-        "refreshRate": 60,
-        "ppi": 390,
-        "brightnessNits": 1000,
         "brightnessTypicalNits": 1000
       },
-      "processor": {
-        "chip": "Samsung Exynos",
-        "cores": "8 Çekirdek",
-        "process": "Samsung 14nm",
-        "antutuScore": 750000
-      },
+      "processor": {},
       "memory": {
-        "ramGb": 4,
-        "ramType": "LPDDR5X",
-        "storageGb": 64,
         "storageOptions": [
           64
-        ],
-        "expandableStorage": true
+        ]
       },
-      "camera": {
-        "mainMp": "25 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "8 MP",
-        "selfieMp": "16 MP",
-        "videoRes": "720p, 1080p",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 4000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": false,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.0",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 169,
-        "thicknessMm": 7.8,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
+      "camera": {},
+      "battery": {},
+      "connectivity": {},
+      "build": {},
       "software": {
-        "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
     },
-    "extraSpecs": [
-      {
-        "featureId": 944,
-        "name": "Ekran boyutu",
-        "group": "Ekran",
-        "value": "16,3 cm (6.4\")"
-      },
-      {
-        "featureId": 17554,
-        "name": "Ekran şekli",
-        "group": "Ekran",
-        "value": "Düz"
-      },
-      {
-        "featureId": 46952,
-        "name": "Ekran teknolojisi pazarlama adı",
-        "group": "Ekran",
-        "value": "Super AMOLED"
-      },
-      {
-        "featureId": 15285,
-        "name": "Panel tipi",
-        "group": "Ekran",
-        "value": "OLED"
-      },
-      {
-        "featureId": 1585,
-        "name": "Ekran çözünürlüğü",
-        "group": "Ekran",
-        "value": "720 x 1560 Piksel"
-      },
-      {
-        "featureId": 24847,
-        "name": "Görüntülenen renk sayısı",
-        "group": "Ekran",
-        "value": "16 milyon renk"
-      },
-      {
-        "featureId": 11417,
-        "name": "Yerel açı oranı",
-        "group": "Ekran",
-        "value": "19.5:9"
-      },
-      {
-        "featureId": 7698,
-        "name": "Dokunma teknolojisi",
-        "group": "Ekran",
-        "value": "Çoklu Dokunuş"
-      },
-      {
-        "featureId": 8097,
-        "name": "Dokunmatik ekran türü",
-        "group": "Ekran",
-        "value": "Kapasitif"
-      },
-      {
-        "featureId": 33690,
-        "name": "Yuvarlatılmış gösterge köşeleri",
-        "group": "Ekran",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2196,
-        "name": "İşlemci ailesi",
-        "group": "İşlemci",
-        "value": "Samsung Exynos"
-      },
-      {
-        "featureId": 47,
-        "name": "İşlemci",
-        "group": "İşlemci",
-        "value": "7904"
-      },
-      {
-        "featureId": 9984,
-        "name": "İşlemci mimarisi",
-        "group": "İşlemci",
-        "value": "ARM Cortex-A73"
-      },
-      {
-        "featureId": 6089,
-        "name": "İşlemci Çekirdek Sayısı",
-        "group": "İşlemci",
-        "value": "8"
-      },
-      {
-        "featureId": 11379,
-        "name": "İşlemci frekansı",
-        "group": "İşlemci",
-        "value": "1,8 GHz"
-      },
-      {
-        "featureId": 17981,
-        "name": "Yardımcı işlemci",
-        "group": "İşlemci",
-        "value": "Evet"
-      },
-      {
-        "featureId": 17982,
-        "name": "Yardımcı işlemci frekansı",
-        "group": "İşlemci",
-        "value": "1,6 GHz"
-      },
-      {
-        "featureId": 13908,
-        "name": "Kullanıcı belleği",
-        "group": "Depolama birimi",
-        "value": "50 GB"
-      },
-      {
-        "featureId": 7861,
-        "name": "RAM kapasitesi",
-        "group": "Depolama birimi",
-        "value": "4 GB"
-      },
-      {
-        "featureId": 8730,
-        "name": "Dahili hafıza",
-        "group": "Depolama birimi",
-        "value": "64 GB"
-      },
-      {
-        "featureId": 730,
-        "name": "Uyumlu hafıza kartları",
-        "group": "Depolama birimi",
-        "value": "MicroSD (TransFlash)"
-      },
-      {
-        "featureId": 7021,
-        "name": "Maksimum Hafıza kartı büyüklüğü",
-        "group": "Depolama birimi",
-        "value": "512 GB"
-      },
-      {
-        "featureId": 3797,
-        "name": "USB yığın bellek",
-        "group": "Depolama birimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33517,
-        "name": "Bellek kartı yuva türü",
-        "group": "Depolama birimi",
-        "value": "Özel yuva"
-      },
-      {
-        "featureId": 12435,
-        "name": "Arka kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "25 MP"
-      },
-      {
-        "featureId": 27588,
-        "name": "İkinci arka kamera çözünürlüğü (sayısal)",
-        "group": "Kamera",
-        "value": "5 MP"
-      },
-      {
-        "featureId": 35935,
-        "name": "Üçüncü arka kamera çözünürlüğü (sayısal)",
-        "group": "Kamera",
-        "value": "8 MP"
-      },
-      {
-        "featureId": 27597,
-        "name": "Arka kamera açıklığı numarası",
-        "group": "Kamera",
-        "value": "1,7"
-      },
-      {
-        "featureId": 27598,
-        "name": "İkinci arka kamera açıklığı sayısı",
-        "group": "Kamera",
-        "value": "2,2"
-      },
-      {
-        "featureId": 35936,
-        "name": "Üçüncü arka kamera açıklığı",
-        "group": "Kamera",
-        "value": "2,2"
-      },
-      {
-        "featureId": 38334,
-        "name": "Üçüncü arka kamera görüş alanı (FOV) açısı",
-        "group": "Kamera",
-        "value": "123°"
-      },
-      {
-        "featureId": 48,
-        "name": "Dijital zum",
-        "group": "Kamera",
-        "value": "4x"
-      },
-      {
-        "featureId": 33562,
-        "name": "Ön kamera tipi",
-        "group": "Kamera",
-        "value": "Tek kamera"
-      },
-      {
-        "featureId": 12437,
-        "name": "Ön kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "16 MP"
-      },
-      {
-        "featureId": 27601,
-        "name": "Ön kamera adaptörü sayısı",
-        "group": "Kamera",
-        "value": "2"
-      },
-      {
-        "featureId": 36602,
-        "name": "Arka kamera flaşı",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6697,
-        "name": "Flaş türü",
-        "group": "Kamera",
-        "value": "LED"
-      },
-      {
-        "featureId": 1597,
-        "name": "Video çekim çözünürlüğü",
-        "group": "Kamera",
-        "value": "1920 x 1080 Piksel"
-      },
-      {
-        "featureId": 7515,
-        "name": "Maksimum çerçeve hızı",
-        "group": "Kamera",
-        "value": "120 fps"
-      },
-      {
-        "featureId": 2963,
-        "name": "Yakalama hızınde çözünürlük",
-        "group": "Kamera",
-        "value": "1280x720@120fps, 1920x1080@30fps"
-      },
-      {
-        "featureId": 8745,
-        "name": "Video kaydetme modu",
-        "group": "Kamera",
-        "value": "720p, 1080p"
-      },
-      {
-        "featureId": 27587,
-        "name": "Arka kamera tipi",
-        "group": "Kamera",
-        "value": "Üçlü kamera"
-      },
-      {
-        "featureId": 1614,
-        "name": "Oto fokus",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 472,
-        "name": "Yakınlaştırma yeteneği",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8649,
-        "name": "Video kaydı",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 19653,
-        "name": "Sim Kart Yeterliliği",
-        "group": "Ağ Bağlantıları",
-        "value": "Çift SIM"
-      },
-      {
-        "featureId": 40629,
-        "name": "Mobil ağ oluşturma",
-        "group": "Ağ Bağlantıları",
-        "value": "4G"
-      },
-      {
-        "featureId": 9166,
-        "name": "SIM kart türü",
-        "group": "Ağ Bağlantıları",
-        "value": "NanoSIM"
-      },
-      {
-        "featureId": 16924,
-        "name": "2G standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "Edge, GPRS, GSM"
-      },
-      {
-        "featureId": 16923,
-        "name": "3G Standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "UMTS, WCDMA"
-      },
-      {
-        "featureId": 16922,
-        "name": "4G standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "LTE"
-      },
-      {
-        "featureId": 3239,
-        "name": "Wi-Fi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 432,
-        "name": "Wi-Fi standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac)"
-      },
-      {
-        "featureId": 2183,
-        "name": "Bluetooth",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1208,
-        "name": "Bluetooth versiyonu",
-        "group": "Ağ Bağlantıları",
-        "value": "5.0"
-      },
-      {
-        "featureId": 7061,
-        "name": "2G bandı (Ana SIM)",
-        "group": "Ağ Bağlantıları",
-        "value": "850,900,1800,1900 MHz"
-      },
-      {
-        "featureId": 7062,
-        "name": "2G bandı (İkinci SIM)",
-        "group": "Ağ Bağlantıları",
-        "value": "850,900,1800,1900 MHz"
-      },
-      {
-        "featureId": 8367,
-        "name": "3G şeridi destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "850,900,1900,2100 MHz"
-      },
-      {
-        "featureId": 14695,
-        "name": "4G band destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "800,850,900,1800,2100,2300,2500,2600 MHz"
-      },
-      {
-        "featureId": 9779,
-        "name": "Wi-Fi yönlendirme",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 10157,
-        "name": "Yakın Alan İletişimi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8578,
-        "name": "Abonelik türü",
-        "group": "Üyelik/abonelik",
-        "value": "Abonelik gerektirmez"
-      },
-      {
-        "featureId": 23798,
-        "name": "USB bağlantı noktası",
-        "group": "Bağlantı",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1742,
-        "name": "USB bağlayıcı",
-        "group": "Bağlantı",
-        "value": "USB C Tipi"
-      },
-      {
-        "featureId": 8541,
-        "name": "USB versiyonu",
-        "group": "Bağlantı",
-        "value": "2.0"
-      },
-      {
-        "featureId": 4163,
-        "name": "Kulaklık bağlantısı",
-        "group": "Bağlantı",
-        "value": "3,5 mm"
-      },
-      {
-        "featureId": 1901,
-        "name": "Kısa mesaj servisi (SMS)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2180,
-        "name": "Multimedya mesaj servisi (MMS)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6621,
-        "name": "Anında mesajlaşma (IM)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2182,
-        "name": "Sohbet",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 23802,
-        "name": "E-mail",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6623,
-        "name": "Destekli GPS (A-GPS)",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 3329,
-        "name": "GPS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 15618,
-        "name": "GLONASS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 28694,
-        "name": "BeiDou",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33685,
-        "name": "Galileo",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 26425,
-        "name": "Konum belirleme",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8742,
-        "name": "Wi-Fi ile konumlandırma",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 771,
-        "name": "Form faktörü",
-        "group": "Tasarım",
-        "value": "Bar"
-      },
-      {
-        "featureId": 1766,
-        "name": "Ürün rengi",
-        "group": "Tasarım",
-        "value": "Beyaz"
-      },
-      {
-        "featureId": 17956,
-        "name": "Renk adı",
-        "group": "Tasarım",
-        "value": "Prism crush white"
-      },
-      {
-        "featureId": 7018,
-        "name": "Görüntülü konuşma",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 614,
-        "name": "Video adaptörü sürücüsü",
-        "group": "Performans",
-        "value": "Mali G72-MP12"
-      },
-      {
-        "featureId": 3577,
-        "name": "Parmak izi okuyucu",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 4277,
-        "name": "Kişisel bilgi yönetimi",
-        "group": "Performans",
-        "value": "Alarm, Hesap makinesi, Takvim, Geri sayım, Notlar, Kronometre"
-      },
-      {
-        "featureId": 1805,
-        "name": "Eller Serbest (HandsFree)",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7351,
-        "name": "Uçuş modu",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2673,
-        "name": "Mikrofon sessiz",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9832,
-        "name": "Temalar",
-        "group": "Performans",
-        "value": "Duvar kağıtları"
-      },
-      {
-        "featureId": 3541,
-        "name": "Titreşimli Alarm",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2172,
-        "name": "FM radyo",
-        "group": "Multimedya",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2224,
-        "name": "Desteklenen ses formatları",
-        "group": "Multimedya",
-        "value": "3GA, AAC, AMR, AWB, FLAC, IMY, M4A, Orta, MIDI, MP3, MXMF, OGA, OGG, OTA, RTTTL, RTX, WAV, WMA, XMF"
-      },
-      {
-        "featureId": 6893,
-        "name": "Desteklenen video formatları",
-        "group": "Multimedya",
-        "value": "3G2, 3GP, ASF, AVI, FLV, M4V, MKV, MP4, WEBM, WMV"
-      },
-      {
-        "featureId": 2748,
-        "name": "Arama bekletme",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7349,
-        "name": "Arama Yönlendirme",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6698,
-        "name": "Arama bekletme",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2672,
-        "name": "Arayan kimliği",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1808,
-        "name": "Konferans Görüşmesi",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6619,
-        "name": "Arama süresi sayacı",
-        "group": "Çağrı yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 75,
-        "name": "Platform",
-        "group": "Yazılım",
-        "value": "Android"
-      },
-      {
-        "featureId": 42058,
-        "name": "Uygulama dağıtım platformu",
-        "group": "Yazılım",
-        "value": "Google Play"
-      },
-      {
-        "featureId": 9780,
-        "name": "Google uygulamaları desteği",
-        "group": "Yazılım",
-        "value": "Google Maps, Google Play"
-      },
-      {
-        "featureId": 31445,
-        "name": "Sanal asistan",
-        "group": "Yazılım",
-        "value": "Samsung Bixby"
-      },
-      {
-        "featureId": 909,
-        "name": "Pil performansı",
-        "group": "Batarya",
-        "value": "4000 mAh"
-      },
-      {
-        "featureId": 18111,
-        "name": "Konuşma süresi (4G) (max)",
-        "group": "Batarya",
-        "value": "32 Saat"
-      },
-      {
-        "featureId": 15264,
-        "name": "İnternet Kullanımı (WiFi) (max)",
-        "group": "Batarya",
-        "value": "13 Saat"
-      },
-      {
-        "featureId": 15266,
-        "name": "İnternet Kullanımı (4G) (max)",
-        "group": "Batarya",
-        "value": "13 Saat"
-      },
-      {
-        "featureId": 2169,
-        "name": "Müzik Oynatma",
-        "group": "Batarya",
-        "value": "77 Saat"
-      },
-      {
-        "featureId": 2173,
-        "name": "Sürekli video pleybek süresi (max)",
-        "group": "Batarya",
-        "value": "21 Saat"
-      },
-      {
-        "featureId": 8698,
-        "name": "Yakınlık sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9731,
-        "name": "Hız ölçer",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8720,
-        "name": "Çevre ışığı sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9732,
-        "name": "Jiroskop",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7350,
-        "name": "Oryantasyon sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 38331,
-        "name": "Jeomanyetik sensör",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 38333,
-        "name": "Hall sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1649,
-        "name": "Genişlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "74,7 mm"
-      },
-      {
-        "featureId": 1650,
-        "name": "Derinlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "7,8 mm"
-      },
-      {
-        "featureId": 1464,
-        "name": "Yükseklik",
-        "group": "Ağırlık & boyutlar",
-        "value": "158,5 mm"
-      },
-      {
-        "featureId": 94,
-        "name": "Ağırlık",
-        "group": "Ağırlık & boyutlar",
-        "value": "169 g"
-      },
-      {
-        "featureId": 3981,
-        "name": "Hızlı başlangıç rehberi",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 17669,
-        "name": "Baş SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "1,05 W/kg"
-      },
-      {
-        "featureId": 17670,
-        "name": "Vücut SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "1,54 W/kg"
-      },
-      {
-        "featureId": 4963,
-        "name": "Dokunmatik ekran",
-        "group": "Diğer özellikler",
-        "value": "Evet"
-      }
-    ]
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "screen.size",
+        "screen.type",
+        "screen.resolution",
+        "screen.refreshRate",
+        "screen.ppi",
+        "screen.brightnessNits",
+        "processor.chip",
+        "processor.cores",
+        "processor.process",
+        "processor.antutuScore",
+        "memory.ramGb",
+        "memory.ramType",
+        "memory.storageGb",
+        "memory.expandableStorage",
+        "camera.mainMp",
+        "camera.ultrawideMp",
+        "camera.telephotoMp",
+        "camera.selfieMp",
+        "camera.videoRes",
+        "camera.dxomarkScore",
+        "battery.capacitymAh",
+        "battery.chargingWatts",
+        "battery.wirelessCharging",
+        "battery.reverseWireless",
+        "connectivity.has5G",
+        "connectivity.wifiStandard",
+        "connectivity.bluetooth",
+        "connectivity.hasNFC",
+        "connectivity.hasesim",
+        "build.weightGrams",
+        "build.thicknessMm",
+        "build.waterResistance",
+        "build.frameMaterial",
+        "software.osName"
+      ],
+      "note": "Bu ürün için yanlış alt model kaynağından (A20e / A30s) aktarılan teknik özellikler ve kanıtlar izole edilmiştir; doğrulanmış üretici verisi beklenmektedir."
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a40-23",
@@ -68334,8 +66809,6 @@
       },
       "camera": {
         "mainMp": "16 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "Yok",
         "selfieMp": "25 MP",
         "videoRes": "1080p",
         "dxomarkScore": 118
@@ -69199,7 +67672,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a50-24",
@@ -69333,9 +67813,7 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "5760 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "8 MP",
+        "mainMp": "25 MP",
         "selfieMp": "25 MP",
         "videoRes": "720p, 1080p",
         "dxomarkScore": 118
@@ -70235,7 +68713,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a60-25",
@@ -70692,8 +69177,6 @@
       },
       "camera": {
         "mainMp": "48 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "Yok",
         "selfieMp": "13 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 118
@@ -71581,7 +70064,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a90-5g-28",
@@ -72361,9 +70851,7 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "9248 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "64 MP",
+        "mainMp": "12 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -73317,7 +71805,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s20-33",
@@ -73449,9 +71944,7 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "9248 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "64 MP",
+        "mainMp": "12 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -74435,7 +72928,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s20-ultra-34",
@@ -74731,8 +73231,6 @@
       },
       "camera": {
         "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "8 MP",
         "selfieMp": "32 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -75572,7 +74070,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-note-20-36",
@@ -75680,903 +74185,61 @@
       }
     ],
     "specs": {
-      "screen": {
-        "size": "6.7 inç",
-        "type": "Süper AMOLED Plus",
-        "resolution": "2400 x 1080",
-        "refreshRate": 120,
-        "ppi": 393,
-        "brightnessNits": 2600
-      },
-      "processor": {
-        "chip": "Samsung Exynos",
-        "cores": "8 Çekirdek",
-        "process": "Samsung 7nm",
-        "antutuScore": 1850000
-      },
+      "screen": {},
+      "processor": {},
       "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
         "storageOptions": [
           256
-        ],
-        "expandableStorage": false
+        ]
       },
-      "camera": {
-        "mainMp": "12 MP",
-        "ultrawideMp": "64 MP",
-        "telephotoMp": "12 MP",
-        "selfieMp": "10 MP",
-        "videoRes": "720p, 1080p, 2160p",
-        "dxomarkScore": 154
-      },
-      "battery": {
-        "capacitymAh": 4300,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.0",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 192,
-        "thicknessMm": 8.3,
-        "waterResistance": "IP68",
-        "frameMaterial": "Zırh Alüminyum"
-      },
+      "camera": {},
+      "battery": {},
+      "connectivity": {},
+      "build": {},
       "software": {
-        "osName": "Android 10",
         "updateYears": 4
       }
     },
-    "extraSpecs": [
-      {
-        "featureId": 944,
-        "name": "Ekran boyutu",
-        "group": "Ekran",
-        "value": "17 cm (6.7\")"
-      },
-      {
-        "featureId": 17554,
-        "name": "Ekran şekli",
-        "group": "Ekran",
-        "value": "Düz"
-      },
-      {
-        "featureId": 46952,
-        "name": "Ekran teknolojisi pazarlama adı",
-        "group": "Ekran",
-        "value": "Süper AMOLED Plus"
-      },
-      {
-        "featureId": 15285,
-        "name": "Panel tipi",
-        "group": "Ekran",
-        "value": "OLED"
-      },
-      {
-        "featureId": 34273,
-        "name": "Ekran cam türü",
-        "group": "Ekran",
-        "value": "Gorilla Glass"
-      },
-      {
-        "featureId": 36711,
-        "name": "Gorilla Glass sürümü",
-        "group": "Ekran",
-        "value": "Gorilla Glass 5"
-      },
-      {
-        "featureId": 1585,
-        "name": "Ekran çözünürlüğü",
-        "group": "Ekran",
-        "value": "2400 x 1080 Piksel"
-      },
-      {
-        "featureId": 24847,
-        "name": "Görüntülenen renk sayısı",
-        "group": "Ekran",
-        "value": "16 milyon renk"
-      },
-      {
-        "featureId": 34,
-        "name": "Kontrast oranı",
-        "group": "Ekran",
-        "value": "1000000:1"
-      },
-      {
-        "featureId": 1389,
-        "name": "Ekran parlaklığı",
-        "group": "Ekran",
-        "value": "420 cd/m²"
-      },
-      {
-        "featureId": 36310,
-        "name": "Yüksek Dinamik Aralık (HDR) destekli",
-        "group": "Ekran",
-        "value": "Evet"
-      },
-      {
-        "featureId": 40712,
-        "name": "Yüksek Dinamik Aralık (HDR) teknolojisi",
-        "group": "Ekran",
-        "value": "High Dynamic Range 10+ (HDR10 Plus)"
-      },
-      {
-        "featureId": 8097,
-        "name": "Dokunmatik ekran türü",
-        "group": "Ekran",
-        "value": "Kapasitif"
-      },
-      {
-        "featureId": 13246,
-        "name": "Piksel yoğunluğu",
-        "group": "Ekran",
-        "value": "393 ppi"
-      },
-      {
-        "featureId": 33690,
-        "name": "Yuvarlatılmış gösterge köşeleri",
-        "group": "Ekran",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2196,
-        "name": "İşlemci ailesi",
-        "group": "İşlemci",
-        "value": "Samsung Exynos"
-      },
-      {
-        "featureId": 47,
-        "name": "İşlemci",
-        "group": "İşlemci",
-        "value": "990"
-      },
-      {
-        "featureId": 6089,
-        "name": "İşlemci Çekirdek Sayısı",
-        "group": "İşlemci",
-        "value": "8"
-      },
-      {
-        "featureId": 11379,
-        "name": "İşlemci frekansı",
-        "group": "İşlemci",
-        "value": "2,7 GHz"
-      },
-      {
-        "featureId": 7861,
-        "name": "RAM kapasitesi",
-        "group": "Depolama birimi",
-        "value": "8 GB"
-      },
-      {
-        "featureId": 12991,
-        "name": "RAM tipi",
-        "group": "Depolama birimi",
-        "value": "LPDDR5"
-      },
-      {
-        "featureId": 8730,
-        "name": "Dahili hafıza",
-        "group": "Depolama birimi",
-        "value": "256 GB"
-      },
-      {
-        "featureId": 3797,
-        "name": "USB yığın bellek",
-        "group": "Depolama birimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 12435,
-        "name": "Arka kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "12 MP"
-      },
-      {
-        "featureId": 27588,
-        "name": "İkinci arka kamera çözünürlüğü (sayısal)",
-        "group": "Kamera",
-        "value": "64 MP"
-      },
-      {
-        "featureId": 35935,
-        "name": "Üçüncü arka kamera çözünürlüğü (sayısal)",
-        "group": "Kamera",
-        "value": "12 MP"
-      },
-      {
-        "featureId": 27597,
-        "name": "Arka kamera açıklığı numarası",
-        "group": "Kamera",
-        "value": "1,8"
-      },
-      {
-        "featureId": 27598,
-        "name": "İkinci arka kamera açıklığı sayısı",
-        "group": "Kamera",
-        "value": "2"
-      },
-      {
-        "featureId": 35936,
-        "name": "Üçüncü arka kamera açıklığı",
-        "group": "Kamera",
-        "value": "2,2"
-      },
-      {
-        "featureId": 36910,
-        "name": "Arka kamera piksel boyutu",
-        "group": "Kamera",
-        "value": "1,8 µm"
-      },
-      {
-        "featureId": 36911,
-        "name": "İkinci arka kamera piksel boyutu",
-        "group": "Kamera",
-        "value": "0,8 µm"
-      },
-      {
-        "featureId": 38691,
-        "name": "Üçüncü arka kamera piksel boyutu",
-        "group": "Kamera",
-        "value": "1,4 µm"
-      },
-      {
-        "featureId": 36916,
-        "name": "Arka kamera görüş alanı (FOV) açısı",
-        "group": "Kamera",
-        "value": "79°"
-      },
-      {
-        "featureId": 36917,
-        "name": "İkinci arka kamera görüş alanı (FOV) açısı",
-        "group": "Kamera",
-        "value": "76°"
-      },
-      {
-        "featureId": 38334,
-        "name": "Üçüncü arka kamera görüş alanı (FOV) açısı",
-        "group": "Kamera",
-        "value": "120°"
-      },
-      {
-        "featureId": 74,
-        "name": "Optik yakınlaştırıcı",
-        "group": "Kamera",
-        "value": "3x"
-      },
-      {
-        "featureId": 48,
-        "name": "Dijital zum",
-        "group": "Kamera",
-        "value": "30x"
-      },
-      {
-        "featureId": 33562,
-        "name": "Ön kamera tipi",
-        "group": "Kamera",
-        "value": "Tek kamera"
-      },
-      {
-        "featureId": 12437,
-        "name": "Ön kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "10 MP"
-      },
-      {
-        "featureId": 27601,
-        "name": "Ön kamera adaptörü sayısı",
-        "group": "Kamera",
-        "value": "2,2"
-      },
-      {
-        "featureId": 36912,
-        "name": "Ön kamera piksel boyutu",
-        "group": "Kamera",
-        "value": "1,22 µm"
-      },
-      {
-        "featureId": 36918,
-        "name": "Ön kamera görüş alanı (FOV) açısı",
-        "group": "Kamera",
-        "value": "80°"
-      },
-      {
-        "featureId": 36602,
-        "name": "Arka kamera flaşı",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6697,
-        "name": "Flaş türü",
-        "group": "Kamera",
-        "value": "LED"
-      },
-      {
-        "featureId": 1597,
-        "name": "Video çekim çözünürlüğü",
-        "group": "Kamera",
-        "value": "7680 x 4320 Piksel"
-      },
-      {
-        "featureId": 7515,
-        "name": "Maksimum çerçeve hızı",
-        "group": "Kamera",
-        "value": "960 fps"
-      },
-      {
-        "featureId": 2963,
-        "name": "Yakalama hızınde çözünürlük",
-        "group": "Kamera",
-        "value": "1280x720@960fps, 1920x1080@240fps"
-      },
-      {
-        "featureId": 8745,
-        "name": "Video kaydetme modu",
-        "group": "Kamera",
-        "value": "720p, 1080p, 2160p"
-      },
-      {
-        "featureId": 27587,
-        "name": "Arka kamera tipi",
-        "group": "Kamera",
-        "value": "Üçlü kamera"
-      },
-      {
-        "featureId": 1614,
-        "name": "Oto fokus",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7114,
-        "name": "Yüz tanıma",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8746,
-        "name": "Video sabitleyici",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1578,
-        "name": "Resim sabitleyici",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8697,
-        "name": "Konum Etiketleme",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9042,
-        "name": "Çoklu çekim",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9043,
-        "name": "Kendinden zamanlama",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2681,
-        "name": "Gece modu",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 40629,
-        "name": "Mobil ağ oluşturma",
-        "group": "Ağ Bağlantıları",
-        "value": "5G"
-      },
-      {
-        "featureId": 9166,
-        "name": "SIM kart türü",
-        "group": "Ağ Bağlantıları",
-        "value": "NanoSIM"
-      },
-      {
-        "featureId": 16923,
-        "name": "3G Standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "WCDMA"
-      },
-      {
-        "featureId": 16922,
-        "name": "4G standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "LTE-TDD & LTE-FDD"
-      },
-      {
-        "featureId": 3239,
-        "name": "Wi-Fi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 432,
-        "name": "Wi-Fi standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax)"
-      },
-      {
-        "featureId": 2183,
-        "name": "Bluetooth",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1208,
-        "name": "Bluetooth versiyonu",
-        "group": "Ağ Bağlantıları",
-        "value": "5.0"
-      },
-      {
-        "featureId": 4133,
-        "name": "Bluetooth profilleri",
-        "group": "Ağ Bağlantıları",
-        "value": "A2DP, AVRCP, HFP, HOGP, HSP, MAP, OPP, PAN, PBAP, SAP"
-      },
-      {
-        "featureId": 41012,
-        "name": "aptX teknolojisi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8367,
-        "name": "3G şeridi destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "850,900,1900,2100 MHz"
-      },
-      {
-        "featureId": 14695,
-        "name": "4G band destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "700,800,850,1800,1900,2100,2300,2500,2600 MHz"
-      },
-      {
-        "featureId": 9097,
-        "name": "İnternet Paylaşımı (Modem modu)",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9779,
-        "name": "Wi-Fi yönlendirme",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 13463,
-        "name": "Miracast",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 27802,
-        "name": "MIMO",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 10157,
-        "name": "Yakın Alan İletişimi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 454,
-        "name": "Güvenlik algoritması destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "HTTPS"
-      },
-      {
-        "featureId": 8578,
-        "name": "Abonelik türü",
-        "group": "Üyelik/abonelik",
-        "value": "Abonelik gerektirmez"
-      },
-      {
-        "featureId": 23798,
-        "name": "USB bağlantı noktası",
-        "group": "Bağlantı",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1742,
-        "name": "USB bağlayıcı",
-        "group": "Bağlantı",
-        "value": "USB C Tipi"
-      },
-      {
-        "featureId": 8541,
-        "name": "USB versiyonu",
-        "group": "Bağlantı",
-        "value": "3.2 Gen 1 (3.1 Gen 1)"
-      },
-      {
-        "featureId": 1901,
-        "name": "Kısa mesaj servisi (SMS)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2180,
-        "name": "Multimedya mesaj servisi (MMS)",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 23802,
-        "name": "E-mail",
-        "group": "Mesajlaşma",
-        "value": "Evet"
-      },
-      {
-        "featureId": 3329,
-        "name": "GPS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 15618,
-        "name": "GLONASS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 28694,
-        "name": "BeiDou",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33685,
-        "name": "Galileo",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 26425,
-        "name": "Konum belirleme",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8742,
-        "name": "Wi-Fi ile konumlandırma",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 771,
-        "name": "Form faktörü",
-        "group": "Tasarım",
-        "value": "Bar"
-      },
-      {
-        "featureId": 1766,
-        "name": "Ürün rengi",
-        "group": "Tasarım",
-        "value": "Gri"
-      },
-      {
-        "featureId": 17956,
-        "name": "Renk adı",
-        "group": "Tasarım",
-        "value": "Mystic Gray"
-      },
-      {
-        "featureId": 8072,
-        "name": "Koruma özellikleri",
-        "group": "Tasarım",
-        "value": "Toza dayanıklı, Su geçirmez"
-      },
-      {
-        "featureId": 4981,
-        "name": "Hızlı şarj",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 12148,
-        "name": "Kablosuz şarj olma",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 3577,
-        "name": "Parmak izi okuyucu",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 10935,
-        "name": "Yüz tanıma",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1805,
-        "name": "Eller Serbest (HandsFree)",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 2684,
-        "name": "Sesli arama",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6630,
-        "name": "Sesle Kontrol",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 3541,
-        "name": "Titreşimli Alarm",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1024,
-        "name": "Hoparlörler",
-        "group": "Multimedya",
-        "value": "Stereo"
-      },
-      {
-        "featureId": 442,
-        "name": "Dahili ses",
-        "group": "Multimedya",
-        "value": "Dolby Atmos"
-      },
-      {
-        "featureId": 2224,
-        "name": "Desteklenen ses formatları",
-        "group": "Multimedya",
-        "value": "3GA, AAC, APE, AWB, DFF, DSF, FLAC, IMY, M4A, Orta, MIDI, MP3, MXMF, OGA, OGG, OTA, RTTTL, RTX, WAV, WMA, XMF"
-      },
-      {
-        "featureId": 6893,
-        "name": "Desteklenen video formatları",
-        "group": "Multimedya",
-        "value": "3G2, 3GP, ASF, AVI, FLV, M4V, MKV, MP4, WEBM, WMV"
-      },
-      {
-        "featureId": 1809,
-        "name": "Ses kodekleri",
-        "group": "Multimedya",
-        "value": "AMR-NB, AMR-WB, EFR, FR"
-      },
-      {
-        "featureId": 75,
-        "name": "Platform",
-        "group": "Yazılım",
-        "value": "Android"
-      },
-      {
-        "featureId": 3233,
-        "name": "İşletim sistemi yazılımı",
-        "group": "Yazılım",
-        "value": "Android 10"
-      },
-      {
-        "featureId": 42058,
-        "name": "Uygulama dağıtım platformu",
-        "group": "Yazılım",
-        "value": "Google Play"
-      },
-      {
-        "featureId": 9780,
-        "name": "Google uygulamaları desteği",
-        "group": "Yazılım",
-        "value": "Google Maps, Google Play"
-      },
-      {
-        "featureId": 31445,
-        "name": "Sanal asistan",
-        "group": "Yazılım",
-        "value": "Samsung Bixby"
-      },
-      {
-        "featureId": 4858,
-        "name": "Pil voltajı",
-        "group": "Batarya",
-        "value": "3,88 V"
-      },
-      {
-        "featureId": 1535,
-        "name": "Pilin yeniden şarj edilme süresi",
-        "group": "Batarya",
-        "value": "1,16 Saat"
-      },
-      {
-        "featureId": 38310,
-        "name": "Kablosuz Güç Paylaşımı",
-        "group": "Batarya",
-        "value": "Evet"
-      },
-      {
-        "featureId": 18096,
-        "name": "Çıkarılabilir pil",
-        "group": "Batarya",
-        "value": "Hayir"
-      },
-      {
-        "featureId": 909,
-        "name": "Pil performansı",
-        "group": "Batarya",
-        "value": "4300 mAh"
-      },
-      {
-        "featureId": 8698,
-        "name": "Yakınlık sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9731,
-        "name": "Hız ölçer",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8720,
-        "name": "Çevre ışığı sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9732,
-        "name": "Jiroskop",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 7609,
-        "name": "Barometre",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 38331,
-        "name": "Jeomanyetik sensör",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 38333,
-        "name": "Hall sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 48505,
-        "name": "USB Type-C şarj portu",
-        "group": "Enerji yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 48507,
-        "name": "Gerekli şarj gücü (maks.)",
-        "group": "Enerji yönetimi",
-        "value": "25 W"
-      },
-      {
-        "featureId": 42930,
-        "name": "Onarılabilirlik indeksi",
-        "group": "Dayanıklılık",
-        "value": "8.0"
-      },
-      {
-        "featureId": 7900,
-        "name": "Uluslar arası koruma kodu",
-        "group": "Dayanıklılık",
-        "value": "IP68"
-      },
-      {
-        "featureId": 1649,
-        "name": "Genişlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "75,2 mm"
-      },
-      {
-        "featureId": 1650,
-        "name": "Derinlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "8,3 mm"
-      },
-      {
-        "featureId": 1464,
-        "name": "Yükseklik",
-        "group": "Ağırlık & boyutlar",
-        "value": "161,6 mm"
-      },
-      {
-        "featureId": 94,
-        "name": "Ağırlık",
-        "group": "Ağırlık & boyutlar",
-        "value": "192 g"
-      },
-      {
-        "featureId": 1230,
-        "name": "AC sarma adaptör",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 3981,
-        "name": "Hızlı başlangıç rehberi",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1830,
-        "name": "Pakete dahil kablolar",
-        "group": "Paket içeriği",
-        "value": "USB C Tipi"
-      },
-      {
-        "featureId": 9220,
-        "name": "Pakete dahil kulaklık",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 10399,
-        "name": "İğne dahil",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 35264,
-        "name": "İtici pim",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 17669,
-        "name": "Baş SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "0,684 W/kg"
-      },
-      {
-        "featureId": 17670,
-        "name": "Vücut SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "1,368 W/kg"
-      },
-      {
-        "featureId": 41625,
-        "name": "Kollar ve Bacaklar için SAR oranı (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "2,27 W/kg"
-      },
-      {
-        "featureId": 4963,
-        "name": "Dokunmatik ekran",
-        "group": "Diğer özellikler",
-        "value": "Evet"
-      }
-    ]
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "screen.size",
+        "screen.type",
+        "screen.resolution",
+        "screen.refreshRate",
+        "screen.ppi",
+        "screen.brightnessNits",
+        "processor.chip",
+        "processor.cores",
+        "processor.process",
+        "processor.antutuScore",
+        "memory.ramGb",
+        "memory.ramType",
+        "memory.storageGb",
+        "memory.expandableStorage",
+        "camera.mainMp",
+        "camera.ultrawideMp",
+        "camera.telephotoMp",
+        "camera.selfieMp",
+        "camera.videoRes",
+        "camera.dxomarkScore",
+        "battery.capacitymAh",
+        "battery.chargingWatts",
+        "battery.wirelessCharging",
+        "battery.reverseWireless",
+        "connectivity.has5G",
+        "connectivity.wifiStandard",
+        "connectivity.bluetooth",
+        "connectivity.hasNFC",
+        "connectivity.hasesim",
+        "build.weightGrams",
+        "build.thicknessMm",
+        "build.waterResistance",
+        "build.frameMaterial",
+        "software.osName"
+      ],
+      "note": "Bu ürün için 4G/5G varyant kimliği aktarım öncesi bağımsız kanıtla doğrulanamadığından 5G varyant kaynağından gelen veriler izole edilmiştir; doğrulama beklenmektedir."
+    }
   },
   {
     "id": "samsung-samsung-galaxy-note-20-ultra-37",
@@ -76871,9 +74534,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "4032 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
+        "mainMp": "12 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -77761,7 +75422,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-z-fold-2-39",
@@ -78225,8 +75893,6 @@
       },
       "camera": {
         "mainMp": "48 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "2 MP",
         "selfieMp": "13 MP",
         "videoRes": "1080p",
         "dxomarkScore": 118
@@ -78898,7 +76564,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a31-42",
@@ -79195,8 +76868,6 @@
       },
       "camera": {
         "mainMp": "48 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "5 MP",
         "selfieMp": "25 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
@@ -79796,7 +77467,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a51-44",
@@ -80742,8 +78420,6 @@
       },
       "camera": {
         "mainMp": "64 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "5 MP",
         "selfieMp": "32 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
@@ -81277,7 +78953,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s21-50",
@@ -81734,8 +79417,6 @@
       },
       "camera": {
         "mainMp": "108 MP",
-        "ultrawideMp": "10 MP",
-        "telephotoMp": "10 MP",
         "selfieMp": "40 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -82587,7 +80268,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s21-fe-53",
@@ -82719,9 +80407,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "3000 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "8 MP",
+        "mainMp": "12 MP",
         "selfieMp": "32 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -83371,7 +81057,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-z-flip-3-54",
@@ -83504,9 +81197,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "3000 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
+        "mainMp": "12 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -84328,7 +82019,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-z-fold-3-55",
@@ -84788,8 +82486,6 @@
       },
       "camera": {
         "mainMp": "48 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "2 MP",
         "selfieMp": "8 MP",
         "videoRes": "1080p",
         "dxomarkScore": 118
@@ -85443,7 +83139,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a22-58",
@@ -85577,8 +83280,6 @@
       },
       "camera": {
         "mainMp": "48 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "Yok",
         "selfieMp": "13 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
@@ -86088,7 +83789,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a32-59",
@@ -86221,9 +83929,7 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "9248 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "5 MP",
+        "mainMp": "64 MP",
         "selfieMp": "20 MP",
         "videoRes": "720p, 1080p",
         "dxomarkScore": 118
@@ -86841,7 +84547,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a52-60",
@@ -86975,9 +84688,7 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "9248 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "5 MP",
+        "mainMp": "64 MP",
         "selfieMp": "32 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 118
@@ -87613,7 +85324,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a52s-5g-61",
@@ -87747,9 +85465,7 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "6936 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "5 MP",
+        "mainMp": "64 MP",
         "selfieMp": "32 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 118
@@ -88439,7 +86155,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a72-62",
@@ -89059,8 +86782,6 @@
       },
       "camera": {
         "mainMp": "64 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "5 MP",
         "selfieMp": "32 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
@@ -89576,7 +87297,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s22-66",
@@ -89709,9 +87437,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "6120 MP",
-        "ultrawideMp": "10 MP",
-        "telephotoMp": "12 MP",
+        "mainMp": "50 MP",
         "selfieMp": "10 MP",
         "videoRes": "2160p, 4320p",
         "dxomarkScore": 154
@@ -90491,7 +88217,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s22-67",
@@ -90624,9 +88357,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "6120 MP",
-        "ultrawideMp": "10 MP",
-        "telephotoMp": "12 MP",
+        "mainMp": "50 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p, 4320p",
         "dxomarkScore": 154
@@ -91388,7 +89119,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s22-ultra-68",
@@ -91703,8 +89441,6 @@
       },
       "camera": {
         "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -92460,7 +90196,14 @@
         "group": "Özgül soğurma oranı (SAR)",
         "value": "2,75 W/kg"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-z-fold-4-70",
@@ -92594,8 +90337,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "10 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p, 4320p",
         "dxomarkScore": 154
@@ -93525,7 +91266,14 @@
         "group": "Teknik detaylar",
         "value": "31 August 2027"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a13-71",
@@ -93660,8 +91408,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "2 MP",
         "selfieMp": "8 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
@@ -94153,7 +91899,14 @@
         "group": "Diğer özellikler",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a23-72",
@@ -94450,10 +92203,8 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "3840 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "5 MP",
-        "selfieMp": "3840 MP",
+        "mainMp": "48 MP",
+        "selfieMp": "13 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
       },
@@ -95400,7 +93151,14 @@
         "group": "Teknik detaylar",
         "value": "31 March 2027"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a53-5g-74",
@@ -95534,8 +93292,6 @@
       },
       "camera": {
         "mainMp": "64 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "5 MP",
         "selfieMp": "32 MP",
         "videoRes": "2160p",
         "dxomarkScore": 118
@@ -96465,7 +94221,14 @@
         "group": "Teknik detaylar",
         "value": "31 March 2027"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a73-5g-75",
@@ -97444,8 +95207,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "10 MP",
-        "telephotoMp": "12 MP",
         "selfieMp": "12 MP",
         "videoRes": "2160p, 4320p, 720p, 1080p",
         "dxomarkScore": 154
@@ -98059,7 +95820,14 @@
         "group": "Ambalajlama bilgisi",
         "value": "320 g"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s23-81",
@@ -98192,8 +95960,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "10 MP",
-        "telephotoMp": "12 MP",
         "selfieMp": "12 MP",
         "videoRes": "2160p, 4320p, 720p, 1080p",
         "dxomarkScore": 154
@@ -98789,7 +96555,14 @@
         "group": "Ağırlık & boyutlar",
         "value": "195 g"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s23-ultra-82",
@@ -98927,8 +96700,6 @@
       },
       "camera": {
         "mainMp": "200 MP",
-        "ultrawideMp": "10 MP",
-        "telephotoMp": "12 MP",
         "selfieMp": "12 MP",
         "videoRes": "720p, 1080p, 2160p, 4320p",
         "dxomarkScore": 154
@@ -99618,7 +97389,14 @@
         "group": "Paket içeriği",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s23-fe-83",
@@ -99756,8 +97534,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "8 MP",
         "selfieMp": "10 MP",
         "videoRes": "8K @ 30fps",
         "dxomarkScore": 154
@@ -100353,7 +98129,14 @@
         "group": "Ambalajlama bilgisi",
         "value": "355 g"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-z-flip-5-84",
@@ -100490,9 +98273,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "3000 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
+        "mainMp": "12 MP",
         "selfieMp": "10 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 154
@@ -101284,7 +99065,14 @@
         "group": "Paket içeriği",
         "value": "Hayir"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-z-fold-5-85",
@@ -101561,651 +99349,62 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.6 inç",
-        "type": "PLS",
-        "resolution": "1080 x 2408",
-        "refreshRate": 90,
-        "ppi": 390,
-        "brightnessNits": 1000,
         "brightnessTypicalNits": 1000
       },
-      "processor": {
-        "chip": "Helio G80 / Exynos 850",
-        "cores": "8 Çekirdek",
-        "process": "4nm",
-        "antutuScore": 750000
-      },
+      "processor": {},
       "memory": {
-        "ramGb": 4,
-        "ramType": "LPDDR5X",
-        "storageGb": 64,
         "storageOptions": [
           64
-        ],
-        "expandableStorage": true
+        ]
       },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "2 MP",
-        "telephotoMp": "2 MP",
-        "selfieMp": "13 MP",
-        "videoRes": "720p, 1080p",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 5 (802.11ac)",
-        "bluetooth": "5.2",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 205,
-        "thicknessMm": 9.1,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
+      "camera": {},
+      "battery": {},
+      "connectivity": {},
+      "build": {},
       "software": {
-        "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
     },
-    "extraSpecs": [
-      {
-        "featureId": 944,
-        "name": "Ekran boyutu",
-        "group": "Ekran",
-        "value": "16,8 cm (6.6\")"
-      },
-      {
-        "featureId": 17554,
-        "name": "Ekran şekli",
-        "group": "Ekran",
-        "value": "Düz"
-      },
-      {
-        "featureId": 15285,
-        "name": "Panel tipi",
-        "group": "Ekran",
-        "value": "PLS"
-      },
-      {
-        "featureId": 1585,
-        "name": "Ekran çözünürlüğü",
-        "group": "Ekran",
-        "value": "1080 x 2408 Piksel"
-      },
-      {
-        "featureId": 24847,
-        "name": "Görüntülenen renk sayısı",
-        "group": "Ekran",
-        "value": "16 milyon renk"
-      },
-      {
-        "featureId": 7450,
-        "name": "Maksimum yenileme hızı",
-        "group": "Ekran",
-        "value": "90 Hz"
-      },
-      {
-        "featureId": 6089,
-        "name": "İşlemci Çekirdek Sayısı",
-        "group": "İşlemci",
-        "value": "8"
-      },
-      {
-        "featureId": 11379,
-        "name": "İşlemci frekansı",
-        "group": "İşlemci",
-        "value": "2 GHz"
-      },
-      {
-        "featureId": 7978,
-        "name": "İşlemci destek frekansı",
-        "group": "İşlemci",
-        "value": "2,2 GHz"
-      },
-      {
-        "featureId": 13908,
-        "name": "Kullanıcı belleği",
-        "group": "Depolama birimi",
-        "value": "46,1 GB"
-      },
-      {
-        "featureId": 7861,
-        "name": "RAM kapasitesi",
-        "group": "Depolama birimi",
-        "value": "4 GB"
-      },
-      {
-        "featureId": 8730,
-        "name": "Dahili hafıza",
-        "group": "Depolama birimi",
-        "value": "64 GB"
-      },
-      {
-        "featureId": 730,
-        "name": "Uyumlu hafıza kartları",
-        "group": "Depolama birimi",
-        "value": "MicroSD (TransFlash)"
-      },
-      {
-        "featureId": 7021,
-        "name": "Maksimum Hafıza kartı büyüklüğü",
-        "group": "Depolama birimi",
-        "value": "1 TB"
-      },
-      {
-        "featureId": 33517,
-        "name": "Bellek kartı yuva türü",
-        "group": "Depolama birimi",
-        "value": "Özel yuva"
-      },
-      {
-        "featureId": 12435,
-        "name": "Arka kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "50 MP"
-      },
-      {
-        "featureId": 27588,
-        "name": "İkinci arka kamera çözünürlüğü (sayısal)",
-        "group": "Kamera",
-        "value": "2 MP"
-      },
-      {
-        "featureId": 35935,
-        "name": "Üçüncü arka kamera çözünürlüğü (sayısal)",
-        "group": "Kamera",
-        "value": "2 MP"
-      },
-      {
-        "featureId": 37533,
-        "name": "Dördüncü arka kamera çözünürlüğü (nümerik)",
-        "group": "Kamera",
-        "value": "50 MP"
-      },
-      {
-        "featureId": 27597,
-        "name": "Arka kamera açıklığı numarası",
-        "group": "Kamera",
-        "value": "1,8"
-      },
-      {
-        "featureId": 27598,
-        "name": "İkinci arka kamera açıklığı sayısı",
-        "group": "Kamera",
-        "value": "2,4"
-      },
-      {
-        "featureId": 35936,
-        "name": "Üçüncü arka kamera açıklığı",
-        "group": "Kamera",
-        "value": "2,4"
-      },
-      {
-        "featureId": 48,
-        "name": "Dijital zum",
-        "group": "Kamera",
-        "value": "10x"
-      },
-      {
-        "featureId": 33562,
-        "name": "Ön kamera tipi",
-        "group": "Kamera",
-        "value": "Tek kamera"
-      },
-      {
-        "featureId": 12437,
-        "name": "Ön kamera çözünürlüğü",
-        "group": "Kamera",
-        "value": "13 MP"
-      },
-      {
-        "featureId": 27601,
-        "name": "Ön kamera adaptörü sayısı",
-        "group": "Kamera",
-        "value": "2"
-      },
-      {
-        "featureId": 36602,
-        "name": "Arka kamera flaşı",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 6697,
-        "name": "Flaş türü",
-        "group": "Kamera",
-        "value": "LED"
-      },
-      {
-        "featureId": 1597,
-        "name": "Video çekim çözünürlüğü",
-        "group": "Kamera",
-        "value": "1920 x 1080 Piksel"
-      },
-      {
-        "featureId": 7515,
-        "name": "Maksimum çerçeve hızı",
-        "group": "Kamera",
-        "value": "30 fps"
-      },
-      {
-        "featureId": 2963,
-        "name": "Yakalama hızınde çözünürlük",
-        "group": "Kamera",
-        "value": "1280x720@120fps, 1920x1080@30fps"
-      },
-      {
-        "featureId": 8745,
-        "name": "Video kaydetme modu",
-        "group": "Kamera",
-        "value": "720p, 1080p"
-      },
-      {
-        "featureId": 27587,
-        "name": "Arka kamera tipi",
-        "group": "Kamera",
-        "value": "Üçlü kamera"
-      },
-      {
-        "featureId": 1614,
-        "name": "Oto fokus",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 472,
-        "name": "Yakınlaştırma yeteneği",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 48209,
-        "name": "Ağır çekim modu",
-        "group": "Kamera",
-        "value": "Evet"
-      },
-      {
-        "featureId": 48210,
-        "name": "Ağır çekim hızı",
-        "group": "Kamera",
-        "value": "120fps @HD"
-      },
-      {
-        "featureId": 19653,
-        "name": "Sim Kart Yeterliliği",
-        "group": "Ağ Bağlantıları",
-        "value": "Çift SIM"
-      },
-      {
-        "featureId": 40629,
-        "name": "Mobil ağ oluşturma",
-        "group": "Ağ Bağlantıları",
-        "value": "5G"
-      },
-      {
-        "featureId": 9166,
-        "name": "SIM kart türü",
-        "group": "Ağ Bağlantıları",
-        "value": "NanoSIM"
-      },
-      {
-        "featureId": 16924,
-        "name": "2G standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "GSM"
-      },
-      {
-        "featureId": 16923,
-        "name": "3G Standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "WCDMA"
-      },
-      {
-        "featureId": 16922,
-        "name": "4G standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "LTE-TDD & LTE-FDD"
-      },
-      {
-        "featureId": 45981,
-        "name": "Standart 5G",
-        "group": "Ağ Bağlantıları",
-        "value": "Sub6 TDD"
-      },
-      {
-        "featureId": 24993,
-        "name": "Wi-Fi standardı",
-        "group": "Ağ Bağlantıları",
-        "value": "Wi-Fi 5 (802.11ac)"
-      },
-      {
-        "featureId": 3239,
-        "name": "Wi-Fi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 432,
-        "name": "Wi-Fi standartları",
-        "group": "Ağ Bağlantıları",
-        "value": "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac)"
-      },
-      {
-        "featureId": 2183,
-        "name": "Bluetooth",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1208,
-        "name": "Bluetooth versiyonu",
-        "group": "Ağ Bağlantıları",
-        "value": "5.2"
-      },
-      {
-        "featureId": 7061,
-        "name": "2G bandı (Ana SIM)",
-        "group": "Ağ Bağlantıları",
-        "value": "850,1900,1800,900 MHz"
-      },
-      {
-        "featureId": 8367,
-        "name": "3G şeridi destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "2100,900,1900,850,1700 MHz"
-      },
-      {
-        "featureId": 14695,
-        "name": "4G band destekli",
-        "group": "Ağ Bağlantıları",
-        "value": "2100,700,800,1900,850,1800,2300,2600,900,1700,2500 MHz"
-      },
-      {
-        "featureId": 42369,
-        "name": "5G bant desteklenir",
-        "group": "Ağ Bağlantıları",
-        "value": "2100,700,800,850,1800,2600,900,2300,2500,3700,3500 MHz"
-      },
-      {
-        "featureId": 9779,
-        "name": "Wi-Fi yönlendirme",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 10157,
-        "name": "Yakın Alan İletişimi",
-        "group": "Ağ Bağlantıları",
-        "value": "Evet"
-      },
-      {
-        "featureId": 23798,
-        "name": "USB bağlantı noktası",
-        "group": "Bağlantı",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1742,
-        "name": "USB bağlayıcı",
-        "group": "Bağlantı",
-        "value": "USB C Tipi"
-      },
-      {
-        "featureId": 8541,
-        "name": "USB versiyonu",
-        "group": "Bağlantı",
-        "value": "2.0"
-      },
-      {
-        "featureId": 4163,
-        "name": "Kulaklık bağlantısı",
-        "group": "Bağlantı",
-        "value": "3,5 mm"
-      },
-      {
-        "featureId": 14783,
-        "name": "Mobil Yüksek Çözünürlüklü Bağlantı (MHL)",
-        "group": "Bağlantı",
-        "value": "Hayir"
-      },
-      {
-        "featureId": 3329,
-        "name": "GPS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 15618,
-        "name": "GLONASS",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 28694,
-        "name": "BeiDou",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33685,
-        "name": "Galileo",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 33686,
-        "name": "Yarı-Zenit Uydu Sistemi (QZSS)",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 26425,
-        "name": "Konum belirleme",
-        "group": "Navigasyon",
-        "value": "Evet"
-      },
-      {
-        "featureId": 771,
-        "name": "Form faktörü",
-        "group": "Tasarım",
-        "value": "Bar"
-      },
-      {
-        "featureId": 1766,
-        "name": "Ürün rengi",
-        "group": "Tasarım",
-        "value": "Siyah"
-      },
-      {
-        "featureId": 3577,
-        "name": "Parmak izi okuyucu",
-        "group": "Performans",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1024,
-        "name": "Hoparlörler",
-        "group": "Multimedya",
-        "value": "Tek"
-      },
-      {
-        "featureId": 2224,
-        "name": "Desteklenen ses formatları",
-        "group": "Multimedya",
-        "value": "3GA, AAC, AMR, AWB, FLAC, IMY, M4A, Orta, MIDI, MP3, MXMF, OGA, OGG, OTA, RTTTL, RTX, WAV, XMF"
-      },
-      {
-        "featureId": 6893,
-        "name": "Desteklenen video formatları",
-        "group": "Multimedya",
-        "value": "3G2, 3GP, AVI, FLV, M4V, MKV, MP4, WEBM"
-      },
-      {
-        "featureId": 75,
-        "name": "Platform",
-        "group": "Yazılım",
-        "value": "Android"
-      },
-      {
-        "featureId": 18096,
-        "name": "Çıkarılabilir pil",
-        "group": "Batarya",
-        "value": "Hayir"
-      },
-      {
-        "featureId": 909,
-        "name": "Pil performansı",
-        "group": "Batarya",
-        "value": "5000 mAh"
-      },
-      {
-        "featureId": 18111,
-        "name": "Konuşma süresi (4G) (max)",
-        "group": "Batarya",
-        "value": "52 Saat"
-      },
-      {
-        "featureId": 15264,
-        "name": "İnternet Kullanımı (WiFi) (max)",
-        "group": "Batarya",
-        "value": "22 Saat"
-      },
-      {
-        "featureId": 15266,
-        "name": "İnternet Kullanımı (4G) (max)",
-        "group": "Batarya",
-        "value": "22 Saat"
-      },
-      {
-        "featureId": 2169,
-        "name": "Müzik Oynatma",
-        "group": "Batarya",
-        "value": "128 Saat"
-      },
-      {
-        "featureId": 2173,
-        "name": "Sürekli video pleybek süresi (max)",
-        "group": "Batarya",
-        "value": "21 Saat"
-      },
-      {
-        "featureId": 8698,
-        "name": "Yakınlık sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9731,
-        "name": "Hız ölçer",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 8720,
-        "name": "Çevre ışığı sensörü",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 9732,
-        "name": "Jiroskop",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 38331,
-        "name": "Jeomanyetik sensör",
-        "group": "Sensörler",
-        "value": "Evet"
-      },
-      {
-        "featureId": 48505,
-        "name": "USB Type-C şarj portu",
-        "group": "Enerji yönetimi",
-        "value": "Evet"
-      },
-      {
-        "featureId": 42930,
-        "name": "Onarılabilirlik indeksi",
-        "group": "Dayanıklılık",
-        "value": "8.8"
-      },
-      {
-        "featureId": 1649,
-        "name": "Genişlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "78 mm"
-      },
-      {
-        "featureId": 1650,
-        "name": "Derinlik",
-        "group": "Ağırlık & boyutlar",
-        "value": "9,1 mm"
-      },
-      {
-        "featureId": 1464,
-        "name": "Yükseklik",
-        "group": "Ağırlık & boyutlar",
-        "value": "167,7 mm"
-      },
-      {
-        "featureId": 94,
-        "name": "Ağırlık",
-        "group": "Ağırlık & boyutlar",
-        "value": "205 g"
-      },
-      {
-        "featureId": 3981,
-        "name": "Hızlı başlangıç rehberi",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 1830,
-        "name": "Pakete dahil kablolar",
-        "group": "Paket içeriği",
-        "value": "USB C Tipi"
-      },
-      {
-        "featureId": 35264,
-        "name": "İtici pim",
-        "group": "Paket içeriği",
-        "value": "Evet"
-      },
-      {
-        "featureId": 17669,
-        "name": "Baş SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "1,19 W/kg"
-      },
-      {
-        "featureId": 17670,
-        "name": "Vücut SAR değeri (AB)",
-        "group": "Özgül soğurma oranı (SAR)",
-        "value": "1,19 W/kg"
-      },
-      {
-        "featureId": 890,
-        "name": "Uyumluluk",
-        "group": "Diğer özellikler",
-        "value": "Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds2, Galaxy Buds, Galaxy Fit2, Galaxy Fit e, Galaxy Fit, Galaxy Watch5, Galaxy Watch4, Galaxy Watch3, Galaxy Watch, Galaxy Watch Active2, Galaxy Watch Active, Gear Fit2 Pro, Gear Fit2, Gear Sport, Gear S3, Gear S2"
-      },
-      {
-        "featureId": 45537,
-        "name": "Güvenlik güncellemesi süresi",
-        "group": "Teknik detaylar",
-        "value": "31 January 2027"
-      }
-    ]
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "screen.size",
+        "screen.type",
+        "screen.resolution",
+        "screen.refreshRate",
+        "screen.ppi",
+        "screen.brightnessNits",
+        "processor.chip",
+        "processor.cores",
+        "processor.process",
+        "processor.antutuScore",
+        "memory.ramGb",
+        "memory.ramType",
+        "memory.storageGb",
+        "memory.expandableStorage",
+        "camera.mainMp",
+        "camera.ultrawideMp",
+        "camera.telephotoMp",
+        "camera.selfieMp",
+        "camera.videoRes",
+        "camera.dxomarkScore",
+        "battery.capacitymAh",
+        "battery.chargingWatts",
+        "battery.wirelessCharging",
+        "battery.reverseWireless",
+        "connectivity.has5G",
+        "connectivity.wifiStandard",
+        "connectivity.bluetooth",
+        "connectivity.hasNFC",
+        "connectivity.hasesim",
+        "build.weightGrams",
+        "build.thicknessMm",
+        "build.waterResistance",
+        "build.frameMaterial",
+        "software.osName"
+      ],
+      "note": "Bu ürün için 4G/5G varyant kimliği aktarım öncesi bağımsız kanıtla doğrulanamadığından 5G varyant kaynağından gelen veriler izole edilmiştir; doğrulama beklenmektedir."
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a24-87",
@@ -102501,9 +99700,7 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "6000 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "5 MP",
+        "mainMp": "48 MP",
         "selfieMp": "13 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 118
@@ -103291,7 +100488,14 @@
         "group": "Paket içeriği",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a54-5g-89",
@@ -104330,8 +101534,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "10 MP",
-        "telephotoMp": "12 MP",
         "selfieMp": "12 MP",
         "videoRes": "720p, 1080p, 2160p, 4320p",
         "dxomarkScore": 154
@@ -104955,7 +102157,14 @@
         "group": "Paket içeriği",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-s24-ultra-95",
@@ -106098,8 +103307,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "2 MP",
         "selfieMp": "13 MP",
         "videoRes": "720p, 1080p",
         "dxomarkScore": 118
@@ -106827,7 +104034,14 @@
         "group": "Teknik detaylar",
         "value": "31 January 2029"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a25-5g-101",
@@ -106966,8 +104180,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "2 MP",
         "selfieMp": "13 MP",
         "videoRes": "720p, 1080p, 2160p",
         "dxomarkScore": 118
@@ -107701,7 +104913,14 @@
         "group": "Teknik detaylar",
         "value": "31 January 2029"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a35-5g-102",
@@ -107836,8 +105055,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "8 MP",
-        "telephotoMp": "5 MP",
         "selfieMp": "13 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
@@ -108667,7 +105884,14 @@
         "group": "Teknik detaylar",
         "value": "31 March 2028"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a55-5g-103",
@@ -111694,8 +108918,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "5 MP",
-        "telephotoMp": "2 MP",
         "selfieMp": "13 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
@@ -112367,7 +109589,14 @@
         "group": "Teknik detaylar",
         "value": "31 October 2030"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-samsung-galaxy-a26-5g-115",
@@ -118102,8 +115331,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "10 MP",
         "selfieMp": "12 MP",
         "videoRes": "4320p, 2160p, 1080p, 720p"
       },
@@ -119142,7 +116369,14 @@
         "group": "Paket içeriği",
         "value": "Evet"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-galaxy-s25-ultra",
@@ -120130,8 +117364,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
         "selfieMp": "12 MP",
         "videoRes": "8K @30fps, 4K @120fps"
       },
@@ -120535,7 +117767,14 @@
         "group": "Ağırlık & boyutlar",
         "value": "196 g"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-galaxy-a57-5g",
@@ -120861,8 +118100,6 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
         "selfieMp": "12 MP",
         "videoRes": "8K @30fps, 4K @120fps"
       },
@@ -121266,7 +118503,14 @@
         "group": "Ağırlık & boyutlar",
         "value": "196 g"
       }
-    ]
+    ],
+    "specVerification": {
+      "status": "UNVERIFIED",
+      "unresolvedFields": [
+        "camera.ultrawideMp",
+        "camera.telephotoMp"
+      ]
+    }
   },
   {
     "id": "samsung-galaxy-a17-5g",

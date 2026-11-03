@@ -7,6 +7,7 @@
 
 import { ShoppingIntent } from './types';
 import rawSmartphones from '@/lib/smartphonesData.json';
+import { hasUnresolvedSpecField } from '@/lib/specVerification';
 
 export interface CatalogProduct {
   id: string;
@@ -139,14 +140,16 @@ export class CandidateEngine {
   }
 
   public static extractStorageGb(p: CatalogProduct): number | null {
-    if (p.specs?.storageGb) return Number(p.specs.storageGb);
-    if (p.specs?.memory?.storageGb) return Number(p.specs.memory.storageGb);
-    if (p.specs?.storage) {
-      const m = String(p.specs.storage).match(/(\d+)\s*(?:gb|tb)/i);
-      if (m) {
-        let v = parseInt(m[1], 10);
-        if (String(p.specs.storage).toLowerCase().includes('tb')) v *= 1024;
-        return v;
+    if (!hasUnresolvedSpecField(p as any, ['memory.storageGb', 'storageGb', 'storage'])) {
+      if (p.specs?.storageGb) return Number(p.specs.storageGb);
+      if (p.specs?.memory?.storageGb) return Number(p.specs.memory.storageGb);
+      if (p.specs?.storage) {
+        const m = String(p.specs.storage).match(/(\d+)\s*(?:gb|tb)/i);
+        if (m) {
+          let v = parseInt(m[1], 10);
+          if (String(p.specs.storage).toLowerCase().includes('tb')) v *= 1024;
+          return v;
+        }
       }
     }
     const nameMatch = p.name.match(/(\d+)\s*(GB|TB)/i) || p.id.match(/(\d+)-(?:gb|tb)/i);

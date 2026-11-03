@@ -11,6 +11,7 @@ import { TrustEngine } from './trustEngine';
 import { BuyWaitEngine } from './buyWaitEngine';
 import { ClassicalOptimizer } from './optimizer/classicalOptimizer';
 import { OptimizationEngine } from './optimizer/optimizationEngine';
+import { hasUnresolvedSpecField } from '@/lib/specVerification';
 
 export class RecommendationEngine {
   private optimizer: OptimizationEngine;
@@ -162,15 +163,21 @@ export class RecommendationEngine {
   }
 
   private computeCameraScore(p: CatalogProduct): number {
+    if (hasUnresolvedSpecField(p as any, ['camera.mainMp', 'rearCameraMp'])) {
+      return 65;
+    }
     const rawMp = p.specs?.rearCameraMp || p.specs?.camera?.mainMp || 48;
     const mp = typeof rawMp === 'number' ? rawMp : (parseFloat(String(rawMp)) || 48);
     let score = Math.min(95, 50 + (mp / 200) * 40);
-    if (p.specs?.camera?.hasOis || p.specs?.hasOis) score += 5;
+    if (!hasUnresolvedSpecField(p as any, 'camera.hasOis') && (p.specs?.camera?.hasOis || p.specs?.hasOis)) score += 5;
     return Number.isFinite(score) ? score : 75;
   }
 
   private computeBatteryScore(p: CatalogProduct): number {
-    const rawMah = p.specs?.batteryCapacityMah || p.specs?.batteryMah || 5000;
+    if (hasUnresolvedSpecField(p as any, ['battery.capacitymAh', 'batteryCapacityMah', 'batteryMah'])) {
+      return 65;
+    }
+    const rawMah = p.specs?.batteryCapacityMah || p.specs?.batteryMah || p.specs?.battery?.capacitymAh || 5000;
     const mah = typeof rawMah === 'number' ? rawMah : (parseFloat(String(rawMah)) || 5000);
     const score = Math.min(95, 40 + (mah / 6000) * 50);
     return Number.isFinite(score) ? score : 75;
@@ -178,14 +185,21 @@ export class RecommendationEngine {
 
   private computeDisplayScore(p: CatalogProduct): number {
     let score = 70;
-    const type = (p.specs?.displayTechnology || p.specs?.displayType || '').toLowerCase();
-    if (type.includes('amoled') || type.includes('oled')) score += 15;
-    const hz = parseFloat(String(p.specs?.refreshRateHz || 60)) || 60;
-    if (hz >= 120) score += 10;
+    if (!hasUnresolvedSpecField(p as any, ['screen.type', 'displayTechnology', 'displayType'])) {
+      const type = (p.specs?.displayTechnology || p.specs?.displayType || p.specs?.screen?.type || '').toLowerCase();
+      if (type.includes('amoled') || type.includes('oled')) score += 15;
+    }
+    if (!hasUnresolvedSpecField(p as any, ['screen.refreshRate', 'refreshRateHz'])) {
+      const hz = parseFloat(String(p.specs?.refreshRateHz || p.specs?.screen?.refreshRate || 60)) || 60;
+      if (hz >= 120) score += 10;
+    }
     return Math.min(95, score);
   }
 
   private computePerformanceScore(p: CatalogProduct): number {
+    if (hasUnresolvedSpecField(p as any, ['memory.ramGb', 'ramGb'])) {
+      return 65;
+    }
     const rawRam = p.specs?.ramGb || p.specs?.memory?.ramGb || 8;
     const ram = typeof rawRam === 'number' ? rawRam : (parseFloat(String(rawRam)) || 8);
     const score = Math.min(95, 40 + (ram / 16) * 50);

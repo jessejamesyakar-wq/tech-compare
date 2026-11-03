@@ -277,7 +277,7 @@ export default function PhoneDetailClient({
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-4 border-t border-slate-100 text-center text-xs">
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">Ekran</span>
-              <span className="text-slate-900 font-bold">{phoneSpecText(phone.specs, 'screen.size')}</span>
+              <span className="text-slate-900 font-bold">{hasUnresolvedSpecField(phone, 'screen.size') ? 'Doğrulama bekliyor' : phoneSpecText(phone.specs, 'screen.size')}</span>
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">RAM</span>
@@ -285,11 +285,11 @@ export default function PhoneDetailClient({
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">AnTuTu</span>
-              <span className="text-emerald-600 font-bold">{phone.specs?.processor?.antutuScore ? phone.specs.processor.antutuScore.toLocaleString('tr-TR') : 'Bilinmiyor'}</span>
+              <span className="text-emerald-600 font-bold">{hasUnresolvedSpecField(phone, 'processor.antutuScore') ? 'Doğrulama bekliyor' : (phone.specs?.processor?.antutuScore ? phone.specs.processor.antutuScore.toLocaleString('tr-TR') : 'Bilinmiyor')}</span>
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">Batarya</span>
-              <span className="text-slate-900 font-bold">{phoneSpecText(phone.specs, 'battery.capacitymAh')}</span>
+              <span className="text-slate-900 font-bold">{hasUnresolvedSpecField(phone, 'battery.capacitymAh') ? 'Doğrulama bekliyor' : phoneSpecText(phone.specs, 'battery.capacitymAh')}</span>
             </div>
           </div>
           <ProductSpecSources product={phone} />
@@ -324,7 +324,7 @@ export default function PhoneDetailClient({
           <Sparkles className="w-5 h-5 text-emerald-600" />
           <span>Tüm Teknik Özellikler</span>
         </h2>
-        <SpecSheet specs={phone.specs} productId={phone.id} extraSpecs={phone.extraSpecs} />
+        <SpecSheet specs={phone.specs} productId={phone.id} specVerification={phone.specVerification} extraSpecs={phone.extraSpecs} />
       </div>
 
       {/* AI Module 6: ELI5 Tech Term Explainer */}

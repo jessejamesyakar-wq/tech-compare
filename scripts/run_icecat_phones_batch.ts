@@ -7,6 +7,7 @@ import { KNOWN_PHONE_MPNS } from './known_phone_mpns';
 import { CANONICAL_EXCLUDED_ID_SET } from '../src/lib/governance/canonicalExclusions';
 import { GOLDEN_DATASET_V1_IDS } from '../src/lib/trustLayer/observe/goldenDatasetV1';
 import { buildVerifiedEvidenceMap, evaluateProductCompleteness } from '../src/lib/evidence/productCompleteness';
+import { verifyIcecatTargetIdentity } from '../src/lib/evidence/canonicalIdentityGate';
 
 if (fs.existsSync('.env.local')) {
   dotenv.config({ path: '.env.local' });
@@ -261,117 +262,145 @@ export async function runBatchExecution() {
       let icecatTitle: string = '';
 
       if (fetchResult && fetchResult.ok && fetchResult.data) {
-        // Save raw archive (with redacted secrets)
-        const rawSavePath = path.join(RAW_ARCHIVE_DIR, `${item.canonicalId}.json`);
-        const payloadHash = crypto.createHash('sha256').update(JSON.stringify(fetchResult.data)).digest('hex');
-        fs.writeFileSync(rawSavePath, JSON.stringify(fetchResult.data, null, 2), 'utf-8');
+        // Mandatory Write-Point Identity Gate (P0):
+        // Never write raw_archive, extraSpecs, specs, or VERIFIED evidence unless target model/submodel/variant matches!
+        const gateCheck = verifyIcecatTargetIdentity({
+          targetId: item.canonicalId,
+          targetBrand: item.brand,
+          targetName: product.name || item.model || item.canonicalId,
+          targetSlug: product.slug || item.canonicalId,
+          preTransferMpn: item.mpn || product.modelCode,
+          preTransferIndependent5GProof: manufacturerVerifiedFields.has('specs.connectivity.has5G')
+            ? Boolean(product.specs?.connectivity?.has5G)
+            : undefined,
+          icecatPayload: fetchResult.data,
+        });
 
-        // Parse and map
-        const mapped = parseIcecatPayload(fetchResult, 'tr');
-        if (mapped) {
-          icecatTitle = mapped.title;
-          extraSpecsCount = mapped.extraSpecs.length;
+        if (!gateCheck.passed) {
+          outcome = 'BLOCKED_IDENTITY';
+          outcomeReason = `${gateCheck.reasonCode}: ${gateCheck.detail}`;
+          blockers.push({
+            canonicalId: item.canonicalId,
+            brand: item.brand,
+            model: item.model,
+            outcome,
+            reason: outcomeReason,
+            queryAttempted: usedCandidate,
+            timestamp: now
+          });
+        } else {
+          // Save raw archive (with redacted secrets)
+          const rawSavePath = path.join(RAW_ARCHIVE_DIR, `${item.canonicalId}.json`);
+          const payloadHash = crypto.createHash('sha256').update(JSON.stringify(fetchResult.data)).digest('hex');
+          fs.writeFileSync(rawSavePath, JSON.stringify(fetchResult.data, null, 2), 'utf-8');
 
-          // Apply unmapped extraSpecs to product object
-          if (!product.extraSpecs) product.extraSpecs = [];
-          // Deduplicate extraSpecs by featureId
-          const existingFeatureIds = new Set(product.extraSpecs.map((x: any) => x.featureId));
-          for (const extra of mapped.extraSpecs) {
-            if (!existingFeatureIds.has(extra.featureId)) {
-              product.extraSpecs.push(extra);
-              existingFeatureIds.add(extra.featureId);
-            }
-          }
+          // Parse and map
+          const mapped = parseIcecatPayload(fetchResult, 'tr');
+          if (mapped) {
+            icecatTitle = mapped.title;
+            extraSpecsCount = mapped.extraSpecs.length;
 
-          // Apply normalized fields
-          if (!product.specs) product.specs = {};
-
-          const fieldEntries: Array<{ path: string; val: any; unit?: string; rawVal?: any }> = [];
-
-          // Helper to flatten mapped specs into paths
-          const walkSpecs = (obj: any, prefix: string) => {
-            for (const [k, v] of Object.entries(obj)) {
-              if (v !== undefined && v !== null && v !== '') {
-                const fullPath = `${prefix}.${k}`;
-                if (typeof v === 'object' && !Array.isArray(v)) {
-                  walkSpecs(v, fullPath);
-                } else {
-                  fieldEntries.push({ path: fullPath, val: v });
-                }
+            // Apply unmapped extraSpecs to product object
+            if (!product.extraSpecs) product.extraSpecs = [];
+            // Deduplicate extraSpecs by featureId
+            const existingFeatureIds = new Set(product.extraSpecs.map((x: any) => x.featureId));
+            for (const extra of mapped.extraSpecs) {
+              if (!existingFeatureIds.has(extra.featureId)) {
+                product.extraSpecs.push(extra);
+                existingFeatureIds.add(extra.featureId);
               }
             }
-          };
 
-          walkSpecs(mapped.specs, 'specs');
+            // Apply normalized fields
+            if (!product.specs) product.specs = {};
 
-          for (const fe of fieldEntries) {
-            // Safety: DO NOT overwrite stronger verified manufacturer evidence!
-            if (manufacturerVerifiedFields.has(fe.path)) {
-              // Record conflict/preserved note if values differ
-              continue;
-            }
+            const fieldEntries: Array<{ path: string; val: any; unit?: string; rawVal?: any }> = [];
 
-            // Check existing value
-            const parts = fe.path.split('.');
-            let curr = product;
-            for (let pIdx = 0; pIdx < parts.length - 1; pIdx++) {
-              if (!curr[parts[pIdx]]) curr[parts[pIdx]] = {};
-              curr = curr[parts[pIdx]];
-            }
-            const oldVal = curr[parts[parts.length - 1]];
-
-            // Do not rewrite if values are already equal
-            if (oldVal === fe.val) {
-              continue;
-            }
-
-            // Apply change
-            curr[parts[parts.length - 1]] = fe.val;
-            fieldsAppliedCount++;
-
-            // Create field evidence record
-            const fieldEvidenceHash = crypto.createHash('sha256')
-              .update(`${item.canonicalId}:${fe.path}:${JSON.stringify(fe.val)}:${payloadHash}`)
-              .digest('hex');
-
-            const evidenceRecord = {
-              productId: item.canonicalId,
-              icecatId: mapped.icecatId,
-              fieldPath: fe.path,
-              rawValue: fe.val,
-              normalizedValue: fe.val,
-              scope: 'LEVEL_1_MODEL_FAMILY',
-              sourceLang: 'tr',
-              fetchedAt: now,
-              sourceType: 'ICECAT',
-              trustClassification: 'ICECAT_CATALOG_VERIFIED',
-              payloadHash,
-              fieldEvidenceHash
+            // Helper to flatten mapped specs into paths
+            const walkSpecs = (obj: any, prefix: string) => {
+              for (const [k, v] of Object.entries(obj)) {
+                if (v !== undefined && v !== null && v !== '') {
+                  const fullPath = `${prefix}.${k}`;
+                  if (typeof v === 'object' && !Array.isArray(v)) {
+                    walkSpecs(v, fullPath);
+                  } else {
+                    fieldEntries.push({ path: fullPath, val: v });
+                  }
+                }
+              }
             };
-            fs.appendFileSync(EVIDENCE_PATH, JSON.stringify(evidenceRecord) + '\n', 'utf-8');
 
-            // Create change journal record
-            const journalRecord = {
-              timestamp: now,
-              productId: item.canonicalId,
-              fieldPath: fe.path,
-              oldValue: oldVal ?? null,
-              newValue: fe.val,
-              action: oldVal !== undefined && oldVal !== null ? 'VALUE_CORRECTED' : 'FIELD_POPULATED'
-            };
-            fs.appendFileSync(JOURNAL_PATH, JSON.stringify(journalRecord) + '\n', 'utf-8');
-          }
+            walkSpecs(mapped.specs, 'specs');
 
-          if (fieldsAppliedCount > 0) {
-            outcome = 'APPLIED_ALL_AVAILABLE';
-            outcomeReason = `Applied ${fieldsAppliedCount} fields and ${extraSpecsCount} extra specs`;
+            for (const fe of fieldEntries) {
+              // Safety: DO NOT overwrite stronger verified manufacturer evidence!
+              if (manufacturerVerifiedFields.has(fe.path)) {
+                // Record conflict/preserved note if values differ
+                continue;
+              }
+
+              // Check existing value
+              const parts = fe.path.split('.');
+              let curr = product;
+              for (let pIdx = 0; pIdx < parts.length - 1; pIdx++) {
+                if (!curr[parts[pIdx]]) curr[parts[pIdx]] = {};
+                curr = curr[parts[pIdx]];
+              }
+              const oldVal = curr[parts[parts.length - 1]];
+
+              // Do not rewrite if values are already equal
+              if (oldVal === fe.val) {
+                continue;
+              }
+
+              // Apply change
+              curr[parts[parts.length - 1]] = fe.val;
+              fieldsAppliedCount++;
+
+              // Create field evidence record
+              const fieldEvidenceHash = crypto.createHash('sha256')
+                .update(`${item.canonicalId}:${fe.path}:${JSON.stringify(fe.val)}:${payloadHash}`)
+                .digest('hex');
+
+              const evidenceRecord = {
+                productId: item.canonicalId,
+                icecatId: mapped.icecatId,
+                fieldPath: fe.path,
+                rawValue: fe.val,
+                normalizedValue: fe.val,
+                scope: 'LEVEL_1_MODEL_FAMILY',
+                sourceLang: 'tr',
+                fetchedAt: now,
+                sourceType: 'ICECAT',
+                trustClassification: 'ICECAT_CATALOG_VERIFIED',
+                payloadHash,
+                fieldEvidenceHash
+              };
+              fs.appendFileSync(EVIDENCE_PATH, JSON.stringify(evidenceRecord) + '\n', 'utf-8');
+
+              // Create change journal record
+              const journalRecord = {
+                timestamp: now,
+                productId: item.canonicalId,
+                fieldPath: fe.path,
+                oldValue: oldVal ?? null,
+                newValue: fe.val,
+                action: oldVal !== undefined && oldVal !== null ? 'VALUE_CORRECTED' : 'FIELD_POPULATED'
+              };
+              fs.appendFileSync(JOURNAL_PATH, JSON.stringify(journalRecord) + '\n', 'utf-8');
+            }
+
+            if (fieldsAppliedCount > 0) {
+              outcome = 'APPLIED_ALL_AVAILABLE';
+              outcomeReason = `Applied ${fieldsAppliedCount} fields and ${extraSpecsCount} extra specs`;
+            } else {
+              outcome = 'NO_CHANGE_NEEDED';
+              outcomeReason = 'Existing catalog already had current or stronger specifications';
+            }
           } else {
-            outcome = 'NO_CHANGE_NEEDED';
-            outcomeReason = 'Existing catalog already had current or stronger specifications';
+            outcome = 'ERROR';
+            outcomeReason = 'Failed to map Icecat payload';
           }
-        } else {
-          outcome = 'ERROR';
-          outcomeReason = 'Failed to map Icecat payload';
         }
       } else {
         // Failure or restriction

@@ -8,6 +8,7 @@
 import { TrustEvaluation } from './types';
 import { CatalogProduct } from './candidateEngine';
 import { GoldenCorrectionRegistry } from '@/lib/trustLayer/observe/goldenCorrectionRegistry';
+import { hasUnresolvedSpecField } from '@/lib/specVerification';
 import fs from 'fs';
 import path from 'path';
 
@@ -67,9 +68,23 @@ export class TrustEngine {
     }
 
     // 2. RAM Check (Disputed capacity & unverified type)
-    if (rootId === 'samsung-samsung-galaxy-s25-fe-110') {
+    if (rootId === 'samsung-samsung-galaxy-s25-fe-110' || hasUnresolvedSpecField(product as any, 'memory.ramGb')) {
       blockedFields.push('specs.memory.ramGb');
       warnings.push('Bu ürünün RAM kapasitesi doğrulama bekliyor; tartışmalı katalog değeri önerilerde kullanılmaz.');
+    }
+
+    // 2b. Check all specVerification.unresolvedFields (isolated identity/variant/camera fields)
+    const unresolvedSpecFields: string[] = Array.isArray((product as any).specVerification?.unresolvedFields)
+      ? (product as any).specVerification.unresolvedFields
+      : [];
+    for (const uf of unresolvedSpecFields) {
+      const normPath = uf.startsWith('specs.') ? uf : `specs.${uf}`;
+      if (!blockedFields.includes(normPath)) {
+        blockedFields.push(normPath);
+      }
+    }
+    if (unresolvedSpecFields.length > 0 && (product as any).specVerification?.note) {
+      warnings.push((product as any).specVerification.note);
     }
 
     const isRamBlocked = ramBlockedSet?.has(rootId);

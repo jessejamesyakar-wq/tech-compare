@@ -3,17 +3,19 @@ import { Smartphone } from '@/lib/types';
 import { Sparkles,ShieldCheck,Camera,BatteryCharging,Cpu,Monitor } from 'lucide-react';
 import { formatSpecValue as format } from '@/lib/specFormatting';
 import { phoneSpecText, hasLegacyPhoneSpecs, LEGACY_PHONE_SPEC_NOTICE } from '@/lib/smartphoneSpecFields';
+import { hasUnresolvedSpecField } from '@/lib/specVerification';
 
 export function BentoFeatureCards({phone}:{phone:Smartphone}) {
   const s=phone.specs;
-  const text=(path:string)=>phoneSpecText(s,path);
+  const text=(path:string)=>hasUnresolvedSpecField(phone,path) ? 'Doğrulama bekliyor' : phoneSpecText(s,path);
+  const gatedFormat=(path:string,val:any,unit?:string)=>hasUnresolvedSpecField(phone,path) ? 'Doğrulama bekliyor' : format(val,unit);
   const mainCamera=text('camera.mainMp'), cameraSummary=text('camera.summary');
   const cards=[
     {title:'Ekran',icon:Monitor,span:'md:col-span-6',items:[['Panel',text('screen.type')],['Boyut',text('screen.size')],['Yenileme Hızı',text('screen.refreshRate')],['Parlaklık',text('screen.brightnessNits')]]},
-    {title:'Gövde',icon:ShieldCheck,span:'md:col-span-6',items:[['Çerçeve',format(s?.build?.frameMaterial)],['Ağırlık',text('build.weightGrams')],['Kalınlık',format(s?.build?.thicknessMm,'mm')],['Dayanıklılık',text('build.waterResistance')]]},
+    {title:'Gövde',icon:ShieldCheck,span:'md:col-span-6',items:[['Çerçeve',gatedFormat('build.frameMaterial',s?.build?.frameMaterial)],['Ağırlık',text('build.weightGrams')],['Kalınlık',gatedFormat('build.thicknessMm',s?.build?.thicknessMm,'mm')],['Dayanıklılık',text('build.waterResistance')]]},
     {title:'İşlemci',icon:Cpu,span:'md:col-span-4',items:[['Yonga',text('processor.chip')],['Kayıtlı AnTuTu Puanı',text('processor.antutuScore')]]},
     {title:'Şarj',icon:BatteryCharging,span:'md:col-span-8',items:[['Kablolu Şarj Gücü',text('battery.chargingWatts')],['Kablosuz Şarj Desteği',text('battery.wirelessCharging')]]},
-    {title:'Kamera',icon:Camera,span:'md:col-span-7',items:[mainCamera==='Bilinmiyor' && cameraSummary!=='Bilinmiyor' ? ['Arka Kamera Kaydı',cameraSummary] : ['Ana Kamera',mainCamera],['Video',text('camera.videoRes')],['Kayıtlı DxOMark Puanı',format(s?.camera?.dxomarkScore)]]},
+    {title:'Kamera',icon:Camera,span:'md:col-span-7',items:[(mainCamera==='Bilinmiyor' || mainCamera==='Doğrulama bekliyor') && cameraSummary!=='Bilinmiyor' && cameraSummary!=='Doğrulama bekliyor' ? ['Arka Kamera Kaydı',cameraSummary] : ['Ana Kamera',mainCamera],['Video',text('camera.videoRes')],['Kayıtlı DxOMark Puanı',gatedFormat('camera.dxomarkScore',s?.camera?.dxomarkScore)]]},
     {title:'Batarya',icon:BatteryCharging,span:'md:col-span-5',items:[['Kapasite',text('battery.capacitymAh')]]},
   ];
   return <section className="space-y-6">

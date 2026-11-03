@@ -6,6 +6,7 @@ import { parseIcecatPayload } from './icecat_mapper';
 import { CANONICAL_EXCLUDED_ID_SET } from '../src/lib/governance/canonicalExclusions';
 import { GOLDEN_DATASET_V1_IDS } from '../src/lib/trustLayer/observe/goldenDatasetV1';
 import { buildVerifiedEvidenceMap } from '../src/lib/evidence/productCompleteness';
+import { verifyIcecatTargetIdentity } from '../src/lib/evidence/canonicalIdentityGate';
 
 if (fs.existsSync('.env.local')) {
   dotenv.config({ path: '.env.local' });
@@ -123,6 +124,24 @@ async function run() {
     }
 
     const now = new Date().toISOString();
+
+    // Mandatory Write-Point Identity Gate (P0):
+    const gateCheck = verifyIcecatTargetIdentity({
+      targetId: item.id,
+      targetBrand: item.brand,
+      targetName: product.name || manifestItem?.model || item.id,
+      targetSlug: product.slug || item.id,
+      preTransferMpn: manifestItem?.mpn || product.modelCode,
+      preTransferIndependent5GProof: mfrVerifiedFields.has('specs.connectivity.has5G')
+        ? Boolean(product.specs?.connectivity?.has5G)
+        : undefined,
+      icecatPayload: fetchRes.data,
+    });
+
+    if (!gateCheck.passed) {
+      console.error(`[IDENTITY GATE BLOCKED] ${item.id} (${item.mpn}): ${gateCheck.reasonCode} — ${gateCheck.detail}`);
+      continue;
+    }
 
     // Raw archive save
     const rawSavePath = path.join(RAW_ARCHIVE_DIR, `${item.id}.json`);

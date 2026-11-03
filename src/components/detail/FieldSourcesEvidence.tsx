@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ExternalLink, FileText, AlertCircle } from 'lucide-react';
 import type { Product } from '@/lib/types';
-import { getSpecVerificationNotice } from '@/lib/specVerification';
+import { getSpecVerificationNotice, hasUnresolvedSpecField } from '@/lib/specVerification';
 
 interface FieldSourcesEvidenceProps {
   product: Product;
@@ -138,15 +138,22 @@ export function FieldSourcesEvidence({ product }: FieldSourcesEvidenceProps) {
     }
   };
 
-  const validSources = rawSources.filter(src => {
-    if (!src || typeof src !== 'object') return false;
-    const hasValidUrl = isValidHttpUrl(src.sourceUrl);
-    const validFields = Array.isArray(src.fields)
-      ? src.fields.filter((f: any) => typeof f === 'string' && f.trim().length > 0)
-      : [];
-    const hasFields = validFields.length > 0;
-    return hasValidUrl || hasFields;
-  });
+  const validSources = rawSources
+    .map(src => {
+      if (!src || typeof src !== 'object') return null;
+      const origFields = Array.isArray(src.fields)
+        ? src.fields.filter((f: any) => typeof f === 'string' && f.trim().length > 0)
+        : [];
+      const filteredFields = origFields.filter((f: string) => !hasUnresolvedSpecField(product, f));
+      if (origFields.length > 0 && filteredFields.length === 0) return null;
+      return { ...src, fields: filteredFields };
+    })
+    .filter((src): src is NonNullable<typeof src> => {
+      if (!src) return false;
+      const hasValidUrl = isValidHttpUrl(src.sourceUrl);
+      const hasFields = Array.isArray(src.fields) && src.fields.length > 0;
+      return hasValidUrl || hasFields;
+    });
 
   const hasSources = validSources.length > 0;
 

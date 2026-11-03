@@ -110,7 +110,7 @@ export function parseIcecatPayload(data: any, lang: string = 'tr'): MappedIcecat
 
       if (!fName || !fVal) continue;
 
-      const fNameLower = fName.toLowerCase();
+      const fNameLower = fName.toLowerCase().replace(/\u0307/g, '');
       let isMapped = false;
 
       // 1. Ekran / Screen
@@ -195,31 +195,67 @@ export function parseIcecatPayload(data: any, lang: string = 'tr'): MappedIcecat
       }
 
       // 4. Kamera / Camera
-      else if (fId === 12435 || fNameLower === 'arka kamera çözünürlüğü') { // Arka kamera
-        const mp = fVal.match(/(\d+)\s*MP/i) || fVal.match(/(\d+)/);
+      // Strict MP extraction: never map pixel dimensions (e.g. "9248 x 6936 Piksel") as MP,
+      // and NEVER assume positional 2nd camera (27588) = ultrawideMp or 3rd camera (27587/35935) = telephotoMp!
+      // Positional camera features are preserved with their neutral Icecat names in extraSpecs.
+      else if (
+        fId === 12435 ||
+        (fId !== 12434 &&
+          fId !== 27588 &&
+          fId !== 27587 &&
+          fId !== 35935 &&
+          fId !== 37533 &&
+          fNameLower.includes('arka kamera çözünürlüğü') &&
+          !fNameLower.includes('ikinci') &&
+          !fNameLower.includes('üçüncü') &&
+          !fNameLower.includes('dördüncü') &&
+          (/\bmp\b/i.test(`${fVal} ${fMeasure}`) || fNameLower.includes('sayısal') || fNameLower.includes('nümerik')) &&
+          !/piksel|pixel|\d+\s*x\s*\d+/i.test(fVal))
+      ) { // Ana arka kamera (sayısal MP)
+        const mp = fVal.match(/(\d+(?:[.,]\d+)?)\s*MP/i) || fVal.match(/^(\d+(?:[.,]\d+)?)$/);
         if (mp) {
-          specs.camera!.mainMp = `${mp[1]} MP`;
+          specs.camera!.mainMp = `${mp[1].replace(',', '.')} MP`;
           isMapped = true;
           mappedCount++;
         }
-      } else if (fId === 27588 || fNameLower.includes('ikinci arka kamera çözünürlüğü')) { // Ultra geniş
-        const mp = fVal.match(/(\d+)\s*MP/i) || fVal.match(/(\d+)/);
+      } else if (
+        (fNameLower.includes('ultra geniş') || fNameLower.includes('ultrawide') || fNameLower.includes('ultra-wide')) &&
+        fNameLower.includes('kamera') &&
+        fNameLower.includes('çözünürlü') &&
+        !/piksel|pixel|\d+\s*x\s*\d+/i.test(fVal)
+      ) { // Explicit ultra-wide lens resolution only (never positional!)
+        const mp = fVal.match(/(\d+(?:[.,]\d+)?)\s*MP/i) || fVal.match(/^(\d+(?:[.,]\d+)?)$/);
         if (mp) {
-          specs.camera!.ultrawideMp = `${mp[1]} MP`;
+          specs.camera!.ultrawideMp = `${mp[1].replace(',', '.')} MP`;
           isMapped = true;
           mappedCount++;
         }
-      } else if (fId === 27587 || fNameLower.includes('üçüncü arka kamera çözünürlüğü')) { // Telefoto / Makro
-        const mp = fVal.match(/(\d+)\s*MP/i) || fVal.match(/(\d+)/);
+      } else if (
+        (fNameLower.includes('telefoto') || fNameLower.includes('telephoto') || fNameLower.includes('periskop')) &&
+        fNameLower.includes('kamera') &&
+        fNameLower.includes('çözünürlü') &&
+        !/piksel|pixel|\d+\s*x\s*\d+/i.test(fVal)
+      ) { // Explicit telephoto lens resolution only (never positional!)
+        const mp = fVal.match(/(\d+(?:[.,]\d+)?)\s*MP/i) || fVal.match(/^(\d+(?:[.,]\d+)?)$/);
         if (mp) {
-          specs.camera!.telephotoMp = `${mp[1]} MP`;
+          specs.camera!.telephotoMp = `${mp[1].replace(',', '.')} MP`;
           isMapped = true;
           mappedCount++;
         }
-      } else if (fId === 12437 || fId === 12436 || fNameLower === 'ön kamera çözünürlüğü') { // Ön kamera
-        const mp = fVal.match(/(\d+)\s*MP/i) || fVal.match(/(\d+)/);
+      } else if (
+        fId === 12437 ||
+        (fId !== 14077 &&
+          fId !== 12436 &&
+          fId !== 33563 &&
+          fId !== 38693 &&
+          fNameLower.includes('ön kamera çözünürlüğü') &&
+          !fNameLower.includes('ikinci') &&
+          (/\bmp\b/i.test(`${fVal} ${fMeasure}`) || fNameLower.includes('sayısal') || fNameLower.includes('nümerik')) &&
+          !/piksel|pixel|\d+\s*x\s*\d+/i.test(fVal))
+      ) { // Ön kamera (sayısal MP)
+        const mp = fVal.match(/(\d+(?:[.,]\d+)?)\s*MP/i) || fVal.match(/^(\d+(?:[.,]\d+)?)$/);
         if (mp) {
-          specs.camera!.selfieMp = `${mp[1]} MP`;
+          specs.camera!.selfieMp = `${mp[1].replace(',', '.')} MP`;
           isMapped = true;
           mappedCount++;
         }
