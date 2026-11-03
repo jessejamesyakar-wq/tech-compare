@@ -1,0 +1,3408 @@
+{
+  "GeneralInfo": {
+    "IcecatId": 99158352,
+    "ReleaseDate": "",
+    "EndOfLifeDate": "",
+    "Title": "Samsung SM-M236B/DS 16,8 cm (6.6\") Çift SIM 5G USB C Tipi 4 GB 128 GB 5000 mAh Yeşil",
+    "TitleInfo": {
+      "GeneratedIntTitle": "Samsung SM-M236B/DS",
+      "GeneratedLocalTitle": {
+        "Value": "Samsung SM-M236B/DS 16,8 cm (6.6\") Çift SIM 5G USB C Tipi 4 GB 128 GB 5000 mAh Yeşil",
+        "Language": "TR"
+      },
+      "BrandLocalTitle": {
+        "Value": "",
+        "Language": "TR"
+      }
+    },
+    "Brand": "Samsung",
+    "BrandID": "26",
+    "BrandLogo": "https://images.icecat.biz/img/brand/thumb/26_c012d76b332e4624b88a05c9932c9266.jpg",
+    "BrandInfo": {
+      "BrandName": "Samsung",
+      "BrandLocalName": "",
+      "BrandLogo": "https://images.icecat.biz/img/brand/thumb/26_c012d76b332e4624b88a05c9932c9266.jpg"
+    },
+    "ProductName": "SM-M236B/DS",
+    "ProductNameInfo": {
+      "ProductIntName": "SM-M236B/DS",
+      "ProductLocalName": {
+        "Value": "",
+        "Language": "TR"
+      }
+    },
+    "BrandPartCode": "SM-M236BZGGEUE",
+    "GTIN": [
+      "8806094182323"
+    ],
+    "Category": {
+      "CategoryID": "1893",
+      "Name": {
+        "Value": "Akıllı Telefonlar",
+        "Language": "TR"
+      }
+    },
+    "ProductFamily": {},
+    "ProductSeries": {
+      "SeriesID": "1"
+    },
+    "Description": {},
+    "SEOs": {},
+    "SummaryDescription": {
+      "ShortSummaryDescription": "Samsung SM-M236B/DS, 16,8 cm (6.6\"), 1080 x 2408 Piksel, 4 GB, 128 GB, 50 MP, Yeşil",
+      "LongSummaryDescription": "Samsung SM-M236B/DS. Ekran boyutu: 16,8 cm (6.6\"), Ekran çözünürlüğü: 1080 x 2408 Piksel. İşlemci frekansı: 2,2 GHz. RAM kapasitesi: 4 GB, Dahili hafıza: 128 GB. Arka kamera çözünürlüğü: 50 MP, Arka kamera tipi: Üçlü kamera. Sim Kart Yeterliliği: Çift SIM. Pil performansı: 5000 mAh. Ürün rengi: Yeşil. Ağırlık: 198 g"
+    },
+    "BulletPoints": {},
+    "GeneratedBulletPoints": {
+      "Language": "TR",
+      "Values": [
+        "16,8 cm (6.6\") 1080 x 2408 Piksel",
+        "2,2 GHz",
+        "4 GB 128 GB MicroSD (TransFlash) 1 TB",
+        "5G Çift SIM NanoSIM",
+        "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n) Bluetooth 5.0 Yakın Alan İletişimi",
+        "Üçlü kamera 50 MP 8 MP 2 MP",
+        "5000 mAh"
+      ]
+    },
+    "GTINs": [
+      {
+        "GTIN": "8806094182323",
+        "IsApproved": true
+      }
+    ]
+  },
+  "Image": {
+    "HighPic": "https://images.icecat.biz/img/gallery/b8a89d950a40efc10c687f8b072adbdf1ebc6a37.jpg",
+    "HighPicSize": "1802600",
+    "HighPicHeight": "2000",
+    "HighPicWidth": "3000",
+    "LowPic": "https://images.icecat.biz/img/gallery_lows/e0adc34b25d9808b018a57078e0c0e0f8ea91a17.jpg",
+    "LowPicSize": "10458",
+    "LowPicHeight": "133",
+    "LowPicWidth": "200",
+    "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/cb61d66e3d0767bb7a51bff8fa163d3d4fca94f3.jpg",
+    "Pic500x500Size": "48348",
+    "Pic500x500Height": "333",
+    "Pic500x500Width": "500",
+    "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/66385c241d3cc7ca06154075251edf54d64eff73.jpg",
+    "ThumbPicSize": "3057"
+  },
+  "Multimedia": [
+    {
+      "ID": "00000000-0000-0000-0000-000000000000",
+      "URL": "https://icecat.biz/rest/product-pdf?productId=99158352&lang=tr",
+      "Type": "leaflet",
+      "ContentType": "application/pdf",
+      "KeepAsUrl": "0",
+      "Description": "Brochure Samsung SM-M236BZGGEUE",
+      "Size": "0",
+      "IsPrivate": "0",
+      "Updated": "2023-12-15 10:44:20",
+      "Language": "TR",
+      "IsVideo": 0
+    }
+  ],
+  "Gallery": [
+    {
+      "ID": "61845608",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/e0adc34b25d9808b018a57078e0c0e0f8ea91a17.jpg",
+      "LowSize": "10458",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/66385c241d3cc7ca06154075251edf54d64eff73.jpg",
+      "ThumbPicSize": "3057",
+      "Pic": "https://images.icecat.biz/img/gallery/b8a89d950a40efc10c687f8b072adbdf1ebc6a37.jpg",
+      "Size": "1802600",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/cb61d66e3d0767bb7a51bff8fa163d3d4fca94f3.jpg",
+      "Pic500x500Size": "48348",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "1",
+      "IsMain": "Y",
+      "Updated": "2022-11-20 05:02:55",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "61845616",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/748e4cf507eb200d42f1631da8c8eb4515beb2d7.jpg",
+      "LowSize": "9249",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/5b1703e00fa84050b575642f3e7c4150abacfee6.jpg",
+      "ThumbPicSize": "2795",
+      "Pic": "https://images.icecat.biz/img/gallery/646189d278bc72eea954690eb80f95f4af18a845.jpg",
+      "Size": "1518798",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/dbd087ae6a1efcd5072a3f4e98952bab9bc6e964.jpg",
+      "Pic500x500Size": "41654",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "2",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:00",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "61845626",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/c5ff9462726b0c349098187eb7cc61b47ed48543.jpg",
+      "LowSize": "9258",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/82e69d6c318cffcf2bdb815dbb8200a4da4e685f.jpg",
+      "ThumbPicSize": "2882",
+      "Pic": "https://images.icecat.biz/img/gallery/a774c5e15fd1b6168ab7d86e0481b5e4656ea127.jpg",
+      "Size": "1527240",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/66ca2eb37a62bd3ea917df726e4fc58d2735514f.jpg",
+      "Pic500x500Size": "41740",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "3",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:06",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "61845638",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/1f04b82b2beea62a9ac6ea921cdba9546d073478.jpg",
+      "LowSize": "5402",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/691e80b52f6f2fc4425371e99ca6ec6baf41e392.jpg",
+      "ThumbPicSize": "1785",
+      "Pic": "https://images.icecat.biz/img/gallery/e87b689e4219beb7dadd31ee92c4ecdb9ec6c434.jpg",
+      "Size": "697261",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/b443a4d8b03eae19bf16be160dfa2575795f8bc9.jpg",
+      "Pic500x500Size": "20330",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "4",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:12",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "61845650",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/af4410639f80c37cdfd4679fb390030b9c8ffe50.jpg",
+      "LowSize": "4919",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/0d319bff6c6f3c6798c8227bfc6d6cc1ae4f8a37.jpg",
+      "ThumbPicSize": "1755",
+      "Pic": "https://images.icecat.biz/img/gallery/0fd768b4ae71b4489e8e749a7108b9e77d03055d.jpg",
+      "Size": "665705",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/dd147617da5e1986e9415af9ab90f35afdbc5a46.jpg",
+      "Pic500x500Size": "18973",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "5",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:18",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "61845655",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/2818dee0aded5b3c7df2bf6432fbf07733da43ed.jpg",
+      "LowSize": "4790",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/492283cb32f23d5a1d5df4c1470e794cf644d4c1.jpg",
+      "ThumbPicSize": "1703",
+      "Pic": "https://images.icecat.biz/img/gallery/27fbfc9cb1393b093775969a0c5e2451a219bb34.jpg",
+      "Size": "670349",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/da9845bccf14ebfb576001bc56c123ee3b32d89c.jpg",
+      "Pic500x500Size": "18299",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "6",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:23",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "61845667",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/41ee525bfda649208584a8f0afb7ba767d6b9027.jpg",
+      "LowSize": "1859",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/dde8a13ee88220e30e512988113fc3bd66d79b0f.jpg",
+      "ThumbPicSize": "821",
+      "Pic": "https://images.icecat.biz/img/gallery/385ef653d97ac581296a46dd7960e5dfac8e17ef.jpg",
+      "Size": "174126",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/1334fd77ef71ae257943865501aac14a2ad2f649.jpg",
+      "Pic500x500Size": "7201",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "7",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:28",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "61845679",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/a392292bfd2f1885324a7e405fa8c5402d37c87f.jpg",
+      "LowSize": "1920",
+      "LowHeight": "133",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/33449c4eff044da8ad68ae3a8be2246b1623a04c.jpg",
+      "ThumbPicSize": "914",
+      "Pic": "https://images.icecat.biz/img/gallery/13786dc17f58b7b5c19124747e9199c7c4857932.jpg",
+      "Size": "178781",
+      "PicHeight": "2000",
+      "PicWidth": "3000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/eda9f5e50d07e71f90bddb1138273d0944c85ae3.jpg",
+      "Pic500x500Size": "7595",
+      "Pic500x500Height": "333",
+      "Pic500x500Width": "500",
+      "No": "8",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:33",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    },
+    {
+      "ID": "68942102",
+      "LowPic": "https://images.icecat.biz/img/gallery_lows/0ff44da862b3ec59c97d250e8b1f9ad1140fea27.jpg",
+      "LowSize": "47298",
+      "LowHeight": "200",
+      "LowWidth": "200",
+      "ThumbPic": "https://images.icecat.biz/img/gallery_thumbs/9a57b9b0fb7fd9f1a24a2e58a973a5c9d124ae28.jpg",
+      "ThumbPicSize": "9522",
+      "Pic": "https://images.icecat.biz/img/gallery/dbb832d7657ecc66f3492964cceffee8b5d05dac.jpg",
+      "Size": "1762679",
+      "PicHeight": "2000",
+      "PicWidth": "2000",
+      "Pic500x500": "https://images.icecat.biz/img/gallery_mediums/471a009d000f9044e57264cd2b4ddfae8ecc3777.jpg",
+      "Pic500x500Size": "239759",
+      "Pic500x500Height": "500",
+      "Pic500x500Width": "500",
+      "No": "9",
+      "IsMain": "N",
+      "Updated": "2022-11-20 05:03:43",
+      "IsPrivate": "0",
+      "Type": "ProductImage",
+      "Attributes": {
+        "OriginalFileName": ""
+      }
+    }
+  ],
+  "FeaturesGroups": [
+    {
+      "ID": 6883,
+      "SortNo": "100",
+      "FeatureGroup": {
+        "ID": "5",
+        "Name": {
+          "Value": "Ekran",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468537573,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "6.6",
+          "CategoryFeatureId": "51494",
+          "CategoryFeatureGroupID": "6883",
+          "SortNo": "500",
+          "PresentationValue": "16,8 cm (6.6\")",
+          "RawValue": "6.6",
+          "LocalValue": "16,8",
+          "Description": "Diagonal ekran boyutunu gösterir.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "944",
+            "Sign": "",
+            "Measure": {
+              "ID": "16",
+              "Sign": "",
+              "Signs": {
+                "ID": "3164",
+                "_": "\"",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ekran boyutu",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831351,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Flat screen",
+          "CategoryFeatureId": "166023",
+          "CategoryFeatureGroupID": "6883",
+          "SortNo": "32",
+          "PresentationValue": "Düz",
+          "RawValue": "Flat screen",
+          "LocalValue": "Düz",
+          "Description": "Describes the physical curvature of the display panel, such as whether it is flat or curved.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "17554",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ekran şekli",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 622880362,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "TFT",
+          "CategoryFeatureId": "949514",
+          "CategoryFeatureGroupID": "6883",
+          "SortNo": "30",
+          "PresentationValue": "TFT",
+          "RawValue": "TFT",
+          "LocalValue": "TFT",
+          "Description": "The technology used to manufacture the panel, such as AMOLED or AH-IPS.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "15285",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Panel tipi",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831345,
+          "LocalID": 0,
+          "Type": "2d",
+          "Value": "1080 x 2408",
+          "CategoryFeatureId": "51495",
+          "CategoryFeatureGroupID": "6883",
+          "SortNo": "26",
+          "PresentationValue": "1080 x 2408 Piksel",
+          "RawValue": "1080 x 2408",
+          "LocalValue": "1080 x 2408",
+          "Description": "The number of distinct pixels in each dimension that can be displayed. It is usually quoted as width × height",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1585",
+            "Sign": "",
+            "Measure": {
+              "ID": "39",
+              "Sign": "",
+              "Signs": {
+                "ID": "6621",
+                "_": "Piksel",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ekran çözünürlüğü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831388,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "16 million colours",
+          "CategoryFeatureId": "154140",
+          "CategoryFeatureGroupID": "6883",
+          "SortNo": "24",
+          "PresentationValue": "16 milyon renk",
+          "RawValue": "16 million colours",
+          "LocalValue": "16 milyon renk",
+          "Description": "The total number of distinct colours that the device is capable of displaying (e.g. 1.07 billion colours).",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "24847",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Görüntülenen renk sayısı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831367,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Capacitive",
+          "CategoryFeatureId": "59555",
+          "CategoryFeatureGroupID": "6883",
+          "SortNo": "0",
+          "PresentationValue": "Kapasitif",
+          "RawValue": "Capacitive",
+          "LocalValue": "Kapasitif",
+          "Description": "There are a variety of touchscreen technologies that have different methods of sensing touch",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "8097",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Dokunmatik ekran türü",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 6884,
+      "SortNo": "96",
+      "FeatureGroup": {
+        "ID": "1",
+        "Name": {
+          "Value": "İşlemci",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831310,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "8",
+          "CategoryFeatureId": "93997",
+          "CategoryFeatureGroupID": "6884",
+          "SortNo": "300",
+          "PresentationValue": "8",
+          "RawValue": "8",
+          "LocalValue": "8",
+          "Description": "The number of central processing units ('cores') in a processor. Some processors have 1 core",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "6089",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "İşlemci Çekirdek Sayısı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831295,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "2.2",
+          "CategoryFeatureId": "73732",
+          "CategoryFeatureGroupID": "6884",
+          "SortNo": "290",
+          "PresentationValue": "2,2 GHz",
+          "RawValue": "2.2",
+          "LocalValue": "2,2",
+          "Description": "The speed that the microprocessor executes each instruction or each vibration of the clock. The CPU requires a fixed number of clock ticks",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "11379",
+            "Sign": "",
+            "Measure": {
+              "ID": "37",
+              "Sign": "",
+              "Signs": {
+                "ID": "12913",
+                "_": "GHz",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "İşlemci frekansı",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 6887,
+      "SortNo": "92",
+      "FeatureGroup": {
+        "ID": "47",
+        "Name": {
+          "Value": "Depolama birimi",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831705,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "4",
+          "CategoryFeatureId": "180947",
+          "CategoryFeatureGroupID": "6887",
+          "SortNo": "40",
+          "PresentationValue": "4 GB",
+          "RawValue": "4",
+          "LocalValue": "4",
+          "Description": "The total amount of random access memory available for temporary data storage, typically measured in gigabytes (GB).",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "7861",
+            "Sign": "",
+            "Measure": {
+              "ID": "20",
+              "Sign": "",
+              "Signs": {
+                "ID": "12899",
+                "_": "GB",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "RAM kapasitesi",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831711,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "128",
+          "CategoryFeatureId": "51697",
+          "CategoryFeatureGroupID": "6887",
+          "SortNo": "38",
+          "PresentationValue": "128 GB",
+          "RawValue": "128",
+          "LocalValue": "128",
+          "Description": "The amount e.g of data which can be stored inside the device.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "8730",
+            "Sign": "",
+            "Measure": {
+              "ID": "20",
+              "Sign": "",
+              "Signs": {
+                "ID": "12899",
+                "_": "GB",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Dahili hafıza",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831715,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "MicroSD (TransFlash)",
+          "CategoryFeatureId": "51501",
+          "CategoryFeatureGroupID": "6887",
+          "SortNo": "20",
+          "PresentationValue": "MicroSD (TransFlash)",
+          "RawValue": "MicroSD (TransFlash)",
+          "LocalValue": "MicroSD (TransFlash)",
+          "Description": "Types of memory cards which can be used with this product.",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "730",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Uyumlu hafıza kartları",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831718,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "1000",
+          "CategoryFeatureId": "51502",
+          "CategoryFeatureGroupID": "6887",
+          "SortNo": "16",
+          "PresentationValue": "1 TB",
+          "RawValue": "1000",
+          "LocalValue": "1",
+          "Description": "The maximum size of memory card that can be used with this device.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "7021",
+            "Sign": "",
+            "Measure": {
+              "ID": "20",
+              "Sign": "",
+              "Signs": {
+                "ID": "12899",
+                "_": "GB",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Maksimum Hafıza kartı büyüklüğü",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 6888,
+      "SortNo": "88",
+      "FeatureGroup": {
+        "ID": "95",
+        "Name": {
+          "Value": "Kamera",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831405,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "50",
+          "CategoryFeatureId": "175570",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10500",
+          "PresentationValue": "50 MP",
+          "RawValue": "50",
+          "LocalValue": "50",
+          "Description": "The resolution of the images produced with the rear camera, given in MP (megapixel. 1 MP = 1 million pixels).",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "12435",
+            "Sign": "",
+            "Measure": {
+              "ID": "165",
+              "Sign": "",
+              "Signs": {
+                "ID": "12989",
+                "_": "MP",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Arka kamera çözünürlüğü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831406,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "8",
+          "CategoryFeatureId": "175584",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10495",
+          "PresentationValue": "8 MP",
+          "RawValue": "8",
+          "LocalValue": "8",
+          "Description": "The number of megapixels provided by the second rear camera.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "27588",
+            "Sign": "",
+            "Measure": {
+              "ID": "165",
+              "Sign": "",
+              "Signs": {
+                "ID": "12989",
+                "_": "MP",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "İkinci arka kamera çözünürlüğü (sayısal)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831410,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "2",
+          "CategoryFeatureId": "249788",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10490",
+          "PresentationValue": "2 MP",
+          "RawValue": "2",
+          "LocalValue": "2",
+          "Description": "The maximum image resolution of the third rear-facing camera, measured in MP.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "35935",
+            "Sign": "",
+            "Measure": {
+              "ID": "165",
+              "Sign": "",
+              "Signs": {
+                "ID": "12989",
+                "_": "MP",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Üçüncü arka kamera çözünürlüğü (sayısal)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 484415976,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "1.8",
+          "CategoryFeatureId": "175601",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10470",
+          "PresentationValue": "1,8",
+          "RawValue": "1.8",
+          "LocalValue": "1,8",
+          "Description": "The maximum opening of the rear camera lens, expressed as an f-number, which determines the amount of light reaching the sensor.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "27597",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Arka kamera açıklığı numarası",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831431,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "2.2",
+          "CategoryFeatureId": "175602",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10460",
+          "PresentationValue": "2,2",
+          "RawValue": "2.2",
+          "LocalValue": "2,2",
+          "Description": "The light-gathering capacity of the second rear-facing camera lens, expressed as an f-number (e.g., f/2.2).",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "27598",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "İkinci arka kamera açıklığı sayısı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831439,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "2.4",
+          "CategoryFeatureId": "249789",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10455",
+          "PresentationValue": "2,4",
+          "RawValue": "2.4",
+          "LocalValue": "2,4",
+          "Description": "The maximum opening of the third rear camera lens, which determines the amount of light reaching the sensor.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "35936",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Üçüncü arka kamera açıklığı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831594,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "10",
+          "CategoryFeatureId": "51756",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10392",
+          "PresentationValue": "10x",
+          "RawValue": "10",
+          "LocalValue": "10",
+          "Description": "Indicates the digital zoom capacity",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "48",
+            "Sign": "",
+            "Measure": {
+              "ID": "33",
+              "Sign": "",
+              "Signs": {
+                "ID": "12909",
+                "_": "x",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Dijital zum",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831491,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Single camera",
+          "CategoryFeatureId": "222716",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10300",
+          "PresentationValue": "Tek kamera",
+          "RawValue": "Single camera",
+          "LocalValue": "Tek kamera",
+          "Description": "Indicates the type of the camera at the front of the product, dual or single.",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "33562",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ön kamera tipi",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831499,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "8",
+          "CategoryFeatureId": "175580",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10297",
+          "PresentationValue": "8 MP",
+          "RawValue": "8",
+          "LocalValue": "8",
+          "Description": "The maximum number of pixels captured by the front-facing sensor, typically expressed in megapixels.",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "12437",
+            "Sign": "",
+            "Measure": {
+              "ID": "165",
+              "Sign": "",
+              "Signs": {
+                "ID": "12989",
+                "_": "MP",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ön kamera çözünürlüğü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831564,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "2.2",
+          "CategoryFeatureId": "175652",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10290",
+          "PresentationValue": "2,2",
+          "RawValue": "2.2",
+          "LocalValue": "2,2",
+          "Description": "The light-gathering capacity of the front-facing camera lens, expressed as an f-number.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "27601",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ön kamera adaptörü sayısı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831522,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "257040",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10200",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Whether or not the rear camera features its own flash.",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "36602",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Arka kamera flaşı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831540,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "LED",
+          "CategoryFeatureId": "51506",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10195",
+          "PresentationValue": "LED",
+          "RawValue": "LED",
+          "LocalValue": "LED",
+          "Description": "The technology used to produce the burst of light for illumination during image capture (e.g. LED or Xenon).",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "6697",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Flaş türü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831636,
+          "LocalID": 0,
+          "Type": "2d",
+          "Value": "3840 x 2160",
+          "CategoryFeatureId": "54001",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10100",
+          "PresentationValue": "3840 x 2160 Piksel",
+          "RawValue": "3840 x 2160",
+          "LocalValue": "3840 x 2160",
+          "Description": "The maximum image dimensions, expressed in pixels, that the device can record during video capture.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1597",
+            "Sign": "",
+            "Measure": {
+              "ID": "39",
+              "Sign": "",
+              "Signs": {
+                "ID": "6621",
+                "_": "Piksel",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Video çekim çözünürlüğü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831638,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "30",
+          "CategoryFeatureId": "51713",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10097",
+          "PresentationValue": "30 fps",
+          "RawValue": "30",
+          "LocalValue": "30",
+          "Description": "This is the maximum frame rate",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "7515",
+            "Sign": "",
+            "Measure": {
+              "ID": "85",
+              "Sign": "",
+              "Signs": {
+                "ID": "12944",
+                "_": "fps",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Maksimum çerçeve hızı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831657,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "3840x2160@30fps",
+          "CategoryFeatureId": "106230",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10095",
+          "PresentationValue": "3840x2160@30fps",
+          "RawValue": "3840x2160@30fps",
+          "LocalValue": "3840x2160@30fps",
+          "Description": "The pixel dimensions of the image or video frame recorded at a specific frame rate (e.g. 1024x768@30fps).",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "2963",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Yakalama hızınde çözünürlük",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831668,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "2160p",
+          "CategoryFeatureId": "51508",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "10094",
+          "PresentationValue": "2160p",
+          "RawValue": "2160p",
+          "LocalValue": "2160p",
+          "Description": "The available resolutions and methods supported for capturing video, such as 1080p or 2160p.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "8745",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Video kaydetme modu",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831400,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Triple camera",
+          "CategoryFeatureId": "175569",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "200",
+          "PresentationValue": "Üçlü kamera",
+          "RawValue": "Triple camera",
+          "LocalValue": "Üçlü kamera",
+          "Description": "Indicates the type of the camera at the back of the product, dual or single.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "27587",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Arka kamera tipi",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831574,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "51507",
+          "CategoryFeatureGroupID": "6888",
+          "SortNo": "195",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Device focusing a camera or other piece of equipment automatically.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1614",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Oto fokus",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 6890,
+      "SortNo": "84",
+      "FeatureGroup": {
+        "ID": "35",
+        "Name": {
+          "Value": "Ağ Bağlantıları",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831745,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Dual SIM",
+          "CategoryFeatureId": "115466",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "497",
+          "PresentationValue": "Çift SIM",
+          "RawValue": "Dual SIM",
+          "LocalValue": "Çift SIM",
+          "Description": "How many SIM cards the device can hold.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "19653",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Sim Kart Yeterliliği",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831749,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "5G",
+          "CategoryFeatureId": "328674",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "105",
+          "PresentationValue": "5G",
+          "RawValue": "5G",
+          "LocalValue": "5G",
+          "Description": "The standard of cellular network technology supported by the device (e.g. 4G or 5G).",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "40629",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Mobil ağ oluşturma",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831761,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "NanoSIM",
+          "CategoryFeatureId": "56682",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "99",
+          "PresentationValue": "NanoSIM",
+          "RawValue": "NanoSIM",
+          "LocalValue": "NanoSIM",
+          "Description": "The physical format or technology of the subscriber identity module required for network connectivity (e.g. NanoSIM, eSIM).",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "9166",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "SIM kart türü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831787,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "UMTS",
+          "CategoryFeatureId": "95631",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "69",
+          "PresentationValue": "UMTS",
+          "RawValue": "UMTS",
+          "LocalValue": "UMTS",
+          "Description": "The third-generation wireless communication technologies supported by the device (e.g. HSPA or EVDO).",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "16923",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "3G Standartları",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831810,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "LTE-TDD & LTE-FDD",
+          "CategoryFeatureId": "95632",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "68",
+          "PresentationValue": "LTE-TDD & LTE-FDD",
+          "RawValue": "LTE-TDD & LTE-FDD",
+          "LocalValue": "LTE-TDD & LTE-FDD",
+          "Description": "The specific fourth-generation cellular network technology supported by the device (e.g., LTE or LTE-A).",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "16922",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "4G standartları",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 484416081,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "51513",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "36",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Popular technology that allows an electronic device to exchange data or connect to the internet wirelessly using radio waves.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "1",
+          "Feature": {
+            "ID": "3239",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Wi-Fi",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 484416141,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "802.11a,802.11b,802.11g,Wi-Fi 4 (802.11n)",
+          "CategoryFeatureId": "51514",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "35",
+          "PresentationValue": "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n)",
+          "RawValue": "802.11a,802.11b,802.11g,Wi-Fi 4 (802.11n)",
+          "LocalValue": "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n)",
+          "Description": "The type of wireless local area network (LAN). It can be ad-hoc",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "432",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Wi-Fi standartları",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 484416156,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "51515",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "33",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Bluetooth is a low-power radio technology developed to replace the cables and wires currently used to link or connect electronic devices such as personal computers",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "2183",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Bluetooth",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 484416178,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "5.0",
+          "CategoryFeatureId": "51516",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "32",
+          "PresentationValue": "5.0",
+          "RawValue": "5.0",
+          "LocalValue": "5.0",
+          "Description": "The type of bluetooth technology in the product e.g. Bluetooth Smart (v4.0).",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1208",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Bluetooth versiyonu",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831822,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "850,900,1900,2100",
+          "CategoryFeatureId": "119090",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "8",
+          "PresentationValue": "850,900,1900,2100 MHz",
+          "RawValue": "850,900,1900,2100",
+          "LocalValue": "850,900,1900,2100",
+          "Description": "The specific 3G frequency bands the device is compatible with, measured in MHz.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "8367",
+            "Sign": "",
+            "Measure": {
+              "ID": "18",
+              "Sign": "",
+              "Signs": {
+                "ID": "12897",
+                "_": "MHz",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "3G şeridi destekli",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831857,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "700,800,850,900,1800,2100,2300,2500,2600",
+          "CategoryFeatureId": "90956",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "6",
+          "PresentationValue": "700,800,850,900,1800,2100,2300,2500,2600 MHz",
+          "RawValue": "700,800,850,900,1800,2100,2300,2500,2600",
+          "LocalValue": "700,800,850,900,1800,2100,2300,2500,2600",
+          "Description": "The specific LTE frequency ranges the device is compatible with, measured in MHz.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "14695",
+            "Sign": "",
+            "Measure": {
+              "ID": "18",
+              "Sign": "",
+              "Signs": {
+                "ID": "12897",
+                "_": "MHz",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "4G band destekli",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831872,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "700,800,850,900,1800,2100,2300,2600,3500",
+          "CategoryFeatureId": "594860",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "5",
+          "PresentationValue": "700,800,850,900,1800,2100,2300,2600,3500 MHz",
+          "RawValue": "700,800,850,900,1800,2100,2300,2600,3500",
+          "LocalValue": "700,800,850,900,1800,2100,2300,2600,3500",
+          "Description": "The specific frequency ranges of the 5G cellular network that the device is compatible with, measured in MHz.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "42369",
+            "Sign": "",
+            "Measure": {
+              "ID": "18",
+              "Sign": "",
+              "Signs": {
+                "ID": "12897",
+                "_": "MHz",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "5G bant desteklenir",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831919,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "138770",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "0",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device supports a peer-to-peer connection with another Wi-Fi enabled device without requiring a wireless access point.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "9779",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Wi-Fi yönlendirme",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831912,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "63985",
+          "CategoryFeatureGroupID": "6890",
+          "SortNo": "-5",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device supports short-range wireless connectivity for exchanging data between devices in close proximity.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "10157",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Yakın Alan İletişimi",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 18408,
+      "SortNo": "83",
+      "FeatureGroup": {
+        "ID": "211",
+        "Name": {
+          "Value": "Üyelik/abonelik",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831895,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "No subscription",
+          "CategoryFeatureId": "55137",
+          "CategoryFeatureGroupID": "18408",
+          "SortNo": "46",
+          "PresentationValue": "Abonelik gerektirmez",
+          "RawValue": "No subscription",
+          "LocalValue": "Abonelik gerektirmez",
+          "Description": "The type of cellular connection subscription.",
+          "Mandatory": "1",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "8578",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Abonelik türü",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 6889,
+      "SortNo": "80",
+      "FeatureGroup": {
+        "ID": "12",
+        "Name": {
+          "Value": "Bağlantı",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831876,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "146621",
+          "CategoryFeatureGroupID": "6889",
+          "SortNo": "70",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "The device features a socket into which a USB cable can be plugged.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "1",
+          "Feature": {
+            "ID": "23798",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "USB bağlantı noktası",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831879,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "USB Type-C",
+          "CategoryFeatureId": "51510",
+          "CategoryFeatureGroupID": "6889",
+          "SortNo": "60",
+          "PresentationValue": "USB C Tipi",
+          "RawValue": "USB Type-C",
+          "LocalValue": "USB C Tipi",
+          "Description": "The type of USB connector/port that this product has.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1742",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "USB bağlayıcı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831882,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "2.0",
+          "CategoryFeatureId": "53993",
+          "CategoryFeatureGroupID": "6889",
+          "SortNo": "50",
+          "PresentationValue": "2.0",
+          "RawValue": "2.0",
+          "LocalValue": "2.0",
+          "Description": "Universal Serial Bus (USB) is an industry standard developed in the mid-1990s that defines the interface used for connection",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "8541",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "USB versiyonu",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831892,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "3.5 mm",
+          "CategoryFeatureId": "51511",
+          "CategoryFeatureGroupID": "6889",
+          "SortNo": "16",
+          "PresentationValue": "3,5 mm",
+          "RawValue": "3.5 mm",
+          "LocalValue": "3,5 mm",
+          "Description": "How headphones connect to a device e.g. wirelessly or via a cable and connector.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "4163",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Kulaklık bağlantısı",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 11005,
+      "SortNo": "71",
+      "FeatureGroup": {
+        "ID": "54",
+        "Name": {
+          "Value": "Navigasyon",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468832942,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "51755",
+          "CategoryFeatureGroupID": "11005",
+          "SortNo": "30",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Global Positioning System (GPS) is a space-based satellite navigation system that provides location and time information in all weather conditions",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "3329",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "GPS",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832949,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "94591",
+          "CategoryFeatureGroupID": "11005",
+          "SortNo": "8",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device supports the Global Navigation Satellite System developed in Russia for positioning and navigation.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "15618",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "GLONASS",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832956,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "184929",
+          "CategoryFeatureGroupID": "11005",
+          "SortNo": "8",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device supports the Chinese BeiDou Navigation Satellite System for global positioning.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "28694",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "BeiDou",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832971,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "226793",
+          "CategoryFeatureGroupID": "11005",
+          "SortNo": "7",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device supports the Galileo global navigation satellite system for positioning and timing.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "33685",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Galileo",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468833117,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "226792",
+          "CategoryFeatureGroupID": "11005",
+          "SortNo": "6",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device supports the Quasi-Zenith Satellite System for improved positioning accuracy and reliability, particularly in urban areas or mountainous terrain.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "33686",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Yarı-Zenit Uydu Sistemi (QZSS)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832921,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "166073",
+          "CategoryFeatureGroupID": "11005",
+          "SortNo": "0",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Whether the navigation system can locate the phone's position.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "26425",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Konum belirleme",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 11003,
+      "SortNo": "70",
+      "FeatureGroup": {
+        "ID": "148",
+        "Name": {
+          "Value": "Tasarım",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831365,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Bar",
+          "CategoryFeatureId": "51570",
+          "CategoryFeatureGroupID": "11003",
+          "SortNo": "55",
+          "PresentationValue": "Bar",
+          "RawValue": "Bar",
+          "LocalValue": "Bar",
+          "Description": "The shape or design of the product.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "771",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Form faktörü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468833382,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "Green",
+          "CategoryFeatureId": "143786",
+          "CategoryFeatureGroupID": "11003",
+          "SortNo": "35",
+          "PresentationValue": "Yeşil",
+          "RawValue": "Green",
+          "LocalValue": "Yeşil",
+          "Description": "The colour e.g. red",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1766",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ürün rengi",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 11006,
+      "SortNo": "55",
+      "FeatureGroup": {
+        "ID": "186",
+        "Name": {
+          "Value": "Multimedya",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468832358,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Stereo",
+          "CategoryFeatureId": "54161",
+          "CategoryFeatureGroupID": "11006",
+          "SortNo": "0",
+          "PresentationValue": "Stereo",
+          "RawValue": "Stereo",
+          "LocalValue": "Stereo",
+          "Description": "Specifies the audio output configuration of the integrated sound system, such as Mono or Stereo.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1024",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Hoparlörler",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832351,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "2160p",
+          "CategoryFeatureId": "86002",
+          "CategoryFeatureGroupID": "11006",
+          "SortNo": "0",
+          "PresentationValue": "2160p",
+          "RawValue": "2160p",
+          "LocalValue": "2160p",
+          "Description": "The video modes that can be displayed by the device.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "4851",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Desteklenen video modları",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832428,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "3GA,RTTTL,MP3,RTX,AAC,AWB,WAV,MXMF,IMY,OGA,OGG,M4A,OTA,XMF,MIDI,AMR,FLAC",
+          "CategoryFeatureId": "51528",
+          "CategoryFeatureGroupID": "11006",
+          "SortNo": "-11",
+          "PresentationValue": "3GA, RTTTL, MP3, RTX, AAC, AWB, WAV, MXMF, IMY, OGA, OGG, M4A, OTA, XMF, MIDI, AMR, FLAC",
+          "RawValue": "3GA,RTTTL,MP3,RTX,AAC,AWB,WAV,MXMF,IMY,OGA,OGG,M4A,OTA,XMF,MIDI,AMR,FLAC",
+          "LocalValue": "3GA, RTTTL, MP3, RTX, AAC, AWB, WAV, MXMF, IMY, OGA, OGG, M4A, OTA, XMF, MIDI, AMR, FLAC",
+          "Description": "The audio formats which this device or software can read/use e.g. MP3",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "2224",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Desteklenen ses formatları",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832549,
+          "LocalID": 0,
+          "Type": "multi_dropdown",
+          "Value": "3GP,3G2,WEBM,AVI,M4V,FLV,MKV,MP4",
+          "CategoryFeatureId": "51529",
+          "CategoryFeatureGroupID": "11006",
+          "SortNo": "-12",
+          "PresentationValue": "3GP, 3G2, WEBM, AVI, M4V, FLV, MKV, MP4",
+          "RawValue": "3GP,3G2,WEBM,AVI,M4V,FLV,MKV,MP4",
+          "LocalValue": "3GP, 3G2, WEBM, AVI, M4V, FLV, MKV, MP4",
+          "Description": "The type of video formats that can be used by this device.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "6893",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Desteklenen video formatları",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 18401,
+      "SortNo": "20",
+      "FeatureGroup": {
+        "ID": "90",
+        "Name": {
+          "Value": "Yazılım",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831920,
+          "LocalID": 0,
+          "Type": "dropdown",
+          "Value": "Android",
+          "CategoryFeatureId": "270282",
+          "CategoryFeatureGroupID": "18401",
+          "SortNo": "500",
+          "PresentationValue": "Android",
+          "RawValue": "Android",
+          "LocalValue": "Android",
+          "Description": "Description of a technology platform including a processor",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "75",
+            "Sign": "",
+            "Measure": {
+              "ID": "29",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Platform",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 6892,
+      "SortNo": "5",
+      "FeatureGroup": {
+        "ID": "143",
+        "Name": {
+          "Value": "Batarya",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468832153,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "N",
+          "CategoryFeatureId": "222191",
+          "CategoryFeatureGroupID": "6892",
+          "SortNo": "50",
+          "PresentationValue": "Hayir",
+          "RawValue": "N",
+          "LocalValue": "Hayir",
+          "Description": "Indicates whether the battery can be removed from the device by the user.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "18096",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Çıkarılabilir pil",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832100,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "5000",
+          "CategoryFeatureId": "51519",
+          "CategoryFeatureGroupID": "6892",
+          "SortNo": "38",
+          "PresentationValue": "5000 mAh",
+          "RawValue": "5000",
+          "LocalValue": "5000",
+          "Description": "A measure of the charge stored by the battery. Determined by the mass of active material contained in the battery.",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "909",
+            "Sign": "",
+            "Measure": {
+              "ID": "51",
+              "Sign": "",
+              "Signs": {
+                "ID": "12924",
+                "_": "mAh",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Pil performansı",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 484416262,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "44",
+          "CategoryFeatureId": "106093",
+          "CategoryFeatureGroupID": "6892",
+          "SortNo": "28",
+          "PresentationValue": "44 Saat",
+          "RawValue": "44",
+          "LocalValue": "44",
+          "Description": "The maximum duration the device can be used for voice calls over a 4G network on a single battery charge, measured in hours.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "18111",
+            "Sign": "",
+            "Measure": {
+              "ID": "46",
+              "Sign": "",
+              "Signs": {
+                "ID": "6622",
+                "_": "Saat",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Konuşma süresi (4G) (max)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832057,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "23",
+          "CategoryFeatureId": "90957",
+          "CategoryFeatureGroupID": "6892",
+          "SortNo": "20",
+          "PresentationValue": "23 Saat",
+          "RawValue": "23",
+          "LocalValue": "23",
+          "Description": "The maximum amount of time the device can be used for web browsing while connected to a Wi-Fi network before the battery is depleted, measured in hours.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "15264",
+            "Sign": "",
+            "Measure": {
+              "ID": "46",
+              "Sign": "",
+              "Signs": {
+                "ID": "6622",
+                "_": "Saat",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "İnternet Kullanımı (WiFi) (max)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832284,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "22",
+          "CategoryFeatureId": "90959",
+          "CategoryFeatureGroupID": "6892",
+          "SortNo": "17",
+          "PresentationValue": "22 Saat",
+          "RawValue": "22",
+          "LocalValue": "22",
+          "Description": "The maximum amount of time the device can be used for web browsing over a 4G network connection, measured in hours (e.g. 20).",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "15266",
+            "Sign": "",
+            "Measure": {
+              "ID": "46",
+              "Sign": "",
+              "Signs": {
+                "ID": "6622",
+                "_": "Saat",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "İnternet Kullanımı (4G) (max)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832152,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "130",
+          "CategoryFeatureId": "51657",
+          "CategoryFeatureGroupID": "6892",
+          "SortNo": "2",
+          "PresentationValue": "130 Saat",
+          "RawValue": "130",
+          "LocalValue": "130",
+          "Description": "Number of hours on average for continuous play. This is dependent on the device battery capacity.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "2169",
+            "Sign": "",
+            "Measure": {
+              "ID": "46",
+              "Sign": "",
+              "Signs": {
+                "ID": "6622",
+                "_": "Saat",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Müzik Oynatma",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468832185,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "26",
+          "CategoryFeatureId": "51658",
+          "CategoryFeatureGroupID": "6892",
+          "SortNo": "1",
+          "PresentationValue": "26 Saat",
+          "RawValue": "26",
+          "LocalValue": "26",
+          "Description": "The maximum duration the device can play video on a single battery charge, measured in hours.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "2173",
+            "Sign": "",
+            "Measure": {
+              "ID": "46",
+              "Sign": "",
+              "Signs": {
+                "ID": "6622",
+                "_": "Saat",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Sürekli video pleybek süresi (max)",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 34102,
+      "SortNo": "0",
+      "FeatureGroup": {
+        "ID": "167",
+        "Name": {
+          "Value": "Sensörler",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831959,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "57380",
+          "CategoryFeatureGroupID": "34102",
+          "SortNo": "11",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device includes a built-in sensor to detect acceleration forces and orientation changes.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "9731",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Hız ölçer",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831963,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "59559",
+          "CategoryFeatureGroupID": "34102",
+          "SortNo": "11",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device is equipped with a sensor that detects the intensity of surrounding light to automatically adjust settings.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "8720",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Çevre ışığı sensörü",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831967,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "106231",
+          "CategoryFeatureGroupID": "34102",
+          "SortNo": "10",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device is equipped with a gyroscope to detect and measure orientation and angular velocity.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "9732",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Jiroskop",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831969,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "219542",
+          "CategoryFeatureGroupID": "34102",
+          "SortNo": "0",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "Indicates whether the device is equipped with a sensor to detect magnetic fields, often used for digital compass functions or accessory detection.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "18262",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Manyetik sensör",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 6881,
+      "SortNo": "-1",
+      "FeatureGroup": {
+        "ID": "14",
+        "Name": {
+          "Value": "Ağırlık & boyutlar",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831971,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "77",
+          "CategoryFeatureId": "51488",
+          "CategoryFeatureGroupID": "6881",
+          "SortNo": "10",
+          "PresentationValue": "77 mm",
+          "RawValue": "77",
+          "LocalValue": "77",
+          "Description": "The measurement or extent of something from side to side.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1649",
+            "Sign": "",
+            "Measure": {
+              "ID": "24",
+              "Sign": "",
+              "Signs": {
+                "ID": "12903",
+                "_": "mm",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Genişlik",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831973,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "8.4",
+          "CategoryFeatureId": "51489",
+          "CategoryFeatureGroupID": "6881",
+          "SortNo": "9",
+          "PresentationValue": "8,4 mm",
+          "RawValue": "8.4",
+          "LocalValue": "8,4",
+          "Description": "The distance from the front to the back of something.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1650",
+            "Sign": "",
+            "Measure": {
+              "ID": "24",
+              "Sign": "",
+              "Signs": {
+                "ID": "12903",
+                "_": "mm",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Derinlik",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831976,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "165.5",
+          "CategoryFeatureId": "51490",
+          "CategoryFeatureGroupID": "6881",
+          "SortNo": "8",
+          "PresentationValue": "165,5 mm",
+          "RawValue": "165.5",
+          "LocalValue": "165,5",
+          "Description": "The measurement of the product from head to foot or from base to top.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "1464",
+            "Sign": "",
+            "Measure": {
+              "ID": "24",
+              "Sign": "",
+              "Signs": {
+                "ID": "12903",
+                "_": "mm",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Yükseklik",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 468831970,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "198",
+          "CategoryFeatureId": "51491",
+          "CategoryFeatureGroupID": "6881",
+          "SortNo": "7",
+          "PresentationValue": "198 g",
+          "RawValue": "198",
+          "LocalValue": "198",
+          "Description": "Weight of the product without packaging (net weight). If possible",
+          "Mandatory": "1",
+          "Searchable": "1",
+          "Optional": "0",
+          "Feature": {
+            "ID": "94",
+            "Sign": "",
+            "Measure": {
+              "ID": "38",
+              "Sign": "",
+              "Signs": {
+                "ID": "12914",
+                "_": "g",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Ağırlık",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 83457,
+      "SortNo": "-6",
+      "FeatureGroup": {
+        "ID": "339",
+        "Name": {
+          "Value": "Özgül soğurma oranı (SAR)",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 529323737,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "0.775",
+          "CategoryFeatureId": "101013",
+          "CategoryFeatureGroupID": "83457",
+          "SortNo": "-21",
+          "PresentationValue": "0,775 W/kg",
+          "RawValue": "0.775",
+          "LocalValue": "0,775",
+          "Description": "SAR stands for Specific Absorption Rate which is the unit of measurement for the amount of radio frequency energy absorbed by the head when using mobile equipment.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "17669",
+            "Sign": "",
+            "Measure": {
+              "ID": "203",
+              "Sign": "",
+              "Signs": {
+                "ID": "13021",
+                "_": "W/kg",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Baş SAR değeri (AB)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 529323738,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "1.091",
+          "CategoryFeatureId": "101015",
+          "CategoryFeatureGroupID": "83457",
+          "SortNo": "-23",
+          "PresentationValue": "1,091 W/kg",
+          "RawValue": "1.091",
+          "LocalValue": "1,091",
+          "Description": "SAR stands for Specific Absorption Rate which is the unit of measurement for the amount of radio frequency (RF) energy absorbed by the body when using mobile equipment.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "17670",
+            "Sign": "",
+            "Measure": {
+              "ID": "203",
+              "Sign": "",
+              "Signs": {
+                "ID": "13021",
+                "_": "W/kg",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Vücut SAR değeri (AB)",
+              "Language": "TR"
+            }
+          }
+        },
+        {
+          "Localized": 0,
+          "ID": 529323740,
+          "LocalID": 0,
+          "Type": "numerical",
+          "Value": "2.76",
+          "CategoryFeatureId": "336874",
+          "CategoryFeatureGroupID": "83457",
+          "SortNo": "-25",
+          "PresentationValue": "2,76 W/kg",
+          "RawValue": "2.76",
+          "LocalValue": "2,76",
+          "Description": "The Specific Absorption Rate (SAR) measured at the extremities of the device, expressed in watts per kilogram (W/kg) according to European standards.",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "0",
+          "Feature": {
+            "ID": "41625",
+            "Sign": "",
+            "Measure": {
+              "ID": "203",
+              "Sign": "",
+              "Signs": {
+                "ID": "13021",
+                "_": "W/kg",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Kollar ve Bacaklar için SAR oranı (AB)",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ID": 8176,
+      "SortNo": "-100",
+      "FeatureGroup": {
+        "ID": "146",
+        "Name": {
+          "Value": "Diğer özellikler",
+          "Language": "TR"
+        }
+      },
+      "Features": [
+        {
+          "Localized": 0,
+          "ID": 468831349,
+          "LocalID": 0,
+          "Type": "y_n",
+          "Value": "Y",
+          "CategoryFeatureId": "51496",
+          "CategoryFeatureGroupID": "8176",
+          "SortNo": "22",
+          "PresentationValue": "Evet",
+          "RawValue": "Y",
+          "LocalValue": "Evet",
+          "Description": "A screen of a laptop",
+          "Mandatory": "0",
+          "Searchable": "0",
+          "Optional": "1",
+          "Feature": {
+            "ID": "4963",
+            "Sign": "",
+            "Measure": {
+              "ID": "26",
+              "Sign": "",
+              "Signs": {
+                "ID": "",
+                "_": "",
+                "Language": "TR"
+              }
+            },
+            "Name": {
+              "Value": "Dokunmatik ekran",
+              "Language": "TR"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "FeatureLogos": [],
+  "ReasonsToBuy": [],
+  "Reviews": [
+    {
+      "AwardHighPic": "",
+      "AwardLogoPic": "",
+      "BottomLine": "",
+      "Code": "",
+      "DateAdded": "",
+      "Group": "",
+      "ID": 1300474,
+      "LogoPic": "",
+      "Score": 90,
+      "URL": "https://www.cepkolik.com/samsung-galaxy-m23-5g-inceleme-557955/",
+      "IsActive": true,
+      "Published": "2022-10-17",
+      "Updated": "",
+      "Value": "Samsung, hem A serisi hem de M serisi akıllı telefon serisini sürekli olarak genişletiyor. Aynı fiyatta rekabet edebilirler, ancak M serisi farklı, çünkü özünde farklı özellikler barındırır ve bu akıllı telefon serisi yalnızca online satışa açıktır. Bugü...",
+      "ValueBad": "Az miktarda yazılım güncellemesi vaat ediyor, Uzun süre çalışınca çok ısınıyor, Modern aptX kodekleri eksik, Alınır Mı?, Samsung Galaxy M23 5G, sosyal medyada gezinme ve oyun oynama deneyiminizi sorunsuz hale getirmek için 120 Hz yenileme hızına sahip gen...",
+      "ValueGood": "Parlak, yüksek çözünürlüklü ekran, Hızlı UFS bellek, İyi kamera sistemi, Uzun pil ömrü, 5G Bağlantısı",
+      "Language": "TR",
+      "IcecatID": 99158352
+    }
+  ],
+  "ProductRelated": [
+    {
+      "ID": 227523754,
+      "CategoryID": 788,
+      "Preferred": 0,
+      "IcecatID": 100727744,
+      "ProductCode": "BSP3622/A",
+      "ThumbPic": "",
+      "ProductName": "Business",
+      "Brand": "mcare",
+      "BrandID": 37476,
+      "ProductRelatedLocales": [
+        {
+          "ID": 0,
+          "Language": "TR",
+          "Preferred": 0,
+          "StartDate": "",
+          "EndDate": ""
+        }
+      ],
+      "RelationTypeCode": "service"
+    },
+    {
+      "ID": 227523755,
+      "CategoryID": 788,
+      "Preferred": 0,
+      "IcecatID": 100727743,
+      "ProductCode": "BSP2422/A",
+      "ThumbPic": "",
+      "ProductName": "Business",
+      "Brand": "mcare",
+      "BrandID": 37476,
+      "ProductRelatedLocales": [
+        {
+          "ID": 0,
+          "Language": "TR",
+          "Preferred": 0,
+          "StartDate": "",
+          "EndDate": ""
+        }
+      ],
+      "RelationTypeCode": "service"
+    }
+  ],
+  "CatalogObjectCloud": {
+    "ProductPage": {
+      "QRCodeURL": "https://qr.icecat.biz/coc/6401a735-6e0c-426a-be6b-b468c5a4c20a",
+      "URL": "https://coc.icecat.biz/6401a735-6e0c-426a-be6b-b468c5a4c20a"
+    }
+  },
+  "Variants": [],
+  "ProductStory": [],
+  "Dictionary": {
+    "zoom_panel_in": "Zoom in",
+    "cat_name": "Kategori",
+    "html_content": "Story",
+    "demo_msg_part1": "You are using now a Demo account. Please, use your own Icecat account",
+    "reviews_head_name": "İncelemeler",
+    "model_name": "&Uuml;r&uuml;n adı",
+    "ean_code": "EAN/UPC kodu",
+    "desc": "Açıklama",
+    "link_integrate_desk": "How to integrate Icecat LIVE JavaScript.",
+    "zoom_panel_out": "Zoom out",
+    "eu_energy_label": "AB Enerji Etiketi",
+    "zoom_panel_init": "Original size",
+    "demo_insert_desc": "This is a demo of a seamless insert of an Icecat LIVE product data-sheet in your website. Imagine that this responsive data-sheet is included in the product page of your webshop.",
+    "pdf_url": "Kullanım kılavuzu",
+    "supplier_name": "Marka",
+    "demo_msg_part2": "your Icecat login name",
+    "pdf_specs": "Broş&uuml;r",
+    "specs": "Ürün özellikleri",
+    "eu_product_fiche": "AB Ürün Bilgi Formu",
+    "demo_msg_part3": "If you don't have an Icecat account, please register here for free.",
+    "product_family": "&Uuml;r&uuml;n ailesi",
+    "product_series": "&Uuml;r&uuml;n Serisi",
+    "reasons_to_buy": "Satın alma nedenleri",
+    "repairability_index": "Repairability index",
+    "options_head_name": "Options",
+    "marketing_text": "Tanım",
+    "prod_code": "&Uuml;r&uuml;n kodu",
+    "flash360": "3D tour",
+    "video": "Video",
+    "back_to_top": "Başa d&ouml;n",
+    "release_date": "Release date",
+    "zoom_panel_dragg": "Mouse dragging"
+  },
+  "DemoAccount": false
+}

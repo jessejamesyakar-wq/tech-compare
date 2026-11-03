@@ -2,12 +2,15 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import dotenv from 'dotenv';
+import { assertNonInteractiveFileExecution } from './non_interactive_guard';
 import { parseIcecatPayload, MappedIcecatResult } from './icecat_mapper';
 import { KNOWN_PHONE_MPNS } from './known_phone_mpns';
 import { CANONICAL_EXCLUDED_ID_SET } from '../src/lib/governance/canonicalExclusions';
 import { GOLDEN_DATASET_V1_IDS } from '../src/lib/trustLayer/observe/goldenDatasetV1';
 import { buildVerifiedEvidenceMap, evaluateProductCompleteness } from '../src/lib/evidence/productCompleteness';
 import { verifyIcecatTargetIdentity } from '../src/lib/evidence/canonicalIdentityGate';
+
+assertNonInteractiveFileExecution(__filename);
 
 if (fs.existsSync('.env.local')) {
   dotenv.config({ path: '.env.local' });

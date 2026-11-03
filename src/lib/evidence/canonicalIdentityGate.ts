@@ -490,6 +490,7 @@ const KNOWN_SAMSUNG_MPN_SUBMODEL_MAP: Record<string, { modelToken: string; modif
   'SM-S721': { modelToken: 's24', modifiers: ['fe'], is5G: true },
   'SM-S731': { modelToken: 's25', modifiers: ['fe'], is5G: true },
   'SM-F900': { modelToken: 'fold1', modifiers: ['fold'], is5G: false },
+  'SM-F916': { modelToken: 'fold2', modifiers: ['fold'], is5G: true },
   'SM-F700': { modelToken: 'flip1', modifiers: ['flip'], is5G: false },
 };
 
@@ -726,7 +727,7 @@ export function verifyIcecatTargetIdentity(input: IcecatWriteGateInput): IcecatW
   const preTransferMpnIs5GSku =
     !!preMpnPrefix &&
     preMpnPrefix === sourceMpnPrefix &&
-    /^SM-(?:G781|G99\d|S9\d\d|S7\d\d|F7[1-9]\d|F9[2-9]\d|A\d{2}6|M\d{2}6)B/.test(preTransferMpnUpper);
+    /^SM-(?:G781|G99\d|S9\d\d|S7\d\d|F7[1-9]\d|F9[1-9]\d|A\d{2}6|M\d{2}6)B/.test(preTransferMpnUpper);
 
   const targetIs5G =
     targetParsed.hasExplicit5G ||

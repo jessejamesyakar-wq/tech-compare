@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-11-03T21:53:18.428Z",
+  "totalAccessBlocked": 202,
+  "accountTypeEvaluated": "Open Icecat (Free / Partner tier)",
+  "brandBreakdown": {
+    "Apple": {
+      "count": 36,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Apple Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "apple-apple-iphone-17-pro-max-1-tb-1027079",
+        "apple-apple-iphone-17-pro-max-2-tb-1027080",
+        "apple-apple-iphone-17-pro-max-256-gb-1023353",
+        "apple-apple-iphone-17-pro-max-512-gb-1027078",
+        "apple-apple-iphone-17-256-gb-1027084"
+      ]
+    },
+    "Huawei": {
+      "count": 10,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Huawei Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "huawei-huawei-y5ii",
+        "huawei-huawei-nova-12-ultra",
+        "huawei-huawei-mate-60-pro",
+        "huawei-huawei-p60-pro",
+        "huawei-huawei-mate-50-pro"
+      ]
+    },
+    "General Mobile": {
+      "count": 8,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or General Mobile Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "gm-gm-26-5g-128gb",
+        "gm-gm-26-5g-256gb",
+        "gm-gm-26-pro-5g-12-256gb",
+        "gm-gm-26-pro-5g-12-512gb",
+        "gm-gm-26-pro-5g-8-256gb"
+      ]
+    },
+    "Google": {
+      "count": 12,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Google Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "google-google-pixel-10a-30",
+        "google-google-pixel-11-31",
+        "google-pixel-10-pro-xl-256gb-icecat",
+        "google-google-pixel-10-26",
+        "google-google-pixel-10-pro-xl-28"
+      ]
+    },
+    "Honor": {
+      "count": 11,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Honor Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "honor-honor-600-88",
+        "honor-honor-600-lite-90",
+        "honor-honor-600-pro-89",
+        "honor-honor-magic-v6-87",
+        "honor-honor-magic8-84"
+      ]
+    },
+    "Nothing": {
+      "count": 10,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Nothing Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "nothing-nothing-phone-3a-lite-10",
+        "nothing-nothing-phone-3a-pro-9",
+        "nothing-nothing-phone-4a-11",
+        "nothing-nothing-phone-4a-pro-12",
+        "nothing-nothing-phone-4b-13"
+      ]
+    },
+    "Oppo": {
+      "count": 32,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Oppo Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "oppo-a6t-5g-4-128gb",
+        "oppo-a6t-5g-4-256gb",
+        "oppo-a7-pro-5g-256gb-2027",
+        "oppo-oppo-find-x8s-5g-13769",
+        "oppo-reno-16-5g-8-256gb"
+      ]
+    },
+    "Xiaomi": {
+      "count": 26,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Xiaomi Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "xiaomi-redmi-a7-pro-128gb-2026",
+        "xiaomi-xiaomi-poco-c81-pro-14635",
+        "xiaomi-xiaomi-poco-f8-pro-5g-14303",
+        "xiaomi-xiaomi-redmi-6a-9217",
+        "xiaomi-xiaomi-redmi-k100-pro-max-5g-14865"
+      ]
+    },
+    "Infinix": {
+      "count": 3,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Infinix Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "infinix-note-50-8-256gb",
+        "infinix-hot-50-8-256gb",
+        "infinix-hot-50-pro-plus-8-256gb"
+      ]
+    },
+    "Realme": {
+      "count": 1,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Realme Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "realme-realme-narzo-70-56"
+      ]
+    },
+    "TCL": {
+      "count": 6,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or TCL Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "tcl-tcl-60-45",
+        "tcl-tcl-60-5g-46",
+        "tcl-tcl-60-nxtpaper-4g-47",
+        "tcl-tcl-60-se-nxtpaper-5g-48",
+        "tcl-tcl-60-xe-nxtpaper-49"
+      ]
+    },
+    "Tecno": {
+      "count": 14,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Tecno Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "tecno-camon-40-8-256gb",
+        "tecno-camon-40-pro-5g-8-256gb",
+        "tecno-spark-40c-4-128gb",
+        "tecno-tecno-camon-30s-pro",
+        "tecno-tecno-pova-7-5g"
+      ]
+    },
+    "Vivo": {
+      "count": 23,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or Vivo Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "vivo-v50-pro-512gb-2025",
+        "vivo-vivo-v50-5g",
+        "vivo-vivo-v50-lite",
+        "vivo-vivo-v50-lite-5g",
+        "vivo-vivo-y29"
+      ]
+    },
+    "OnePlus": {
+      "count": 10,
+      "httpStatus": 404,
+      "icecatStatusCode": 14,
+      "icecatApiMessage": "Full Icecat subscription level is required to access the product data of the non-sponsoring brand",
+      "requirement": "Full Icecat contract or OnePlus Brand Sponsor reseller authorization in Icecat account",
+      "sampleIds": [
+        "oneplus-12-512gb-icecat",
+        "oneplus-nord-4-256gb-icecat",
+        "oneplus-oneplus-13",
+        "oneplus-oneplus-ace-3-pro",
+        "oneplus-oneplus-ace-3v"
+      ]
+    }
+  }
+}

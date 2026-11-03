@@ -126,7 +126,7 @@ function runTests() {
   console.log(`✅ [PASS 8] Negative Test: Pixel dimensions (9248 x 6936 Piksel) rejected for mainMp; numeric '64 MP' preserved`);
   passed++;
 
-  // 9. Catalog & Evidence Integrity Checks on smartphonesData.json and field-evidence.jsonl
+  // 9. Post-P0 Completion & Source Classification Verification for the 4 Isolated Phones (A20, A30, A14, Note 20)
   const catalog: any[] = JSON.parse(fs.readFileSync('src/lib/smartphonesData.json', 'utf-8'));
   const catalogMap = new Map(catalog.map(p => [p.id, p]));
   const evidenceLines = fs
@@ -135,56 +135,97 @@ function runTests() {
     .split('\n')
     .map(l => JSON.parse(l));
 
-  const isolatedIds = [
-    { id: 'samsung-samsung-galaxy-a20-21', expectedName: 'Samsung Galaxy A20' },
-    { id: 'samsung-samsung-galaxy-a30-22', expectedName: 'Samsung Galaxy A30' },
-    { id: 'samsung-samsung-galaxy-a14-86', expectedName: 'Samsung Galaxy A14' },
-    { id: 'samsung-samsung-galaxy-note-20-36', expectedName: 'Samsung Galaxy Note 20' },
-  ];
+  // 9a. Galaxy A20 (Official Manufacturer SM-A205F/DS — NEVER tagged as ICECAT_CATALOG_VERIFIED)
+  const a20 = catalogMap.get('samsung-samsung-galaxy-a20-21');
+  assert(a20, 'A20 must exist');
+  assert.strictEqual(a20.name, 'Samsung Galaxy A20');
+  assert.strictEqual(a20.specs.screen.size, '6.4 inç');
+  assert.strictEqual(a20.specs.screen.resolution, '720 x 1560');
+  assert.strictEqual(a20.specs.processor.chip, 'Exynos 7884');
+  assert.strictEqual(a20.specs.memory.ramGb, 3);
+  assert.strictEqual(a20.specs.memory.storageGb, 32);
+  assert.strictEqual(a20.specs.camera.mainMp, '13 MP');
+  assert.strictEqual(a20.specs.battery.capacitymAh, 4000);
+  assert.strictEqual(a20.specs.connectivity.has5G, false);
+  assert.strictEqual(hasUnresolvedSpecField(a20, 'screen.size'), false);
+  assert.strictEqual(hasUnresolvedSpecField(a20, 'camera.ultrawideMp'), true);
+  assert.strictEqual(hasUnresolvedSpecField(a20, 'camera.telephotoMp'), true);
+  const a20Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-a20-21');
+  assert.strictEqual(a20Ev.length, 19, 'A20 must have 19 official manufacturer evidence records');
+  assert(
+    a20Ev.every(
+      e => e.sourceType === 'OFFICIAL_MANUFACTURER' && e.trustClassification === 'OFFICIAL_MANUFACTURER_VERIFIED'
+    ),
+    'A20 manufacturer evidence must NEVER be labeled ICECAT_CATALOG_VERIFIED'
+  );
 
-  for (const iso of isolatedIds) {
-    const prod = catalogMap.get(iso.id);
-    assert(prod, `Product ${iso.id} must exist`);
-    assert.strictEqual(prod.name, iso.expectedName, `Product ${iso.id} must NOT be renamed to cover up mismatch`);
-    assert.strictEqual(prod.extraSpecs, undefined, `Product ${iso.id} must have extraSpecs isolated/removed`);
-    assert.strictEqual(
-      evidenceLines.filter(e => e.productId === iso.id).length,
-      0,
-      `Product ${iso.id} must have 0 records in field-evidence.jsonl`
-    );
-    assert.strictEqual(prod.specs?.connectivity?.has5G, undefined, `Product ${iso.id} must not have unverified has5G`);
-    assert.strictEqual(hasUnresolvedSpecField(prod, 'connectivity.has5G'), true);
-    assert.strictEqual(hasUnresolvedSpecField(prod, 'screen.size'), true);
-    assert.strictEqual(hasUnresolvedSpecField(prod, 'camera.mainMp'), true);
+  // 9b. Galaxy A30 (Icecat SM-A305FZKF 4G, 4GB/64GB — NOT A30s)
+  const a30 = catalogMap.get('samsung-samsung-galaxy-a30-22');
+  assert(a30, 'A30 must exist');
+  assert.strictEqual(a30.name, 'Samsung Galaxy A30');
+  assert.strictEqual(a30.specs.screen.size, '6.4 inç');
+  assert.strictEqual(a30.specs.screen.resolution, '2340 x 1080');
+  assert.strictEqual(a30.specs.memory.ramGb, 4);
+  assert.strictEqual(a30.specs.memory.storageGb, 64);
+  assert.strictEqual(a30.specs.camera.mainMp, '16 MP');
+  assert.strictEqual(a30.specs.camera.selfieMp, '16 MP');
+  assert.strictEqual(a30.specs.connectivity.has5G, false);
+  assert.strictEqual(hasUnresolvedSpecField(a30, 'camera.ultrawideMp'), true);
+  const a30Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-a30-22');
+  assert.strictEqual(a30Ev.length, 16);
+  assert(a30Ev.every(e => e.mpn === 'SM-A305FZKF' && e.trustClassification === 'ICECAT_CATALOG_VERIFIED'));
 
-    // Compare check
-    const compRows = getComparisonRows('smartphones').filter(
-      r => r.id !== 'price' && r.id !== 'score' && r.id !== 'year'
-    );
-    for (const row of compRows) {
-      const val = row.getValue(prod);
-      assert(
-        val.startsWith('Doğrulama bekliyor'),
-        `Compare row ${row.label} for ${iso.id} must start with 'Doğrulama bekliyor', got '${val}'`
-      );
-      if (row.getRawNumber) {
-        assert.strictEqual(row.getRawNumber(prod), null, `Compare raw number for ${row.label} on ${iso.id} must be null`);
-      }
-    }
+  // 9c. Galaxy A14 (Icecat SM-A145RZKUEUE 4G, 4GB/64GB, 60Hz — NOT A14 5G 90Hz)
+  const a14 = catalogMap.get('samsung-samsung-galaxy-a14-86');
+  assert(a14, 'A14 must exist');
+  assert.strictEqual(a14.specs.screen.size, '6.6 inç');
+  assert.strictEqual(a14.specs.screen.refreshRate, 60);
+  assert.strictEqual(a14.specs.memory.ramGb, 4);
+  assert.strictEqual(a14.specs.memory.storageGb, 64);
+  assert.strictEqual(a14.specs.camera.mainMp, '50 MP');
+  assert.strictEqual(a14.specs.connectivity.has5G, false);
+  assert.strictEqual(hasUnresolvedSpecField(a14, 'camera.ultrawideMp'), true);
+  const a14Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-a14-86');
+  assert.strictEqual(a14Ev.length, 21);
+  assert(a14Ev.every(e => e.mpn === 'SM-A145RZKUEUE' && e.trustClassification === 'ICECAT_CATALOG_VERIFIED'));
 
-    // SEO check
+  // 9d. Galaxy Note 20 (Icecat SM-N980FZAGEUE 4G, 8GB/256GB — NOT Note20 5G SM-N981B)
+  const note20 = catalogMap.get('samsung-samsung-galaxy-note-20-36');
+  assert(note20, 'Note 20 must exist');
+  assert.strictEqual(note20.specs.screen.size, '6.7 inç');
+  assert.strictEqual(note20.specs.memory.ramGb, 8);
+  assert.strictEqual(note20.specs.memory.storageGb, 256);
+  assert.strictEqual(note20.specs.camera.mainMp, '12 MP');
+  assert.strictEqual(note20.specs.battery.capacitymAh, 4300);
+  assert.strictEqual(note20.specs.connectivity.has5G, false);
+  assert.strictEqual(hasUnresolvedSpecField(note20, 'camera.ultrawideMp'), true);
+  const note20Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-note-20-36');
+  assert.strictEqual(note20Ev.length, 21);
+  assert(note20Ev.every(e => e.mpn === 'SM-N980FZAGEUE' && e.trustClassification === 'ICECAT_CATALOG_VERIFIED'));
+
+  // Verify Compare, SEO, and RoboPengu on all 4 completed phones
+  for (const prod of [a20, a30, a14, note20]) {
+    const compRows = getComparisonRows([prod]);
+    const screenRow = compRows.find(r => r.id.includes('screen.size'));
+    const ramRow = compRows.find(r => r.id.includes('memory.ramGb'));
+    const fiveGRow = compRows.find(r => r.id.includes('connectivity.has5G'));
+    const uwRow = compRows.find(r => r.id.includes('camera.ultrawideMp'));
+    assert(screenRow && !screenRow.getValue(prod).startsWith('Doğrulama bekliyor'));
+    assert(ramRow && !ramRow.getValue(prod).startsWith('Doğrulama bekliyor'));
+    assert(fiveGRow && !fiveGRow.getValue(prod).startsWith('Doğrulama bekliyor'));
+    assert(uwRow && uwRow.getValue(prod).startsWith('Doğrulama bekliyor'));
+
     const seoDesc = buildProductMetaDescription(prod);
-    assert(!seoDesc.includes('5.8'), `SEO for ${iso.id} must not contain A20e 5.8 inch spec`);
-    assert(!seoDesc.includes('720 x 1560'), `SEO for ${iso.id} must not contain A20e/A30s 720x1560 spec`);
-
-    // RoboPengu TrustEngine check
+    assert(!seoDesc.includes('5.8'), `SEO for ${prod.id} must not contain A20e 5.8 inch spec`);
     const trust = TrustEngine.evaluate(prod, ['camera', 'display', 'battery', 'processor', 'ram']);
-    assert.strictEqual(trust.hasBlockedFields, true, `RoboPengu TrustEngine must flag blocked/unresolved fields on ${iso.id}`);
+    assert(!trust.blockedFields.includes('specs.memory.ramGb'), `RAM must be unblocked on ${prod.id}`);
+    assert(!trust.blockedFields.includes('specs.screen.size'), `Screen size must be unblocked on ${prod.id}`);
+    assert(trust.blockedFields.includes('specs.camera.ultrawideMp'), `Unresolved ultrawideMp must stay blocked on ${prod.id}`);
   }
-  console.log(`✅ [PASS 9] Isolated products (A20, A30, A14, Note 20) verified clean across Catalog, Evidence, Compare, SEO, and RoboPengu`);
+  console.log(`✅ [PASS 9] Completed P0 phones (A20 Official Mfr, A30/A14/Note 20 4G Icecat) verified across Catalog, Evidence, Compare, SEO, and RoboPengu`);
   passed++;
 
-  // 10. Verify zero positional ultrawideMp/telephotoMp or pixel-dimension MP in field-evidence.jsonl
+  // 10. Verify zero positional ultrawideMp/telephotoMp, zero pixel-dimension MP, and zero duplicate field evidence in field-evidence.jsonl
   const uwTeleEv = evidenceLines.filter(
     e => e.fieldPath === 'specs.camera.ultrawideMp' || e.fieldPath === 'specs.camera.telephotoMp'
   );
@@ -196,7 +237,14 @@ function runTests() {
       parseInt(String(e.normalizedValue), 10) > 250
   );
   assert.strictEqual(bogusMpEv.length, 0, 'Zero pixel-dimension MP values (>250 MP) allowed in field-evidence.jsonl');
-  console.log(`✅ [PASS 10] All 518 remaining field-evidence.jsonl records verified free of positional lens roles and pixel-dimension MP bugs`);
+
+  const seenEvKeys = new Set<string>();
+  for (const ev of evidenceLines) {
+    const key = `${ev.productId}::${ev.fieldPath}`;
+    assert(!seenEvKeys.has(key), `Duplicate field evidence detected for ${key}`);
+    seenEvKeys.add(key);
+  }
+  console.log(`✅ [PASS 10] All ${evidenceLines.length} field-evidence.jsonl records verified free of positional lens roles, pixel-dimension MP bugs, and duplicate field evidence`);
   passed++;
 
   console.log(`\n======================================================================`);
