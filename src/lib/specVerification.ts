@@ -56,9 +56,11 @@ export function hasUnresolvedSpecField(product: Product | null | undefined, path
   if (!Array.isArray(unresolvedList) || unresolvedList.length === 0) return false;
 
   const normalize = (path: string) => path.replace(/^specs\./, '');
+  const primaryQueried = new Set<string>();
   const expandedQueried = new Set<string>();
   for (const token of rawTokens) {
     const norm = normalize(token);
+    primaryQueried.add(norm);
     expandedQueried.add(norm);
     const aliases = FLAT_TO_NESTED_ALIASES[norm];
     if (aliases) aliases.forEach(a => expandedQueried.add(a));
@@ -70,7 +72,7 @@ export function hasUnresolvedSpecField(product: Product | null | undefined, path
       return (
         queried === unresolved ||
         queried.startsWith(`${unresolved}.`) ||
-        unresolved.startsWith(`${queried}.`)
+        (primaryQueried.has(queried) && unresolved.startsWith(`${queried}.`))
       );
     })
   );

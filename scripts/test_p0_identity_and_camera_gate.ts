@@ -148,6 +148,8 @@ function runTests() {
   assert.strictEqual(a20.specs.battery.capacitymAh, 4000);
   assert.strictEqual(a20.specs.connectivity.has5G, false);
   assert.strictEqual(hasUnresolvedSpecField(a20, 'screen.size'), false);
+  assert.strictEqual(hasUnresolvedSpecField(a20, 'processor.chip'), false);
+  assert.strictEqual(hasUnresolvedSpecField(a20, 'battery.capacitymAh'), false);
   assert.strictEqual(hasUnresolvedSpecField(a20, 'camera.ultrawideMp'), true);
   assert.strictEqual(hasUnresolvedSpecField(a20, 'camera.telephotoMp'), true);
   const a20Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-a20-21');
@@ -170,6 +172,7 @@ function runTests() {
   assert.strictEqual(a30.specs.camera.mainMp, '16 MP');
   assert.strictEqual(a30.specs.camera.selfieMp, '16 MP');
   assert.strictEqual(a30.specs.connectivity.has5G, false);
+  assert.strictEqual(hasUnresolvedSpecField(a30, 'battery.capacitymAh'), false);
   assert.strictEqual(hasUnresolvedSpecField(a30, 'camera.ultrawideMp'), true);
   const a30Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-a30-22');
   assert.strictEqual(a30Ev.length, 16);
@@ -184,6 +187,7 @@ function runTests() {
   assert.strictEqual(a14.specs.memory.storageGb, 64);
   assert.strictEqual(a14.specs.camera.mainMp, '50 MP');
   assert.strictEqual(a14.specs.connectivity.has5G, false);
+  assert.strictEqual(hasUnresolvedSpecField(a14, 'battery.capacitymAh'), false);
   assert.strictEqual(hasUnresolvedSpecField(a14, 'camera.ultrawideMp'), true);
   const a14Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-a14-86');
   assert.strictEqual(a14Ev.length, 21);
@@ -198,6 +202,7 @@ function runTests() {
   assert.strictEqual(note20.specs.camera.mainMp, '12 MP');
   assert.strictEqual(note20.specs.battery.capacitymAh, 4300);
   assert.strictEqual(note20.specs.connectivity.has5G, false);
+  assert.strictEqual(hasUnresolvedSpecField(note20, 'battery.capacitymAh'), false);
   assert.strictEqual(hasUnresolvedSpecField(note20, 'camera.ultrawideMp'), true);
   const note20Ev = evidenceLines.filter(e => e.productId === 'samsung-samsung-galaxy-note-20-36');
   assert.strictEqual(note20Ev.length, 21);
