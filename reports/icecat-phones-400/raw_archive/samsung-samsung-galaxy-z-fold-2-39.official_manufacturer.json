@@ -1,0 +1,113 @@
+{
+  "canonicalId": "samsung-samsung-galaxy-z-fold-2-39",
+  "brand": "Samsung",
+  "model": "Samsung Galaxy Z Fold 2",
+  "mpn": "SM-F916BZKABTU",
+  "sourceUrl": "https://searchapi.samsung.com/v6/front/b2c/product/spec/detail?siteCode=uk&modelList=SM-F916BZKABTU&specAnnotationYN=Y",
+  "snapshotHtmlRelativePath": "reports/icecat-phones-400/raw_archive/samsung-samsung-galaxy-z-fold-2-39.official_manufacturer.html",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "trustClassification": "OFFICIAL_MANUFACTURER_VERIFIED",
+  "fetchedAt": "2026-11-08T12:12:00.000Z",
+  "fieldExtractions": [
+    {
+      "fieldPath": "specs.screen.type",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B68-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Technology (Main Display)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Dynamic AMOLED 2X</td>",
+      "normalizedValue": "Dynamic AMOLED 2X"
+    },
+    {
+      "fieldPath": "specs.screen.resolution",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B63-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Resolution (Main Display)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">2208 x 1768 (QXGA+)</td>",
+      "normalizedValue": "2208 x 1768"
+    },
+    {
+      "fieldPath": "specs.processor.cores",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B9E-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">CPU Type</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Octa-Core</td>",
+      "normalizedValue": "8 Çekirdek"
+    },
+    {
+      "fieldPath": "specs.memory.storageGb",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B93-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Storage (GB)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">256</td>",
+      "normalizedValue": 256
+    },
+    {
+      "fieldPath": "specs.camera.mainMp",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-18B2C1F7-07F8-4D83-8A29-DE59809DFB30\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Rear Camera - Resolution (Multiple)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">12.0 MP + 12.0 MP + 12.0 MP</td>",
+      "normalizedValue": "12 MP"
+    },
+    {
+      "fieldPath": "specs.camera.selfieMp",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B4F-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Front Camera - Resolution</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">10.0 MP</td>",
+      "normalizedValue": "10 MP"
+    },
+    {
+      "fieldPath": "specs.camera.videoRes",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B54-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Video Recording Resolution</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">UHD 4K (3840 x 2160)@60fps</td>",
+      "normalizedValue": "4K @ 60fps"
+    },
+    {
+      "fieldPath": "specs.battery.capacitymAh",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-D59D72A5-D70A-4D00-A5B7-C77487173564\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Battery Capacity (mAh, Typical)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">4500</td>",
+      "normalizedValue": 4500
+    },
+    {
+      "fieldPath": "specs.connectivity.has5G",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F1CCA4B5-5FF6-F026-E043-CBFEDFDDC006\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Infra</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">2G GSM, 3G WCDMA, 4G LTE FDD, 4G LTE TDD, 5G Sub6 FDD, 5G Sub6 TDD</td>",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.wifiStandard",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B5F-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Wi-Fi</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">802.11 a/b/g/n/ac/ax 2.4G+5GHz, HE80, MIMO, 1024-QAM</td>",
+      "normalizedValue": "Wi-Fi 6 (802.11ax)"
+    },
+    {
+      "fieldPath": "specs.connectivity.bluetooth",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B57-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Bluetooth Version</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Bluetooth v5.0</td>",
+      "normalizedValue": "5.0"
+    },
+    {
+      "fieldPath": "specs.connectivity.hasNFC",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B5C-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">NFC</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Yes</td>",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.build.weightGrams",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-7A6319C4-EA07-4E96-A393-DE3356BF490A\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Weight (g)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">282</td>",
+      "normalizedValue": 282
+    },
+    {
+      "fieldPath": "specs.software.osName",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"GROUP_OS\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">OS</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Android</td>",
+      "normalizedValue": "Android"
+    }
+  ],
+  "sourceContentHash": "0f30b2d130c81ea24e8646beba4118ec84a475101930e940d4dae486c6f9dd70",
+  "normalizedDataHash": "c5ba84ae2bcd23abf5d41c34b80e40b8a6d096e6593d8c837c1e7e88490a9633"
+}

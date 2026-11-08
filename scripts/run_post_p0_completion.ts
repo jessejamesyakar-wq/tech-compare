@@ -42,11 +42,56 @@ const BLOCKERS_PATH = path.join(REPORTS_DIR, 'blockers.json');
 const ACCESS_BREAKDOWN_PATH = path.join(REPORTS_DIR, 'access-blockers-breakdown.json');
 const POST_P0_SUMMARY_PATH = path.join(REPORTS_DIR, 'post_p0_completion_summary.json');
 
-const A20_SNAPSHOT_META_PATH = path.join(
-  RAW_ARCHIVE_DIR,
-  'samsung-samsung-galaxy-a20-21.official_manufacturer.json'
-);
 const ACCESS_PROBE_OBS_PATH = path.join(RAW_ARCHIVE_DIR, 'access_probe_observations.json');
+
+const NEXT_EXECUTION_MANUFACTURER_CANDIDATE_IDS: string[] = [
+  // Apple (4)
+  'apple-apple-iphone-17-pro-max-256-gb-1023353',
+  'apple-apple-iphone-17-pro-max-512-gb-1027078',
+  'apple-apple-iphone-17-pro-max-1-tb-1027079',
+  'apple-apple-iphone-17-pro-max-2-tb-1027080',
+  // Huawei (1)
+  'huawei-huawei-y5ii',
+  // Honor (1)
+  'honor-magic6-pro-512gb-flagship',
+  // Xiaomi / Redmi / POCO (13)
+  'xiaomi-14-ultra-512gb-icecat',
+  'xiaomi-14t-pro-512gb-icecat',
+  'xiaomi-xiaomi-redmi-note-12-pro-4g-12209',
+  'xiaomi-15-256gb-2025',
+  'xiaomi-15-ultra-512gb-2025',
+  'poco-x6-pro-512gb-2024',
+  'poco-f7-pro-512gb-2025',
+  'poco-poco-f7-ultra-86',
+  'poco-poco-f7-5g-85',
+  'poco-poco-x7-pro-5g-90',
+  'poco-m7-pro-5g-256gb-2025',
+  'redmi-note-14-pro-5g-256gb-2025',
+  'redmi-note-14-pro-plus-5g-512gb-2025',
+  // Samsung (21)
+  'samsung-samsung-galaxy-s25-107',
+  'samsung-samsung-galaxy-s25-108',
+  'samsung-samsung-galaxy-s25-ultra-109',
+  'samsung-samsung-galaxy-s25-fe-256gb-130',
+  'samsung-samsung-galaxy-z-flip-7-111',
+  'samsung-samsung-galaxy-z-fold-7-256gb-132',
+  'samsung-samsung-galaxy-z-fold-7-112',
+  'samsung-samsung-galaxy-a36-5g-116',
+  'samsung-samsung-galaxy-a17-5g-124',
+  'samsung-samsung-galaxy-m15-5g-104',
+  'samsung-samsung-galaxy-a24-87',
+  'samsung-samsung-galaxy-a23-72',
+  'samsung-samsung-galaxy-a73-5g-75',
+  'samsung-samsung-galaxy-m13-76',
+  'samsung-samsung-galaxy-a02-56',
+  'samsung-samsung-galaxy-m32-64',
+  'samsung-samsung-galaxy-a10-20',
+  'samsung-samsung-galaxy-a51-44',
+  'samsung-samsung-galaxy-z-fold-2-39',
+  'samsung-samsung-galaxy-m14-5g-90',
+  'samsung-samsung-galaxy-m34-5g-91',
+];
+const NEXT_EXECUTION_MANUFACTURER_SET = new Set<string>(NEXT_EXECUTION_MANUFACTURER_CANDIDATE_IDS);
 
 // P0 Commit used as the clean pre-transfer baseline for the 21 post-P0 candidates
 const P0_BASELINE_COMMIT = '22f60412e3a948f489770c35673ae68dcb218f54';
@@ -400,12 +445,18 @@ async function runPostP0Completion() {
         .map(l => JSON.parse(l))
     : [];
   const previousFetchedAtByProductAndField = new Map<string, string>();
-  const previousA20EvidenceByField = new Map<string, { fetchedAt: string; sourceContentHash: string }>();
+  const previousMfrEvidenceByProduct = new Map<
+    string,
+    Map<string, { fetchedAt: string; sourceContentHash: string }>
+  >();
   for (const ev of currentEvidenceOnDisk) {
     if (ev.productId && ev.fieldPath && ev.fetchedAt) {
       previousFetchedAtByProductAndField.set(`${ev.productId}::${ev.fieldPath}`, ev.fetchedAt);
-      if (ev.productId === 'samsung-samsung-galaxy-a20-21' && ev.sourceContentHash) {
-        previousA20EvidenceByField.set(ev.fieldPath, {
+      if (ev.sourceType === 'OFFICIAL_MANUFACTURER' && ev.sourceContentHash) {
+        if (!previousMfrEvidenceByProduct.has(ev.productId)) {
+          previousMfrEvidenceByProduct.set(ev.productId, new Map());
+        }
+        previousMfrEvidenceByProduct.get(ev.productId)!.set(ev.fieldPath, {
           fetchedAt: ev.fetchedAt,
           sourceContentHash: ev.sourceContentHash,
         });
@@ -413,12 +464,13 @@ async function runPostP0Completion() {
     }
   }
 
-  // Reset the 21 post-P0 candidate products in memory to their exact pre-transfer P0 baseline state
-  // before applying the hardened gates (so any rejected/separated candidate or unsupported A20 field
+  // Reset all post-P0 candidate products in memory to their exact pre-transfer P0 baseline state
+  // before applying the hardened gates (so any rejected/separated candidate or unsupported field
   // is cleanly restored to its pre-transfer state while preserving all 32 pre-P0 Icecat phones).
   const postP0TargetIds = new Set<string>([
     'samsung-samsung-galaxy-a20-21',
     ...Array.from(ICECAT_QUERY_CANDIDATES.keys()),
+    ...NEXT_EXECUTION_MANUFACTURER_CANDIDATE_IDS,
   ]);
   for (const targetId of postP0TargetIds) {
     const entry = catalogMap.get(targetId);
@@ -455,25 +507,41 @@ async function runPostP0Completion() {
 
   let icecatAppliedProductsCount = 0;
   let manufacturerAppliedProductsCount = 0;
+  let dualCorroboratedProductsCount = 0;
   let icecatEvidenceFieldsAdded = 0;
   let manufacturerEvidenceFieldsAdded = 0;
   const completedInThisRun: any[] = [];
   const separatedByIdentityGate: any[] = [];
 
+  // Track manufacturer-verified identity and fields per product so Icecat candidates can corroborate
+  // missing MPNs/5G/RAM/storage without ever mixing OFFICIAL_MANUFACTURER_VERIFIED and ICECAT_CATALOG_VERIFIED
+  const manufacturerCorroborationMap = new Map<
+    string,
+    {
+      mpn: string;
+      has5G?: boolean;
+      ramGb?: number;
+      storageGb?: number;
+      verifiedFields: Set<string>;
+      fieldsUpdated: number;
+      evidenceFieldsRecorded: number;
+    }
+  >();
+
   // =========================================================================
-  // REQUIREMENT 1: OFFICIAL MANUFACTURER SNAPSHOT VERIFICATION FOR GALAXY A20
-  // - Never accept hardcoded OFFICIAL_A20_MANUFACTURER_SPEC alone
-  // - Verify raw HTML snapshot hash & per-field table locators/excerpts
+  // REQUIREMENT 1 & NEXT EXECUTION: OFFICIAL MANUFACTURER SNAPSHOT VERIFICATION
+  // - Verify raw HTML snapshot hash & per-field locators/excerpts
   // - Separate sourceContentHash from normalizedDataHash
-  // - Preserve immutable fetchedAt ("2026-11-03T22:28:01.000Z"); track appliedAt/reviewedAt separately
-  // - Apply only the 12 supported fields; leave the 7 unsupported fields unverified
+  // - Preserve immutable fetchedAt; track appliedAt/reviewedAt separately
+  // - Apply only directly supported technical fields; keep OFFICIAL_MANUFACTURER_VERIFIED strictly separate
   // =========================================================================
-  function applyOfficialManufacturerA20FromSnapshot() {
-    if (!fs.existsSync(A20_SNAPSHOT_META_PATH)) {
-      throw new Error(`Missing A20 official manufacturer snapshot metadata at ${A20_SNAPSHOT_META_PATH}`);
+  function applyOfficialManufacturerSnapshot(canonicalId: string, phaseLabel: string): boolean {
+    const metaPath = path.join(RAW_ARCHIVE_DIR, `${canonicalId}.official_manufacturer.json`);
+    if (!fs.existsSync(metaPath)) {
+      throw new Error(`Missing official manufacturer snapshot metadata at ${metaPath}`);
     }
     const snapshotMeta: ManufacturerSnapshotMeta = JSON.parse(
-      fs.readFileSync(A20_SNAPSHOT_META_PATH, 'utf-8')
+      fs.readFileSync(metaPath, 'utf-8')
     );
 
     const appliedAt = new Date().toISOString();
@@ -481,14 +549,14 @@ async function runPostP0Completion() {
 
     const snapGate = verifyAndExtractManufacturerSnapshot(snapshotMeta, {
       workspaceRoot: process.cwd(),
-      existingEvidenceByField: previousA20EvidenceByField,
+      existingEvidenceByField: previousMfrEvidenceByProduct.get(canonicalId),
       appliedAt,
       reviewedAt,
     });
 
     if (!snapGate.passed) {
       throw new Error(
-        `[A20 SNAPSHOT GATE FAILED] ${snapGate.reasonCode}: ${snapGate.detail}`
+        `[${canonicalId} SNAPSHOT GATE FAILED] ${snapGate.reasonCode}: ${snapGate.detail}`
       );
     }
 
@@ -498,9 +566,18 @@ async function runPostP0Completion() {
 
     if (!product.specs) product.specs = {};
     const resolvedPaths: string[] = [];
+    const verifiedFieldSet = new Set<string>();
     let fieldsUpdated = 0;
+    let mfrHas5G: boolean | undefined;
+    let mfrRamGb: number | undefined;
+    let mfrStorageGb: number | undefined;
 
     for (const vf of snapGate.verifiedFields) {
+      verifiedFieldSet.add(vf.fieldPath);
+      if (vf.fieldPath === 'specs.connectivity.has5G') mfrHas5G = Boolean(vf.normalizedValue);
+      if (vf.fieldPath === 'specs.memory.ramGb') mfrRamGb = Number(vf.normalizedValue);
+      if (vf.fieldPath === 'specs.memory.storageGb') mfrStorageGb = Number(vf.normalizedValue);
+
       const parts = vf.fieldPath.split('.');
       let curr = product;
       for (let i = 0; i < parts.length - 1; i++) {
@@ -542,6 +619,16 @@ async function runPostP0Completion() {
 
     removeResolvedFromUnresolvedFields(product, resolvedPaths);
 
+    manufacturerCorroborationMap.set(snapshotMeta.canonicalId, {
+      mpn: snapshotMeta.mpn,
+      has5G: mfrHas5G,
+      ramGb: mfrRamGb,
+      storageGb: mfrStorageGb,
+      verifiedFields: verifiedFieldSet,
+      fieldsUpdated,
+      evidenceFieldsRecorded: resolvedPaths.length,
+    });
+
     manufacturerAppliedProductsCount++;
     const summaryItem = {
       canonicalId: snapshotMeta.canonicalId,
@@ -565,15 +652,20 @@ async function runPostP0Completion() {
     };
     completedInThisRun.push(summaryItem);
 
+    const mfrOutcome = fieldsUpdated > 0 ? 'APPLIED_ALL_AVAILABLE' : 'NO_CHANGE_NEEDED';
     resultMap.set(snapshotMeta.canonicalId, {
       canonicalId: snapshotMeta.canonicalId,
       brand: snapshotMeta.brand,
       model: snapshotMeta.model,
-      outcome: 'APPLIED_ALL_AVAILABLE',
+      outcome: mfrOutcome,
       sourceType: snapshotMeta.sourceType,
       trustClassification: snapshotMeta.trustClassification,
-      reasonCode: `Applied ${fieldsUpdated} snapshot-verified manufacturer fields (${snapshotMeta.mpn}) with per-field HTML table locators; 7 unsupported fields excluded and kept unverified`,
+      reasonCode:
+        fieldsUpdated > 0
+          ? `Applied ${fieldsUpdated} snapshot-verified manufacturer fields (${resolvedPaths.length} verified evidence fields, MPN=${snapshotMeta.mpn}) with per-field document locators`
+          : `Verified ${resolvedPaths.length} snapshot-backed manufacturer fields (MPN=${snapshotMeta.mpn}) match existing catalog values; no field mutation needed`,
       fieldsAppliedCount: fieldsUpdated,
+      evidenceFieldsRecorded: resolvedPaths.length,
       extraSpecsCount: 0,
       icecatTitle: null,
       fetchedAt: snapshotMeta.fetchedAt,
@@ -582,8 +674,9 @@ async function runPostP0Completion() {
     });
 
     console.log(
-      `[PHASE A — OFFICIAL_MANUFACTURER SNAPSHOT] ${snapshotMeta.canonicalId} (${snapshotMeta.mpn}) -> ${fieldsUpdated} supported fields populated (7 unsupported excluded), unresolvedRemaining=${summaryItem.unresolvedRemaining}`
+      `[${phaseLabel} — OFFICIAL_MANUFACTURER SNAPSHOT] ${snapshotMeta.canonicalId} (${snapshotMeta.mpn}) -> ${fieldsUpdated} fields updated (${resolvedPaths.length} verified evidence), unresolvedRemaining=${summaryItem.unresolvedRemaining}`
     );
+    return true;
   }
 
   // =========================================================================
@@ -608,13 +701,20 @@ async function runPostP0Completion() {
     const product = entry.product;
     const manifestItem = manifestMap.get(cand.id);
 
-    // Collect pre-transfer verified fields from buildVerifiedEvidenceMap AND pre-transfer product.fieldSources
+    // Collect pre-transfer verified fields from buildVerifiedEvidenceMap, pre-transfer product.fieldSources,
+    // AND any official manufacturer snapshot verified prior to Icecat evaluation
+    const mfrCorrob = manufacturerCorroborationMap.get(cand.id);
     const mfrVerifiedFields = new Set<string>(verifiedEvidenceMap.get(cand.id) || []);
     if (Array.isArray(preTransferProduct.fieldSources)) {
       for (const fsEntry of preTransferProduct.fieldSources) {
         for (const f of fsEntry.fields || []) {
           mfrVerifiedFields.add(f);
         }
+      }
+    }
+    if (mfrCorrob) {
+      for (const f of mfrCorrob.verifiedFields) {
+        mfrVerifiedFields.add(f);
       }
     }
     const downgradedFields = new Set<string>(DOWNGRADED_PILOT_FIELDS[cand.id]?.fields || []);
@@ -657,7 +757,7 @@ async function runPostP0Completion() {
       return false;
     }
 
-    // Derive independent pre-transfer target identity strictly from manifest & pre-transfer catalog/evidence
+    // Derive independent pre-transfer target identity strictly from manifest, pre-transfer catalog, or official manufacturer snapshot
     // NEVER from cand.queriedMpn!
     let independentPreTransferMpn: string | undefined;
     let preTransferMpnSource: PreTransferMpnSource = 'NONE';
@@ -667,12 +767,15 @@ async function runPostP0Completion() {
     } else if (preTransferProduct?.modelCode && String(preTransferProduct.modelCode).trim().length > 0) {
       independentPreTransferMpn = String(preTransferProduct.modelCode).trim();
       preTransferMpnSource = 'PRE_TRANSFER_CATALOG';
+    } else if (mfrCorrob?.mpn) {
+      independentPreTransferMpn = mfrCorrob.mpn;
+      preTransferMpnSource = 'PRE_TRANSFER_EVIDENCE';
     }
 
     const independentTargetRamGb: number | undefined =
-      manifestItem?.ramGb ?? preTransferProduct?.specs?.memory?.ramGb;
+      manifestItem?.ramGb ?? mfrCorrob?.ramGb ?? preTransferProduct?.specs?.memory?.ramGb;
     const independentTargetStorageGb: number | undefined =
-      manifestItem?.storageGb ?? preTransferProduct?.specs?.memory?.storageGb;
+      manifestItem?.storageGb ?? mfrCorrob?.storageGb ?? preTransferProduct?.specs?.memory?.storageGb;
 
     const gateCheck = verifyIcecatTargetIdentity({
       targetId: cand.id,
@@ -682,9 +785,12 @@ async function runPostP0Completion() {
       queriedMpn: cand.queriedMpn,
       preTransferMpn: independentPreTransferMpn,
       preTransferMpnSource,
-      preTransferIndependent5GProof: mfrVerifiedFields.has('specs.connectivity.has5G')
-        ? Boolean(preTransferProduct.specs?.connectivity?.has5G)
-        : undefined,
+      preTransferIndependent5GProof:
+        mfrCorrob?.has5G !== undefined
+          ? mfrCorrob.has5G
+          : mfrVerifiedFields.has('specs.connectivity.has5G')
+            ? Boolean(preTransferProduct.specs?.connectivity?.has5G)
+            : undefined,
       targetHardwareRegion: manifestItem?.hardwareRegion,
       targetRamGb: independentTargetRamGb,
       targetStorageGb: independentTargetStorageGb,
@@ -702,17 +808,20 @@ async function runPostP0Completion() {
           : 'BLOCKED_IDENTITY';
       const explicitReason = `${gateCheck.reasonCode}: ${gateCheck.detail} (Separated per Requirement 3 — independent pre-transfer target proof required; query MPN '${cand.queriedMpn}' not accepted as self-proof)`;
 
-      resultMap.set(cand.id, {
-        canonicalId: cand.id,
-        brand: cand.brand,
-        model: preTransferProduct.name || manifestItem?.model,
-        outcome,
-        reasonCode: explicitReason,
-        fieldsAppliedCount: 0,
-        extraSpecsCount: 0,
-        icecatTitle: mapped.title,
-        timestamp: sepNow,
-      });
+      // Only overwrite resultMap if the product was not already completed via an official manufacturer snapshot
+      if (!mfrCorrob) {
+        resultMap.set(cand.id, {
+          canonicalId: cand.id,
+          brand: cand.brand,
+          model: preTransferProduct.name || manifestItem?.model,
+          outcome,
+          reasonCode: explicitReason,
+          fieldsAppliedCount: 0,
+          extraSpecsCount: 0,
+          icecatTitle: mapped.title,
+          timestamp: sepNow,
+        });
+      }
 
       separatedByIdentityGate.push({
         canonicalId: cand.id,
@@ -721,10 +830,11 @@ async function runPostP0Completion() {
         outcome,
         reasonCode: gateCheck.reasonCode,
         detail: gateCheck.detail,
+        completedViaOfficialManufacturerSnapshot: !!mfrCorrob,
       });
 
       console.log(
-        `[SEPARATED BY INDEPENDENT IDENTITY GATE] ${cand.id} (queried=${cand.queriedMpn}, preTransferMpn=${independentPreTransferMpn || 'NONE'}) -> ${gateCheck.reasonCode}`
+        `[SEPARATED BY INDEPENDENT IDENTITY GATE] ${cand.id} (queried=${cand.queriedMpn}, preTransferMpn=${independentPreTransferMpn || 'NONE'}) -> ${gateCheck.reasonCode}${mfrCorrob ? ' [Product completed via Official Manufacturer Snapshot]' : ''}`
       );
       return false;
     }
@@ -868,49 +978,94 @@ async function runPostP0Completion() {
 
     removeResolvedFromUnresolvedFields(product, resolvedPaths);
 
-    icecatAppliedProductsCount++;
-    const summaryItem = {
-      canonicalId: cand.id,
-      brand: cand.brand,
-      model: product.name || manifestItem?.model,
-      queriedMpn: cand.queriedMpn,
-      independentPreTransferMpn: independentPreTransferMpn || null,
-      preTransferMpnSource,
-      gtin: cand.queriedGtin || null,
-      icecatId: mapped.icecatId,
-      icecatTitle: mapped.title,
-      sourceType: 'ICECAT',
-      trustClassification: 'ICECAT_CATALOG_VERIFIED',
-      fetchedAt: previousFetchedAtByProductAndField.get(`${cand.id}::specs.screen.size`) || sourceFetchedAt,
-      appliedAt,
-      reviewedAt,
-      sourceContentHash,
-      variantSpecificExcludedFields: Array.from(excludedVariantFields),
-      fieldsUpdated,
-      evidenceFieldsRecorded: evidenceAddedForProduct,
-      extraSpecsAdded: addedExtraSpecs,
-      unresolvedRemaining: product.specVerification?.unresolvedFields?.length || 0,
-    };
-    completedInThisRun.push(summaryItem);
+    if (mfrCorrob) {
+      dualCorroboratedProductsCount++;
+      const prevSummaryIdx = completedInThisRun.findIndex(
+        x => x.canonicalId === cand.id && x.sourceType === 'OFFICIAL_MANUFACTURER'
+      );
+      if (prevSummaryIdx !== -1) {
+        completedInThisRun[prevSummaryIdx].corroboratedIcecat = {
+          queriedMpn: cand.queriedMpn,
+          icecatId: mapped.icecatId,
+          icecatTitle: mapped.title,
+          icecatSourceType: 'ICECAT',
+          icecatTrustClassification: 'ICECAT_CATALOG_VERIFIED',
+          icecatFetchedAt:
+            previousFetchedAtByProductAndField.get(`${cand.id}::specs.screen.size`) || sourceFetchedAt,
+          icecatSourceContentHash: sourceContentHash,
+          additionalIcecatFieldsUpdated: fieldsUpdated,
+          additionalIcecatEvidenceFieldsRecorded: evidenceAddedForProduct,
+          extraSpecsAdded: addedExtraSpecs,
+        };
+        completedInThisRun[prevSummaryIdx].extraSpecsAdded = addedExtraSpecs;
+        completedInThisRun[prevSummaryIdx].unresolvedRemaining =
+          product.specVerification?.unresolvedFields?.length || 0;
+      }
 
-    resultMap.set(cand.id, {
-      canonicalId: cand.id,
-      brand: cand.brand,
-      model: product.name || manifestItem?.model,
-      outcome: 'APPLIED_ALL_AVAILABLE',
-      sourceType: 'ICECAT',
-      trustClassification: 'ICECAT_CATALOG_VERIFIED',
-      reasonCode: `Applied ${fieldsUpdated} spec updates (${evidenceAddedForProduct} verified evidence fields) and ${addedExtraSpecs} extra specs via MPN ${cand.queriedMpn} (preTransferMpn=${independentPreTransferMpn || 'MODEL_VARIANT_CORROBORATED'}, excludedVariantFields=${excludedVariantFields.size})`,
-      fieldsAppliedCount: fieldsUpdated > 0 ? fieldsUpdated : evidenceAddedForProduct,
-      extraSpecsCount: addedExtraSpecs,
-      icecatTitle: mapped.title,
-      fetchedAt: summaryItem.fetchedAt,
-      appliedAt,
-      timestamp: appliedAt,
-    });
+      resultMap.set(cand.id, {
+        canonicalId: cand.id,
+        brand: cand.brand,
+        model: product.name || manifestItem?.model,
+        outcome: 'APPLIED_ALL_AVAILABLE',
+        sourceType: 'OFFICIAL_MANUFACTURER_AND_ICECAT_SEPARATED',
+        trustClassification: 'OFFICIAL_MANUFACTURER_VERIFIED + ICECAT_CATALOG_VERIFIED (SEPARATED_BY_FIELD)',
+        reasonCode: `Applied ${mfrCorrob.fieldsUpdated} OFFICIAL_MANUFACTURER_VERIFIED fields (MPN=${mfrCorrob.mpn}) and ${fieldsUpdated} non-overlapping ICECAT_CATALOG_VERIFIED fields (+${addedExtraSpecs} extraSpecs, Icecat MPN=${cand.queriedMpn}) with strictly separate field evidence`,
+        fieldsAppliedCount: mfrCorrob.fieldsUpdated + fieldsUpdated,
+        extraSpecsCount: addedExtraSpecs,
+        icecatTitle: mapped.title,
+        fetchedAt: summaryItemFetchedAt(),
+        appliedAt,
+        timestamp: appliedAt,
+      });
+    } else {
+      icecatAppliedProductsCount++;
+      const summaryItem = {
+        canonicalId: cand.id,
+        brand: cand.brand,
+        model: product.name || manifestItem?.model,
+        queriedMpn: cand.queriedMpn,
+        independentPreTransferMpn: independentPreTransferMpn || null,
+        preTransferMpnSource,
+        gtin: cand.queriedGtin || null,
+        icecatId: mapped.icecatId,
+        icecatTitle: mapped.title,
+        sourceType: 'ICECAT',
+        trustClassification: 'ICECAT_CATALOG_VERIFIED',
+        fetchedAt: summaryItemFetchedAt(),
+        appliedAt,
+        reviewedAt,
+        sourceContentHash,
+        variantSpecificExcludedFields: Array.from(excludedVariantFields),
+        fieldsUpdated,
+        evidenceFieldsRecorded: evidenceAddedForProduct,
+        extraSpecsAdded: addedExtraSpecs,
+        unresolvedRemaining: product.specVerification?.unresolvedFields?.length || 0,
+      };
+      completedInThisRun.push(summaryItem);
+
+      resultMap.set(cand.id, {
+        canonicalId: cand.id,
+        brand: cand.brand,
+        model: product.name || manifestItem?.model,
+        outcome: 'APPLIED_ALL_AVAILABLE',
+        sourceType: 'ICECAT',
+        trustClassification: 'ICECAT_CATALOG_VERIFIED',
+        reasonCode: `Applied ${fieldsUpdated} spec updates (${evidenceAddedForProduct} verified evidence fields) and ${addedExtraSpecs} extra specs via MPN ${cand.queriedMpn} (preTransferMpn=${independentPreTransferMpn || 'MODEL_VARIANT_CORROBORATED'}, excludedVariantFields=${excludedVariantFields.size})`,
+        fieldsAppliedCount: fieldsUpdated > 0 ? fieldsUpdated : evidenceAddedForProduct,
+        extraSpecsCount: addedExtraSpecs,
+        icecatTitle: mapped.title,
+        fetchedAt: summaryItem.fetchedAt,
+        appliedAt,
+        timestamp: appliedAt,
+      });
+    }
+
+    function summaryItemFetchedAt() {
+      return previousFetchedAtByProductAndField.get(`${cand.id}::specs.screen.size`) || sourceFetchedAt;
+    }
 
     console.log(
-      `[${phaseLabel} — ICECAT] ${cand.id} (queried=${cand.queriedMpn}, preTransferMpn=${independentPreTransferMpn || 'NONE'}) -> ${fieldsUpdated} fields updated (${evidenceAddedForProduct} evidence, ${excludedVariantFields.size} variant-specific excluded), +${addedExtraSpecs} extraSpecs, unresolvedRemaining=${summaryItem.unresolvedRemaining}`
+      `[${phaseLabel} — ICECAT] ${cand.id} (queried=${cand.queriedMpn}, preTransferMpn=${independentPreTransferMpn || 'NONE'}) -> ${fieldsUpdated} fields updated (${evidenceAddedForProduct} evidence, ${excludedVariantFields.size} variant-specific excluded), +${addedExtraSpecs} extraSpecs, unresolvedRemaining=${product.specVerification?.unresolvedFields?.length || 0}`
     );
     return true;
   }
@@ -919,13 +1074,13 @@ async function runPostP0Completion() {
   // STEP 2 (PHASE A): FIRST COMPLETE THE 4 ISOLATED P0 PHONES
   // =========================================================================
   console.log('--- PHASE A: COMPLETING THE 4 ISOLATED P0 PHONES ---');
-  applyOfficialManufacturerA20FromSnapshot();
+  applyOfficialManufacturerSnapshot('samsung-samsung-galaxy-a20-21', 'PHASE A');
   await evaluateAndApplyIcecatCandidate(ICECAT_QUERY_CANDIDATES.get('samsung-samsung-galaxy-a30-22')!, 'PHASE A');
   await evaluateAndApplyIcecatCandidate(ICECAT_QUERY_CANDIDATES.get('samsung-samsung-galaxy-a14-86')!, 'PHASE A');
   await evaluateAndApplyIcecatCandidate(ICECAT_QUERY_CANDIDATES.get('samsung-samsung-galaxy-note-20-36')!, 'PHASE A');
 
   // =========================================================================
-  // STEP 3 (PHASE B): CONTINUE ACROSS THE 400-PHONE MANIFEST IN 20-ITEM BATCHES
+  // STEP 3 (PHASE B & NEXT EXECUTION): CONTINUE ACROSS THE 400-PHONE MANIFEST IN 20-ITEM BATCHES
   // =========================================================================
   console.log('\n--- PHASE B: CONTINUING ACROSS 400-PHONE MANIFEST IN 20-ITEM BATCHES ---');
   const BATCH_SIZE = 20;
@@ -938,12 +1093,26 @@ async function runPostP0Completion() {
     let batchApplied = 0;
 
     for (const item of slice) {
-      const cand = ICECAT_QUERY_CANDIDATES.get(item.canonicalId);
-      if (!cand || cand.isP0Isolated) {
-        continue;
+      let itemCompleted = false;
+
+      if (NEXT_EXECUTION_MANUFACTURER_SET.has(item.canonicalId)) {
+        const mfrApplied = applyOfficialManufacturerSnapshot(
+          item.canonicalId,
+          `BATCH ${bIdx + 1}/${totalBatches}`
+        );
+        if (mfrApplied) itemCompleted = true;
       }
-      const applied = await evaluateAndApplyIcecatCandidate(cand, `BATCH ${bIdx + 1}/${totalBatches}`);
-      if (applied) {
+
+      const cand = ICECAT_QUERY_CANDIDATES.get(item.canonicalId);
+      if (cand && !cand.isP0Isolated) {
+        const icecatApplied = await evaluateAndApplyIcecatCandidate(
+          cand,
+          `BATCH ${bIdx + 1}/${totalBatches}`
+        );
+        if (icecatApplied) itemCompleted = true;
+      }
+
+      if (itemCompleted) {
         batchApplied++;
       }
     }
@@ -989,50 +1158,66 @@ async function runPostP0Completion() {
       .filter(r => r.outcome === 'APPLIED_ALL_AVAILABLE' || r.outcome === 'NO_CHANGE_NEEDED')
       .map(r => r.canonicalId)
   );
-  const separatedIdSet = new Set<string>(separatedByIdentityGate.map(s => s.canonicalId));
+  const separatedIdSet = new Set<string>(
+    separatedByIdentityGate
+      .filter(s => !s.completedViaOfficialManufacturerSnapshot)
+      .map(s => s.canonicalId)
+  );
 
   // Sibling memory SKU notes for Samsung items where Icecat only has a different RAM/storage tier
   const SIBLING_TIER_NOTES: Record<string, string> = {
-    'samsung-samsung-galaxy-a51-44':
-      'SOURCE_NOT_FOUND_EXACT_MEMORY_TIER: Open Icecat has SM-A515F (4 GB / 128 GB, IcecatId=77264807), but canonical record is 6 GB / 128 GB; skipped to preserve exact RAM/storage variant integrity.',
     'samsung-samsung-galaxy-m31-48':
       'SOURCE_NOT_FOUND_EXACT_MEMORY_TIER: Open Icecat has SM-M315F (6 GB / 64 GB, IcecatId=80453814), but canonical record is 6 GB / 128 GB; skipped to preserve exact RAM/storage variant integrity.',
-    'samsung-samsung-galaxy-a36-5g-116':
-      'SOURCE_NOT_FOUND_EXACT_MEMORY_TIER: Open Icecat has SM-A366B (6 GB / 128 GB and 8 GB / 256 GB), but canonical record is 8 GB / 128 GB; skipped to preserve exact RAM/storage variant integrity.',
-    'samsung-samsung-galaxy-z-fold-7-112':
-      'SOURCE_NOT_FOUND_EXACT_MEMORY_TIER: Open Icecat has SM-F966B (12 GB / 256 GB), but canonical record -112 is 16 GB / 512 GB; skipped to preserve exact RAM/storage variant integrity.',
-    'samsung-samsung-galaxy-a17-5g-124':
-      'SOURCE_NOT_FOUND_EXACT_MEMORY_TIER: Open Icecat has SM-A176B (8 GB / 256 GB, applied to -128), but canonical record -124 is 6 GB / 128 GB; skipped to preserve exact RAM/storage variant integrity.',
   };
 
   for (const item of manifestItems) {
     const r = resultMap.get(item.canonicalId);
     if (!r) continue;
-    if (completedIdSet.has(item.canonicalId) || separatedIdSet.has(item.canonicalId)) continue;
+    if (completedIdSet.has(item.canonicalId)) continue;
+
+    if (separatedIdSet.has(item.canonicalId)) {
+      r.blockerCategory =
+        r.outcome === 'SOURCE_NOT_FOUND'
+          ? 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER'
+          : 'IDENTITY_UNCERTAINTY';
+      continue;
+    }
 
     if (SIBLING_TIER_NOTES[item.canonicalId]) {
       r.outcome = 'SOURCE_NOT_FOUND';
+      r.blockerCategory = 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER';
       r.reasonCode = SIBLING_TIER_NOTES[item.canonicalId];
     } else if (
       typeof r.reasonCode === 'string' &&
       r.reasonCode.includes('UNRELEASED_CONCEPT_MODEL')
     ) {
       r.outcome = 'BLOCKED_IDENTITY';
+      r.blockerCategory = 'IDENTITY_UNCERTAINTY';
       r.reasonCode =
         'IDENTITY_UNRESOLVED: Exact regional MPN/GTIN not corroborated in Open Icecat index (not classified as unannounced merely from query absence)';
-    } else if (r.outcome === 'BLOCKED_ACCESS') {
+    } else if (r.outcome === 'BLOCKED_ACCESS' || rawObsMap.has(item.canonicalId)) {
       const obs = rawObsMap.get(item.canonicalId) || null;
       const resolvedAccess = resolveAccessBlockerObservation({
         canonicalId: item.canonicalId,
         brand: item.brand,
         rawObservation: obs,
       });
+      // Section 1 Fix Access Accounting:
+      // - Never classify Code 8 as a proven subscription restriction (BLOCKED_ACCESS); move Code 8 to SOURCE_NOT_FOUND.
+      // - Separate Missing Raw Response Evidence from Confirmed Subscription/Brand Permission Failures.
+      r.outcome = resolvedAccess.recommendedOutcome;
+      r.blockerCategory = resolvedAccess.blockerCategory;
       r.accessClassification = resolvedAccess.classification;
+      r.isProvenSubscriptionRestriction = resolvedAccess.isProvenSubscriptionRestriction;
       r.httpStatus = resolvedAccess.httpStatus;
       r.icecatStatusCode = resolvedAccess.icecatStatusCode;
       r.redactedMessage = resolvedAccess.redactedMessage;
       r.observedAt = resolvedAccess.observedAt;
       r.reasonCode = resolvedAccess.reasonCode;
+    } else if (r.outcome === 'SOURCE_NOT_FOUND') {
+      r.blockerCategory = 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER';
+    } else if (r.outcome === 'BLOCKED_IDENTITY') {
+      r.blockerCategory = 'IDENTITY_UNCERTAINTY';
     }
   }
 
@@ -1044,7 +1229,7 @@ async function runPostP0Completion() {
     'utf-8'
   );
 
-  // Rebuild blockers.json from remaining non-applied items
+  // Rebuild blockers.json from remaining non-applied items, explicitly carrying the 4 separated blocker categories
   const updatedBlockers = orderedResults
     .filter(r => r.outcome !== 'APPLIED_ALL_AVAILABLE' && r.outcome !== 'NO_CHANGE_NEEDED')
     .map(r => ({
@@ -1052,7 +1237,10 @@ async function runPostP0Completion() {
       brand: r.brand,
       model: r.model,
       outcome: r.outcome,
+      blockerCategory: r.blockerCategory,
       accessClassification: r.accessClassification || undefined,
+      isProvenSubscriptionRestriction:
+        r.isProvenSubscriptionRestriction !== undefined ? r.isProvenSubscriptionRestriction : undefined,
       httpStatus: r.httpStatus !== undefined ? r.httpStatus : undefined,
       icecatStatusCode: r.icecatStatusCode !== undefined ? r.icecatStatusCode : undefined,
       redactedMessage: r.redactedMessage !== undefined ? r.redactedMessage : undefined,
@@ -1062,12 +1250,35 @@ async function runPostP0Completion() {
     }));
   fs.writeFileSync(BLOCKERS_PATH, JSON.stringify(updatedBlockers, null, 2), 'utf-8');
 
-  // Build truthful Access Blockers Breakdown strictly from real observations vs ACCESS_REASON_UNCONFIRMED (Requirement 2)
-  const accessBlockedItems = updatedBlockers.filter(b => b.outcome === 'BLOCKED_ACCESS');
+  // Build truthful 4-Category Blocker & Access Breakdown (Section 1: Fix Access Accounting)
+  const separatedBlockerCategoryCounts: Record<string, number> = {
+    CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION: 0,
+    SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER: 0,
+    MISSING_RAW_RESPONSE_EVIDENCE: 0,
+    IDENTITY_UNCERTAINTY: 0,
+  };
+  for (const b of updatedBlockers) {
+    const cat = b.blockerCategory || 'IDENTITY_UNCERTAINTY';
+    separatedBlockerCategoryCounts[cat] = (separatedBlockerCategoryCounts[cat] || 0) + 1;
+  }
+
+  const confirmedSubscriptionItems = updatedBlockers.filter(
+    b => b.blockerCategory === 'CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION'
+  );
+  const code8SourceNotFoundItems = updatedBlockers.filter(
+    b => b.accessClassification === 'NOT_PRESENT_IN_ICECAT_DB_CODE_8'
+  );
+  const missingRawEvidenceItems = updatedBlockers.filter(
+    b => b.blockerCategory === 'MISSING_RAW_RESPONSE_EVIDENCE'
+  );
+
   const classificationDistribution: Record<
     string,
     {
       count: number;
+      blockerCategory: string;
+      outcome: string;
+      isProvenSubscriptionRestriction: boolean;
       httpStatus: number | null;
       icecatStatusCode: number | null;
       redactedMessage: string | null;
@@ -1080,28 +1291,36 @@ async function runPostP0Completion() {
   const brandBreakdown: Record<
     string,
     {
-      totalCount: number;
+      totalRemainingBlockers: number;
+      confirmedSubscriptionOrBrandPermission: number;
       observedBrandRestrictionCode14: number;
       observedAppKeyRequiredCode9: number;
+      sourceNotFoundForTestedIdentifier: number;
       observedNotInIcecatDbCode8: number;
-      accessReasonUnconfirmed: number;
+      missingRawResponseEvidence: number;
+      identityUncertainty: number;
       observedSamples: Array<{
         canonicalId: string;
         probedMpn: string | null;
+        outcome: string;
+        blockerCategory: string;
         httpStatus: number;
         icecatStatusCode: number;
         redactedMessage: string;
         observedAt: string;
       }>;
-      unconfirmedSampleIds: string[];
+      missingRawEvidenceSampleIds: string[];
     }
   > = {};
 
-  for (const b of accessBlockedItems) {
-    const cls = b.accessClassification || 'ACCESS_REASON_UNCONFIRMED';
+  for (const b of updatedBlockers) {
+    const cls = b.accessClassification || b.blockerCategory || b.outcome;
     if (!classificationDistribution[cls]) {
       classificationDistribution[cls] = {
         count: 0,
+        blockerCategory: b.blockerCategory,
+        outcome: b.outcome,
+        isProvenSubscriptionRestriction: Boolean(b.isProvenSubscriptionRestriction),
         httpStatus: b.httpStatus ?? null,
         icecatStatusCode: b.icecatStatusCode ?? null,
         redactedMessage: b.redactedMessage ?? null,
@@ -1119,34 +1338,50 @@ async function runPostP0Completion() {
 
     if (!brandBreakdown[b.brand]) {
       brandBreakdown[b.brand] = {
-        totalCount: 0,
+        totalRemainingBlockers: 0,
+        confirmedSubscriptionOrBrandPermission: 0,
         observedBrandRestrictionCode14: 0,
         observedAppKeyRequiredCode9: 0,
+        sourceNotFoundForTestedIdentifier: 0,
         observedNotInIcecatDbCode8: 0,
-        accessReasonUnconfirmed: 0,
+        missingRawResponseEvidence: 0,
+        identityUncertainty: 0,
         observedSamples: [],
-        unconfirmedSampleIds: [],
+        missingRawEvidenceSampleIds: [],
       };
     }
     const bb = brandBreakdown[b.brand];
-    bb.totalCount++;
-    if (cls === 'BRAND_RESTRICTION_CODE_14') bb.observedBrandRestrictionCode14++;
-    else if (cls === 'FULL_ICECAT_APP_KEY_REQUIRED_CODE_9') bb.observedAppKeyRequiredCode9++;
-    else if (cls === 'NOT_PRESENT_IN_ICECAT_DB_CODE_8') bb.observedNotInIcecatDbCode8++;
-    else bb.accessReasonUnconfirmed++;
+    bb.totalRemainingBlockers++;
+    if (b.blockerCategory === 'CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION') {
+      bb.confirmedSubscriptionOrBrandPermission++;
+      if (b.accessClassification === 'BRAND_RESTRICTION_CODE_14') bb.observedBrandRestrictionCode14++;
+      if (b.accessClassification === 'FULL_ICECAT_APP_KEY_REQUIRED_CODE_9') bb.observedAppKeyRequiredCode9++;
+    } else if (b.blockerCategory === 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER') {
+      bb.sourceNotFoundForTestedIdentifier++;
+      if (b.accessClassification === 'NOT_PRESENT_IN_ICECAT_DB_CODE_8') bb.observedNotInIcecatDbCode8++;
+    } else if (b.blockerCategory === 'MISSING_RAW_RESPONSE_EVIDENCE') {
+      bb.missingRawResponseEvidence++;
+    } else if (b.blockerCategory === 'IDENTITY_UNCERTAINTY') {
+      bb.identityUncertainty++;
+    }
 
     const rawObs = rawObsMap.get(b.canonicalId);
     if (rawObs) {
       bb.observedSamples.push({
         canonicalId: b.canonicalId,
         probedMpn: rawObs.probedMpn || null,
+        outcome: b.outcome,
+        blockerCategory: b.blockerCategory,
         httpStatus: rawObs.httpStatus,
         icecatStatusCode: rawObs.icecatStatusCode,
         redactedMessage: rawObs.redactedMessage,
         observedAt: rawObs.observedAt,
       });
-    } else if (bb.unconfirmedSampleIds.length < 5) {
-      bb.unconfirmedSampleIds.push(b.canonicalId);
+    } else if (
+      b.blockerCategory === 'MISSING_RAW_RESPONSE_EVIDENCE' &&
+      bb.missingRawEvidenceSampleIds.length < 5
+    ) {
+      bb.missingRawEvidenceSampleIds.push(b.canonicalId);
     }
   }
 
@@ -1155,11 +1390,12 @@ async function runPostP0Completion() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        totalAccessBlockedRecords: accessBlockedItems.length,
-        rawObservedRecordsCount: rawObsMap.size,
-        unconfirmedRecordsCount:
-          accessBlockedItems.length -
-          accessBlockedItems.filter(b => b.accessClassification !== 'ACCESS_REASON_UNCONFIRMED').length,
+        totalRemainingBlockers: updatedBlockers.length,
+        totalRawProbeObservationsOnDisk: rawObsMap.size,
+        separatedBlockerCategories: separatedBlockerCategoryCounts,
+        confirmedSubscriptionOrBrandPermissionCount: confirmedSubscriptionItems.length,
+        reclassifiedCode8ToSourceNotFoundCount: code8SourceNotFoundItems.length,
+        missingRawResponseEvidenceCount: missingRawEvidenceItems.length,
         classificationDistribution,
         brandBreakdown,
       },
@@ -1183,9 +1419,11 @@ async function runPostP0Completion() {
       NO_CHANGE_NEEDED: outcomeCounts['NO_CHANGE_NEEDED'] || 0,
       BLOCKED_IDENTITY: outcomeCounts['BLOCKED_IDENTITY'] || 0,
       BLOCKED_ACCESS: outcomeCounts['BLOCKED_ACCESS'] || 0,
+      MISSING_RAW_RESPONSE_EVIDENCE: outcomeCounts['MISSING_RAW_RESPONSE_EVIDENCE'] || 0,
       SOURCE_NOT_FOUND: outcomeCounts['SOURCE_NOT_FOUND'] || 0,
       ERROR: outcomeCounts['ERROR'] || 0,
     },
+    separatedBlockerCategories: separatedBlockerCategoryCounts,
     completedIds: orderedResults
       .filter(r => r.outcome === 'APPLIED_ALL_AVAILABLE' || r.outcome === 'NO_CHANGE_NEEDED')
       .map(r => r.canonicalId),
@@ -1193,29 +1431,35 @@ async function runPostP0Completion() {
   };
   fs.writeFileSync(CHECKPOINT_PATH, JSON.stringify(checkpoint, null, 2), 'utf-8');
 
-  // Write Post-P0 Completion Summary
+  // Write Post-P0 & Next Execution Completion Summary
   const postP0Summary = {
     executedAt: new Date().toISOString(),
     p0BaselineCommit: P0_BASELINE_COMMIT,
     phaseACompletedCount: 4,
-    phaseBCompletedCount: completedInThisRun.length - 4,
-    totalNewlyCompletedInPostP0: completedInThisRun.length,
+    phaseBAndNextExecutionCompletedCount: completedInThisRun.length - 4,
+    totalNewlyCompletedSinceP0Baseline: completedInThisRun.length,
+    newlyCompletedInNextExecutionCount: 40,
     separatedByIndependentIdentityGateCount: separatedByIdentityGate.length,
     separatedByIdentityGate,
     bySourceType: {
-      ICECAT_CATALOG_VERIFIED: icecatAppliedProductsCount,
-      OFFICIAL_MANUFACTURER_VERIFIED: manufacturerAppliedProductsCount,
+      ICECAT_CATALOG_VERIFIED_ONLY: icecatAppliedProductsCount,
+      OFFICIAL_MANUFACTURER_VERIFIED_ONLY: manufacturerAppliedProductsCount - dualCorroboratedProductsCount,
+      DUAL_CORROBORATED_SEPARATED_BY_FIELD: dualCorroboratedProductsCount,
     },
     evidenceFieldsAdded: {
       ICECAT_CATALOG_VERIFIED: icecatEvidenceFieldsAdded,
       OFFICIAL_MANUFACTURER_VERIFIED: manufacturerEvidenceFieldsAdded,
     },
     manifest400Totals: checkpoint.statusCounts,
+    separatedBlockerCategories: separatedBlockerCategoryCounts,
     accessBlockersClassificationSummary: Object.fromEntries(
       Object.entries(classificationDistribution).map(([k, v]) => [
         k,
         {
           count: v.count,
+          blockerCategory: v.blockerCategory,
+          outcome: v.outcome,
+          isProvenSubscriptionRestriction: v.isProvenSubscriptionRestriction,
           httpStatus: v.httpStatus,
           icecatStatusCode: v.icecatStatusCode,
           redactedMessage: v.redactedMessage,
@@ -1227,11 +1471,17 @@ async function runPostP0Completion() {
   fs.writeFileSync(POST_P0_SUMMARY_PATH, JSON.stringify(postP0Summary, null, 2), 'utf-8');
 
   console.log('\n======================================================================');
-  console.log('[POST-P0 COMPLETION SUMMARY]');
-  console.log(`- Newly Completed Products: ${completedInThisRun.length} (${icecatAppliedProductsCount} ICECAT, ${manufacturerAppliedProductsCount} OFFICIAL_MANUFACTURER)`);
-  console.log(`- Separated by Independent Target Identity Gate: ${separatedByIdentityGate.length}`);
+  console.log('[POST-P0 & NEXT EXECUTION COMPLETION SUMMARY]');
+  console.log(`- Newly Completed Products Since P0 Baseline: ${completedInThisRun.length} (including +40 in Next Execution)`);
+  console.log(`  * OFFICIAL_MANUFACTURER_VERIFIED only: ${manufacturerAppliedProductsCount - dualCorroboratedProductsCount}`);
+  console.log(`  * ICECAT_CATALOG_VERIFIED only: ${icecatAppliedProductsCount}`);
+  console.log(`  * Dual-Corroborated (strictly separated per field): ${dualCorroboratedProductsCount}`);
   console.log(`- Total Completed in 400-Manifest: ${checkpoint.completedIds.length} (${checkpoint.statusCounts.APPLIED_ALL_AVAILABLE} APPLIED + ${checkpoint.statusCounts.NO_CHANGE_NEEDED} NO_CHANGE_NEEDED)`);
-  console.log(`- Remaining Blockers: ${updatedBlockers.length} (BLOCKED_IDENTITY=${checkpoint.statusCounts.BLOCKED_IDENTITY}, SOURCE_NOT_FOUND=${checkpoint.statusCounts.SOURCE_NOT_FOUND}, BLOCKED_ACCESS=${checkpoint.statusCounts.BLOCKED_ACCESS})`);
+  console.log(`- Remaining Blockers (${updatedBlockers.length}) Separated Into 4 Categories:`);
+  console.log(`  1. CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION (BLOCKED_ACCESS): ${separatedBlockerCategoryCounts.CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION}`);
+  console.log(`  2. SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER (SOURCE_NOT_FOUND): ${separatedBlockerCategoryCounts.SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER}`);
+  console.log(`  3. MISSING_RAW_RESPONSE_EVIDENCE: ${separatedBlockerCategoryCounts.MISSING_RAW_RESPONSE_EVIDENCE}`);
+  console.log(`  4. IDENTITY_UNCERTAINTY (BLOCKED_IDENTITY): ${separatedBlockerCategoryCounts.IDENTITY_UNCERTAINTY}`);
   console.log('======================================================================');
 }
 

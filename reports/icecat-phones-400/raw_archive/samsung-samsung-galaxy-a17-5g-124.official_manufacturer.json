@@ -1,0 +1,141 @@
+{
+  "canonicalId": "samsung-samsung-galaxy-a17-5g-124",
+  "brand": "Samsung",
+  "model": "Samsung Galaxy A17 5G",
+  "mpn": "SM-A176BZKBTUR",
+  "sourceUrl": "https://searchapi.samsung.com/v6/front/b2c/product/spec/detail?siteCode=tr&modelList=SM-A176BZKBTUR&specAnnotationYN=Y",
+  "snapshotHtmlRelativePath": "reports/icecat-phones-400/raw_archive/samsung-samsung-galaxy-a17-5g-124.official_manufacturer.html",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "trustClassification": "OFFICIAL_MANUFACTURER_VERIFIED",
+  "fetchedAt": "2026-11-08T12:12:00.000Z",
+  "fieldExtractions": [
+    {
+      "fieldPath": "specs.screen.size",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-198CE175-4E7A-43AB-9CD1-2C5CDB821F49\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Boyut (Ana Ekran)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">169.1mm (6.7\")</td>",
+      "normalizedValue": "6.7 inç"
+    },
+    {
+      "fieldPath": "specs.screen.type",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B68-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Teknoloji (Ana Ekran)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Super AMOLED</td>",
+      "normalizedValue": "Super AMOLED"
+    },
+    {
+      "fieldPath": "specs.screen.resolution",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B63-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Çözünürlük (Ana Ekran)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">1080 x 2340 (FHD+)</td>",
+      "normalizedValue": "1080 x 2340"
+    },
+    {
+      "fieldPath": "specs.screen.refreshRate",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-9E6DA643-C8C8-4760-9447-DBFB816F4F1E\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Maksimum Yenileme Hızı (Ana Ekran)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">90 Hz</td>",
+      "normalizedValue": 90
+    },
+    {
+      "fieldPath": "specs.processor.cores",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B9E-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">CPU Tipi</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Sekiz Çekirdek</td>",
+      "normalizedValue": "8 Çekirdek"
+    },
+    {
+      "fieldPath": "specs.memory.ramGb",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-590C3DF2-06D3-4644-BB83-F0B4D338F40C\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Hafıza (GB)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">6</td>",
+      "normalizedValue": 6
+    },
+    {
+      "fieldPath": "specs.memory.storageGb",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B93-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Depolama (GB)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">128</td>",
+      "normalizedValue": 128
+    },
+    {
+      "fieldPath": "specs.memory.expandableStorage",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B90-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Harici Depolama Desteği</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">MikroSD (2TB'a kadar)</td>",
+      "normalizedValue": false
+    },
+    {
+      "fieldPath": "specs.camera.mainMp",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-18B2C1F7-07F8-4D83-8A29-DE59809DFB30\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Arka Kamera - Çözünürlük (Çoklu)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">50.0 MP + 5.0 MP + 2.0 MP</td>",
+      "normalizedValue": "50 MP"
+    },
+    {
+      "fieldPath": "specs.camera.selfieMp",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B4F-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Ön Kamera  - Çözünürlük</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">13.0 MP</td>",
+      "normalizedValue": "13 MP"
+    },
+    {
+      "fieldPath": "specs.camera.videoRes",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B54-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Video Kayıt  Çözünürlüğü</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">FHD (1920 x 1080)@30fps</td>",
+      "normalizedValue": "1080p @ 30fps"
+    },
+    {
+      "fieldPath": "specs.battery.capacitymAh",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-D59D72A5-D70A-4D00-A5B7-C77487173564\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Batarya Kapasitesi (mAh, Tipik)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">5000</td>",
+      "normalizedValue": 5000
+    },
+    {
+      "fieldPath": "specs.connectivity.has5G",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F1CCA4B5-5FF6-F026-E043-CBFEDFDDC006\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Infra</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">2G GSM, 3G WCDMA, 4G LTE FDD, 4G LTE TDD, 5G Sub6 FDD, 5G Sub6 TDD</td>",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.wifiStandard",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B5F-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Wi-Fi</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80</td>",
+      "normalizedValue": "Wi-Fi 5 (802.11ac)"
+    },
+    {
+      "fieldPath": "specs.connectivity.bluetooth",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"F0F7647C-2B57-E0A0-E043-CBFEDFDDC465\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Bluetooth Versiyon</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Bluetooth v5.3</td>",
+      "normalizedValue": "5.3"
+    },
+    {
+      "fieldPath": "specs.build.thicknessMm",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-AD097D7D-4E92-4F29-B396-F1C5FFC994A9\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Boyutlar (YxGxD, mm)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">164.4 x 77.9 x 7.5</td>",
+      "normalizedValue": 7.5
+    },
+    {
+      "fieldPath": "specs.build.weightGrams",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"PSP-7A6319C4-EA07-4E96-A393-DE3356BF490A\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">Ağırlık (g)</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">192</td>",
+      "normalizedValue": 192
+    },
+    {
+      "fieldPath": "specs.software.osName",
+      "locator": "#samsung-official-specs tr[data-attr-key=\"GROUP_OS\"]",
+      "rowHeader": "<th class=\"spec-sub-title\">OS</th>",
+      "rawExcerpt": "<td class=\"spec-sub-value\">Android</td>",
+      "normalizedValue": "Android"
+    }
+  ],
+  "sourceContentHash": "3d45f9f67fcced509c6471aa3cb85d4f85a4ba2e3778cb5f509d244e91adaac1",
+  "normalizedDataHash": "1697d77bad119eef231ddd8181b10922ecbcffe6ef5bdd7e62177ad44e99603a"
+}

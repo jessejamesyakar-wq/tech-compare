@@ -1,0 +1,110 @@
+{
+  "canonicalId": "huawei-huawei-y5ii",
+  "brand": "Huawei",
+  "model": "Huawei Y5ii",
+  "mpn": "CUN-L21",
+  "sourceUrl": "https://consumer.huawei.com/levant-ar/phones/y5ii/specs/",
+  "snapshotHtmlRelativePath": "reports/icecat-phones-400/raw_archive/huawei-huawei-y5ii.official_manufacturer.html",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "trustClassification": "OFFICIAL_MANUFACTURER_VERIFIED",
+  "fetchedAt": "2026-09-20T08:39:49.967Z",
+  "unsupportedFieldsExcluded": [
+    "specs.processor.chip",
+    "specs.connectivity.has5G"
+  ],
+  "fieldExtractions": [
+    {
+      "fieldPath": "specs.screen.size",
+      "locator": "li.large-accordion__item(شاشة العرض) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "شاشة العرض",
+      "rawExcerpt": "HD IPS  قياس 5 إنش بدقة 1280*720",
+      "normalizedValue": "5.0 inç"
+    },
+    {
+      "fieldPath": "specs.screen.type",
+      "locator": "li.large-accordion__item(شاشة العرض) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "شاشة العرض",
+      "rawExcerpt": "HD IPS  قياس 5 إنش بدقة 1280*720",
+      "normalizedValue": "IPS LCD"
+    },
+    {
+      "fieldPath": "specs.screen.resolution",
+      "locator": "li.large-accordion__item(شاشة العرض) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "شاشة العرض",
+      "rawExcerpt": "HD IPS  قياس 5 إنش بدقة 1280*720",
+      "normalizedValue": "1280 x 720"
+    },
+    {
+      "fieldPath": "specs.processor.cores",
+      "locator": "li.large-accordion__item(المعالج) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "المعالج",
+      "rawExcerpt": "MT6735P,4*1.3GHz(3G version: MT6582,4*1.3GHz)",
+      "normalizedValue": "4 Çekirdek"
+    },
+    {
+      "fieldPath": "specs.memory.ramGb",
+      "locator": "li.large-accordion__item(الذاكرة) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "الذاكرة",
+      "rawExcerpt": "ROM 8GB,RAM 1GB*",
+      "normalizedValue": 1
+    },
+    {
+      "fieldPath": "specs.memory.storageGb",
+      "locator": "li.large-accordion__item(الذاكرة) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "الذاكرة",
+      "rawExcerpt": "ROM 8GB,RAM 1GB*",
+      "normalizedValue": 8
+    },
+    {
+      "fieldPath": "specs.camera.mainMp",
+      "locator": "li.large-accordion__item(الكاميرا) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "الكاميرا",
+      "rawExcerpt": "أمامية بدقة 2 ميجا بيكسل، خلفية بدقة 8 ميجا بيكسل",
+      "normalizedValue": "8 MP"
+    },
+    {
+      "fieldPath": "specs.camera.selfieMp",
+      "locator": "li.large-accordion__item(الكاميرا) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "الكاميرا",
+      "rawExcerpt": "أمامية بدقة 2 ميجا بيكسل، خلفية بدقة 8 ميجا بيكسل",
+      "normalizedValue": "2 MP"
+    },
+    {
+      "fieldPath": "specs.battery.capacitymAh",
+      "locator": "li.large-accordion__item(البطارية) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "البطارية",
+      "rawExcerpt": "بطارية ليثيوم بوليمر بقوة 2200 ميلي أمبير*",
+      "normalizedValue": 2200
+    },
+    {
+      "fieldPath": "specs.connectivity.wifiStandard",
+      "locator": "li.large-accordion__item(التوصيل) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "التوصيل",
+      "rawExcerpt": "WiFi 2.4GHz 802.11 b/g/n",
+      "normalizedValue": "802.11 b/g/n (2,4 GHz)"
+    },
+    {
+      "fieldPath": "specs.connectivity.bluetooth",
+      "locator": "li.large-accordion__item(التوصيل) > div.large-accordion__content > div > p.large-accordion__text",
+      "rowHeader": "التوصيل",
+      "rawExcerpt": "BT4.0+LE",
+      "normalizedValue": "4.0 LE"
+    },
+    {
+      "fieldPath": "specs.build.weightGrams",
+      "locator": "li.large-accordion__item(الحجم) > div.large-accordion__content > div.product-size > div[3] > p.large-accordion__text",
+      "rowHeader": "الوزن",
+      "rawExcerpt": "غرام 135",
+      "normalizedValue": 135
+    },
+    {
+      "fieldPath": "specs.software.osName",
+      "locator": "li.large-accordion__item(نظام التشغيل) > div.large-accordion__content > div.operation-system > div > p.operation-system-main",
+      "rowHeader": "نظام التشغيل",
+      "rawExcerpt": "EMUI 3.1 (قائم على خصائص Android 5.1)",
+      "normalizedValue": "EMUI 3.1 (Android 5.1)"
+    }
+  ],
+  "sourceContentHash": "0d9b323595625b2a268c3e88dd02355ba6b3ef3eb5be55de082c062ddfb5c410",
+  "normalizedDataHash": "59fa8fd6ce7864ddee3b100cf6096412543c2f0f1d9ffd614ff133690bfbe816"
+}

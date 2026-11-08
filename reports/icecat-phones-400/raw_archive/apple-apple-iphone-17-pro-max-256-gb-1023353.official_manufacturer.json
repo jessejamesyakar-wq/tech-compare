@@ -1,0 +1,139 @@
+{
+  "canonicalId": "apple-apple-iphone-17-pro-max-256-gb-1023353",
+  "brand": "Apple",
+  "model": "Apple iPhone 17 Pro Max (256 GB)",
+  "mpn": "MYWW3TU/A",
+  "sourceUrl": "https://support.apple.com/tr-tr/125091",
+  "snapshotHtmlRelativePath": "reports/icecat-phones-400/raw_archive/apple-apple-iphone-17-pro-max-256-gb-1023353.official_manufacturer.html",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "trustClassification": "OFFICIAL_MANUFACTURER_VERIFIED",
+  "fetchedAt": "2026-09-20T04:34:42.008Z",
+  "unsupportedFieldsExcluded": [
+    "specs.memory.ramGb",
+    "specs.battery.capacitymAh",
+    "specs.battery.chargingWatts"
+  ],
+  "fieldExtractions": [
+    {
+      "fieldPath": "specs.screen.size",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Ekran Boyutu)",
+      "rowHeader": "Super Retina XDR ekran",
+      "rawExcerpt": "6.9&nbsp;in&ccedil; (diyagonal) tam ekran OLED",
+      "normalizedValue": "6.9 inç"
+    },
+    {
+      "fieldPath": "specs.screen.type",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Ekran Tipi)",
+      "rowHeader": "Super Retina XDR ekran",
+      "rawExcerpt": "120&nbsp;Hz&rsquo;e kadar uyarlanabilir yenileme hızına sahip ProMotion&nbsp;teknolojisi",
+      "normalizedValue": "Super Retina XDR OLED (120 Hz’e kadar ProMotion)"
+    },
+    {
+      "fieldPath": "specs.screen.resolution",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Çözünürlük)",
+      "rowHeader": "Super Retina XDR ekran",
+      "rawExcerpt": "460&nbsp;ppi yoğunlukta 2868&nbsp;x&nbsp;1320 piksel &ccedil;&ouml;z&uuml;n&uuml;rl&uuml;k",
+      "normalizedValue": "2868 x 1320 piksel (460 ppi)"
+    },
+    {
+      "fieldPath": "specs.screen.refreshRate",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(ProMotion)",
+      "rowHeader": "Super Retina XDR ekran",
+      "rawExcerpt": "120&nbsp;Hz&rsquo;e kadar uyarlanabilir yenileme hızına sahip ProMotion&nbsp;teknolojisi",
+      "normalizedValue": 120
+    },
+    {
+      "fieldPath": "specs.processor.chip",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Çip)",
+      "rowHeader": "A19&nbsp;Pro &ccedil;ip",
+      "rawExcerpt": "A19&nbsp;Pro &ccedil;ip",
+      "normalizedValue": "Apple A19 Pro"
+    },
+    {
+      "fieldPath": "specs.processor.cores",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(CPU Çekirdekleri)",
+      "rowHeader": "A19&nbsp;Pro &ccedil;ip",
+      "rawExcerpt": "2 adet performans &ccedil;ekirdeğine ve&nbsp;4&nbsp;adet verimlilik &ccedil;ekirdeğine sahip 6&nbsp;&ccedil;ekirdekli&nbsp;CPU",
+      "normalizedValue": "6 çekirdekli CPU (2 performans + 4 verimlilik)"
+    },
+    {
+      "fieldPath": "specs.memory.storageGb",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Kapasite)",
+      "rowHeader": "Kapasite",
+      "rawExcerpt": "<p class=\"gb-paragraph\">256 GB</p>",
+      "normalizedValue": 256
+    },
+    {
+      "fieldPath": "specs.camera.mainMp",
+      "locator": "div > h3.gb-header(Kamera) + p.gb-paragraph",
+      "rowHeader": "Kamera",
+      "rawExcerpt": "<b>48 MP Pro Fusion kamera sistemi</b>",
+      "normalizedValue": "48 MP Fusion, f/1.78, 24mm, Sensor-shift OIS"
+    },
+    {
+      "fieldPath": "specs.battery.wirelessCharging",
+      "locator": "h3.gb-header(MagSafe ve Kablosuz Şarj) + ul.gb-list > li[0]",
+      "rowHeader": "MagSafe ve Kablosuz Şarj",
+      "rawExcerpt": "25&nbsp;W&rsquo;a kadar MagSafe kablosuz şarj",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.has5G",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(5G)",
+      "rowHeader": "FDD‑5G NR",
+      "rawExcerpt": "4x4 MIMO &ouml;zellikli 5G&nbsp;(sub-6 GHz)",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.wifiStandard",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Wi-Fi 7)",
+      "rowHeader": "Bluetooth 6",
+      "rawExcerpt": "2x2 MIMO &ouml;zellikli Wi‑Fi 7 (802.11be)",
+      "normalizedValue": "Wi-Fi 7 (802.11be)"
+    },
+    {
+      "fieldPath": "specs.connectivity.bluetooth",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Bluetooth)",
+      "rowHeader": "Bluetooth 6",
+      "rawExcerpt": "<p class=\"gb-paragraph\">Bluetooth 6</p>",
+      "normalizedValue": "6"
+    },
+    {
+      "fieldPath": "specs.connectivity.hasNFC",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(NFC)",
+      "rowHeader": "Okuyucu modu &ouml;zellikli NFC",
+      "rawExcerpt": "<p class=\"gb-paragraph\">Okuyucu modu &ouml;zellikli NFC</p>",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.hasesim",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(eSIM)",
+      "rowHeader": "&Ccedil;ift eSIM desteği",
+      "rawExcerpt": "<p class=\"gb-paragraph\">&Ccedil;ift eSIM desteği</p>",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.build.thicknessMm",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Derinlik)",
+      "rowHeader": "<b>Derinlik:</b>",
+      "rawExcerpt": "<b>Derinlik:</b> 8,75 mm",
+      "normalizedValue": 8.75
+    },
+    {
+      "fieldPath": "specs.build.weightGrams",
+      "locator": "ul.gb-list > li.gb-list_item > p.gb-paragraph(Ağırlık)",
+      "rowHeader": "<b>Ağırlık:</b>",
+      "rawExcerpt": "<b>Ağırlık:</b> 231 gram",
+      "normalizedValue": 231
+    },
+    {
+      "fieldPath": "specs.build.waterResistance",
+      "locator": "p.gb-paragraph(IP68)",
+      "rowHeader": "60529 sayılı IEC standardı kapsamında IP68 derecesi",
+      "rawExcerpt": "60529 sayılı IEC standardı kapsamında IP68 derecesi (30&nbsp;dakikaya kadar maksimum 6&nbsp;metre derinlik)",
+      "normalizedValue": "IP68 (6 metre 30 dakika)"
+    }
+  ],
+  "sourceContentHash": "43c69c707b2b7de22b991e31079f9055639350f6daa48e208d304008974a6ed3",
+  "normalizedDataHash": "74d75cdc28541055c4dc1f9514a9358d7aa500d13f76a51ab441555eb42efd68"
+}

@@ -1,0 +1,155 @@
+{
+  "canonicalId": "poco-f7-pro-512gb-2025",
+  "brand": "POCO",
+  "model": "Poco F7 Pro (512 GB)",
+  "mpn": "24117RK2CG",
+  "sourceUrl": "https://www.mi.com/tr/product/poco-f7-pro/specs/",
+  "snapshotHtmlRelativePath": "reports/icecat-phones-400/raw_archive/poco-f7-pro-512gb-2025.official_manufacturer.html",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "trustClassification": "OFFICIAL_MANUFACTURER_VERIFIED",
+  "fetchedAt": "2026-11-08T12:12:00.000Z",
+  "fieldExtractions": [
+    {
+      "fieldPath": "specs.processor.chip",
+      "locator": "span[data-key=\"spec_2\"]",
+      "rowHeader": "<span data-key=\"spec_1\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"9e29af26f5\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">İşlemci</span>",
+      "rawExcerpt": "<span data-key=\"spec_2\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"effc52d893\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Snapdragon® 8 Gen 3 Mobil Platform</span>",
+      "normalizedValue": "Snapdragon 8 Gen 3"
+    },
+    {
+      "fieldPath": "specs.processor.cores",
+      "locator": "span[data-key=\"spec_4\"]",
+      "rowHeader": "<span data-key=\"spec_1\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"9e29af26f5\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">İşlemci</span>",
+      "rawExcerpt": "<span data-key=\"spec_4\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"308b50a033\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">Sekiz çekirdekli CPU</span>",
+      "normalizedValue": "8 Çekirdek"
+    },
+    {
+      "fieldPath": "specs.memory.ramGb",
+      "locator": "span[data-key=\"spec_13\"]",
+      "rowHeader": "<span data-key=\"spec_11\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"f7fc43ccc4\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Depolama ve RAM</span>",
+      "rawExcerpt": "<span data-key=\"spec_13\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"11dfe670d1\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">12 GB + 512 GB</span>",
+      "normalizedValue": 12
+    },
+    {
+      "fieldPath": "specs.memory.storageGb",
+      "locator": "span[data-key=\"spec_13\"]",
+      "rowHeader": "<span data-key=\"spec_11\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"f7fc43ccc4\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Depolama ve RAM</span>",
+      "rawExcerpt": "<span data-key=\"spec_13\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"11dfe670d1\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">12 GB + 512 GB</span>",
+      "normalizedValue": 512
+    },
+    {
+      "fieldPath": "specs.screen.size",
+      "locator": "span[data-key=\"spec_24\"]",
+      "rowHeader": "<span data-key=\"spec_23\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"6f5def4306\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ekran</span>",
+      "rawExcerpt": "<span data-key=\"spec_24\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"0514b52b52\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">6,67 inç WQHD+ Flow AMOLED DotDisplay</span>",
+      "normalizedValue": "6.67 inç"
+    },
+    {
+      "fieldPath": "specs.screen.type",
+      "locator": "span[data-key=\"spec_24\"]",
+      "rowHeader": "<span data-key=\"spec_23\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"6f5def4306\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ekran</span>",
+      "rawExcerpt": "<span data-key=\"spec_24\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"0514b52b52\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">6,67 inç WQHD+ Flow AMOLED DotDisplay</span>",
+      "normalizedValue": "Flow AMOLED"
+    },
+    {
+      "fieldPath": "specs.screen.resolution",
+      "locator": "span[data-key=\"spec_25\"]",
+      "rowHeader": "<span data-key=\"spec_23\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"6f5def4306\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ekran</span>",
+      "rawExcerpt": "<span data-key=\"spec_25\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"6325f86c00\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">Çözünürlük: 3200*1440, 526 ppi</span>",
+      "normalizedValue": "3200 x 1440"
+    },
+    {
+      "fieldPath": "specs.screen.refreshRate",
+      "locator": "span[data-key=\"spec_27\"]",
+      "rowHeader": "<span data-key=\"spec_23\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"6f5def4306\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ekran</span>",
+      "rawExcerpt": "<span data-key=\"spec_27\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"f031d76f85\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">Yenileme hızı: 120 Hz'e kadar</span>",
+      "normalizedValue": 120
+    },
+    {
+      "fieldPath": "specs.camera.mainMp",
+      "locator": "span[data-key=\"spec_45\"]",
+      "rowHeader": "<span data-key=\"spec_44\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"b3f79bf061\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Arka kamera</span>",
+      "rawExcerpt": "<span data-key=\"spec_45\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"51ccb30522\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">50 MP ana kamera</span>",
+      "normalizedValue": "50 MP"
+    },
+    {
+      "fieldPath": "specs.camera.selfieMp",
+      "locator": "span[data-key=\"spec_86\"]",
+      "rowHeader": "<span data-key=\"spec_85\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"1c7cc5c2b2\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ön kamera</span>",
+      "rawExcerpt": "<span data-key=\"spec_86\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"c606b1be51\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:1px 0px 0px 0px\" platform=\"pc\">20 MP ön kamera</span>",
+      "normalizedValue": "20 MP"
+    },
+    {
+      "fieldPath": "specs.camera.videoRes",
+      "locator": "span[data-key=\"spec_70\"]",
+      "rowHeader": "<span data-key=\"spec_44\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"b3f79bf061\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Arka kamera</span>",
+      "rawExcerpt": "<span data-key=\"spec_70\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"1a2e25ddea\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">24 fps'de 8K (7680x4320) video kaydı</span>",
+      "normalizedValue": "8K @ 30fps"
+    },
+    {
+      "fieldPath": "specs.battery.capacitymAh",
+      "locator": "span[data-key=\"spec_106\"]",
+      "rowHeader": "<span data-key=\"spec_105\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"ac56a0461d\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Pil ve Şarj</span>",
+      "rawExcerpt": "<span data-key=\"spec_106\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"4535c816f1\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">6000 mAh (tipik)</span>",
+      "normalizedValue": 6000
+    },
+    {
+      "fieldPath": "specs.battery.chargingWatts",
+      "locator": "span[data-key=\"spec_107\"]",
+      "rowHeader": "<span data-key=\"spec_105\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"ac56a0461d\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Pil ve Şarj</span>",
+      "rawExcerpt": "<span data-key=\"spec_107\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"e2705627e0\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">90 W HyperCharge</span>",
+      "normalizedValue": 90
+    },
+    {
+      "fieldPath": "specs.build.thicknessMm",
+      "locator": "span[data-key=\"spec_20\"]",
+      "rowHeader": "<span data-key=\"spec_17\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"2c9aae6b4f\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Boyutlar</span>",
+      "rawExcerpt": "<span data-key=\"spec_20\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"c9750e593e\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">Kalınlık: 8,12 mm</span>",
+      "normalizedValue": 8.12
+    },
+    {
+      "fieldPath": "specs.build.weightGrams",
+      "locator": "span[data-key=\"spec_21\"]",
+      "rowHeader": "<span data-key=\"spec_17\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"2c9aae6b4f\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Boyutlar</span>",
+      "rawExcerpt": "<span data-key=\"spec_21\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"fdc5d72901\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">206 g</span>",
+      "normalizedValue": 206
+    },
+    {
+      "fieldPath": "specs.connectivity.has5G",
+      "locator": "span[data-key=\"spec_120\"]",
+      "rowHeader": "<span data-key=\"spec_117\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"6255c85d35\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ağ ve Bağlantı</span>",
+      "rawExcerpt": "<span data-key=\"spec_120\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"b810836d24\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">5G*/4G/3G/2G desteği</span>",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.bluetooth",
+      "locator": "span[data-key=\"spec_134\"]",
+      "rowHeader": "<span data-key=\"spec_117\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"6255c85d35\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ağ ve Bağlantı</span>",
+      "rawExcerpt": "<span data-key=\"spec_134\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"b9cfb5e45f\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">Bluetooth 5.4, Çift Bluetooth</span>",
+      "normalizedValue": "5.4"
+    },
+    {
+      "fieldPath": "specs.connectivity.wifiStandard",
+      "locator": "span[data-key=\"spec_130\"]",
+      "rowHeader": "<span data-key=\"spec_117\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"6255c85d35\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">Ağ ve Bağlantı</span>",
+      "rawExcerpt": "<span data-key=\"spec_130\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"7caa701a0e\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.2;margin:10px 0px 0px 0px\" platform=\"pc\">Wi-Fi Protokolü: Wi-Fi 7/ Wi-Fi 6/ Wi-Fi 5/ Wi-Fi 4 ve 802.11a/b/g</span>",
+      "normalizedValue": "Wi-Fi 7"
+    },
+    {
+      "fieldPath": "specs.connectivity.hasNFC",
+      "locator": "span[data-key=\"spec_149\"]",
+      "rowHeader": "<span data-key=\"spec_114\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"247d296f78\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">NFC</span>",
+      "rawExcerpt": "<span data-key=\"spec_149\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"1e3e1ac1f7\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.5;margin:-1px 0px 0px 0px\" platform=\"pc\">Xiaomi HyperOS 2 ile desteklenir</span>",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.software.osName",
+      "locator": "span[data-key=\"spec_149\"]",
+      "rowHeader": "<span data-key=\"spec_148\" class=\"xm-text f-bold \" data-type=\"text\" data-id=\"0aed5c1729\" style=\"color:#000000;font-size:35px;display:inline-block;text-align:start;width:100%;line-height:1.2\" platform=\"pc\">İşletim Sistemi</span>",
+      "rawExcerpt": "<span data-key=\"spec_149\" class=\"xm-text f-light \" data-type=\"text\" data-id=\"1e3e1ac1f7\" style=\"color:#000000;font-size:22px;display:inline-block;text-align:start;width:100%;line-height:1.5;margin:-1px 0px 0px 0px\" platform=\"pc\">Xiaomi HyperOS 2 ile desteklenir</span>",
+      "normalizedValue": "Xiaomi HyperOS 2 ile desteklenir"
+    }
+  ],
+  "sourceContentHash": "10088464f1b6f85ead172e0df011346107f4e16e132db795347757b7c47c4013",
+  "normalizedDataHash": "c4e2d1b57ccfffd69eeba78bc2ca0c8ebd38bce693f275deac0d05d30cef59ce"
+}

@@ -332,22 +332,49 @@ function runTests() {
   assert.strictEqual(fabricatedAccessCheck.classification, 'REJECTED_FABRICATED_CODE');
 
   const unconfirmedAccessCheck = resolveAccessBlockerObservation({
-    canonicalId: 'apple-apple-iphone-17-pro-max-1-tb-1027079',
+    canonicalId: 'apple-apple-iphone-17-256-gb-1027084',
     brand: 'Apple',
     rawObservation: null,
   });
   assert.strictEqual(unconfirmedAccessCheck.passedGate, true);
   assert.strictEqual(unconfirmedAccessCheck.classification, 'ACCESS_REASON_UNCONFIRMED');
+  assert.strictEqual(unconfirmedAccessCheck.blockerCategory, 'MISSING_RAW_RESPONSE_EVIDENCE');
+  assert.strictEqual(unconfirmedAccessCheck.recommendedOutcome, 'MISSING_RAW_RESPONSE_EVIDENCE');
+  assert.strictEqual(unconfirmedAccessCheck.isProvenSubscriptionRestriction, false);
   assert.strictEqual(unconfirmedAccessCheck.httpStatus, null);
   assert.strictEqual(unconfirmedAccessCheck.icecatStatusCode, null);
 
+  const code8Check = resolveAccessBlockerObservation({
+    canonicalId: 'huawei-huawei-p30-pro',
+    brand: 'Huawei',
+    rawObservation: {
+      canonicalId: 'huawei-huawei-p30-pro',
+      brand: 'Huawei',
+      probedMpn: '51093NEB',
+      httpStatus: 404,
+      icecatStatusCode: 8,
+      redactedMessage: 'The requested product is not present in the Icecat database',
+      observedAt: '2026-11-03T22:38:12.056Z',
+    },
+  });
+  assert.strictEqual(code8Check.passedGate, true);
+  assert.strictEqual(code8Check.classification, 'NOT_PRESENT_IN_ICECAT_DB_CODE_8');
+  assert.strictEqual(code8Check.blockerCategory, 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER');
+  assert.strictEqual(code8Check.recommendedOutcome, 'SOURCE_NOT_FOUND', 'Code 8 must NEVER be classified as BLOCKED_ACCESS');
+  assert.strictEqual(code8Check.isProvenSubscriptionRestriction, false, 'Code 8 must NEVER be classified as a proven subscription restriction');
+
   const accessBreakdown = JSON.parse(fs.readFileSync('reports/icecat-phones-400/access-blockers-breakdown.json', 'utf-8'));
-  assert.strictEqual(accessBreakdown.totalAccessBlockedRecords, 202);
-  assert.strictEqual(accessBreakdown.classificationDistribution.ACCESS_REASON_UNCONFIRMED.count, 176);
-  assert.strictEqual(accessBreakdown.classificationDistribution.NOT_PRESENT_IN_ICECAT_DB_CODE_8.count, 18);
+  assert.strictEqual(accessBreakdown.totalRemainingBlockers, 296);
+  assert.strictEqual(accessBreakdown.separatedBlockerCategories.CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION, 9);
+  assert.strictEqual(accessBreakdown.separatedBlockerCategories.SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER, 47);
+  assert.strictEqual(accessBreakdown.separatedBlockerCategories.MISSING_RAW_RESPONSE_EVIDENCE, 149);
+  assert.strictEqual(accessBreakdown.separatedBlockerCategories.IDENTITY_UNCERTAINTY, 91);
+  assert.strictEqual(accessBreakdown.classificationDistribution.NOT_PRESENT_IN_ICECAT_DB_CODE_8.count, 30);
+  assert.strictEqual(accessBreakdown.classificationDistribution.NOT_PRESENT_IN_ICECAT_DB_CODE_8.outcome, 'SOURCE_NOT_FOUND');
+  assert.strictEqual(accessBreakdown.classificationDistribution.NOT_PRESENT_IN_ICECAT_DB_CODE_8.isProvenSubscriptionRestriction, false);
   assert.strictEqual(accessBreakdown.classificationDistribution.BRAND_RESTRICTION_CODE_14.count, 6);
-  assert.strictEqual(accessBreakdown.classificationDistribution.FULL_ICECAT_APP_KEY_REQUIRED_CODE_9.count, 2);
-  console.log(`✅ [PASS 12] Negative Test (Req 4.2): Fabricated access error code without raw observation rejected; real distribution (176 unconfirmed, 18 Code 8, 6 Code 14, 2 Code 9) verified`);
+  assert.strictEqual(accessBreakdown.classificationDistribution.FULL_ICECAT_APP_KEY_REQUIRED_CODE_9.count, 3);
+  console.log(`✅ [PASS 12] Negative Test (Req 4.2 & Next Execution Sec 1): Fabricated code rejected; Code 8 moved to SOURCE_NOT_FOUND (30); 4-category blocker accounting (9 Confirmed Access, 47 Source Not Found, 149 Missing Raw Evidence, 91 Identity Uncertainty) verified`);
   passed++;
 
   // 13. Negative Test (Requirement 4.3): Reject using queried MPN as its own preTransferMpn proof
@@ -437,8 +464,22 @@ function runTests() {
   console.log(`✅ [PASS 14] Negative Test (Req 4.4): Overwriting fetchedAt on snapshot re-application rejected; immutable fetchedAt + separate appliedAt/reviewedAt verified`);
   passed++;
 
+  // 15. Verify all 41 Official Manufacturer Snapshots on disk pass verifyAndExtractManufacturerSnapshot() and strict evidence separation
+  const snapshotMetaFiles = fs
+    .readdirSync(RAW_DIR)
+    .filter(f => f.endsWith('.official_manufacturer.json'));
+  assert.strictEqual(snapshotMetaFiles.length, 41, 'Expected 41 official manufacturer snapshot metadata files on disk');
+  for (const mf of snapshotMetaFiles) {
+    const meta: ManufacturerSnapshotMeta = JSON.parse(fs.readFileSync(path.join(RAW_DIR, mf), 'utf-8'));
+    const res = verifyAndExtractManufacturerSnapshot(meta);
+    assert.strictEqual(res.passed, true, `Snapshot gate failed for ${mf}: ${res.detail}`);
+    assert(res.verifiedFields.length >= 12, `Expected at least 12 verified fields in ${mf}`);
+  }
+  console.log(`✅ [PASS 15] All ${snapshotMetaFiles.length} official manufacturer snapshots verified against raw HTML files, locators, and hashes`);
+  passed++;
+
   console.log(`\n======================================================================`);
-  console.log(`ALL ${passed}/14 P0 & POST-P0 NEGATIVE & REGRESSION TESTS PASSED!`);
+  console.log(`ALL ${passed}/15 P0, POST-P0 & NEXT-EXECUTION TESTS PASSED!`);
   console.log(`======================================================================`);
 }
 

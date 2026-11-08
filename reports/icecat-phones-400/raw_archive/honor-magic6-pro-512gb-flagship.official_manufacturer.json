@@ -1,0 +1,137 @@
+{
+  "canonicalId": "honor-magic6-pro-512gb-flagship",
+  "brand": "Honor",
+  "model": "Honor Magic6 Pro (512 GB)",
+  "mpn": "BVL-N49",
+  "sourceUrl": "https://www.honor.com/tr/phones/honor-magic6-pro/spec/",
+  "snapshotHtmlRelativePath": "reports/icecat-phones-400/raw_archive/honor-magic6-pro-512gb-flagship.official_manufacturer.html",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "trustClassification": "OFFICIAL_MANUFACTURER_VERIFIED",
+  "fetchedAt": "2026-11-08T12:10:00.000Z",
+  "unsupportedFieldsExcluded": [
+    "specs.build.weightGrams"
+  ],
+  "fieldExtractions": [
+    {
+      "fieldPath": "specs.screen.size",
+      "locator": "div.cc-product-content-container[data-value^=\"6,8 inç\"]",
+      "rowHeader": "Boyut",
+      "rawExcerpt": "data-value=\"6,8 inç",
+      "normalizedValue": "6.8 inç"
+    },
+    {
+      "fieldPath": "specs.screen.type",
+      "locator": "div.cc-product-content-container[data-value=\"OLED\"]",
+      "rowHeader": "Tip",
+      "rawExcerpt": "data-value=\"OLED\"",
+      "normalizedValue": "LTPO OLED (120Hz)"
+    },
+    {
+      "fieldPath": "specs.screen.resolution",
+      "locator": "div.cc-product-content-container[data-value^=\"FHD+ 1280x2800\"]",
+      "rowHeader": "Çözünürlük",
+      "rawExcerpt": "data-value=\"FHD+ 1280x2800",
+      "normalizedValue": "1280 x 2800 (FHD+)"
+    },
+    {
+      "fieldPath": "specs.processor.chip",
+      "locator": "div.cc-product-content-container[data-value=\"Snapdragon 8 Gen 3\"]",
+      "rowHeader": "CPU Modeli",
+      "rawExcerpt": "data-value=\"Snapdragon 8 Gen 3\"",
+      "normalizedValue": "Qualcomm Snapdragon 8 Gen 3"
+    },
+    {
+      "fieldPath": "specs.processor.cores",
+      "locator": "div.cc-product-content-container[data-value=\"Sekiz Çekirdekli\"]",
+      "rowHeader": "CPU Tipi",
+      "rawExcerpt": "data-value=\"Sekiz Çekirdekli\"",
+      "normalizedValue": "8 Çekirdek"
+    },
+    {
+      "fieldPath": "specs.camera.mainMp",
+      "locator": "div.cc-product-content-container[data-value^=\"50MP Geniş Ana Kamera\"]",
+      "rowHeader": "Arka kamera",
+      "rawExcerpt": "50MP Geniş Ana Kamera (f/1.4-f/2.0, OIS)",
+      "normalizedValue": "50 MP (f/1.4-f/2.0, OIS)"
+    },
+    {
+      "fieldPath": "specs.camera.selfieMp",
+      "locator": "div.cc-product-content-container[data-value^=\"50MP Ön Kamera\"]",
+      "rowHeader": "Ön kamera",
+      "rawExcerpt": "50MP Ön Kamera (f/2.0) + 3D Derinlik Kamerası",
+      "normalizedValue": "50 MP"
+    },
+    {
+      "fieldPath": "specs.camera.videoRes",
+      "locator": "div.cc-product-content-container[data-value=\"4K 60 fps (3840×2160) video kaydı desteği\"]",
+      "rowHeader": "Video çekimi",
+      "rawExcerpt": "data-value=\"4K 60 fps (3840×2160) video kaydı desteği\"",
+      "normalizedValue": "4K @ 60fps"
+    },
+    {
+      "fieldPath": "specs.battery.capacitymAh",
+      "locator": "div.cc-product-content-container[data-value^=\"5600 mAh\"]",
+      "rowHeader": "Kapasite",
+      "rawExcerpt": "5600 mAh (tipik değer), 5500 mAh (nominal değer)",
+      "normalizedValue": 5600
+    },
+    {
+      "fieldPath": "specs.battery.chargingWatts",
+      "locator": "div.cc-product-content-container[data-value^=\"HONOR 80W SuperCharge\"]",
+      "rowHeader": "Kablolu Şarj",
+      "rawExcerpt": "HONOR 80W SuperCharge",
+      "normalizedValue": 80
+    },
+    {
+      "fieldPath": "specs.battery.wirelessCharging",
+      "locator": "div.cc-product-content-container[data-value*=\"66W Kablosuz SuperCharge\"]",
+      "rowHeader": "Kablosuz şarj etme",
+      "rawExcerpt": "66W Kablosuz SuperCharge",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.has5G",
+      "locator": "div.cc-product-content-container[data-value^=\"5G (NR)\"]",
+      "rowHeader": "Ağ Standardı",
+      "rawExcerpt": "5G (NR)",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.connectivity.wifiStandard",
+      "locator": "div.cc-product-content-container[data-value^=\"802.11 a/b/g/n/ac/ax/be\"]",
+      "rowHeader": "Wi-Fi Protokolleri",
+      "rawExcerpt": "data-value=\"802.11 a/b/g/n/ac/ax/be, 2x2 MIMO",
+      "normalizedValue": "Wi-Fi 7 (802.11be)"
+    },
+    {
+      "fieldPath": "specs.connectivity.bluetooth",
+      "locator": "div.cc-product-content-container[data-value=\"BT5.3, BLE, SBC, AAC, LDAC, APTX, APTX HD\"]",
+      "rowHeader": "Bluetooth",
+      "rawExcerpt": "data-value=\"BT5.3, BLE, SBC, AAC, LDAC, APTX, APTX HD\"",
+      "normalizedValue": "5.3"
+    },
+    {
+      "fieldPath": "specs.connectivity.hasNFC",
+      "locator": "div.cc-product-content-container[data-value^=\"Okuyucu/Yazıcı Modu destekler\"]",
+      "rowHeader": "NFC",
+      "rawExcerpt": "Okuyucu/Yazıcı Modu destekler, Kart Emülasyon Modu (SIM*, HCE)",
+      "normalizedValue": true
+    },
+    {
+      "fieldPath": "specs.build.thicknessMm",
+      "locator": "div.cc-product-content-container[data-value=\"8,9 mm\"]",
+      "rowHeader": "Derinlik",
+      "rawExcerpt": "data-value=\"8,9 mm\"",
+      "normalizedValue": 8.9
+    },
+    {
+      "fieldPath": "specs.software.osName",
+      "locator": "div.cc-product-content-container[data-value=\"MagicOS 8.0 (Android 14 tabanlı)\"]",
+      "rowHeader": "İşletim sistemi",
+      "rawExcerpt": "data-value=\"MagicOS 8.0 (Android 14 tabanlı)\"",
+      "normalizedValue": "MagicOS 8.0 (Android 14)"
+    }
+  ],
+  "sourceContentHash": "c8204178c831c8db4d357d32b8d81e939e39d81e717cd7f53ad37396cf3ba08d",
+  "normalizedDataHash": "68b839b93e0a69b193a954230ea605d31f937e71118e08ab9c6aedb5abad1522"
+}

@@ -517,7 +517,9 @@ const KNOWN_SAMSUNG_MPN_SUBMODEL_MAP: Record<string, { modelToken: string; modif
   'SM-S731': { modelToken: 's25', modifiers: ['fe'], is5G: true },
   'SM-F900': { modelToken: 'fold1', modifiers: ['fold'], is5G: false },
   'SM-F916': { modelToken: 'fold2', modifiers: ['fold'], is5G: true },
+  'SM-F966': { modelToken: 'fold7', modifiers: ['fold'], is5G: true },
   'SM-F700': { modelToken: 'flip1', modifiers: ['flip'], is5G: false },
+  'SM-F766': { modelToken: 'flip7', modifiers: ['flip'], is5G: true },
 };
 
 function tokenizePhoneModelIdentity(rawText: string): {
@@ -1141,6 +1143,13 @@ export interface RawAccessObservation {
   observedAt: string;
 }
 
+export type SeparatedBlockerCategory =
+  | 'CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION'
+  | 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER'
+  | 'MISSING_RAW_RESPONSE_EVIDENCE'
+  | 'IDENTITY_UNCERTAINTY'
+  | 'REJECTED_FABRICATED_CODE';
+
 export interface ResolvedAccessBlockerRecord {
   passedGate: boolean;
   classification:
@@ -1150,6 +1159,9 @@ export interface ResolvedAccessBlockerRecord {
     | 'OBSERVED_OTHER_HTTP_ERROR'
     | 'ACCESS_REASON_UNCONFIRMED'
     | 'REJECTED_FABRICATED_CODE';
+  blockerCategory: SeparatedBlockerCategory;
+  recommendedOutcome: 'BLOCKED_ACCESS' | 'SOURCE_NOT_FOUND' | 'MISSING_RAW_RESPONSE_EVIDENCE' | 'BLOCKED_IDENTITY';
+  isProvenSubscriptionRestriction: boolean;
   httpStatus: number | null;
   icecatStatusCode: number | null;
   redactedMessage: string | null;
@@ -1159,8 +1171,11 @@ export interface ResolvedAccessBlockerRecord {
 
 /**
  * Resolves the access blocker record for a product strictly from raw HTTP/Icecat API observations.
- * Never fabricates HTTP 404 / StatusCode=14 when raw evidence is missing; returns ACCESS_REASON_UNCONFIRMED instead.
- * Rejects any attempt to supply a hardcoded HTTP/Icecat status code without a valid raw observation.
+ * - Never classifies Code 8 ("not present in the Icecat database") as a proven subscription restriction (BLOCKED_ACCESS);
+ *   separates Code 8 into SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER (outcome: SOURCE_NOT_FOUND).
+ * - Separates confirmed subscription / brand permission failures (Code 14, Code 9) into CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION (outcome: BLOCKED_ACCESS).
+ * - Separates records without raw HTTP response evidence into MISSING_RAW_RESPONSE_EVIDENCE.
+ * - Rejects any attempt to supply a hardcoded HTTP/Icecat status code without a valid raw observation.
  */
 export function resolveAccessBlockerObservation(params: {
   canonicalId: string;
@@ -1187,6 +1202,9 @@ export function resolveAccessBlockerObservation(params: {
     return {
       passedGate: false,
       classification: 'REJECTED_FABRICATED_CODE',
+      blockerCategory: 'REJECTED_FABRICATED_CODE',
+      recommendedOutcome: 'MISSING_RAW_RESPONSE_EVIDENCE',
+      isProvenSubscriptionRestriction: false,
       httpStatus: null,
       icecatStatusCode: null,
       redactedMessage: null,
@@ -1199,12 +1217,15 @@ export function resolveAccessBlockerObservation(params: {
     return {
       passedGate: true,
       classification: 'ACCESS_REASON_UNCONFIRMED',
+      blockerCategory: 'MISSING_RAW_RESPONSE_EVIDENCE',
+      recommendedOutcome: 'MISSING_RAW_RESPONSE_EVIDENCE',
+      isProvenSubscriptionRestriction: false,
       httpStatus: null,
       icecatStatusCode: null,
       redactedMessage: null,
       observedAt: null,
       reasonCode:
-        'ACCESS_REASON_UNCONFIRMED: No raw HTTP/Icecat API response observation on disk and no verified regional MPN/GTIN in manifest to query.',
+        'MISSING_RAW_RESPONSE_EVIDENCE (ACCESS_REASON_UNCONFIRMED): No raw HTTP/Icecat API response observation on disk and no verified regional MPN/GTIN in manifest to query.',
     };
   }
 
@@ -1212,6 +1233,9 @@ export function resolveAccessBlockerObservation(params: {
     return {
       passedGate: true,
       classification: 'BRAND_RESTRICTION_CODE_14',
+      blockerCategory: 'CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION',
+      recommendedOutcome: 'BLOCKED_ACCESS',
+      isProvenSubscriptionRestriction: true,
       httpStatus: obs.httpStatus,
       icecatStatusCode: obs.icecatStatusCode,
       redactedMessage: obs.redactedMessage,
@@ -1224,6 +1248,9 @@ export function resolveAccessBlockerObservation(params: {
     return {
       passedGate: true,
       classification: 'FULL_ICECAT_APP_KEY_REQUIRED_CODE_9',
+      blockerCategory: 'CONFIRMED_SUBSCRIPTION_OR_BRAND_PERMISSION',
+      recommendedOutcome: 'BLOCKED_ACCESS',
+      isProvenSubscriptionRestriction: true,
       httpStatus: obs.httpStatus,
       icecatStatusCode: obs.icecatStatusCode,
       redactedMessage: obs.redactedMessage,
@@ -1236,17 +1263,23 @@ export function resolveAccessBlockerObservation(params: {
     return {
       passedGate: true,
       classification: 'NOT_PRESENT_IN_ICECAT_DB_CODE_8',
+      blockerCategory: 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER',
+      recommendedOutcome: 'SOURCE_NOT_FOUND',
+      isProvenSubscriptionRestriction: false,
       httpStatus: obs.httpStatus,
       icecatStatusCode: obs.icecatStatusCode,
       redactedMessage: obs.redactedMessage,
       observedAt: obs.observedAt,
-      reasonCode: `NOT_PRESENT_IN_ICECAT_DB_CODE_8 (HTTP ${obs.httpStatus} / Icecat StatusCode=${obs.icecatStatusCode}, MPN=${obs.probedMpn || 'N/A'}, observedAt=${obs.observedAt}): "${obs.redactedMessage}"`,
+      reasonCode: `NOT_PRESENT_IN_ICECAT_DB_CODE_8 (HTTP ${obs.httpStatus} / Icecat StatusCode=${obs.icecatStatusCode}, MPN=${obs.probedMpn || 'N/A'}, observedAt=${obs.observedAt}): "${obs.redactedMessage}" — Source not found in Icecat DB for tested identifier (not a subscription restriction).`,
     };
   }
 
   return {
     passedGate: true,
     classification: 'OBSERVED_OTHER_HTTP_ERROR',
+    blockerCategory: 'SOURCE_NOT_FOUND_FOR_TESTED_IDENTIFIER',
+    recommendedOutcome: 'SOURCE_NOT_FOUND',
+    isProvenSubscriptionRestriction: false,
     httpStatus: obs.httpStatus,
     icecatStatusCode: obs.icecatStatusCode,
     redactedMessage: obs.redactedMessage,
